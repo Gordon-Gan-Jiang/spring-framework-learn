@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.config.WebFluxConfigurationSupportTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:55" hostname="bamboo-18" time="8.029">
+  <properties/>
+  <testcase name="resourceUrlProvider()" classname="org.springframework.web.reactive.config.WebFluxConfigurationSupportTests" time="4.836"/>
+  <testcase name="customPathMatchConfig()" classname="org.springframework.web.reactive.config.WebFluxConfigurationSupportTests" time="0.656"/>
+  <testcase name="requestMappingHandlerAdapter()" classname="org.springframework.web.reactive.config.WebFluxConfigurationSupportTests" time="0.337"/>
+  <testcase name="customMessageConverterConfig()" classname="org.springframework.web.reactive.config.WebFluxConfigurationSupportTests" time="0.147"/>
+  <testcase name="responseBodyResultHandler()" classname="org.springframework.web.reactive.config.WebFluxConfigurationSupportTests" time="0.189"/>
+  <testcase name="viewResolutionResultHandler()" classname="org.springframework.web.reactive.config.WebFluxConfigurationSupportTests" time="1.355"/>
+  <testcase name="requestMappingHandlerMapping()" classname="org.springframework.web.reactive.config.WebFluxConfigurationSupportTests" time="0.322"/>
+  <testcase name="resourceHandler()" classname="org.springframework.web.reactive.config.WebFluxConfigurationSupportTests" time="0.124"/>
+  <testcase name="responseEntityResultHandler()" classname="org.springframework.web.reactive.config.WebFluxConfigurationSupportTests" time="0.045"/>
+  <system-out><![CDATA[13:59:58.633 [Test worker] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+13:59:59.447 [Test worker] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 6.1.5.Final
+14:00:00.063 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+14:00:00.820 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 1 mappings in 'requestMappingHandlerMapping'
+14:00:00.879 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+14:00:01.102 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+14:00:01.413 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+14:00:01.582 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+14:00:02.952 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+14:00:03.070 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+14:00:03.376 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/images/**] in 'resourceHandlerMapping'
+14:00:03.424 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+14:00:03.477 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.xml.XmlEventDecoderTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:41" hostname="bamboo-18" time="0.032">
+  <properties/>
+  <testcase name="toXMLEventsWithLimit()" classname="org.springframework.http.codec.xml.XmlEventDecoderTests" time="0.013"/>
+  <testcase name="decodeErrorAalto()" classname="org.springframework.http.codec.xml.XmlEventDecoderTests" time="0.003"/>
+  <testcase name="toXMLEventsNonAalto()" classname="org.springframework.http.codec.xml.XmlEventDecoderTests" time="0.003"/>
+  <testcase name="decodeErrorNonAalto()" classname="org.springframework.http.codec.xml.XmlEventDecoderTests" time="0.01"/>
+  <testcase name="toXMLEventsAalto()" classname="org.springframework.http.codec.xml.XmlEventDecoderTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" tests="48" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:40" hostname="bamboo-18" time="0.289">
+  <properties/>
+  <testcase name="writeServerSentEvent(String, DataBufferFactory)[1]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.012"/>
+  <testcase name="writeServerSentEvent(String, DataBufferFactory)[2]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.006"/>
+  <testcase name="writeServerSentEvent(String, DataBufferFactory)[3]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.003"/>
+  <testcase name="writeServerSentEvent(String, DataBufferFactory)[4]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.001"/>
+  <testcase name="writeServerSentEvent(String, DataBufferFactory)[5]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.0"/>
+  <testcase name="writeServerSentEvent(String, DataBufferFactory)[6]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.0"/>
+  <testcase name="writeStringWithCustomCharset(String, DataBufferFactory)[1]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.001"/>
+  <testcase name="writeStringWithCustomCharset(String, DataBufferFactory)[2]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.009"/>
+  <testcase name="writeStringWithCustomCharset(String, DataBufferFactory)[3]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.0"/>
+  <testcase name="writeStringWithCustomCharset(String, DataBufferFactory)[4]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.002"/>
+  <testcase name="writeStringWithCustomCharset(String, DataBufferFactory)[5]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.001"/>
+  <testcase name="writeStringWithCustomCharset(String, DataBufferFactory)[6]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.0"/>
+  <testcase name="writePojo(String, DataBufferFactory)[1]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.008"/>
+  <testcase name="writePojo(String, DataBufferFactory)[2]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.019"/>
+  <testcase name="writePojo(String, DataBufferFactory)[3]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.002"/>
+  <testcase name="writePojo(String, DataBufferFactory)[4]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.011"/>
+  <testcase name="writePojo(String, DataBufferFactory)[5]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.006"/>
+  <testcase name="writePojo(String, DataBufferFactory)[6]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.018"/>
+  <testcase name="writePojoWithCustomEncoding(String, DataBufferFactory)[1]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.008"/>
+  <testcase name="writePojoWithCustomEncoding(String, DataBufferFactory)[2]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.003"/>
+  <testcase name="writePojoWithCustomEncoding(String, DataBufferFactory)[3]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.007"/>
+  <testcase name="writePojoWithCustomEncoding(String, DataBufferFactory)[4]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.004"/>
+  <testcase name="writePojoWithCustomEncoding(String, DataBufferFactory)[5]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.002"/>
+  <testcase name="writePojoWithCustomEncoding(String, DataBufferFactory)[6]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.002"/>
+  <testcase name="canWrite(String, DataBufferFactory)[1]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.001"/>
+  <testcase name="canWrite(String, DataBufferFactory)[2]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.003"/>
+  <testcase name="canWrite(String, DataBufferFactory)[3]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.001"/>
+  <testcase name="canWrite(String, DataBufferFactory)[4]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.0"/>
+  <testcase name="canWrite(String, DataBufferFactory)[5]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.001"/>
+  <testcase name="canWrite(String, DataBufferFactory)[6]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.0"/>
+  <testcase name="writePojoWithPrettyPrint(String, DataBufferFactory)[1]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.005"/>
+  <testcase name="writePojoWithPrettyPrint(String, DataBufferFactory)[2]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.008"/>
+  <testcase name="writePojoWithPrettyPrint(String, DataBufferFactory)[3]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.004"/>
+  <testcase name="writePojoWithPrettyPrint(String, DataBufferFactory)[4]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.003"/>
+  <testcase name="writePojoWithPrettyPrint(String, DataBufferFactory)[5]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.002"/>
+  <testcase name="writePojoWithPrettyPrint(String, DataBufferFactory)[6]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.002"/>
+  <testcase name="writeMultiLineString(String, DataBufferFactory)[1]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.005"/>
+  <testcase name="writeMultiLineString(String, DataBufferFactory)[2]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.001"/>
+  <testcase name="writeMultiLineString(String, DataBufferFactory)[3]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.001"/>
+  <testcase name="writeMultiLineString(String, DataBufferFactory)[4]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.002"/>
+  <testcase name="writeMultiLineString(String, DataBufferFactory)[5]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.0"/>
+  <testcase name="writeMultiLineString(String, DataBufferFactory)[6]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.0"/>
+  <testcase name="writeString(String, DataBufferFactory)[1]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.001"/>
+  <testcase name="writeString(String, DataBufferFactory)[2]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.0"/>
+  <testcase name="writeString(String, DataBufferFactory)[3]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.011"/>
+  <testcase name="writeString(String, DataBufferFactory)[4]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.004"/>
+  <testcase name="writeString(String, DataBufferFactory)[5]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.001"/>
+  <testcase name="writeString(String, DataBufferFactory)[6]" classname="org.springframework.http.codec.ServerSentEventHttpMessageWriterTests" time="0.001"/>
+  <system-out><![CDATA[13:59:40.548 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
+13:59:40.550 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
+13:59:40.565 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
+13:59:40.566 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
+13:59:40.575 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
+13:59:40.576 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
+13:59:40.579 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
+13:59:40.581 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
+13:59:40.595 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
+13:59:40.596 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
+13:59:40.598 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
+13:59:40.614 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
+13:59:40.619 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foo??', bar='bar??']]
+13:59:40.626 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foo??', bar='bar??']]
+13:59:40.634 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foo??', bar='bar??']]
+13:59:40.638 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foo??', bar='bar??']]
+13:59:40.645 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foo??', bar='bar??']]
+13:59:40.648 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foo??', bar='bar??']]
+13:59:40.668 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
+13:59:40.670 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
+13:59:40.673 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
+13:59:40.678 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
+13:59:40.680 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
+13:59:40.681 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
+13:59:40.686 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
+13:59:40.687 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
+13:59:40.695 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
+13:59:40.696 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
+13:59:40.699 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
+13:59:40.700 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

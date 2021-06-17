@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.context.support.SpringBeanAutowiringSupportTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:11" hostname="bamboo-18" time="0.023">
+  <properties/>
+  <testcase name="testProcessInjectionBasedOnServletContext()" classname="org.springframework.web.context.support.SpringBeanAutowiringSupportTests" time="0.023"/>
+  <system-out><![CDATA[14:00:11.624 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

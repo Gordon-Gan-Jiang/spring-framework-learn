@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.simp.annotation.support.SubscriptionMethodReturnValueHandlerTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:31" hostname="bamboo-18" time="0.11">
+  <properties/>
+  <testcase name="testJsonView()" classname="org.springframework.messaging.simp.annotation.support.SubscriptionMethodReturnValueHandlerTests" time="0.06"/>
+  <testcase name="testHeadersPassedToMessagingTemplate()" classname="org.springframework.messaging.simp.annotation.support.SubscriptionMethodReturnValueHandlerTests" time="0.042"/>
+  <testcase name="testMessageSentToChannel()" classname="org.springframework.messaging.simp.annotation.support.SubscriptionMethodReturnValueHandlerTests" time="0.007"/>
+  <testcase name="supportsReturnType()" classname="org.springframework.messaging.simp.annotation.support.SubscriptionMethodReturnValueHandlerTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.function.server.LocaleContextResolverIntegrationTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:33" hostname="bamboo-18" time="0.534">
+  <properties/>
+  <testcase name="fixedLocale(HttpServer)[1]" classname="org.springframework.web.reactive.function.server.LocaleContextResolverIntegrationTests" time="0.221"/>
+  <testcase name="fixedLocale(HttpServer)[2]" classname="org.springframework.web.reactive.function.server.LocaleContextResolverIntegrationTests" time="0.046"/>
+  <testcase name="fixedLocale(HttpServer)[3]" classname="org.springframework.web.reactive.function.server.LocaleContextResolverIntegrationTests" time="0.181"/>
+  <testcase name="fixedLocale(HttpServer)[4]" classname="org.springframework.web.reactive.function.server.LocaleContextResolverIntegrationTests" time="0.083"/>
+  <system-out><![CDATA[14:00:33.271 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:33.271 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+14:00:33.271 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@3eb9d0c8{/,null,AVAILABLE}
+14:00:33.271 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+14:00:33.272 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.29.v20200521; built: 2020-05-21T17:20:40.598Z; git: 77c232aed8a45c818fd27232278d9f95a021095e; jvm 1.8.0_232-b09
+14:00:33.318 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@3125677d{HTTP/1.1, (http/1.1)}{0.0.0.0:44793}
+14:00:33.318 [Test worker] INFO  o.e.j.s.Server - Started @40129ms
+14:00:33.318 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 44793(0 millis).
+14:00:33.340 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [22844d73] HTTP GET http://localhost:44793/
+14:00:33.407 [qtp488464615-439] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6c37fd41] HTTP GET "/"
+14:00:33.430 [qtp488464615-439] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6c37fd41] Completed 200 OK
+14:00:33.433 [reactor-http-epoll-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [22844d73] Response 200 OK
+14:00:33.446 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+14:00:33.449 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@3eb9d0c8{/,null,UNAVAILABLE}
+14:00:33.456 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@3125677d{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+14:00:33.467 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+14:00:33.474 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:33.474 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+14:00:33.480 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 40667(0 millis).
+14:00:33.481 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [78b99a7] HTTP GET http://localhost:40667/
+14:00:33.498 [reactor-http-epoll-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [c5e92294-15] HTTP GET "/"
+14:00:33.498 [reactor-http-epoll-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [c5e92294-15] Completed 200 OK
+14:00:33.499 [reactor-http-epoll-3] DEBUG o.s.w.r.f.c.ExchangeFunctions - [78b99a7] Response 200 OK
+14:00:33.500 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+14:00:33.515 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+14:00:33.521 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:33.521 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+14:00:33.653 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 44353(0 millis).
+14:00:33.654 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [66e02ee6] HTTP GET http://localhost:44353/
+14:00:33.679 [http-nio-auto-15-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [41fd2756] HTTP GET "/"
+14:00:33.679 [http-nio-auto-15-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [41fd2756] Completed 200 OK
+14:00:33.681 [reactor-http-epoll-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [66e02ee6] Response 200 OK
+14:00:33.682 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+14:00:33.697 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+14:00:33.711 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:33.711 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+14:00:33.711 [Test worker] INFO  i.undertow - starting server: Undertow - 2.0.30.Final
+14:00:33.756 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 46689(0 millis).
+14:00:33.759 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [11af684a] HTTP GET http://localhost:46689/
+14:00:33.774 [XNIO-15 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [31239f8f] HTTP GET "/"
+14:00:33.775 [XNIO-15 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [31239f8f] Completed 200 OK
+14:00:33.776 [reactor-http-epoll-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [11af684a] Response 200 OK
+14:00:33.776 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+14:00:33.776 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.0.30.Final
+14:00:33.781 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.validation.beanvalidation.ValidatorFactoryTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:22" hostname="bamboo-18" time="0.419">
+  <properties/>
+  <testcase name="testValidationWithOptionalField()" classname="org.springframework.validation.beanvalidation.ValidatorFactoryTests" time="0.018"/>
+  <testcase name="testSpringValidationFieldType()" classname="org.springframework.validation.beanvalidation.ValidatorFactoryTests" time="0.042"/>
+  <testcase name="testSpringValidationWithErrorInListElement()" classname="org.springframework.validation.beanvalidation.ValidatorFactoryTests" time="0.046"/>
+  <testcase name="testSpringValidationWithClassLevel()" classname="org.springframework.validation.beanvalidation.ValidatorFactoryTests" time="0.057"/>
+  <testcase name="testInnerBeanValidation()" classname="org.springframework.validation.beanvalidation.ValidatorFactoryTests" time="0.004"/>
+  <testcase name="testSpringValidationWithErrorInSetElement()" classname="org.springframework.validation.beanvalidation.ValidatorFactoryTests" time="0.034"/>
+  <testcase name="testSpringValidationWithAutowiredValidator()" classname="org.springframework.validation.beanvalidation.ValidatorFactoryTests" time="0.057"/>
+  <testcase name="testSimpleValidation()" classname="org.springframework.validation.beanvalidation.ValidatorFactoryTests" time="0.038"/>
+  <testcase name="testListValidation()" classname="org.springframework.validation.beanvalidation.ValidatorFactoryTests" time="0.006"/>
+  <testcase name="testSimpleValidationWithClassLevel()" classname="org.springframework.validation.beanvalidation.ValidatorFactoryTests" time="0.05"/>
+  <testcase name="testSimpleValidationWithCustomProvider()" classname="org.springframework.validation.beanvalidation.ValidatorFactoryTests" time="0.027"/>
+  <testcase name="testSpringValidation()" classname="org.springframework.validation.beanvalidation.ValidatorFactoryTests" time="0.039"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

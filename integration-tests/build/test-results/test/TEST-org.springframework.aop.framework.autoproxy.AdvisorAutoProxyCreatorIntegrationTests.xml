@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.framework.autoproxy.AdvisorAutoProxyCreatorIntegrationTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:57:13" hostname="bamboo-18" time="0.874">
+  <properties/>
+  <testcase name="testRollbackRulesOnMethodCauseRollback()" classname="org.springframework.aop.framework.autoproxy.AdvisorAutoProxyCreatorIntegrationTests" time="0.562"/>
+  <testcase name="testTransactionAttributeOnMethod()" classname="org.springframework.aop.framework.autoproxy.AdvisorAutoProxyCreatorIntegrationTests" time="0.049"/>
+  <testcase name="testTxIsProxied()" classname="org.springframework.aop.framework.autoproxy.AdvisorAutoProxyCreatorIntegrationTests" time="0.048"/>
+  <testcase name="testRegexpApplied()" classname="org.springframework.aop.framework.autoproxy.AdvisorAutoProxyCreatorIntegrationTests" time="0.071"/>
+  <testcase name="testDefaultExclusionPrefix()" classname="org.springframework.aop.framework.autoproxy.AdvisorAutoProxyCreatorIntegrationTests" time="0.036"/>
+  <testcase name="testRollbackRulesOnMethodPreventRollback()" classname="org.springframework.aop.framework.autoproxy.AdvisorAutoProxyCreatorIntegrationTests" time="0.035"/>
+  <testcase name="testProgrammaticRollback()" classname="org.springframework.aop.framework.autoproxy.AdvisorAutoProxyCreatorIntegrationTests" time="0.033"/>
+  <testcase name="testNoProxy()" classname="org.springframework.aop.framework.autoproxy.AdvisorAutoProxyCreatorIntegrationTests" time="0.033"/>
+  <system-out><![CDATA[13:57:13.230 [Test worker] DEBUG o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3ef8e499
+13:57:13.265 [Test worker] DEBUG o.s.b.f.x.XmlBeanDefinitionReader - Loaded 18 bean definitions from class path resource [org/springframework/aop/framework/autoproxy/AdvisorAutoProxyCreatorIntegrationTests-context.xml]
+13:57:13.274 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aapc'
+13:57:13.282 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'orderedBeforeTransaction'
+13:57:13.306 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'orderedAfterTransaction'
+13:57:13.307 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'orderedAfterTransaction2'
+13:57:13.308 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'txManager'
+13:57:13.311 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'txAdvisor'
+13:57:13.312 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'txInterceptor'
+13:57:13.665 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'singletonDependency'
+13:57:13.671 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.support.RegexpMethodPointcutAdvisor#0'
+13:57:13.672 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'countingAdvice'
+13:57:13.706 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'tas'
+13:57:13.733 [Test worker] DEBUG o.s.t.i.NameMatchTransactionAttributeSource - Adding transactional method [rollbackOnly] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+13:57:13.734 [Test worker] DEBUG o.s.t.i.NameMatchTransactionAttributeSource - Adding transactional method [setA*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+13:57:13.735 [Test worker] DEBUG o.s.t.i.NameMatchTransactionAttributeSource - Adding transactional method [echoException] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT,+javax.servlet.ServletException,-java.lang.Exception]
+13:57:13.747 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'test'
+13:57:13.749 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'noSetters'
+13:57:13.749 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'rollback'
+13:57:13.760 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'tb'
+13:57:13.774 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'nullValueReturned'
+13:57:13.783 [Test worker] DEBUG o.s.t.t.CallCountingTransactionManager - Creating new transaction with name [org.springframework.aop.framework.autoproxy.Rollback.echoException]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,+javax.servlet.ServletException,-java.lang.Exception
+13:57:13.792 [Test worker] DEBUG o.s.t.t.CallCountingTransactionManager - Initiating transaction commit
+13:57:13.792 [Test worker] DEBUG o.s.t.t.CallCountingTransactionManager - Creating new transaction with name [org.springframework.aop.framework.autoproxy.Rollback.echoException]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,+javax.servlet.ServletException,-java.lang.Exception
+13:57:13.792 [Test worker] DEBUG o.s.t.t.CallCountingTransactionManager - Initiating transaction rollback
+13:57:13.793 [Test worker] DEBUG o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@56fd026e
+13:57:13.807 [Test worker] DEBUG o.s.b.f.x.XmlBeanDefinitionReader - Loaded 18 bean definitions from class path resource [org/springframework/aop/framework/autoproxy/AdvisorAutoProxyCreatorIntegrationTests-context.xml]
+13:57:13.807 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aapc'
+13:57:13.807 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'orderedBeforeTransaction'
+13:57:13.808 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'orderedAfterTransaction'
+13:57:13.808 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'orderedAfterTransaction2'
+13:57:13.808 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'txManager'
+13:57:13.808 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'txAdvisor'
+13:57:13.808 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'txInterceptor'
+13:57:13.809 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'singletonDependency'
+13:57:13.809 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.support.RegexpMethodPointcutAdvisor#0'
+13:57:13.809 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'countingAdvice'
+13:57:13.811 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'tas'
+13:57:13.811 [Test worker] DEBUG o.s.t.i.NameMatchTransactionAttributeSource - Adding transactional method [rollbackOnly] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+13:57:13.811 [Test worker] DEBUG o.s.t.i.NameMatchTransactionAttributeSource - Adding transactional method [setA*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+13:57:13.811 [Test worker] DEBUG o.s.t.i.NameMatchTransactionAttributeSource - Adding transactional method [echoException] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT,+javax.servlet.ServletException,-java.lang.Exception]
+13:57:13.813 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'test'
+13:57:13.815 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'noSetters'
+13:57:13.816 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'rollback'
+13:57:13.819 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'tb'
+13:57:13.823 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'nullValueReturned'
+13:57:13.828 [Test worker] DEBUG o.s.t.t.CallCountingTransactionManager - Creating new transaction with name [org.springframework.beans.testfixture.beans.TestBean.setAge]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+13:57:13.842 [Test worker] DEBUG o.s.t.t.CallCountingTransactionManager - Initiating transaction commit
+13:57:13.843 [Test worker] DEBUG o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6cab29bd
+13:57:13.873 [Test worker] DEBUG o.s.b.f.x.XmlBeanDefinitionReader - Loaded 18 bean definitions from class path resource [org/springframework/aop/framework/autoproxy/AdvisorAutoProxyCreatorIntegrationTests-context.xml]
+13:57:13.874 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aapc'
+13:57:13.874 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'orderedBeforeTransaction'
+13:57:13.874 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'orderedAfterTransaction'
+13:57:13.875 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'orderedAfterTransaction2'
+13:57:13.875 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'txManager'
+13:57:13.875 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'txAdvisor'
+13:57:13.875 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'txInterceptor'
+13:57:13.875 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'singletonDependency'
+13:57:13.875 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.support.RegexpMethodPointcutAdvisor#0'
+13:57:13.876 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'countingAdvice'
+13:57:13.877 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'tas'
+13:57:13.878 [Test worker] DEBUG o.s.t.i.NameMatchTransactionAttributeSource - Adding transactional method [rollbackOnly] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+13:57:13.878 [Test worker] DEBUG o.s.t.i.NameMatchTransactionAttributeSource - Adding transactional method [setA*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+13:57:13.878 [Test worker] DEBUG o.s.t.i.NameMatchTransactionAttributeSource - Adding transactional method [echoException] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT,+javax.servlet.ServletException,-java.lang.Exception]
+13:57:13.879 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'test'
+13:57:13.887 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'noSetters'
+13:57:13.887 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'rollback'
+13:57:13.888 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'tb'
+13:57:13.889 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'nullValueReturned'
+13:57:13.894 [Test worker] DEBUG o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@337b3a79
+13:57:13.913 [Test worker] DEBUG o.s.b.f.x.XmlBeanDefinitionReader - Loaded 18 bean definitions from class path resource [org/springframework/aop/framework/autoproxy/AdvisorAutoProxyCreatorIntegrationTests-context.xml]
+13:57:13.917 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aapc'
+13:57:13.917 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'orderedBeforeTransaction'
+13:57:13.918 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'orderedAfterTransaction'
+13:57:13.918 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'orderedAfterTransaction2'
+13:57:13.918 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'txManager'
+13:57:13.918 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'txAdvisor'
+13:57:13.918 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'txInterceptor'
+13:57:13.921 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'singletonDependency'
+13:57:13.922 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.support.RegexpMethodPointcutAdvisor#0'
+13:57:13.922 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'countingAdvice'
+13:57:13.924 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'tas'
+13:57:13.929 [Test worker] DEBUG o.s.t.i.NameMatchTransactionAttributeSource - Adding transactional method [rollbackOnly] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+13:57:13.929 [Test worker] DEBUG o.s.t.i.NameMatchTransactionAttributeSource - Adding transactional method [setA*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+13:57:13.929 [Test worker] DEBUG o.s.t.i.NameMatchTransactionAttributeSource - Adding transactional method [echoException] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT,+javax.servlet.ServletException,-java.lang.Exception]
+13:57:13.939 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'test'
+13:57:13.942 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'noSetters'
+13:57:13.943 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'rollback'
+13:57:13.943 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'tb'
+13:57:13.962 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'nullValueReturned'
+13:57:13.969 [Test worker] DEBUG o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5641953
+13:57:13.978 [Test worker] DEBUG o.s.b.f.x.XmlBeanDefinitionReader - Loaded 18 bean definitions from class path resource [org/springframework/aop/framework/autoproxy/AdvisorAutoProxyCreatorIntegrationTests-context.xml]
+13:57:13.979 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aapc'
+13:57:13.979 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'orderedBeforeTransaction'
+13:57:13.980 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'orderedAfterTransaction'
+13:57:13.980 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'orderedAfterTransaction2'
+13:57:13.980 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'txManager'
+13:57:13.980 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'txAdvisor'
+13:57:13.981 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'txInterceptor'
+13:57:13.981 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'singletonDependency'
+13:57:13.981 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.support.RegexpMethodPointcutAdvisor#0'
+13:57:13.981 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'countingAdvice'
+13:57:13.987 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'tas'
+13:57:13.989 [Test worker] DEBUG o.s.t.i.NameMatchTransactionAttributeSource - Adding transactional method [rollbackOnly] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+13:57:13.989 [Test worker] DEBUG o.s.t.i.NameMatchTransactionAttributeSource - Adding transactional method [setA*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+13:57:13.989 [Test worker] DEBUG o.s.t.i.NameMatchTransactionAttributeSource - Adding transactional method [echoException] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT,+javax.servlet.ServletException,-java.lang.Exception]
+13:57:13.991 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'test'
+13:57:13.995 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'noSetters'
+13:57:13.995 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'rollback'
+13:57:13.996 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'tb'
+13:57:13.997 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'nullValueReturned'
+13:57:14.002 [Test worker] DEBUG o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@740513e9
+13:57:14.008 [Test worker] DEBUG o.s.b.f.x.XmlBeanDefinitionReader - Loaded 18 bean definitions from class path resource [org/springframework/aop/framework/autoproxy/AdvisorAutoProxyCreatorIntegrationTests-context.xml]
+13:57:14.015 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aapc'
+13:57:14.015 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'orderedBeforeTransaction'
+13:57:14.016 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'orderedAfterTransaction'
+13:57:14.016 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'orderedAfterTransaction2'
+13:57:14.017 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'txManager'
+13:57:14.017 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'txAdvisor'
+13:57:14.017 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'txInterceptor'
+13:57:14.017 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'singletonDependency'
+13:57:14.017 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.support.RegexpMethodPointcutAdvisor#0'
+13:57:14.017 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'countingAdvice'
+13:57:14.019 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'tas'
+13:57:14.021 [Test worker] DEBUG o.s.t.i.NameMatchTransactionAttributeSource - Adding transactional method [rollbackOnly] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+13:57:14.021 [Test worker] DEBUG o.s.t.i.NameMatchTransactionAttributeSource - Adding transactional method [setA*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+13:57:14.030 [Test worker] DEBUG o.s.t.i.NameMatchTransactionAttributeSource - Adding transactional method [echoException] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT,+javax.servlet.ServletException,-java.lang.Exception]
+13:57:14.031 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'test'
+13:57:14.033 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'noSetters'
+13:57:14.033 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'rollback'
+13:57:14.034 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'tb'
+13:57:14.034 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'nullValueReturned'
+13:57:14.036 [Test worker] DEBUG o.s.t.t.CallCountingTransactionManager - Creating new transaction with name [org.springframework.aop.framework.autoproxy.Rollback.echoException]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,+javax.servlet.ServletException,-java.lang.Exception
+13:57:14.036 [Test worker] DEBUG o.s.t.t.CallCountingTransactionManager - Initiating transaction commit
+13:57:14.037 [Test worker] DEBUG o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2ac66b40
+13:57:14.045 [Test worker] DEBUG o.s.b.f.x.XmlBeanDefinitionReader - Loaded 18 bean definitions from class path resource [org/springframework/aop/framework/autoproxy/AdvisorAutoProxyCreatorIntegrationTests-context.xml]
+13:57:14.057 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aapc'
+13:57:14.058 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'orderedBeforeTransaction'
+13:57:14.058 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'orderedAfterTransaction'
+13:57:14.058 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'orderedAfterTransaction2'
+13:57:14.059 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'txManager'
+13:57:14.059 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'txAdvisor'
+13:57:14.059 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'txInterceptor'
+13:57:14.059 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'singletonDependency'
+13:57:14.059 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.support.RegexpMethodPointcutAdvisor#0'
+13:57:14.059 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'countingAdvice'
+13:57:14.061 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'tas'
+13:57:14.061 [Test worker] DEBUG o.s.t.i.NameMatchTransactionAttributeSource - Adding transactional method [rollbackOnly] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+13:57:14.061 [Test worker] DEBUG o.s.t.i.NameMatchTransactionAttributeSource - Adding transactional method [setA*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+13:57:14.061 [Test worker] DEBUG o.s.t.i.NameMatchTransactionAttributeSource - Adding transactional method [echoException] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT,+javax.servlet.ServletException,-java.lang.Exception]
+13:57:14.062 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'test'
+13:57:14.063 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'noSetters'
+13:57:14.064 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'rollback'
+13:57:14.064 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'tb'
+13:57:14.065 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'nullValueReturned'
+13:57:14.069 [Test worker] DEBUG o.s.t.t.CallCountingTransactionManager - Creating new transaction with name [org.springframework.aop.framework.autoproxy.Rollback.rollbackOnly]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+13:57:14.069 [Test worker] DEBUG o.s.t.t.CallCountingTransactionManager - Initiating transaction commit
+13:57:14.070 [Test worker] DEBUG o.s.t.t.CallCountingTransactionManager - Creating new transaction with name [org.springframework.aop.framework.autoproxy.Rollback.rollbackOnly]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+13:57:14.070 [Test worker] DEBUG o.s.t.t.CallCountingTransactionManager - Transactional code has requested rollback
+13:57:14.070 [Test worker] DEBUG o.s.t.t.CallCountingTransactionManager - Initiating transaction rollback
+13:57:14.071 [Test worker] DEBUG o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5df18283
+13:57:14.085 [Test worker] DEBUG o.s.b.f.x.XmlBeanDefinitionReader - Loaded 18 bean definitions from class path resource [org/springframework/aop/framework/autoproxy/AdvisorAutoProxyCreatorIntegrationTests-context.xml]
+13:57:14.085 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aapc'
+13:57:14.085 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'orderedBeforeTransaction'
+13:57:14.086 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'orderedAfterTransaction'
+13:57:14.087 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'orderedAfterTransaction2'
+13:57:14.087 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'txManager'
+13:57:14.087 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'txAdvisor'
+13:57:14.087 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'txInterceptor'
+13:57:14.088 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'singletonDependency'
+13:57:14.088 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.support.RegexpMethodPointcutAdvisor#0'
+13:57:14.088 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'countingAdvice'
+13:57:14.089 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'tas'
+13:57:14.090 [Test worker] DEBUG o.s.t.i.NameMatchTransactionAttributeSource - Adding transactional method [rollbackOnly] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+13:57:14.090 [Test worker] DEBUG o.s.t.i.NameMatchTransactionAttributeSource - Adding transactional method [setA*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+13:57:14.090 [Test worker] DEBUG o.s.t.i.NameMatchTransactionAttributeSource - Adding transactional method [echoException] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT,+javax.servlet.ServletException,-java.lang.Exception]
+13:57:14.095 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'test'
+13:57:14.098 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'noSetters'
+13:57:14.099 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'rollback'
+13:57:14.099 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'tb'
+13:57:14.101 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'nullValueReturned'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

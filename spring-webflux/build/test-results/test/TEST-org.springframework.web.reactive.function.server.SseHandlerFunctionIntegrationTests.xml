@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:34" hostname="bamboo-18" time="3.443">
+  <properties/>
+  <testcase name="sseAsEvent(HttpServer)[1]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.282"/>
+  <testcase name="sseAsEvent(HttpServer)[2]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.235"/>
+  <testcase name="sseAsEvent(HttpServer)[3]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.281"/>
+  <testcase name="sseAsEvent(HttpServer)[4]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.31"/>
+  <testcase name="sseAsPerson(HttpServer)[1]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.32"/>
+  <testcase name="sseAsPerson(HttpServer)[2]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.24"/>
+  <testcase name="sseAsPerson(HttpServer)[3]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.379"/>
+  <testcase name="sseAsPerson(HttpServer)[4]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.306"/>
+  <testcase name="sseAsString(HttpServer)[1]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.319"/>
+  <testcase name="sseAsString(HttpServer)[2]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.221"/>
+  <testcase name="sseAsString(HttpServer)[3]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.29"/>
+  <testcase name="sseAsString(HttpServer)[4]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.25"/>
+  <system-out><![CDATA[14:00:34.642 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:34.642 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+14:00:34.644 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@51c2a4d4{/,null,AVAILABLE}
+14:00:34.644 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+14:00:34.644 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.29.v20200521; built: 2020-05-21T17:20:40.598Z; git: 77c232aed8a45c818fd27232278d9f95a021095e; jvm 1.8.0_232-b09
+14:00:34.660 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@15c3b6c0{HTTP/1.1, (http/1.1)}{0.0.0.0:40151}
+14:00:34.660 [Test worker] INFO  o.e.j.s.Server - Started @54827ms
+14:00:34.660 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 40151(0 millis).
+14:00:34.661 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1f12607] HTTP GET http://localhost:40151/event
+14:00:34.679 [qtp42199320-1097] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [3dfa7fe7] HTTP GET "/event"
+14:00:34.784 [reactor-http-epoll-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1f12607] Response 200 OK
+14:00:34.786 [reactor-http-epoll-4] DEBUG o.s.c.c.StringDecoder - [1f12607] Decoded "id:0"
+14:00:34.786 [reactor-http-epoll-4] DEBUG o.s.c.c.StringDecoder - [1f12607] Decoded ":bar"
+14:00:34.786 [reactor-http-epoll-4] DEBUG o.s.c.c.StringDecoder - [1f12607] Decoded "data:foo"
+14:00:34.786 [reactor-http-epoll-4] DEBUG o.s.c.c.StringDecoder - [1f12607] Decoded ""
+14:00:34.889 [reactor-http-epoll-4] DEBUG o.s.c.c.StringDecoder - [1f12607] Decoded "id:1"
+14:00:34.889 [reactor-http-epoll-4] DEBUG o.s.c.c.StringDecoder - [1f12607] Decoded ":bar"
+14:00:34.889 [reactor-http-epoll-4] DEBUG o.s.c.c.StringDecoder - [1f12607] Decoded "data:foo"
+14:00:34.889 [reactor-http-epoll-4] DEBUG o.s.c.c.StringDecoder - [1f12607] Decoded ""
+14:00:34.889 [parallel-3] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [3dfa7fe7] Completed 200 OK
+14:00:34.895 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+14:00:34.895 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@51c2a4d4{/,null,UNAVAILABLE}
+14:00:34.913 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@15c3b6c0{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+14:00:34.915 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+14:00:34.922 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:34.922 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+14:00:34.927 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 37011(0 millis).
+14:00:34.927 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4f3769a9] HTTP GET http://localhost:37011/event
+14:00:34.936 [reactor-http-epoll-3] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [8c51db8d-35] HTTP GET "/event"
+14:00:35.047 [reactor-http-epoll-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4f3769a9] Response 200 OK
+14:00:35.050 [reactor-http-epoll-2] DEBUG o.s.c.c.StringDecoder - [4f3769a9] Decoded "id:0"
+14:00:35.050 [reactor-http-epoll-2] DEBUG o.s.c.c.StringDecoder - [4f3769a9] Decoded ":bar"
+14:00:35.050 [reactor-http-epoll-2] DEBUG o.s.c.c.StringDecoder - [4f3769a9] Decoded "data:foo"
+14:00:35.050 [reactor-http-epoll-2] DEBUG o.s.c.c.StringDecoder - [4f3769a9] Decoded ""
+14:00:35.147 [reactor-http-epoll-3] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [8c51db8d-35] Completed 200 OK
+14:00:35.147 [reactor-http-epoll-2] DEBUG o.s.c.c.StringDecoder - [4f3769a9] Decoded "id:1"
+14:00:35.147 [reactor-http-epoll-2] DEBUG o.s.c.c.StringDecoder - [4f3769a9] Decoded ":bar"
+14:00:35.147 [reactor-http-epoll-2] DEBUG o.s.c.c.StringDecoder - [4f3769a9] Decoded "data:foo"
+14:00:35.148 [reactor-http-epoll-2] DEBUG o.s.c.c.StringDecoder - [4f3769a9] Decoded ""
+14:00:35.148 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+14:00:35.150 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+14:00:35.156 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:35.157 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+14:00:35.185 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 42531(0 millis).
+14:00:35.185 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5536565a] HTTP GET http://localhost:42531/event
+14:00:35.196 [http-nio-auto-32-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [44b39935] HTTP GET "/event"
+14:00:35.297 [reactor-http-epoll-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5536565a] Response 200 OK
+14:00:35.298 [reactor-http-epoll-4] DEBUG o.s.c.c.StringDecoder - [5536565a] Decoded "id:0"
+14:00:35.298 [reactor-http-epoll-4] DEBUG o.s.c.c.StringDecoder - [5536565a] Decoded ":bar"
+14:00:35.298 [reactor-http-epoll-4] DEBUG o.s.c.c.StringDecoder - [5536565a] Decoded "data:foo"
+14:00:35.298 [reactor-http-epoll-4] DEBUG o.s.c.c.StringDecoder - [5536565a] Decoded ""
+14:00:35.409 [parallel-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [44b39935] Completed 200 OK
+14:00:35.411 [reactor-http-epoll-4] DEBUG o.s.c.c.StringDecoder - [5536565a] Decoded "id:1"
+14:00:35.411 [reactor-http-epoll-4] DEBUG o.s.c.c.StringDecoder - [5536565a] Decoded ":bar"
+14:00:35.411 [reactor-http-epoll-4] DEBUG o.s.c.c.StringDecoder - [5536565a] Decoded "data:foo"
+14:00:35.411 [reactor-http-epoll-4] DEBUG o.s.c.c.StringDecoder - [5536565a] Decoded ""
+14:00:35.420 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+14:00:35.432 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+14:00:35.439 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:35.439 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+14:00:35.439 [Test worker] INFO  i.undertow - starting server: Undertow - 2.0.30.Final
+14:00:35.479 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 37325(0 millis).
+14:00:35.479 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [21f2e662] HTTP GET http://localhost:37325/event
+14:00:35.490 [XNIO-31 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [320320f1] HTTP GET "/event"
+14:00:35.592 [reactor-http-epoll-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [21f2e662] Response 200 OK
+14:00:35.593 [reactor-http-epoll-1] DEBUG o.s.c.c.StringDecoder - [21f2e662] Decoded "id:0"
+14:00:35.593 [reactor-http-epoll-1] DEBUG o.s.c.c.StringDecoder - [21f2e662] Decoded ":bar"
+14:00:35.593 [reactor-http-epoll-1] DEBUG o.s.c.c.StringDecoder - [21f2e662] Decoded "data:foo"
+14:00:35.593 [reactor-http-epoll-1] DEBUG o.s.c.c.StringDecoder - [21f2e662] Decoded ""
+14:00:35.733 [parallel-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [320320f1] Completed 200 OK
+14:00:35.734 [reactor-http-epoll-1] DEBUG o.s.c.c.StringDecoder - [21f2e662] Decoded "id:1"
+14:00:35.734 [reactor-http-epoll-1] DEBUG o.s.c.c.StringDecoder - [21f2e662] Decoded ":bar"
+14:00:35.734 [reactor-http-epoll-1] DEBUG o.s.c.c.StringDecoder - [21f2e662] Decoded "data:foo"
+14:00:35.734 [reactor-http-epoll-1] DEBUG o.s.c.c.StringDecoder - [21f2e662] Decoded ""
+14:00:35.739 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+14:00:35.740 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.0.30.Final
+14:00:35.742 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+14:00:35.749 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:35.749 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+14:00:35.750 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@4d5370f3{/,null,AVAILABLE}
+14:00:35.750 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+14:00:35.750 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.29.v20200521; built: 2020-05-21T17:20:40.598Z; git: 77c232aed8a45c818fd27232278d9f95a021095e; jvm 1.8.0_232-b09
+14:00:35.817 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@6a8bc519{HTTP/1.1, (http/1.1)}{0.0.0.0:37015}
+14:00:35.817 [Test worker] INFO  o.e.j.s.Server - Started @55983ms
+14:00:35.817 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 37015(0 millis).
+14:00:35.818 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6864bde7] HTTP GET http://localhost:37015/person
+14:00:35.838 [qtp1868779206-1126] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [74d6e45d] HTTP GET "/person"
+14:00:35.939 [parallel-3] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [74d6e45d] Encoding [Person{name='foo 0'}]
+14:00:35.941 [reactor-http-epoll-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6864bde7] Response 200 OK
+14:00:35.946 [reactor-http-epoll-2] DEBUG o.s.c.c.StringDecoder - [6864bde7] Decoded "data:{"name":"foo 0"}"
+14:00:35.946 [reactor-http-epoll-2] DEBUG o.s.c.c.StringDecoder - [6864bde7] Decoded ""
+14:00:35.946 [reactor-http-epoll-2] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [6864bde7] Decoded [Person{name='foo 0'}]
+14:00:36.039 [parallel-3] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [74d6e45d] Encoding [Person{name='foo 1'}]
+14:00:36.040 [reactor-http-epoll-2] DEBUG o.s.c.c.StringDecoder - [6864bde7] Decoded "data:{"name":"foo 1"}"
+14:00:36.040 [reactor-http-epoll-2] DEBUG o.s.c.c.StringDecoder - [6864bde7] Decoded ""
+14:00:36.041 [reactor-http-epoll-2] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [6864bde7] Decoded [Person{name='foo 1'}]
+14:00:36.051 [parallel-3] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [74d6e45d] Completed 200 OK
+14:00:36.055 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+14:00:36.055 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@4d5370f3{/,null,UNAVAILABLE}
+14:00:36.061 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@6a8bc519{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+14:00:36.063 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+14:00:36.080 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:36.080 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+14:00:36.081 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 39315(0 millis).
+14:00:36.082 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [18484861] HTTP GET http://localhost:39315/person
+14:00:36.091 [reactor-http-epoll-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [1bc54f55-36] HTTP GET "/person"
+14:00:36.192 [parallel-4] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [1bc54f55-36] Encoding [Person{name='foo 0'}]
+14:00:36.197 [reactor-http-epoll-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [18484861] Response 200 OK
+14:00:36.198 [reactor-http-epoll-4] DEBUG o.s.c.c.StringDecoder - [18484861] Decoded "data:{"name":"foo 0"}"
+14:00:36.198 [reactor-http-epoll-4] DEBUG o.s.c.c.StringDecoder - [18484861] Decoded ""
+14:00:36.198 [reactor-http-epoll-4] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [18484861] Decoded [Person{name='foo 0'}]
+14:00:36.292 [parallel-4] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [1bc54f55-36] Encoding [Person{name='foo 1'}]
+14:00:36.304 [reactor-http-epoll-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [1bc54f55-36] Completed 200 OK
+14:00:36.304 [reactor-http-epoll-4] DEBUG o.s.c.c.StringDecoder - [18484861] Decoded "data:{"name":"foo 1"}"
+14:00:36.304 [reactor-http-epoll-4] DEBUG o.s.c.c.StringDecoder - [18484861] Decoded ""
+14:00:36.305 [reactor-http-epoll-4] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [18484861] Decoded [Person{name='foo 1'}]
+14:00:36.305 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+14:00:36.305 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+14:00:36.315 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:36.315 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+14:00:36.454 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 35357(0 millis).
+14:00:36.454 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [68759a9e] HTTP GET http://localhost:35357/person
+14:00:36.462 [http-nio-auto-33-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [205a244] HTTP GET "/person"
+14:00:36.563 [parallel-1] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [205a244] Encoding [Person{name='foo 0'}]
+14:00:36.564 [reactor-http-epoll-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [68759a9e] Response 200 OK
+14:00:36.565 [reactor-http-epoll-2] DEBUG o.s.c.c.StringDecoder - [68759a9e] Decoded "data:{"name":"foo 0"}"
+14:00:36.565 [reactor-http-epoll-2] DEBUG o.s.c.c.StringDecoder - [68759a9e] Decoded ""
+14:00:36.565 [reactor-http-epoll-2] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [68759a9e] Decoded [Person{name='foo 0'}]
+14:00:36.665 [parallel-1] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [205a244] Encoding [Person{name='foo 1'}]
+14:00:36.666 [reactor-http-epoll-2] DEBUG o.s.c.c.StringDecoder - [68759a9e] Decoded "data:{"name":"foo 1"}"
+14:00:36.666 [reactor-http-epoll-2] DEBUG o.s.c.c.StringDecoder - [68759a9e] Decoded ""
+14:00:36.666 [reactor-http-epoll-2] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [68759a9e] Decoded [Person{name='foo 1'}]
+14:00:36.674 [parallel-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [205a244] Completed 200 OK
+14:00:36.678 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+14:00:36.686 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+14:00:36.692 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:36.692 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+14:00:36.692 [Test worker] INFO  i.undertow - starting server: Undertow - 2.0.30.Final
+14:00:36.766 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 35593(0 millis).
+14:00:36.766 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [281ed5ac] HTTP GET http://localhost:35593/person
+14:00:36.770 [XNIO-32 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [22bd8752] HTTP GET "/person"
+14:00:36.870 [parallel-2] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [22bd8752] Encoding [Person{name='foo 0'}]
+14:00:36.873 [reactor-http-epoll-3] DEBUG o.s.w.r.f.c.ExchangeFunctions - [281ed5ac] Response 200 OK
+14:00:36.874 [reactor-http-epoll-3] DEBUG o.s.c.c.StringDecoder - [281ed5ac] Decoded "data:{"name":"foo 0"}"
+14:00:36.874 [reactor-http-epoll-3] DEBUG o.s.c.c.StringDecoder - [281ed5ac] Decoded ""
+14:00:36.874 [reactor-http-epoll-3] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [281ed5ac] Decoded [Person{name='foo 0'}]
+14:00:36.970 [parallel-2] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [22bd8752] Encoding [Person{name='foo 1'}]
+14:00:36.980 [reactor-http-epoll-3] DEBUG o.s.c.c.StringDecoder - [281ed5ac] Decoded "data:{"name":"foo 1"}"
+14:00:36.980 [reactor-http-epoll-3] DEBUG o.s.c.c.StringDecoder - [281ed5ac] Decoded ""
+14:00:36.980 [reactor-http-epoll-3] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [281ed5ac] Decoded [Person{name='foo 1'}]
+14:00:36.981 [parallel-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [22bd8752] Completed 200 OK
+14:00:36.982 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+14:00:36.982 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.0.30.Final
+14:00:36.984 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+14:00:37.003 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:37.003 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+14:00:37.004 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@2c1c4237{/,null,AVAILABLE}
+14:00:37.004 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+14:00:37.004 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.29.v20200521; built: 2020-05-21T17:20:40.598Z; git: 77c232aed8a45c818fd27232278d9f95a021095e; jvm 1.8.0_232-b09
+14:00:37.087 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@3df62d0d{HTTP/1.1, (http/1.1)}{0.0.0.0:35629}
+14:00:37.087 [Test worker] INFO  o.e.j.s.Server - Started @57254ms
+14:00:37.087 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 35629(0 millis).
+14:00:37.088 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4fd5aa7e] HTTP GET http://localhost:35629/string
+14:00:37.098 [qtp1356358356-1155] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [77b1ab29] HTTP GET "/string"
+14:00:37.202 [reactor-http-epoll-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4fd5aa7e] Response 200 OK
+14:00:37.203 [reactor-http-epoll-4] DEBUG o.s.c.c.StringDecoder - [4fd5aa7e] Decoded "data:foo 0"
+14:00:37.203 [reactor-http-epoll-4] DEBUG o.s.c.c.StringDecoder - [4fd5aa7e] Decoded ""
+14:00:37.300 [reactor-http-epoll-4] DEBUG o.s.c.c.StringDecoder - [4fd5aa7e] Decoded "data:foo 1"
+14:00:37.300 [reactor-http-epoll-4] DEBUG o.s.c.c.StringDecoder - [4fd5aa7e] Decoded ""
+14:00:37.302 [parallel-3] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [77b1ab29] Completed 200 OK
+14:00:37.303 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+14:00:37.303 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@2c1c4237{/,null,UNAVAILABLE}
+14:00:37.305 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@3df62d0d{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+14:00:37.313 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+14:00:37.323 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:37.323 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+14:00:37.324 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 44203(0 millis).
+14:00:37.324 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [67dc5b87] HTTP GET http://localhost:44203/string
+14:00:37.332 [reactor-http-epoll-3] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [81f0a81b-37] HTTP GET "/string"
+14:00:37.434 [reactor-http-epoll-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [67dc5b87] Response 200 OK
+14:00:37.436 [reactor-http-epoll-2] DEBUG o.s.c.c.StringDecoder - [67dc5b87] Decoded "data:foo 0"
+14:00:37.436 [reactor-http-epoll-2] DEBUG o.s.c.c.StringDecoder - [67dc5b87] Decoded ""
+14:00:37.534 [reactor-http-epoll-3] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [81f0a81b-37] Completed 200 OK
+14:00:37.534 [reactor-http-epoll-2] DEBUG o.s.c.c.StringDecoder - [67dc5b87] Decoded "data:foo 1"
+14:00:37.534 [reactor-http-epoll-2] DEBUG o.s.c.c.StringDecoder - [67dc5b87] Decoded ""
+14:00:37.535 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+14:00:37.535 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+14:00:37.541 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:37.541 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+14:00:37.559 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 39817(0 millis).
+14:00:37.559 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1d106a24] HTTP GET http://localhost:39817/string
+14:00:37.596 [http-nio-auto-34-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [235728c9] HTTP GET "/string"
+14:00:37.697 [reactor-http-epoll-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1d106a24] Response 200 OK
+14:00:37.698 [reactor-http-epoll-4] DEBUG o.s.c.c.StringDecoder - [1d106a24] Decoded "data:foo 0"
+14:00:37.698 [reactor-http-epoll-4] DEBUG o.s.c.c.StringDecoder - [1d106a24] Decoded ""
+14:00:37.797 [parallel-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [235728c9] Completed 200 OK
+14:00:37.798 [reactor-http-epoll-4] DEBUG o.s.c.c.StringDecoder - [1d106a24] Decoded "data:foo 1"
+14:00:37.798 [reactor-http-epoll-4] DEBUG o.s.c.c.StringDecoder - [1d106a24] Decoded ""
+14:00:37.816 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+14:00:37.826 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+14:00:37.832 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:37.832 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+14:00:37.832 [Test worker] INFO  i.undertow - starting server: Undertow - 2.0.30.Final
+14:00:37.846 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 39007(0 millis).
+14:00:37.846 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4d1cb1f6] HTTP GET http://localhost:39007/string
+14:00:37.851 [XNIO-33 I/O-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [43b8587] HTTP GET "/string"
+14:00:37.953 [reactor-http-epoll-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4d1cb1f6] Response 200 OK
+14:00:37.953 [reactor-http-epoll-1] DEBUG o.s.c.c.StringDecoder - [4d1cb1f6] Decoded "data:foo 0"
+14:00:37.953 [reactor-http-epoll-1] DEBUG o.s.c.c.StringDecoder - [4d1cb1f6] Decoded ""
+14:00:38.071 [XNIO-33 I/O-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [43b8587] Completed 200 OK
+14:00:38.072 [reactor-http-epoll-1] DEBUG o.s.c.c.StringDecoder - [4d1cb1f6] Decoded "data:foo 1"
+14:00:38.072 [reactor-http-epoll-1] DEBUG o.s.c.c.StringDecoder - [4d1cb1f6] Decoded ""
+14:00:38.072 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+14:00:38.072 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.0.30.Final
+14:00:38.077 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

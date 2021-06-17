@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.core.ReactiveAdapterRegistryTests" tests="21" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:57:44" hostname="bamboo-18" time="0.211">
+  <properties/>
+  <testcase name="publisherToRxSingle()" classname="org.springframework.core.ReactiveAdapterRegistryTests" time="0.03"/>
+  <testcase name="reactivexFlowableToPublisher()" classname="org.springframework.core.ReactiveAdapterRegistryTests" time="0.026"/>
+  <testcase name="publisherToReactivexObservable()" classname="org.springframework.core.ReactiveAdapterRegistryTests" time="0.035"/>
+  <testcase name="publisherToReactivexFlowable()" classname="org.springframework.core.ReactiveAdapterRegistryTests" time="0.002"/>
+  <testcase name="reactivexObservableToPublisher()" classname="org.springframework.core.ReactiveAdapterRegistryTests" time="0.015"/>
+  <testcase name="reactivexSingleToPublisher()" classname="org.springframework.core.ReactiveAdapterRegistryTests" time="0.009"/>
+  <testcase name="completableFutureToPublisher()" classname="org.springframework.core.ReactiveAdapterRegistryTests" time="0.001"/>
+  <testcase name="publisherToCompletableFuture()" classname="org.springframework.core.ReactiveAdapterRegistryTests" time="0.001"/>
+  <testcase name="rxCompletableToPublisher()" classname="org.springframework.core.ReactiveAdapterRegistryTests" time="0.01"/>
+  <testcase name="rxSingleToPublisher()" classname="org.springframework.core.ReactiveAdapterRegistryTests" time="0.001"/>
+  <testcase name="deferred()" classname="org.springframework.core.ReactiveAdapterRegistryTests" time="0.0"/>
+  <testcase name="publisherToRxObservable()" classname="org.springframework.core.ReactiveAdapterRegistryTests" time="0.015"/>
+  <testcase name="reactivexCompletableToPublisher()" classname="org.springframework.core.ReactiveAdapterRegistryTests" time="0.001"/>
+  <testcase name="rxObservableToPublisher()" classname="org.springframework.core.ReactiveAdapterRegistryTests" time="0.009"/>
+  <testcase name="defaultAdapterRegistrations()" classname="org.springframework.core.ReactiveAdapterRegistryTests" time="0.0"/>
+  <testcase name="publisherToFlux()" classname="org.springframework.core.ReactiveAdapterRegistryTests" time="0.0"/>
+  <testcase name="publisherToMono()" classname="org.springframework.core.ReactiveAdapterRegistryTests" time="0.0"/>
+  <testcase name="getAdapterForReactiveSubType()" classname="org.springframework.core.ReactiveAdapterRegistryTests" time="0.006"/>
+  <testcase name="publisherToReactivexCompletable()" classname="org.springframework.core.ReactiveAdapterRegistryTests" time="0.0"/>
+  <testcase name="publisherToRxCompletable()" classname="org.springframework.core.ReactiveAdapterRegistryTests" time="0.001"/>
+  <testcase name="publisherToReactivexSingle()" classname="org.springframework.core.ReactiveAdapterRegistryTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

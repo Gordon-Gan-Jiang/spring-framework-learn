@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.FlushingIntegrationTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:02:18" hostname="bamboo-18" time="5.862">
+  <properties/>
+  <testcase name="writeAndAutoFlushBeforeComplete(HttpServer)[1]" classname="org.springframework.web.reactive.FlushingIntegrationTests" time="0.144"/>
+  <testcase name="writeAndAutoFlushBeforeComplete(HttpServer)[2]" classname="org.springframework.web.reactive.FlushingIntegrationTests" time="0.055"/>
+  <testcase name="writeAndAutoFlushBeforeComplete(HttpServer)[3]" classname="org.springframework.web.reactive.FlushingIntegrationTests" time="2.575"/>
+  <testcase name="writeAndAutoFlushBeforeComplete(HttpServer)[4]" classname="org.springframework.web.reactive.FlushingIntegrationTests" time="0.097"/>
+  <testcase name="writeAndFlushWith(HttpServer)[1]" classname="org.springframework.web.reactive.FlushingIntegrationTests" time="0.212"/>
+  <testcase name="writeAndFlushWith(HttpServer)[2]" classname="org.springframework.web.reactive.FlushingIntegrationTests" time="0.106"/>
+  <testcase name="writeAndFlushWith(HttpServer)[3]" classname="org.springframework.web.reactive.FlushingIntegrationTests" time="2.244"/>
+  <testcase name="writeAndFlushWith(HttpServer)[4]" classname="org.springframework.web.reactive.FlushingIntegrationTests" time="0.158"/>
+  <testcase name="writeAndAutoFlushOnComplete(HttpServer)[1]" classname="org.springframework.web.reactive.FlushingIntegrationTests" time="0.126"/>
+  <testcase name="writeAndAutoFlushOnComplete(HttpServer)[2]" classname="org.springframework.web.reactive.FlushingIntegrationTests" time="0.023"/>
+  <testcase name="writeAndAutoFlushOnComplete(HttpServer)[3]" classname="org.springframework.web.reactive.FlushingIntegrationTests" time="0.059"/>
+  <testcase name="writeAndAutoFlushOnComplete(HttpServer)[4]" classname="org.springframework.web.reactive.FlushingIntegrationTests" time="0.057"/>
+  <system-out><![CDATA[14:02:18.543 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+14:02:18.544 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@66d23b34{/,null,AVAILABLE}
+14:02:18.544 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+14:02:18.544 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.29.v20200521; built: 2020-05-21T17:20:40.598Z; git: 77c232aed8a45c818fd27232278d9f95a021095e; jvm 1.8.0_232-b09
+14:02:18.637 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@5bec3151{HTTP/1.1, (http/1.1)}{0.0.0.0:43235}
+14:02:18.637 [Test worker] INFO  o.e.j.s.Server - Started @91279ms
+14:02:18.637 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 43235(0 millis).
+14:02:18.638 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4460dc40] HTTP GET http://localhost:43235/write-and-never-complete
+14:02:18.652 [reactor-http-epoll-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4460dc40] Response 200 OK
+14:02:18.671 [reactor-http-epoll-4] DEBUG o.s.c.c.StringDecoder - [4460dc40] Decoded "012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678 (truncated)...
+14:02:18.671 [reactor-http-epoll-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4460dc40] Cancel signal (to close connection)
+14:02:18.685 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+14:02:18.685 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@66d23b34{/,null,UNAVAILABLE}
+14:02:18.686 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@5bec3151{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+14:02:18.686 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+14:02:18.687 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+14:02:18.688 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 40233(0 millis).
+14:02:18.688 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [35f87102] HTTP GET http://localhost:40233/write-and-never-complete
+14:02:18.692 [reactor-http-epoll-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [35f87102] Response 200 OK
+14:02:18.729 [reactor-http-epoll-2] DEBUG o.s.c.c.StringDecoder - [35f87102] Decoded "012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678 (truncated)...
+14:02:18.729 [reactor-http-epoll-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [35f87102] Cancel signal (to close connection)
+14:02:18.741 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+14:02:18.741 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+14:02:18.742 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+14:02:18.912 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 45795(0 millis).
+14:02:18.913 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [51873026] HTTP GET http://localhost:45795/write-and-never-complete
+14:02:18.929 [reactor-http-epoll-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [51873026] Response 200 OK
+14:02:19.281 [reactor-http-epoll-4] DEBUG o.s.c.c.StringDecoder - [51873026] Decoded "012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678 (truncated)...
+14:02:19.281 [reactor-http-epoll-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [51873026] Cancel signal (to close connection)
+14:02:19.292 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+14:02:21.315 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+14:02:21.316 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+14:02:21.316 [Test worker] INFO  i.undertow - starting server: Undertow - 2.0.30.Final
+14:02:21.374 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 42253(0 millis).
+14:02:21.374 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [e82cfc5] HTTP GET http://localhost:42253/write-and-never-complete
+14:02:21.387 [reactor-http-epoll-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [e82cfc5] Response 200 OK
+14:02:21.396 [reactor-http-epoll-1] DEBUG o.s.c.c.StringDecoder - [e82cfc5] Decoded "012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678 (truncated)...
+14:02:21.396 [reactor-http-epoll-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [e82cfc5] Cancel signal (to close connection)
+14:02:21.404 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+14:02:21.404 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.0.30.Final
+14:02:21.413 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+14:02:21.414 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+14:02:21.417 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@426be303{/,null,AVAILABLE}
+14:02:21.417 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+14:02:21.417 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.29.v20200521; built: 2020-05-21T17:20:40.598Z; git: 77c232aed8a45c818fd27232278d9f95a021095e; jvm 1.8.0_232-b09
+14:02:21.503 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@54a3e1ef{HTTP/1.1, (http/1.1)}{0.0.0.0:38651}
+14:02:21.504 [Test worker] INFO  o.e.j.s.Server - Started @94145ms
+14:02:21.504 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 38651(0 millis).
+14:02:21.506 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [af92ba5] HTTP GET http://localhost:38651/write-and-flush
+14:02:21.571 [reactor-http-epoll-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [af92ba5] Response 200 OK
+14:02:21.572 [reactor-http-epoll-2] DEBUG o.s.c.c.StringDecoder - [af92ba5] Decoded "data0"
+14:02:21.621 [reactor-http-epoll-2] DEBUG o.s.c.c.StringDecoder - [af92ba5] Decoded "data1"
+14:02:21.621 [reactor-http-epoll-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [af92ba5] Cancel signal (to close connection)
+14:02:21.622 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+14:02:21.622 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@426be303{/,null,UNAVAILABLE}
+14:02:21.622 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@54a3e1ef{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+14:02:21.626 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+14:02:21.628 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+14:02:21.628 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 37203(0 millis).
+14:02:21.629 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [395179c7] HTTP GET http://localhost:37203/write-and-flush
+14:02:21.682 [reactor-http-epoll-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [395179c7] Response 200 OK
+14:02:21.696 [reactor-http-epoll-4] DEBUG o.s.c.c.StringDecoder - [395179c7] Decoded "data0"
+14:02:21.734 [reactor-http-epoll-4] DEBUG o.s.c.c.StringDecoder - [395179c7] Decoded "data1"
+14:02:21.734 [reactor-http-epoll-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [395179c7] Cancel signal (to close connection)
+14:02:21.734 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+14:02:21.734 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+14:02:21.735 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+14:02:21.849 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 42857(0 millis).
+14:02:21.850 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [783647ab] HTTP GET http://localhost:42857/write-and-flush
+14:02:21.912 [reactor-http-epoll-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [783647ab] Response 200 OK
+14:02:21.912 [reactor-http-epoll-2] DEBUG o.s.c.c.StringDecoder - [783647ab] Decoded "data0"
+14:02:21.963 [reactor-http-epoll-2] DEBUG o.s.c.c.StringDecoder - [783647ab] Decoded "data1"
+14:02:21.963 [reactor-http-epoll-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [783647ab] Cancel signal (to close connection)
+14:02:21.964 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+14:02:23.979 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+14:02:23.979 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+14:02:23.979 [Test worker] INFO  i.undertow - starting server: Undertow - 2.0.30.Final
+14:02:24.001 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 44851(0 millis).
+14:02:24.001 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [75f4d73] HTTP GET http://localhost:44851/write-and-flush
+14:02:24.061 [reactor-http-epoll-3] DEBUG o.s.w.r.f.c.ExchangeFunctions - [75f4d73] Response 200 OK
+14:02:24.062 [reactor-http-epoll-3] DEBUG o.s.c.c.StringDecoder - [75f4d73] Decoded "data0"
+14:02:24.129 [reactor-http-epoll-3] DEBUG o.s.c.c.StringDecoder - [75f4d73] Decoded "data1"
+14:02:24.129 [reactor-http-epoll-3] DEBUG o.s.w.r.f.c.ExchangeFunctions - [75f4d73] Cancel signal (to close connection)
+14:02:24.131 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+14:02:24.131 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.0.30.Final
+14:02:24.137 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+14:02:24.138 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+14:02:24.139 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@31bd4a1d{/,null,AVAILABLE}
+14:02:24.139 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+14:02:24.139 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.29.v20200521; built: 2020-05-21T17:20:40.598Z; git: 77c232aed8a45c818fd27232278d9f95a021095e; jvm 1.8.0_232-b09
+14:02:24.225 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@3652e977{HTTP/1.1, (http/1.1)}{0.0.0.0:35923}
+14:02:24.225 [Test worker] INFO  o.e.j.s.Server - Started @96866ms
+14:02:24.225 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 35923(0 millis).
+14:02:24.226 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6a332f1f] HTTP GET http://localhost:35923/write-and-complete
+14:02:24.249 [reactor-http-epoll-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6a332f1f] Response 200 OK
+14:02:24.260 [reactor-http-epoll-4] DEBUG o.s.c.c.StringDecoder - [6a332f1f] Decoded "012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678 (truncated)...
+14:02:24.260 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+14:02:24.260 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@31bd4a1d{/,null,UNAVAILABLE}
+14:02:24.264 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@3652e977{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+14:02:24.264 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+14:02:24.265 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+14:02:24.269 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 37815(0 millis).
+14:02:24.270 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2e2fbf40] HTTP GET http://localhost:37815/write-and-complete
+14:02:24.272 [reactor-http-epoll-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2e2fbf40] Response 200 OK
+14:02:24.287 [reactor-http-epoll-2] DEBUG o.s.c.c.StringDecoder - [2e2fbf40] Decoded "012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678 (truncated)...
+14:02:24.287 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+14:02:24.287 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+14:02:24.288 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+14:02:24.310 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 43611(0 millis).
+14:02:24.310 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [53ba6448] HTTP GET http://localhost:43611/write-and-complete
+14:02:24.318 [reactor-http-epoll-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [53ba6448] Response 200 OK
+14:02:24.322 [reactor-http-epoll-4] DEBUG o.s.c.c.StringDecoder - [53ba6448] Decoded "012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678 (truncated)...
+14:02:24.331 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+14:02:24.347 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+14:02:24.348 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+14:02:24.348 [Test worker] INFO  i.undertow - starting server: Undertow - 2.0.30.Final
+14:02:24.357 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 35653(0 millis).
+14:02:24.358 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7b27ab06] HTTP GET http://localhost:35653/write-and-complete
+14:02:24.398 [reactor-http-epoll-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7b27ab06] Response 200 OK
+14:02:24.404 [reactor-http-epoll-1] DEBUG o.s.c.c.StringDecoder - [7b27ab06] Decoded "012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678 (truncated)...
+14:02:24.404 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+14:02:24.404 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.0.30.Final
+14:02:24.405 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.mail.javamail.InternetAddressEditorTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:57:18" hostname="bamboo-18" time="0.321">
+  <properties/>
+  <testcase name="simpleBadAddress()" classname="org.springframework.mail.javamail.InternetAddressEditorTests" time="0.258"/>
+  <testcase name="uninitialized()" classname="org.springframework.mail.javamail.InternetAddressEditorTests" time="0.012"/>
+  <testcase name="simpleGoodAddress()" classname="org.springframework.mail.javamail.InternetAddressEditorTests" time="0.009"/>
+  <testcase name="allWhitespace()" classname="org.springframework.mail.javamail.InternetAddressEditorTests" time="0.001"/>
+  <testcase name="setEmpty()" classname="org.springframework.mail.javamail.InternetAddressEditorTests" time="0.001"/>
+  <testcase name="excessWhitespace()" classname="org.springframework.mail.javamail.InternetAddressEditorTests" time="0.008"/>
+  <testcase name="setNull()" classname="org.springframework.mail.javamail.InternetAddressEditorTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

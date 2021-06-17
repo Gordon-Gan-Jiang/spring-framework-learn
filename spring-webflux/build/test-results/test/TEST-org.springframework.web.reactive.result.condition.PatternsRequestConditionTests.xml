@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.condition.PatternsRequestConditionTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:22" hostname="bamboo-18" time="0.023">
+  <properties/>
+  <testcase name="combineOnePatternWithEmptySet()" classname="org.springframework.web.reactive.result.condition.PatternsRequestConditionTests" time="0.009"/>
+  <testcase name="matchWithEmptyPatterns()" classname="org.springframework.web.reactive.result.condition.PatternsRequestConditionTests" time="0.0"/>
+  <testcase name="matchPatternContainsExtension()" classname="org.springframework.web.reactive.result.condition.PatternsRequestConditionTests" time="0.0"/>
+  <testcase name="comparePatternSpecificity()" classname="org.springframework.web.reactive.result.condition.PatternsRequestConditionTests" time="0.0"/>
+  <testcase name="prependNonEmptyPatternsOnly()" classname="org.springframework.web.reactive.result.condition.PatternsRequestConditionTests" time="0.001"/>
+  <testcase name="matchTrailingSlash()" classname="org.springframework.web.reactive.result.condition.PatternsRequestConditionTests" time="0.0"/>
+  <testcase name="matchDirectPath()" classname="org.springframework.web.reactive.result.condition.PatternsRequestConditionTests" time="0.001"/>
+  <testcase name="matchSortPatterns()" classname="org.springframework.web.reactive.result.condition.PatternsRequestConditionTests" time="0.0"/>
+  <testcase name="matchPattern()" classname="org.springframework.web.reactive.result.condition.PatternsRequestConditionTests" time="0.001"/>
+  <testcase name="combineMultiplePatterns()" classname="org.springframework.web.reactive.result.condition.PatternsRequestConditionTests" time="0.007"/>
+  <testcase name="compareNumberOfMatchingPatterns()" classname="org.springframework.web.reactive.result.condition.PatternsRequestConditionTests" time="0.0"/>
+  <testcase name="equallyMatchingPatternsAreBothPresent()" classname="org.springframework.web.reactive.result.condition.PatternsRequestConditionTests" time="0.001"/>
+  <testcase name="compareToConsistentWithEquals()" classname="org.springframework.web.reactive.result.condition.PatternsRequestConditionTests" time="0.0"/>
+  <testcase name="combineEmptySets()" classname="org.springframework.web.reactive.result.condition.PatternsRequestConditionTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

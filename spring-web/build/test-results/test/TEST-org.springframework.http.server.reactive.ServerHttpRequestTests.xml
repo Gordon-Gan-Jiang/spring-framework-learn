@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.server.reactive.ServerHttpRequestTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:51" hostname="bamboo-18" time="0.021">
+  <properties/>
+  <testcase name="queryParams()" classname="org.springframework.http.server.reactive.ServerHttpRequestTests" time="0.001"/>
+  <testcase name="mutateHeadersViaConsumer()" classname="org.springframework.http.server.reactive.ServerHttpRequestTests" time="0.002"/>
+  <testcase name="mutatePathWithEncodedQueryParams()" classname="org.springframework.http.server.reactive.ServerHttpRequestTests" time="0.0"/>
+  <testcase name="mutateRequest()" classname="org.springframework.http.server.reactive.ServerHttpRequestTests" time="0.008"/>
+  <testcase name="mutateHeaderBySettingHeaderValues()" classname="org.springframework.http.server.reactive.ServerHttpRequestTests" time="0.0"/>
+  <testcase name="mutateWithInvalidPath()" classname="org.springframework.http.server.reactive.ServerHttpRequestTests" time="0.001"/>
+  <testcase name="queryParamsWithEncodedValue()" classname="org.springframework.http.server.reactive.ServerHttpRequestTests" time="0.0"/>
+  <testcase name="queryParamsWithEmptyValue()" classname="org.springframework.http.server.reactive.ServerHttpRequestTests" time="0.0"/>
+  <testcase name="queryParamsWithNoValue()" classname="org.springframework.http.server.reactive.ServerHttpRequestTests" time="0.001"/>
+  <testcase name="queryParamsNone()" classname="org.springframework.http.server.reactive.ServerHttpRequestTests" time="0.0"/>
+  <testcase name="queryParamsWithMultipleValues()" classname="org.springframework.http.server.reactive.ServerHttpRequestTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

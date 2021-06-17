@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.cache.config.CacheAdviceParserTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:27" hostname="bamboo-18" time="0.053">
+  <properties/>
+  <testcase name="keyAndKeyGeneratorCannotBeSetTogether()" classname="org.springframework.cache.config.CacheAdviceParserTests" time="0.053"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Mai 29, 2020 1:58:27 PM ClientIntermediary close
+INFORMATION: java.io.IOException: The connection is not currently established.
+java.io.IOException: The connection is not currently established.
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.checkState(ClientSynchroMessageConnectionImpl.java:577)
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.sendOneWay(ClientSynchroMessageConnectionImpl.java:162)
+	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:260)
+	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:231)
+	at javax.management.remote.generic.ClientIntermediary$GenericClientCommunicatorAdmin.doStop(ClientIntermediary.java:839)
+	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.restart(ClientCommunicatorAdmin.java:133)
+	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.gotIOException(ClientCommunicatorAdmin.java:34)
+	at javax.management.remote.generic.GenericConnector$RequestHandler.execute(GenericConnector.java:622)
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl$RemoteJob.run(ClientSynchroMessageConnectionImpl.java:528)
+	at com.sun.jmx.remote.opt.util.ThreadService$ThreadServiceJob.run(ThreadService.java:208)
+	at com.sun.jmx.remote.opt.util.JobExecutor.run(JobExecutor.java:59)
+
+]]></system-err>
+</testsuite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.filter.reactive.HiddenHttpMethodFilterTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:13" hostname="bamboo-18" time="0.05">
+  <properties/>
+  <testcase name="filterWithParameter()" classname="org.springframework.web.filter.reactive.HiddenHttpMethodFilterTests" time="0.023"/>
+  <testcase name="filterWithNoParameter()" classname="org.springframework.web.filter.reactive.HiddenHttpMethodFilterTests" time="0.001"/>
+  <testcase name="filterWithEmptyStringParameter()" classname="org.springframework.web.filter.reactive.HiddenHttpMethodFilterTests" time="0.0"/>
+  <testcase name="filterWithInvalidMethodValue()" classname="org.springframework.web.filter.reactive.HiddenHttpMethodFilterTests" time="0.001"/>
+  <testcase name="filterWithDifferentMethodParam()" classname="org.springframework.web.filter.reactive.HiddenHttpMethodFilterTests" time="0.0"/>
+  <testcase name="filterWithParameterMethodNotAllowed()" classname="org.springframework.web.filter.reactive.HiddenHttpMethodFilterTests" time="0.016"/>
+  <testcase name="filterWithHttpPut()" classname="org.springframework.web.filter.reactive.HiddenHttpMethodFilterTests" time="0.001"/>
+  <system-out><![CDATA[14:00:13.452 [Test worker] DEBUG o.s.w.HttpLogging - [b6625bb] Read form fields [_method] (content masked)
+14:00:13.454 [Test worker] DEBUG o.s.w.HttpLogging - [b3ca01c] Read form fields [] (content masked)
+14:00:13.455 [Test worker] DEBUG o.s.w.HttpLogging - [508f76f4] Read form fields [_method] (content masked)
+14:00:13.456 [Test worker] DEBUG o.s.w.HttpLogging - [2e5f05fa] Read form fields [_method] (content masked)
+14:00:13.456 [Test worker] DEBUG o.s.w.HttpLogging - [465d5050] Read form fields [_foo] (content masked)
+14:00:13.479 [Test worker] DEBUG o.s.w.HttpLogging - [6dcea6b9] Read form fields [_method] (content masked)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

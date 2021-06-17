@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jdbc.core.JdbcOperationsExtensionsTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:27" hostname="bamboo-18" time="5.367">
+  <properties/>
+  <testcase name="queryForObject with nullable RowMapper-like function()" classname="org.springframework.jdbc.core.JdbcOperationsExtensionsTests" time="4.609"/>
+  <testcase name="queryForObject with reified type parameters()" classname="org.springframework.jdbc.core.JdbcOperationsExtensionsTests" time="0.013"/>
+  <testcase name="queryForObject with RowMapper-like function()" classname="org.springframework.jdbc.core.JdbcOperationsExtensionsTests" time="0.012"/>
+  <testcase name="queryForList with reified type parameters and argTypes()" classname="org.springframework.jdbc.core.JdbcOperationsExtensionsTests" time="0.526"/>
+  <testcase name="query with ResultSetExtractor-like function()" classname="org.springframework.jdbc.core.JdbcOperationsExtensionsTests" time="0.016"/>
+  <testcase name="queryForList with reified type parameters()" classname="org.springframework.jdbc.core.JdbcOperationsExtensionsTests" time="0.017"/>
+  <testcase name="query with nullable ResultSetExtractor-like function()" classname="org.springframework.jdbc.core.JdbcOperationsExtensionsTests" time="0.024"/>
+  <testcase name="queryForObject with reified type parameters and argTypes()" classname="org.springframework.jdbc.core.JdbcOperationsExtensionsTests" time="0.006"/>
+  <testcase name="queryForObject with reified type parameters and args()" classname="org.springframework.jdbc.core.JdbcOperationsExtensionsTests" time="0.006"/>
+  <testcase name="query with RowMapper-like function()" classname="org.springframework.jdbc.core.JdbcOperationsExtensionsTests" time="0.014"/>
+  <testcase name="queryForList with reified type parameters and args()" classname="org.springframework.jdbc.core.JdbcOperationsExtensionsTests" time="0.009"/>
+  <testcase name="query with RowCallbackHandler-like function()" classname="org.springframework.jdbc.core.JdbcOperationsExtensionsTests" time="0.015"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

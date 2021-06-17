@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.validation.beanvalidation.SpringValidatorAdapterTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:22" hostname="bamboo-18" time="0.221">
+  <properties/>
+  <testcase name="testPatternMessage()" classname="org.springframework.validation.beanvalidation.SpringValidatorAdapterTests" time="0.014"/>
+  <testcase name="testNoStringArgumentValue()" classname="org.springframework.validation.beanvalidation.SpringValidatorAdapterTests" time="0.016"/>
+  <testcase name="testWithList()" classname="org.springframework.validation.beanvalidation.SpringValidatorAdapterTests" time="0.085"/>
+  <testcase name="testApplyMessageSourceResolvableToStringArgumentValueWithUnresolvedLogicalFieldName()" classname="org.springframework.validation.beanvalidation.SpringValidatorAdapterTests" time="0.003"/>
+  <testcase name="testWithSet()" classname="org.springframework.validation.beanvalidation.SpringValidatorAdapterTests" time="0.049"/>
+  <testcase name="testApplyMessageSourceResolvableToStringArgumentValueWithAlwaysUseMessageFormat()" classname="org.springframework.validation.beanvalidation.SpringValidatorAdapterTests" time="0.004"/>
+  <testcase name="testUnwrap()" classname="org.springframework.validation.beanvalidation.SpringValidatorAdapterTests" time="0.001"/>
+  <testcase name="testApplyMessageSourceResolvableToStringArgumentValueWithResolvedLogicalFieldName()" classname="org.springframework.validation.beanvalidation.SpringValidatorAdapterTests" time="0.034"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

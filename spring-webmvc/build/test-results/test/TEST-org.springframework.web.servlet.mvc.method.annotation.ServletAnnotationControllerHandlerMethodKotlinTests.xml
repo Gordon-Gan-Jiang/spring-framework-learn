@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodKotlinTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:02:09" hostname="bamboo-18" time="0.323">
+  <properties/>
+  <testcase name="dataClassBindingWithOptionalParameterAndOnlyMissingParameters()" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodKotlinTests" time="0.196"/>
+  <testcase name="dataClassBinding()" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodKotlinTests" time="0.062"/>
+  <testcase name="dataClassBindingWithOptionalParameterAndAllParameters()" classname="org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodKotlinTests" time="0.064"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

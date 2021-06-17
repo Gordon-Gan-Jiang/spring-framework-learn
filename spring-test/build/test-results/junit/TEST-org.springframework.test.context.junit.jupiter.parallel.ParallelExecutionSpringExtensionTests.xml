@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.context.junit.jupiter.parallel.ParallelExecutionSpringExtensionTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:03" hostname="bamboo-18" time="6.869">
+  <properties/>
+  <testcase name="runTestsInParallel()[1]" classname="org.springframework.test.context.junit.jupiter.parallel.ParallelExecutionSpringExtensionTests" time="0.678"/>
+  <testcase name="runTestsInParallel()[2]" classname="org.springframework.test.context.junit.jupiter.parallel.ParallelExecutionSpringExtensionTests" time="0.757"/>
+  <testcase name="runTestsInParallel()[3]" classname="org.springframework.test.context.junit.jupiter.parallel.ParallelExecutionSpringExtensionTests" time="0.892"/>
+  <testcase name="runTestsInParallel()[4]" classname="org.springframework.test.context.junit.jupiter.parallel.ParallelExecutionSpringExtensionTests" time="0.55"/>
+  <testcase name="runTestsInParallel()[5]" classname="org.springframework.test.context.junit.jupiter.parallel.ParallelExecutionSpringExtensionTests" time="0.773"/>
+  <testcase name="runTestsInParallel()[6]" classname="org.springframework.test.context.junit.jupiter.parallel.ParallelExecutionSpringExtensionTests" time="0.7"/>
+  <testcase name="runTestsInParallel()[7]" classname="org.springframework.test.context.junit.jupiter.parallel.ParallelExecutionSpringExtensionTests" time="0.623"/>
+  <testcase name="runTestsInParallel()[8]" classname="org.springframework.test.context.junit.jupiter.parallel.ParallelExecutionSpringExtensionTests" time="0.595"/>
+  <testcase name="runTestsInParallel()[9]" classname="org.springframework.test.context.junit.jupiter.parallel.ParallelExecutionSpringExtensionTests" time="0.66"/>
+  <testcase name="runTestsInParallel()[10]" classname="org.springframework.test.context.junit.jupiter.parallel.ParallelExecutionSpringExtensionTests" time="0.64"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

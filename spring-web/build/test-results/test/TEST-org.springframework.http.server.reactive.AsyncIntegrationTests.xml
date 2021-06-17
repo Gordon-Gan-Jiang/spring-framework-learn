@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.server.reactive.AsyncIntegrationTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:45" hostname="bamboo-18" time="2.466">
+  <properties/>
+  <testcase name="basicTest(HttpServer)[1]" classname="org.springframework.http.server.reactive.AsyncIntegrationTests" time="0.651"/>
+  <testcase name="basicTest(HttpServer)[2]" classname="org.springframework.http.server.reactive.AsyncIntegrationTests" time="0.514"/>
+  <testcase name="basicTest(HttpServer)[3]" classname="org.springframework.http.server.reactive.AsyncIntegrationTests" time="0.735"/>
+  <testcase name="basicTest(HttpServer)[4]" classname="org.springframework.http.server.reactive.AsyncIntegrationTests" time="0.564"/>
+  <system-out><![CDATA[13:59:45.939 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+13:59:46.033 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 42393(0 millis).
+13:59:46.037 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:42393
+13:59:46.038 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+13:59:46.587 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+13:59:46.587 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "application/octet-stream"
+13:59:46.587 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+13:59:46.589 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+13:59:46.590 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+13:59:46.592 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 40449(0 millis).
+13:59:46.595 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:40449
+13:59:46.597 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+13:59:47.103 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+13:59:47.103 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "application/octet-stream"
+13:59:47.104 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+13:59:47.104 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+13:59:47.105 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+13:59:47.316 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 43175(0 millis).
+13:59:47.320 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:43175
+13:59:47.320 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+13:59:47.826 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+13:59:47.826 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "application/octet-stream"
+13:59:47.827 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+13:59:47.840 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+13:59:47.841 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+13:59:47.885 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 44767(0 millis).
+13:59:47.888 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:44767
+13:59:47.889 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+13:59:48.399 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+13:59:48.399 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "application/octet-stream"
+13:59:48.399 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+13:59:48.404 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+]]></system-out>
+  <system-err><![CDATA[May 29, 2020 1:59:47 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+May 29, 2020 1:59:47 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.35]
+May 29, 2020 1:59:47 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-2"]
+May 29, 2020 1:59:47 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-2-43175"]
+May 29, 2020 1:59:47 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-2-43175"]
+May 29, 2020 1:59:47 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+May 29, 2020 1:59:47 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-2-43175"]
+May 29, 2020 1:59:47 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-2-43175"]
+]]></system-err>
+</testsuite>

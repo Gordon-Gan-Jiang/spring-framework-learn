@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.core.SortedPropertiesTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:57:45" hostname="bamboo-18" time="0.089">
+  <properties/>
+  <testcase name="entrySet()" classname="org.springframework.core.SortedPropertiesTests" time="0.007"/>
+  <testcase name="storingAsXmlSortsPropertiesAndOmitsComments()" classname="org.springframework.core.SortedPropertiesTests" time="0.07"/>
+  <testcase name="keySet()" classname="org.springframework.core.SortedPropertiesTests" time="0.0"/>
+  <testcase name="entrySetFromPrototype()" classname="org.springframework.core.SortedPropertiesTests" time="0.0"/>
+  <testcase name="sortsPropertiesAndOmitsCommentsUsingWriter()" classname="org.springframework.core.SortedPropertiesTests" time="0.0"/>
+  <testcase name="keys()" classname="org.springframework.core.SortedPropertiesTests" time="0.001"/>
+  <testcase name="sortsPropertiesUsingOutputStream()" classname="org.springframework.core.SortedPropertiesTests" time="0.0"/>
+  <testcase name="keySetFromPrototype()" classname="org.springframework.core.SortedPropertiesTests" time="0.0"/>
+  <testcase name="sortsPropertiesAndOmitsCommentsUsingOutputStream()" classname="org.springframework.core.SortedPropertiesTests" time="0.0"/>
+  <testcase name="keysFromPrototype()" classname="org.springframework.core.SortedPropertiesTests" time="0.0"/>
+  <testcase name="sortsPropertiesUsingWriter()" classname="org.springframework.core.SortedPropertiesTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

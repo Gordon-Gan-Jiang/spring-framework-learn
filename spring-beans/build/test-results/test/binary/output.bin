@@ -1,0 +1,5 @@
+*+n13:57:12.683 [Test worker] WARN  o.s.b.f.c.YamlMapFactoryBean - Could not load map from non-existent: planned
+*1Ì13:57:12.736 [Test worker] WARN  o.s.b.f.c.YamlMapFactoryBean - Could not load map from file [/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-beans/non-exsitent-file.yml]: non-exsitent-file.yml
+—§Ù13:57:14.356 [Test worker] WARN  o.s.b.f.c.YamlPropertiesFactoryBean - Could not load map from class path resource [no-such-file.yml]: class path resource [no-such-file.yml] cannot be opened because it does not exist
+óôû13:57:14.603 [Test worker] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'spring-destroy': java.security.AccessControlException: access denied ("java.util.PropertyPermission" "security.destroy" "write")
+óýƒ13:57:14.821 [Test worker] WARN  o.s.b.f.s.DisposableBeanAdapter - Destroy method 'destroy' on bean with name 'custom-destroy' threw an exception: java.security.AccessControlException: access denied ("java.util.PropertyPermission" "security.destroy" "write")

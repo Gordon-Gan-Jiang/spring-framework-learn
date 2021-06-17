@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.handler.MappedInterceptorTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:01:32" hostname="bamboo-18" time="0.047">
+  <properties/>
+  <testcase name="noPatterns()" classname="org.springframework.web.servlet.handler.MappedInterceptorTests" time="0.0"/>
+  <testcase name="includePatternWithMatrixVariables()" classname="org.springframework.web.servlet.handler.MappedInterceptorTests" time="0.0"/>
+  <testcase name="includePattern()" classname="org.springframework.web.servlet.handler.MappedInterceptorTests" time="0.001"/>
+  <testcase name="customPathMatcher()" classname="org.springframework.web.servlet.handler.MappedInterceptorTests" time="0.0"/>
+  <testcase name="afterCompletion()" classname="org.springframework.web.servlet.handler.MappedInterceptorTests" time="0.028"/>
+  <testcase name="includeAndExcludePatterns()" classname="org.springframework.web.servlet.handler.MappedInterceptorTests" time="0.0"/>
+  <testcase name="postHandle()" classname="org.springframework.web.servlet.handler.MappedInterceptorTests" time="0.016"/>
+  <testcase name="excludePattern()" classname="org.springframework.web.servlet.handler.MappedInterceptorTests" time="0.0"/>
+  <testcase name="preHandle()" classname="org.springframework.web.servlet.handler.MappedInterceptorTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

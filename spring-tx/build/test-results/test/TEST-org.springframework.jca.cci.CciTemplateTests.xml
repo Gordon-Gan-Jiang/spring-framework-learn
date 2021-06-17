@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jca.cci.CciTemplateTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:23" hostname="bamboo-18" time="1.829">
+  <properties/>
+  <testcase name="testTemplateExecuteInputGeneratorTrueWithCreator()" classname="org.springframework.jca.cci.CciTemplateTests" time="0.913"/>
+  <testcase name="testTemplateExecuteInputTrueWithCreator2()" classname="org.springframework.jca.cci.CciTemplateTests" time="0.017"/>
+  <testcase name="testTemplateExecuteConnectionCallback()" classname="org.springframework.jca.cci.CciTemplateTests" time="0.045"/>
+  <testcase name="testTemplateExecuteInputFalse()" classname="org.springframework.jca.cci.CciTemplateTests" time="0.002"/>
+  <testcase name="testTemplateExecuteInputExtractorFalse()" classname="org.springframework.jca.cci.CciTemplateTests" time="0.08"/>
+  <testcase name="testCreateMappedRecord()" classname="org.springframework.jca.cci.CciTemplateTests" time="0.19"/>
+  <testcase name="testTemplateExecuteInputTrueTrue()" classname="org.springframework.jca.cci.CciTemplateTests" time="0.005"/>
+  <testcase name="testTemplateExecuteInputFalseTrue()" classname="org.springframework.jca.cci.CciTemplateTests" time="0.001"/>
+  <testcase name="testTemplateExecuteWithCreatorAndRecordFactoryNotSupported()" classname="org.springframework.jca.cci.CciTemplateTests" time="0.019"/>
+  <testcase name="testTemplateExecuteInputOutputConnectionSpec()" classname="org.springframework.jca.cci.CciTemplateTests" time="0.027"/>
+  <testcase name="testTemplateExecuteInteractionCallback()" classname="org.springframework.jca.cci.CciTemplateTests" time="0.031"/>
+  <testcase name="testTemplateExecuteInputTrueTrueWithCreator()" classname="org.springframework.jca.cci.CciTemplateTests" time="0.004"/>
+  <testcase name="testTemplateExecuteInputOutput()" classname="org.springframework.jca.cci.CciTemplateTests" time="0.001"/>
+  <testcase name="testTemplateExecuteInputGeneratorFalse()" classname="org.springframework.jca.cci.CciTemplateTests" time="0.006"/>
+  <testcase name="testTemplateExecuteInputExtractorTrueWithCreator()" classname="org.springframework.jca.cci.CciTemplateTests" time="0.003"/>
+  <testcase name="testTemplateExecuteInputGeneratorExtractorTrueWithCreator()" classname="org.springframework.jca.cci.CciTemplateTests" time="0.005"/>
+  <testcase name="testTemplateExecuteInputGeneratorExtractorFalse()" classname="org.springframework.jca.cci.CciTemplateTests" time="0.01"/>
+  <testcase name="testCreateIndexedRecord()" classname="org.springframework.jca.cci.CciTemplateTests" time="0.198"/>
+  <testcase name="testTemplateExecuteInputOutputResultsSetFalse()" classname="org.springframework.jca.cci.CciTemplateTests" time="0.255"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

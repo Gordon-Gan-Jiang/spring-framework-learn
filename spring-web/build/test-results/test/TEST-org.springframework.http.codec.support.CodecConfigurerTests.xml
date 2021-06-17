@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.support.CodecConfigurerTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:33" hostname="bamboo-18" time="0.144">
+  <properties/>
+  <testcase name="defaultsOffWithCustomWriters()" classname="org.springframework.http.codec.support.CodecConfigurerTests" time="0.043"/>
+  <testcase name="defaultReaders()" classname="org.springframework.http.codec.support.CodecConfigurerTests" time="0.007"/>
+  <testcase name="defaultWriters()" classname="org.springframework.http.codec.support.CodecConfigurerTests" time="0.001"/>
+  <testcase name="cloneDefaultCodecs()" classname="org.springframework.http.codec.support.CodecConfigurerTests" time="0.012"/>
+  <testcase name="cloneEmptyCustomCodecs()" classname="org.springframework.http.codec.support.CodecConfigurerTests" time="0.002"/>
+  <testcase name="defaultsOffCustomReaders()" classname="org.springframework.http.codec.support.CodecConfigurerTests" time="0.048"/>
+  <testcase name="defaultAndCustomReaders()" classname="org.springframework.http.codec.support.CodecConfigurerTests" time="0.003"/>
+  <testcase name="encoderDecoderOverrides()" classname="org.springframework.http.codec.support.CodecConfigurerTests" time="0.003"/>
+  <testcase name="defaultAndCustomWriters()" classname="org.springframework.http.codec.support.CodecConfigurerTests" time="0.016"/>
+  <testcase name="withDefaultCodecConfig()" classname="org.springframework.http.codec.support.CodecConfigurerTests" time="0.001"/>
+  <testcase name="cloneCustomCodecs()" classname="org.springframework.http.codec.support.CodecConfigurerTests" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.filter.CharacterEncodingFilterTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:13" hostname="bamboo-18" time="0.02">
+  <properties/>
+  <testcase name="encodingIfEmptyAndNotForced()" classname="org.springframework.web.filter.CharacterEncodingFilterTests" time="0.017"/>
+  <testcase name="doesNotIfEncodingIsNotEmptyAndNotForced()" classname="org.springframework.web.filter.CharacterEncodingFilterTests" time="0.001"/>
+  <testcase name="withBeanInitialization()" classname="org.springframework.web.filter.CharacterEncodingFilterTests" time="0.0"/>
+  <testcase name="setForceEncodingOnRequestOnly()" classname="org.springframework.web.filter.CharacterEncodingFilterTests" time="0.001"/>
+  <testcase name="forceEncodingAlwaysSetsEncoding()" classname="org.springframework.web.filter.CharacterEncodingFilterTests" time="0.001"/>
+  <testcase name="withIncompleteInitialization()" classname="org.springframework.web.filter.CharacterEncodingFilterTests" time="0.0"/>
+  <system-out><![CDATA[14:00:13.503 [Test worker] DEBUG o.s.w.f.CharacterEncodingFilter - Filter 'boot' configured for use
+14:00:13.505 [Test worker] DEBUG o.s.w.f.CharacterEncodingFilter - Filter 'boot' configured for use
+14:00:13.506 [Test worker] DEBUG o.s.w.f.CharacterEncodingFilter - Filter 'boot' configured for use
+14:00:13.507 [Test worker] DEBUG o.s.w.f.CharacterEncodingFilter - Filter 'boot' configured for use
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

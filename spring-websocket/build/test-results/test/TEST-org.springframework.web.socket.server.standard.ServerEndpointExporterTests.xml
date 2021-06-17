@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.socket.server.standard.ServerEndpointExporterTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:01:23" hostname="bamboo-18" time="0.103">
+  <properties/>
+  <testcase name="addServerEndpointConfigBeanWithExplicitServerContainer()" classname="org.springframework.web.socket.server.standard.ServerEndpointExporterTests" time="0.066"/>
+  <testcase name="addAnnotatedEndpointClassesWithExplicitServerContainerOnly()" classname="org.springframework.web.socket.server.standard.ServerEndpointExporterTests" time="0.003"/>
+  <testcase name="addServerEndpointConfigBean()" classname="org.springframework.web.socket.server.standard.ServerEndpointExporterTests" time="0.007"/>
+  <testcase name="addAnnotatedEndpointClasses()" classname="org.springframework.web.socket.server.standard.ServerEndpointExporterTests" time="0.017"/>
+  <testcase name="addAnnotatedEndpointClassesWithServletContextOnly()" classname="org.springframework.web.socket.server.standard.ServerEndpointExporterTests" time="0.005"/>
+  <testcase name="addServerEndpointConfigBeanWithExplicitServletContext()" classname="org.springframework.web.socket.server.standard.ServerEndpointExporterTests" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

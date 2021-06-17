@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.view.script.NashornScriptTemplateTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:01:59" hostname="bamboo-18" time="1.051">
+  <properties/>
+  <testcase name="renderTemplateWithUrl()" classname="org.springframework.web.reactive.result.view.script.NashornScriptTemplateTests" time="0.84"/>
+  <testcase name="renderTemplate()" classname="org.springframework.web.reactive.result.view.script.NashornScriptTemplateTests" time="0.094"/>
+  <testcase name="subscribeWithoutDemand()" classname="org.springframework.web.reactive.result.view.script.NashornScriptTemplateTests" time="0.116"/>
+  <system-out><![CDATA[14:02:00.047 [Test worker] DEBUG o.s.w.r.r.v.s.ScriptTemplateView - [482b1f7e] View [ScriptTemplateView], model {title=Layout example, body=This is the body}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

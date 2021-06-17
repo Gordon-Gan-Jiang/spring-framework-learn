@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.rsocket.DefaultRSocketRequesterBuilderTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:27" hostname="bamboo-18" time="0.155">
+  <properties/>
+  <testcase name="setupWithAsyncValues()" classname="org.springframework.messaging.rsocket.DefaultRSocketRequesterBuilderTests" time="0.047"/>
+  <testcase name="defaultDataMimeTypeWithCustomDecoderRegistered()" classname="org.springframework.messaging.rsocket.DefaultRSocketRequesterBuilderTests" time="0.013"/>
+  <testcase name="dataMimeTypeExplicitlySet()" classname="org.springframework.messaging.rsocket.DefaultRSocketRequesterBuilderTests" time="0.001"/>
+  <testcase name="mimeTypesCannotBeChangedAtRSocketConnectorLevel()" classname="org.springframework.messaging.rsocket.DefaultRSocketRequesterBuilderTests" time="0.001"/>
+  <testcase name="frameDecoderMatchesDataBufferFactory()" classname="org.springframework.messaging.rsocket.DefaultRSocketRequesterBuilderTests" time="0.019"/>
+  <testcase name="defaultDataMimeType()" classname="org.springframework.messaging.rsocket.DefaultRSocketRequesterBuilderTests" time="0.001"/>
+  <testcase name="rsocketConnectorConfigurer()" classname="org.springframework.messaging.rsocket.DefaultRSocketRequesterBuilderTests" time="0.044"/>
+  <testcase name="rsocketConnectorConfigurerAppliesAtSubscription()" classname="org.springframework.messaging.rsocket.DefaultRSocketRequesterBuilderTests" time="0.006"/>
+  <testcase name="setupRoute()" classname="org.springframework.messaging.rsocket.DefaultRSocketRequesterBuilderTests" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

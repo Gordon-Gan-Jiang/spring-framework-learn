@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.server.adapter.WebHttpHandlerBuilderTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:13" hostname="bamboo-18" time="0.133">
+  <properties/>
+  <testcase name="configWithoutFilters()" classname="org.springframework.web.server.adapter.WebHttpHandlerBuilderTests" time="0.027"/>
+  <testcase name="orderedWebExceptionHandlerBeans()" classname="org.springframework.web.server.adapter.WebHttpHandlerBuilderTests" time="0.028"/>
+  <testcase name="cloneWithApplicationContext()" classname="org.springframework.web.server.adapter.WebHttpHandlerBuilderTests" time="0.008"/>
+  <testcase name="forwardedHeaderFilter()" classname="org.springframework.web.server.adapter.WebHttpHandlerBuilderTests" time="0.025"/>
+  <testcase name="orderedWebFilterBeans()" classname="org.springframework.web.server.adapter.WebHttpHandlerBuilderTests" time="0.025"/>
+  <system-out><![CDATA[14:00:13.543 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:13.544 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [72b7ce46] HTTP GET "/"
+14:00:13.544 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [72b7ce46] Completed 200 OK
+14:00:13.568 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:13.568 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [3885719a] HTTP GET "/"
+14:00:13.572 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [3885719a] Completed 200 OK
+14:00:13.598 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:13.600 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:13.645 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:13.649 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [7417df54] HTTP GET "/"
+14:00:13.650 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [7417df54] Completed 200 OK
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

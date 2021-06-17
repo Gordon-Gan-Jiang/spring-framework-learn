@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.annotation.ConfigurationWithFactoryBeanBeanEarlyDeductionTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:02" hostname="bamboo-18" time="0.093">
+  <properties/>
+  <testcase name="preFreezeGenericMethod()" classname="org.springframework.context.annotation.ConfigurationWithFactoryBeanBeanEarlyDeductionTests" time="0.024"/>
+  <testcase name="preFreezeGenericClass()" classname="org.springframework.context.annotation.ConfigurationWithFactoryBeanBeanEarlyDeductionTests" time="0.012"/>
+  <testcase name="postFreezeAttribute()" classname="org.springframework.context.annotation.ConfigurationWithFactoryBeanBeanEarlyDeductionTests" time="0.002"/>
+  <testcase name="preFreezeAttribute()" classname="org.springframework.context.annotation.ConfigurationWithFactoryBeanBeanEarlyDeductionTests" time="0.001"/>
+  <testcase name="preFreezeUnresolvedGenericFactoryBean()" classname="org.springframework.context.annotation.ConfigurationWithFactoryBeanBeanEarlyDeductionTests" time="0.0"/>
+  <testcase name="postFreezeGenericMethod()" classname="org.springframework.context.annotation.ConfigurationWithFactoryBeanBeanEarlyDeductionTests" time="0.002"/>
+  <testcase name="preFreezeDirect()" classname="org.springframework.context.annotation.ConfigurationWithFactoryBeanBeanEarlyDeductionTests" time="0.004"/>
+  <testcase name="postFreezeDirect()" classname="org.springframework.context.annotation.ConfigurationWithFactoryBeanBeanEarlyDeductionTests" time="0.002"/>
+  <testcase name="postFreezeGenericClass()" classname="org.springframework.context.annotation.ConfigurationWithFactoryBeanBeanEarlyDeductionTests" time="0.019"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

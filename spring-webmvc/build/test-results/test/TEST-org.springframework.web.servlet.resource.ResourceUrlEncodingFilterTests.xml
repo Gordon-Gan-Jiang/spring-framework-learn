@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.resource.ResourceUrlEncodingFilterTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:01:32" hostname="bamboo-18" time="0.009">
+  <properties/>
+  <testcase name="encodeUrlWithContextAndForwardedRequest()" classname="org.springframework.web.servlet.resource.ResourceUrlEncodingFilterTests" time="0.003"/>
+  <testcase name="encodeUrlWithContext()" classname="org.springframework.web.servlet.resource.ResourceUrlEncodingFilterTests" time="0.001"/>
+  <testcase name="invalidLookupPath()" classname="org.springframework.web.servlet.resource.ResourceUrlEncodingFilterTests" time="0.001"/>
+  <testcase name="encodeUrlPreventStringOutOfBounds()" classname="org.springframework.web.servlet.resource.ResourceUrlEncodingFilterTests" time="0.001"/>
+  <testcase name="encodeContextPathUrlWithSuffix()" classname="org.springframework.web.servlet.resource.ResourceUrlEncodingFilterTests" time="0.0"/>
+  <testcase name="encodeUrlWithRequestParams()" classname="org.springframework.web.servlet.resource.ResourceUrlEncodingFilterTests" time="0.001"/>
+  <testcase name="encodeUrlWithFragment()" classname="org.springframework.web.servlet.resource.ResourceUrlEncodingFilterTests" time="0.001"/>
+  <testcase name="encodeEmptyUrlWithContext()" classname="org.springframework.web.servlet.resource.ResourceUrlEncodingFilterTests" time="0.0"/>
+  <testcase name="encodeContextPathUrlWithoutSuffix()" classname="org.springframework.web.servlet.resource.ResourceUrlEncodingFilterTests" time="0.001"/>
+  <testcase name="encodeURL()" classname="org.springframework.web.servlet.resource.ResourceUrlEncodingFilterTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

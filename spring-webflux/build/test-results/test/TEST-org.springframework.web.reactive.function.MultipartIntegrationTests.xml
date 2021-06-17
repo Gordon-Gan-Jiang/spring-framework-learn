@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.function.MultipartIntegrationTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:54" hostname="bamboo-18" time="1.818">
+  <properties/>
+  <testcase name="transferTo(HttpServer)[1]" classname="org.springframework.web.reactive.function.MultipartIntegrationTests" time="0.319"/>
+  <testcase name="transferTo(HttpServer)[2]" classname="org.springframework.web.reactive.function.MultipartIntegrationTests" time="0.031"/>
+  <testcase name="transferTo(HttpServer)[3]" classname="org.springframework.web.reactive.function.MultipartIntegrationTests" time="0.284"/>
+  <testcase name="transferTo(HttpServer)[4]" classname="org.springframework.web.reactive.function.MultipartIntegrationTests" time="0.117"/>
+  <testcase name="multipartData(HttpServer)[1]" classname="org.springframework.web.reactive.function.MultipartIntegrationTests" time="0.189"/>
+  <testcase name="multipartData(HttpServer)[2]" classname="org.springframework.web.reactive.function.MultipartIntegrationTests" time="0.042"/>
+  <testcase name="multipartData(HttpServer)[3]" classname="org.springframework.web.reactive.function.MultipartIntegrationTests" time="0.249"/>
+  <testcase name="multipartData(HttpServer)[4]" classname="org.springframework.web.reactive.function.MultipartIntegrationTests" time="0.096"/>
+  <testcase name="parts(HttpServer)[1]" classname="org.springframework.web.reactive.function.MultipartIntegrationTests" time="0.145"/>
+  <testcase name="parts(HttpServer)[2]" classname="org.springframework.web.reactive.function.MultipartIntegrationTests" time="0.019"/>
+  <testcase name="parts(HttpServer)[3]" classname="org.springframework.web.reactive.function.MultipartIntegrationTests" time="0.226"/>
+  <testcase name="parts(HttpServer)[4]" classname="org.springframework.web.reactive.function.MultipartIntegrationTests" time="0.079"/>
+  <system-out><![CDATA[14:00:54.182 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:54.182 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+14:00:54.182 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@2187814a{/,null,AVAILABLE}
+14:00:54.183 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+14:00:54.183 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.29.v20200521; built: 2020-05-21T17:20:40.598Z; git: 77c232aed8a45c818fd27232278d9f95a021095e; jvm 1.8.0_232-b09
+14:00:54.270 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@ded023e{HTTP/1.1, (http/1.1)}{0.0.0.0:36023}
+14:00:54.271 [Test worker] INFO  o.e.j.s.Server - Started @29484ms
+14:00:54.271 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 36023(0 millis).
+14:00:54.275 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [187773c1] HTTP POST http://localhost:36023/transferTo
+14:00:54.296 [reactor-http-epoll-1] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - [187773c1] Encoding parts [fooPart, barPart] (content masked)
+14:00:54.416 [qtp862483109-545] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [704f846a] HTTP POST "/transferTo"
+14:00:54.422 [qtp862483109-545] DEBUG o.s.h.c.m.SynchronossPartHttpMessageReader - [704f846a] Parsed parts 'fooPart' (content masked)
+14:00:54.434 [qtp862483109-545] DEBUG o.s.c.c.CharSequenceEncoder - [704f846a] Writing "/tmp/MultipartIntegrationTests6173013467514801989.tmp"
+14:00:54.459 [qtp862483109-545] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [704f846a] Completed 200 OK
+14:00:54.459 [reactor-http-epoll-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [187773c1] Response 200 OK
+14:00:54.460 [reactor-http-epoll-1] DEBUG o.s.c.c.StringDecoder - [187773c1] Decoded "/tmp/MultipartIntegrationTests6173013467514801989.tmp"
+14:00:54.462 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+14:00:54.463 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@2187814a{/,null,UNAVAILABLE}
+14:00:54.464 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@ded023e{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+14:00:54.465 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+14:00:54.472 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:54.473 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+14:00:54.477 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 34575(0 millis).
+14:00:54.478 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [10266fef] HTTP POST http://localhost:34575/transferTo
+14:00:54.483 [reactor-http-epoll-3] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - [10266fef] Encoding parts [fooPart, barPart] (content masked)
+14:00:54.487 [reactor-http-epoll-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [0529c8cf-19] HTTP POST "/transferTo"
+14:00:54.493 [reactor-http-epoll-4] DEBUG o.s.h.c.m.SynchronossPartHttpMessageReader - [0529c8cf-19] Parsed parts 'fooPart' (content masked)
+14:00:54.493 [reactor-http-epoll-4] DEBUG o.s.c.c.CharSequenceEncoder - [0529c8cf-19] Writing "/tmp/MultipartIntegrationTests5526360589735185166.tmp"
+14:00:54.494 [reactor-http-epoll-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [0529c8cf-19] Completed 200 OK
+14:00:54.494 [reactor-http-epoll-3] DEBUG o.s.w.r.f.c.ExchangeFunctions - [10266fef] Response 200 OK
+14:00:54.495 [reactor-http-epoll-3] DEBUG o.s.c.c.StringDecoder - [10266fef] Decoded "/tmp/MultipartIntegrationTests5526360589735185166.tmp"
+14:00:54.496 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+14:00:54.496 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+14:00:54.515 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:54.516 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+14:00:54.719 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 43789(0 millis).
+14:00:54.720 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [ea847e7] HTTP POST http://localhost:43789/transferTo
+14:00:54.727 [reactor-http-epoll-1] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - [ea847e7] Encoding parts [fooPart, barPart] (content masked)
+14:00:54.758 [http-nio-auto-19-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [45ea5506] HTTP POST "/transferTo"
+14:00:54.759 [http-nio-auto-19-exec-1] DEBUG o.s.h.c.m.SynchronossPartHttpMessageReader - [45ea5506] Parsed parts 'fooPart' (content masked)
+14:00:54.760 [http-nio-auto-19-exec-1] DEBUG o.s.c.c.CharSequenceEncoder - [45ea5506] Writing "/tmp/MultipartIntegrationTests9051755743736055332.tmp"
+14:00:54.761 [http-nio-auto-19-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [45ea5506] Completed 200 OK
+14:00:54.762 [reactor-http-epoll-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [ea847e7] Response 200 OK
+14:00:54.762 [reactor-http-epoll-1] DEBUG o.s.c.c.StringDecoder - [ea847e7] Decoded "/tmp/MultipartIntegrationTests9051755743736055332.tmp"
+14:00:54.771 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+14:00:54.784 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+14:00:54.807 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:54.807 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+14:00:54.807 [Test worker] INFO  i.undertow - starting server: Undertow - 2.0.30.Final
+14:00:54.861 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 43739(0 millis).
+14:00:54.862 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [14c310d5] HTTP POST http://localhost:43739/transferTo
+14:00:54.871 [reactor-http-epoll-2] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - [14c310d5] Encoding parts [fooPart, barPart] (content masked)
+14:00:54.888 [XNIO-19 I/O-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2ceee03c] HTTP POST "/transferTo"
+14:00:54.890 [XNIO-19 I/O-4] DEBUG o.s.h.c.m.SynchronossPartHttpMessageReader - [2ceee03c] Parsed parts 'fooPart' (content masked)
+14:00:54.890 [XNIO-19 I/O-4] DEBUG o.s.c.c.CharSequenceEncoder - [2ceee03c] Writing "/tmp/MultipartIntegrationTests1986387168296040522.tmp"
+14:00:54.891 [reactor-http-epoll-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [14c310d5] Response 200 OK
+14:00:54.892 [reactor-http-epoll-2] DEBUG o.s.c.c.StringDecoder - [14c310d5] Decoded "/tmp/MultipartIntegrationTests1986387168296040522.tmp"
+14:00:54.894 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+14:00:54.894 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.0.30.Final
+14:00:54.897 [XNIO-19 I/O-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2ceee03c] Completed 200 OK
+14:00:54.901 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+14:00:54.922 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:54.938 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+14:00:54.938 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@4ac621c8{/,null,AVAILABLE}
+14:00:54.938 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+14:00:54.941 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.29.v20200521; built: 2020-05-21T17:20:40.598Z; git: 77c232aed8a45c818fd27232278d9f95a021095e; jvm 1.8.0_232-b09
+14:00:55.029 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@1563ebfb{HTTP/1.1, (http/1.1)}{0.0.0.0:36909}
+14:00:55.029 [Test worker] INFO  o.e.j.s.Server - Started @30242ms
+14:00:55.029 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 36909(0 millis).
+14:00:55.034 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2f387081] HTTP POST http://localhost:36909/multipartData
+14:00:55.042 [reactor-http-epoll-3] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - [2f387081] Encoding parts [fooPart, barPart] (content masked)
+14:00:55.065 [qtp43586104-578] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2e181402] HTTP POST "/multipartData"
+14:00:55.069 [qtp43586104-578] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [2e181402] Parsed parts [barPart, fooPart] (content masked)
+14:00:55.071 [qtp43586104-578] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2e181402] Completed 200 OK
+14:00:55.072 [reactor-http-epoll-3] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2f387081] Response 200 OK
+14:00:55.072 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+14:00:55.073 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@4ac621c8{/,null,UNAVAILABLE}
+14:00:55.080 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@1563ebfb{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+14:00:55.087 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+14:00:55.111 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:55.111 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+14:00:55.113 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 40867(0 millis).
+14:00:55.115 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [22232833] HTTP POST http://localhost:40867/multipartData
+14:00:55.127 [reactor-http-epoll-1] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - [22232833] Encoding parts [fooPart, barPart] (content masked)
+14:00:55.130 [reactor-http-epoll-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [25a4d652-20] HTTP POST "/multipartData"
+14:00:55.132 [reactor-http-epoll-2] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [25a4d652-20] Parsed parts [barPart, fooPart] (content masked)
+14:00:55.132 [reactor-http-epoll-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [25a4d652-20] Completed 200 OK
+14:00:55.133 [reactor-http-epoll-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [22232833] Response 200 OK
+14:00:55.134 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+14:00:55.134 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+14:00:55.144 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:55.144 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+14:00:55.336 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 34775(0 millis).
+14:00:55.337 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6aa6e689] HTTP POST http://localhost:34775/multipartData
+14:00:55.339 [reactor-http-epoll-3] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - [6aa6e689] Encoding parts [fooPart, barPart] (content masked)
+14:00:55.354 [http-nio-auto-20-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [58b567bf] HTTP POST "/multipartData"
+14:00:55.359 [http-nio-auto-20-exec-1] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [58b567bf] Parsed parts [barPart, fooPart] (content masked)
+14:00:55.359 [http-nio-auto-20-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [58b567bf] Completed 200 OK
+14:00:55.366 [reactor-http-epoll-3] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6aa6e689] Response 200 OK
+14:00:55.366 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+14:00:55.386 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+14:00:55.392 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:55.392 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+14:00:55.392 [Test worker] INFO  i.undertow - starting server: Undertow - 2.0.30.Final
+14:00:55.458 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 35389(0 millis).
+14:00:55.460 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [46eef25a] HTTP POST http://localhost:35389/multipartData
+14:00:55.466 [reactor-http-epoll-4] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - [46eef25a] Encoding parts [fooPart, barPart] (content masked)
+14:00:55.472 [XNIO-20 I/O-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5647bcab] HTTP POST "/multipartData"
+14:00:55.474 [XNIO-20 I/O-4] DEBUG o.s.h.c.m.MultipartHttpMessageReader - [5647bcab] Parsed parts [barPart, fooPart] (content masked)
+14:00:55.475 [XNIO-20 I/O-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5647bcab] Completed 200 OK
+14:00:55.478 [reactor-http-epoll-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [46eef25a] Response 200 OK
+14:00:55.479 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+14:00:55.479 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.0.30.Final
+14:00:55.482 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+14:00:55.498 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:55.498 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+14:00:55.498 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@5d3308ac{/,null,AVAILABLE}
+14:00:55.498 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+14:00:55.498 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.29.v20200521; built: 2020-05-21T17:20:40.598Z; git: 77c232aed8a45c818fd27232278d9f95a021095e; jvm 1.8.0_232-b09
+14:00:55.593 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@21fdf090{HTTP/1.1, (http/1.1)}{0.0.0.0:45175}
+14:00:55.593 [Test worker] INFO  o.e.j.s.Server - Started @30806ms
+14:00:55.593 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 45175(0 millis).
+14:00:55.594 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1fe84860] HTTP POST http://localhost:45175/parts
+14:00:55.596 [reactor-http-epoll-1] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - [1fe84860] Encoding parts [fooPart, barPart] (content masked)
+14:00:55.612 [qtp1609916860-607] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [ad99e96] HTTP POST "/parts"
+14:00:55.615 [qtp1609916860-607] DEBUG o.s.h.c.m.SynchronossPartHttpMessageReader - [ad99e96] Parsed parts 'fooPart' (content masked)
+14:00:55.615 [qtp1609916860-607] DEBUG o.s.h.c.m.SynchronossPartHttpMessageReader - [ad99e96] Parsed parts 'barPart' (content masked)
+14:00:55.616 [qtp1609916860-607] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [ad99e96] Completed 200 OK
+14:00:55.616 [reactor-http-epoll-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1fe84860] Response 200 OK
+14:00:55.621 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+14:00:55.621 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@5d3308ac{/,null,UNAVAILABLE}
+14:00:55.633 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@21fdf090{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+14:00:55.637 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+14:00:55.644 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:55.644 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+14:00:55.645 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 41279(0 millis).
+14:00:55.645 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4b7b6a6e] HTTP POST http://localhost:41279/parts
+14:00:55.647 [reactor-http-epoll-3] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - [4b7b6a6e] Encoding parts [fooPart, barPart] (content masked)
+14:00:55.650 [reactor-http-epoll-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [eeada7c0-21] HTTP POST "/parts"
+14:00:55.651 [reactor-http-epoll-4] DEBUG o.s.h.c.m.SynchronossPartHttpMessageReader - [eeada7c0-21] Parsed parts 'fooPart' (content masked)
+14:00:55.652 [reactor-http-epoll-4] DEBUG o.s.h.c.m.SynchronossPartHttpMessageReader - [eeada7c0-21] Parsed parts 'barPart' (content masked)
+14:00:55.652 [reactor-http-epoll-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [eeada7c0-21] Completed 200 OK
+14:00:55.654 [reactor-http-epoll-3] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4b7b6a6e] Response 200 OK
+14:00:55.654 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+14:00:55.654 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+14:00:55.665 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:55.665 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+14:00:55.837 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 34637(0 millis).
+14:00:55.838 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [dc03958] HTTP POST http://localhost:34637/parts
+14:00:55.839 [reactor-http-epoll-1] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - [dc03958] Encoding parts [fooPart, barPart] (content masked)
+14:00:55.853 [http-nio-auto-21-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [48d3b56a] HTTP POST "/parts"
+14:00:55.854 [http-nio-auto-21-exec-1] DEBUG o.s.h.c.m.SynchronossPartHttpMessageReader - [48d3b56a] Parsed parts 'fooPart' (content masked)
+14:00:55.854 [http-nio-auto-21-exec-1] DEBUG o.s.h.c.m.SynchronossPartHttpMessageReader - [48d3b56a] Parsed parts 'barPart' (content masked)
+14:00:55.855 [http-nio-auto-21-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [48d3b56a] Completed 200 OK
+14:00:55.856 [reactor-http-epoll-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [dc03958] Response 200 OK
+14:00:55.856 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+14:00:55.884 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+14:00:55.890 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:55.890 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+14:00:55.890 [Test worker] INFO  i.undertow - starting server: Undertow - 2.0.30.Final
+14:00:55.941 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 46265(0 millis).
+14:00:55.941 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [768a3af9] HTTP POST http://localhost:46265/parts
+14:00:55.943 [reactor-http-epoll-2] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - [768a3af9] Encoding parts [fooPart, barPart] (content masked)
+14:00:55.955 [XNIO-21 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [69fd5600] HTTP POST "/parts"
+14:00:55.958 [XNIO-21 I/O-2] DEBUG o.s.h.c.m.SynchronossPartHttpMessageReader - [69fd5600] Parsed parts 'fooPart' (content masked)
+14:00:55.958 [XNIO-21 I/O-2] DEBUG o.s.h.c.m.SynchronossPartHttpMessageReader - [69fd5600] Parsed parts 'barPart' (content masked)
+14:00:55.958 [XNIO-21 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [69fd5600] Completed 200 OK
+14:00:55.959 [reactor-http-epoll-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [768a3af9] Response 200 OK
+14:00:55.959 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+14:00:55.959 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.0.30.Final
+14:00:55.965 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.config.annotation.InterceptorRegistryTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:01:04" hostname="bamboo-18" time="0.029">
+  <properties/>
+  <testcase name="addInterceptor()" classname="org.springframework.web.servlet.config.annotation.InterceptorRegistryTests" time="0.001"/>
+  <testcase name="addInterceptorWithExcludePathPatternOnly()" classname="org.springframework.web.servlet.config.annotation.InterceptorRegistryTests" time="0.0"/>
+  <testcase name="addWebRequestInterceptors()" classname="org.springframework.web.servlet.config.annotation.InterceptorRegistryTests" time="0.0"/>
+  <testcase name="addTwoInterceptors()" classname="org.springframework.web.servlet.config.annotation.InterceptorRegistryTests" time="0.001"/>
+  <testcase name="addInterceptorsWithCustomPathMatcher()" classname="org.springframework.web.servlet.config.annotation.InterceptorRegistryTests" time="0.005"/>
+  <testcase name="addWebRequestInterceptorsWithUrlPatterns()" classname="org.springframework.web.servlet.config.annotation.InterceptorRegistryTests" time="0.0"/>
+  <testcase name="orderedInterceptors()" classname="org.springframework.web.servlet.config.annotation.InterceptorRegistryTests" time="0.015"/>
+  <testcase name="nonOrderedInterceptors()" classname="org.springframework.web.servlet.config.annotation.InterceptorRegistryTests" time="0.0"/>
+  <testcase name="addWebRequestInterceptor()" classname="org.springframework.web.servlet.config.annotation.InterceptorRegistryTests" time="0.0"/>
+  <testcase name="addInterceptorsWithUrlPatterns()" classname="org.springframework.web.servlet.config.annotation.InterceptorRegistryTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

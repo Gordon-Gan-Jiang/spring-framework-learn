@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.client.RestTemplateIntegrationTests" tests="104" skipped="1" failures="0" errors="0" timestamp="2020-05-29T14:00:04" hostname="bamboo-18" time="4.292">
+  <properties/>
+  <testcase name="serverPort(ClientHttpRequestFactory)[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.033"/>
+  <testcase name="serverPort(ClientHttpRequestFactory)[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.023"/>
+  <testcase name="serverPort(ClientHttpRequestFactory)[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.021"/>
+  <testcase name="serverPort(ClientHttpRequestFactory)[4]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.046"/>
+  <testcase name="jsonPostForObjectWithJacksonView(ClientHttpRequestFactory)[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.052"/>
+  <testcase name="jsonPostForObjectWithJacksonView(ClientHttpRequestFactory)[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.027"/>
+  <testcase name="jsonPostForObjectWithJacksonView(ClientHttpRequestFactory)[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.047"/>
+  <testcase name="jsonPostForObjectWithJacksonView(ClientHttpRequestFactory)[4]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.048"/>
+  <testcase name="exchangeGet(ClientHttpRequestFactory)[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.025"/>
+  <testcase name="exchangeGet(ClientHttpRequestFactory)[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.024"/>
+  <testcase name="exchangeGet(ClientHttpRequestFactory)[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.058"/>
+  <testcase name="exchangeGet(ClientHttpRequestFactory)[4]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.03"/>
+  <testcase name="multipartMixed(ClientHttpRequestFactory)[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.045"/>
+  <testcase name="multipartMixed(ClientHttpRequestFactory)[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.044"/>
+  <testcase name="multipartMixed(ClientHttpRequestFactory)[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.062"/>
+  <testcase name="multipartMixed(ClientHttpRequestFactory)[4]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.054"/>
+  <testcase name="getNoContentTypeHeader(ClientHttpRequestFactory)[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.05"/>
+  <testcase name="getNoContentTypeHeader(ClientHttpRequestFactory)[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.022"/>
+  <testcase name="getNoContentTypeHeader(ClientHttpRequestFactory)[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.056"/>
+  <testcase name="getNoContentTypeHeader(ClientHttpRequestFactory)[4]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.018"/>
+  <testcase name="postWithoutBody(ClientHttpRequestFactory)[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.021"/>
+  <testcase name="postWithoutBody(ClientHttpRequestFactory)[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.027"/>
+  <testcase name="postWithoutBody(ClientHttpRequestFactory)[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.047"/>
+  <testcase name="postWithoutBody(ClientHttpRequestFactory)[4]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.032"/>
+  <testcase name="getNotModified(ClientHttpRequestFactory)[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.018"/>
+  <testcase name="getNotModified(ClientHttpRequestFactory)[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.06"/>
+  <testcase name="getNotModified(ClientHttpRequestFactory)[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.068"/>
+  <testcase name="getNotModified(ClientHttpRequestFactory)[4]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.03"/>
+  <testcase name="serverError(ClientHttpRequestFactory)[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.027"/>
+  <testcase name="serverError(ClientHttpRequestFactory)[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.02"/>
+  <testcase name="serverError(ClientHttpRequestFactory)[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.036"/>
+  <testcase name="serverError(ClientHttpRequestFactory)[4]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.042"/>
+  <testcase name="jsonPostForObject(ClientHttpRequestFactory)[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.034"/>
+  <testcase name="jsonPostForObject(ClientHttpRequestFactory)[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.013"/>
+  <testcase name="jsonPostForObject(ClientHttpRequestFactory)[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.034"/>
+  <testcase name="jsonPostForObject(ClientHttpRequestFactory)[4]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.041"/>
+  <testcase name="postForLocationEntity(ClientHttpRequestFactory)[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.026"/>
+  <testcase name="postForLocationEntity(ClientHttpRequestFactory)[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.036"/>
+  <testcase name="postForLocationEntity(ClientHttpRequestFactory)[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.054"/>
+  <testcase name="postForLocationEntity(ClientHttpRequestFactory)[4]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.054"/>
+  <testcase name="badRequest(ClientHttpRequestFactory)[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.023"/>
+  <testcase name="badRequest(ClientHttpRequestFactory)[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.018"/>
+  <testcase name="badRequest(ClientHttpRequestFactory)[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.047"/>
+  <testcase name="badRequest(ClientHttpRequestFactory)[4]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.034"/>
+  <testcase name="postForObject(ClientHttpRequestFactory)[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.05"/>
+  <testcase name="postForObject(ClientHttpRequestFactory)[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.025"/>
+  <testcase name="postForObject(ClientHttpRequestFactory)[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.081"/>
+  <testcase name="postForObject(ClientHttpRequestFactory)[4]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.035"/>
+  <testcase name="postForLocation(ClientHttpRequestFactory)[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.029"/>
+  <testcase name="postForLocation(ClientHttpRequestFactory)[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.028"/>
+  <testcase name="postForLocation(ClientHttpRequestFactory)[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.053"/>
+  <testcase name="postForLocation(ClientHttpRequestFactory)[4]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.019"/>
+  <testcase name="uri(ClientHttpRequestFactory)[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.113"/>
+  <testcase name="uri(ClientHttpRequestFactory)[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.11"/>
+  <testcase name="uri(ClientHttpRequestFactory)[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.06"/>
+  <testcase name="uri(ClientHttpRequestFactory)[4]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.11"/>
+  <testcase name="form(ClientHttpRequestFactory)[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.033"/>
+  <testcase name="form(ClientHttpRequestFactory)[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.016"/>
+  <testcase name="form(ClientHttpRequestFactory)[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.036"/>
+  <testcase name="form(ClientHttpRequestFactory)[4]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.034"/>
+  <testcase name="multipartRelated(ClientHttpRequestFactory)[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.029"/>
+  <testcase name="multipartRelated(ClientHttpRequestFactory)[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.05"/>
+  <testcase name="multipartRelated(ClientHttpRequestFactory)[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.036"/>
+  <testcase name="multipartRelated(ClientHttpRequestFactory)[4]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.036"/>
+  <testcase name="getEntity(ClientHttpRequestFactory)[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.047"/>
+  <testcase name="getEntity(ClientHttpRequestFactory)[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.032"/>
+  <testcase name="getEntity(ClientHttpRequestFactory)[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.039"/>
+  <testcase name="getEntity(ClientHttpRequestFactory)[4]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.029"/>
+  <testcase name="getNoResponse(ClientHttpRequestFactory)[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.024"/>
+  <testcase name="getNoResponse(ClientHttpRequestFactory)[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.023"/>
+  <testcase name="getNoResponse(ClientHttpRequestFactory)[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.052"/>
+  <testcase name="getNoResponse(ClientHttpRequestFactory)[4]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.037"/>
+  <testcase name="patchForObject(ClientHttpRequestFactory)[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.008">
+    <skipped/>
+  </testcase>
+  <testcase name="patchForObject(ClientHttpRequestFactory)[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.026"/>
+  <testcase name="patchForObject(ClientHttpRequestFactory)[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.037"/>
+  <testcase name="patchForObject(ClientHttpRequestFactory)[4]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.037"/>
+  <testcase name="getString(ClientHttpRequestFactory)[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.027"/>
+  <testcase name="getString(ClientHttpRequestFactory)[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.033"/>
+  <testcase name="getString(ClientHttpRequestFactory)[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.058"/>
+  <testcase name="getString(ClientHttpRequestFactory)[4]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.031"/>
+  <testcase name="optionsForAllow(ClientHttpRequestFactory)[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.028"/>
+  <testcase name="optionsForAllow(ClientHttpRequestFactory)[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.02"/>
+  <testcase name="optionsForAllow(ClientHttpRequestFactory)[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.05"/>
+  <testcase name="optionsForAllow(ClientHttpRequestFactory)[4]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.041"/>
+  <testcase name="exchangePost(ClientHttpRequestFactory)[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.035"/>
+  <testcase name="exchangePost(ClientHttpRequestFactory)[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.02"/>
+  <testcase name="exchangePost(ClientHttpRequestFactory)[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.057"/>
+  <testcase name="exchangePost(ClientHttpRequestFactory)[4]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.044"/>
+  <testcase name="getNoContent(ClientHttpRequestFactory)[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.037"/>
+  <testcase name="getNoContent(ClientHttpRequestFactory)[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.057"/>
+  <testcase name="getNoContent(ClientHttpRequestFactory)[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.065"/>
+  <testcase name="getNoContent(ClientHttpRequestFactory)[4]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.039"/>
+  <testcase name="notFound(ClientHttpRequestFactory)[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.027"/>
+  <testcase name="notFound(ClientHttpRequestFactory)[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.035"/>
+  <testcase name="notFound(ClientHttpRequestFactory)[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.048"/>
+  <testcase name="notFound(ClientHttpRequestFactory)[4]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.035"/>
+  <testcase name="multipartFormData(ClientHttpRequestFactory)[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.021"/>
+  <testcase name="multipartFormData(ClientHttpRequestFactory)[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.033"/>
+  <testcase name="multipartFormData(ClientHttpRequestFactory)[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.041"/>
+  <testcase name="multipartFormData(ClientHttpRequestFactory)[4]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.035"/>
+  <testcase name="jsonPostForObjectWithJacksonTypeInfoList(ClientHttpRequestFactory)[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.071"/>
+  <testcase name="jsonPostForObjectWithJacksonTypeInfoList(ClientHttpRequestFactory)[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.052"/>
+  <testcase name="jsonPostForObjectWithJacksonTypeInfoList(ClientHttpRequestFactory)[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.097"/>
+  <testcase name="jsonPostForObjectWithJacksonTypeInfoList(ClientHttpRequestFactory)[4]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.048"/>
+  <system-out><![CDATA[14:00:04.800 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:59861/get
+14:00:04.800 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:04.814 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:04.814 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:04.827 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:37105/get
+14:00:04.827 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:04.838 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:04.838 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:04.853 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:46157/get
+14:00:04.853 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:04.859 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:04.859 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:04.892 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:51481/get
+14:00:04.893 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:04.906 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:04.906 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:04.927 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:44321/jsonpost
+14:00:04.927 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:04.939 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [org.springframework.http.converter.json.MappingJacksonValue@7b8301aa] as "application/json;charset=UTF-8"
+14:00:04.960 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 201 CREATED
+14:00:04.960 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "application/json;charset=utf-8"
+14:00:04.974 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:37481/jsonpost
+14:00:04.975 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:04.976 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [org.springframework.http.converter.json.MappingJacksonValue@2b3106d5] as "application/json;charset=UTF-8"
+14:00:04.986 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 201 CREATED
+14:00:04.986 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "application/json;charset=utf-8"
+14:00:04.999 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:37273/jsonpost
+14:00:04.999 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:05.003 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [org.springframework.http.converter.json.MappingJacksonValue@1f768c69] as "application/json;charset=UTF-8"
+14:00:05.035 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 201 CREATED
+14:00:05.035 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "application/json;charset=utf-8"
+14:00:05.047 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:54151/jsonpost
+14:00:05.047 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:05.061 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [org.springframework.http.converter.json.MappingJacksonValue@3b598775] as "application/json;charset=UTF-8"
+14:00:05.082 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 201 CREATED
+14:00:05.084 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "application/json;charset=utf-8"
+14:00:05.096 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:41569/get
+14:00:05.096 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:05.110 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:05.111 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:05.127 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:44549/get
+14:00:05.128 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:05.134 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:05.134 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:05.148 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:35109/get
+14:00:05.149 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:05.195 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:05.195 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:05.214 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:39525/get
+14:00:05.214 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:05.226 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:05.226 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:05.243 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:56383/multipartMixed
+14:00:05.243 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{name 1=[value 1], name 2=[value 2+1, value 2+2], logo=[class path resource [org/springframework/http/converter/logo.jpg]]}] as "multipart/mixed"
+14:00:05.271 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:05.288 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:54399/multipartMixed
+14:00:05.288 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{name 1=[value 1], name 2=[value 2+1, value 2+2], logo=[class path resource [org/springframework/http/converter/logo.jpg]]}] as "multipart/mixed"
+14:00:05.316 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:05.347 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:56733/multipartMixed
+14:00:05.348 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{name 1=[value 1], name 2=[value 2+1, value 2+2], logo=[class path resource [org/springframework/http/converter/logo.jpg]]}] as "multipart/mixed"
+14:00:05.379 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:05.399 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:58993/multipartMixed
+14:00:05.399 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{name 1=[value 1], name 2=[value 2+1, value 2+2], logo=[class path resource [org/springframework/http/converter/logo.jpg]]}] as "multipart/mixed"
+14:00:05.433 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:05.448 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:55283/get/nocontenttype
+14:00:05.448 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:05.486 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:05.486 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "application/octet-stream"
+14:00:05.500 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49997/get/nocontenttype
+14:00:05.500 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:05.506 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:05.507 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "application/octet-stream"
+14:00:05.529 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:59231/get/nocontenttype
+14:00:05.529 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:05.559 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:05.559 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "application/octet-stream"
+14:00:05.572 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:56327/get/nocontenttype
+14:00:05.573 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:05.581 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:05.582 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "application/octet-stream"
+14:00:05.598 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:56533/jsonpost
+14:00:05.598 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:05.606 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 201 CREATED
+14:00:05.620 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:52513/jsonpost
+14:00:05.620 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:05.633 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 201 CREATED
+14:00:05.645 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:33233/jsonpost
+14:00:05.645 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:05.681 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 201 CREATED
+14:00:05.694 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:51735/jsonpost
+14:00:05.695 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:05.714 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 201 CREATED
+14:00:05.729 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:38349/status/notmodified
+14:00:05.729 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:05.733 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 304 NOT_MODIFIED
+14:00:05.733 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:38349/status/notmodified
+14:00:05.733 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:05.734 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 304 NOT_MODIFIED
+14:00:05.756 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:34321/status/notmodified
+14:00:05.756 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:05.791 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 304 NOT_MODIFIED
+14:00:05.791 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:34321/status/notmodified
+14:00:05.791 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:05.792 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 304 NOT_MODIFIED
+14:00:05.808 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:48699/status/notmodified
+14:00:05.808 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:05.846 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 304 NOT_MODIFIED
+14:00:05.846 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:48699/status/notmodified
+14:00:05.846 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:05.862 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 304 NOT_MODIFIED
+14:00:05.872 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:33371/status/notmodified
+14:00:05.872 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:05.891 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 304 NOT_MODIFIED
+14:00:05.891 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:33371/status/notmodified
+14:00:05.892 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:05.893 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 304 NOT_MODIFIED
+14:00:05.920 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:32771/status/server
+14:00:05.922 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 500 INTERNAL_SERVER_ERROR
+14:00:05.932 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49823/status/server
+14:00:05.942 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 500 INTERNAL_SERVER_ERROR
+14:00:05.950 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:43871/status/server
+14:00:05.971 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 500 INTERNAL_SERVER_ERROR
+14:00:06.003 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:58601/status/server
+14:00:06.019 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 500 INTERNAL_SERVER_ERROR
+14:00:06.029 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:32809/jsonpost
+14:00:06.029 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:06.030 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [org.springframework.web.client.RestTemplateIntegrationTests$MySampleBean@7fb58055] as "application/json;charset=UTF-8"
+14:00:06.054 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 201 CREATED
+14:00:06.055 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "application/json;charset=utf-8"
+14:00:06.067 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:35301/jsonpost
+14:00:06.067 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:06.068 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [org.springframework.web.client.RestTemplateIntegrationTests$MySampleBean@5416fcaf] as "application/json;charset=UTF-8"
+14:00:06.070 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 201 CREATED
+14:00:06.070 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "application/json;charset=utf-8"
+14:00:06.079 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:59895/jsonpost
+14:00:06.079 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:06.080 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [org.springframework.web.client.RestTemplateIntegrationTests$MySampleBean@74c24778] as "application/json;charset=UTF-8"
+14:00:06.103 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 201 CREATED
+14:00:06.103 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "application/json;charset=utf-8"
+14:00:06.113 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:55515/jsonpost
+14:00:06.113 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:06.114 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [org.springframework.web.client.RestTemplateIntegrationTests$MySampleBean@496c13e9] as "application/json;charset=UTF-8"
+14:00:06.145 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 201 CREATED
+14:00:06.145 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "application/json;charset=utf-8"
+14:00:06.160 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:50869/post
+14:00:06.160 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [Héllo Wörld] as "text/plain;charset=ISO-8859-1"
+14:00:06.170 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 201 CREATED
+14:00:06.192 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:41395/post
+14:00:06.192 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [Héllo Wörld] as "text/plain;charset=ISO-8859-1"
+14:00:06.209 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 201 CREATED
+14:00:06.231 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:41873/post
+14:00:06.231 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [Héllo Wörld] as "text/plain;charset=ISO-8859-1"
+14:00:06.263 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 201 CREATED
+14:00:06.283 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:35595/post
+14:00:06.284 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [Héllo Wörld] as "text/plain;charset=ISO-8859-1"
+14:00:06.314 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 201 CREATED
+14:00:06.327 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:55569/status/badrequest
+14:00:06.342 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 400 BAD_REQUEST
+14:00:06.352 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:36355/status/badrequest
+14:00:06.361 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 400 BAD_REQUEST
+14:00:06.380 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:58843/status/badrequest
+14:00:06.410 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 400 BAD_REQUEST
+14:00:06.418 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53923/status/badrequest
+14:00:06.443 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 400 BAD_REQUEST
+14:00:06.459 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:50201/post
+14:00:06.460 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:06.460 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [Héllo Wörld] with org.springframework.http.converter.StringHttpMessageConverter
+14:00:06.492 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 201 CREATED
+14:00:06.493 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:06.511 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:43401/post
+14:00:06.511 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:06.511 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [Héllo Wörld] with org.springframework.http.converter.StringHttpMessageConverter
+14:00:06.522 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 201 CREATED
+14:00:06.522 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:06.555 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:32987/post
+14:00:06.555 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:06.555 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [Héllo Wörld] with org.springframework.http.converter.StringHttpMessageConverter
+14:00:06.602 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 201 CREATED
+14:00:06.602 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:06.611 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:49573/post
+14:00:06.611 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:06.611 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [Héllo Wörld] with org.springframework.http.converter.StringHttpMessageConverter
+14:00:06.639 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 201 CREATED
+14:00:06.639 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:06.649 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:44757/post
+14:00:06.649 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [Héllo Wörld] with org.springframework.http.converter.StringHttpMessageConverter
+14:00:06.669 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 201 CREATED
+14:00:06.686 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:60089/post
+14:00:06.686 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [Héllo Wörld] with org.springframework.http.converter.StringHttpMessageConverter
+14:00:06.696 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 201 CREATED
+14:00:06.714 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:57747/post
+14:00:06.714 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [Héllo Wörld] with org.springframework.http.converter.StringHttpMessageConverter
+14:00:06.747 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 201 CREATED
+14:00:06.762 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:59573/post
+14:00:06.762 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [Héllo Wörld] with org.springframework.http.converter.StringHttpMessageConverter
+14:00:06.771 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 201 CREATED
+14:00:06.779 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:45313/uri/Z%C3%BCrich
+14:00:06.780 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:06.792 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:06.792 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain"
+14:00:06.793 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:45313/uri/query=foo@bar
+14:00:06.793 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:06.799 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:06.841 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain"
+14:00:06.842 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:45313/uri/query=T%C5%8Dky%C5%8D
+14:00:06.842 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:06.842 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:06.885 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain"
+14:00:06.899 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:37383/uri/Z%C3%BCrich
+14:00:06.899 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:06.909 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:06.909 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain"
+14:00:06.909 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:37383/uri/query=foo@bar
+14:00:06.909 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:06.916 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:06.953 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain"
+14:00:06.954 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:37383/uri/query=T%C5%8Dky%C5%8D
+14:00:06.954 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:06.956 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:06.997 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain"
+14:00:07.006 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:39005/uri/Z%C3%BCrich
+14:00:07.006 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:07.024 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:07.025 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain"
+14:00:07.025 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:39005/uri/query=foo@bar
+14:00:07.025 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:07.041 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:07.041 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain"
+14:00:07.042 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:39005/uri/query=T%C5%8Dky%C5%8D
+14:00:07.042 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:07.058 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:07.059 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain"
+14:00:07.065 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:42815/uri/Z%C3%BCrich
+14:00:07.065 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:07.082 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:07.082 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain"
+14:00:07.082 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:42815/uri/query=foo@bar
+14:00:07.082 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:07.085 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:07.125 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain"
+14:00:07.125 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:42815/uri/query=T%C5%8Dky%C5%8D
+14:00:07.126 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:07.126 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:07.169 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain"
+14:00:07.186 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:54859/form
+14:00:07.186 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{name 1=[value 1], name 2=[value 2+1, value 2+2]}] with org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter
+14:00:07.202 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:07.212 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:35159/form
+14:00:07.212 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{name 1=[value 1], name 2=[value 2+1, value 2+2]}] with org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter
+14:00:07.221 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:07.229 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:57803/form
+14:00:07.229 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{name 1=[value 1], name 2=[value 2+1, value 2+2]}] with org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter
+14:00:07.258 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:07.272 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:43061/form
+14:00:07.272 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{name 1=[value 1], name 2=[value 2+1, value 2+2]}] with org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter
+14:00:07.285 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:07.306 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:33991/multipartRelated
+14:00:07.306 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{name 1=[value 1], name 2=[value 2+1, value 2+2], logo=[class path resource [org/springframework/http/converter/logo.jpg]]}] as "multipart/related"
+14:00:07.323 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:07.335 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:34671/multipartRelated
+14:00:07.335 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{name 1=[value 1], name 2=[value 2+1, value 2+2], logo=[class path resource [org/springframework/http/converter/logo.jpg]]}] as "multipart/related"
+14:00:07.373 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:07.387 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:42915/multipartRelated
+14:00:07.387 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{name 1=[value 1], name 2=[value 2+1, value 2+2], logo=[class path resource [org/springframework/http/converter/logo.jpg]]}] as "multipart/related"
+14:00:07.408 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:07.419 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:54411/multipartRelated
+14:00:07.419 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{name 1=[value 1], name 2=[value 2+1, value 2+2], logo=[class path resource [org/springframework/http/converter/logo.jpg]]}] as "multipart/related"
+14:00:07.445 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:07.475 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52211/get
+14:00:07.475 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:07.490 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:07.490 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:07.509 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:55919/get
+14:00:07.509 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:07.527 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:07.527 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:07.531 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:59853/get
+14:00:07.531 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:07.566 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:07.566 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:07.577 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:42605/get
+14:00:07.577 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:07.592 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:07.593 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:07.606 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:45227/get/nothing
+14:00:07.606 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:07.622 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:07.633 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:42879/get/nothing
+14:00:07.633 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:07.647 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:07.660 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:32827/get/nothing
+14:00:07.660 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:07.698 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:07.711 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:42799/get/nothing
+14:00:07.711 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:07.736 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:07.756 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP PATCH http://localhost:60707/patch
+14:00:07.756 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:07.756 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [Héllo Wörld] with org.springframework.http.converter.StringHttpMessageConverter
+14:00:07.772 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 201 CREATED
+14:00:07.772 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:07.779 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP PATCH http://localhost:41771/patch
+14:00:07.779 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:07.779 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [Héllo Wörld] with org.springframework.http.converter.StringHttpMessageConverter
+14:00:07.808 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 201 CREATED
+14:00:07.808 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:07.818 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP PATCH http://localhost:45979/patch
+14:00:07.819 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:07.819 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [Héllo Wörld] with org.springframework.http.converter.StringHttpMessageConverter
+14:00:07.846 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 201 CREATED
+14:00:07.846 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:07.861 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:34643/get
+14:00:07.861 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:07.875 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:07.875 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:07.892 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:41359/get
+14:00:07.892 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:07.905 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:07.905 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:07.922 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:37751/get
+14:00:07.922 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:07.965 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:07.965 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:07.984 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:33581/get
+14:00:07.984 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:07.998 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:07.998 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:08.014 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:48177/get
+14:00:08.028 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:08.039 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:45767/get
+14:00:08.048 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:08.058 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:60585/get
+14:00:08.091 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:08.115 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP OPTIONS http://localhost:57269/get
+14:00:08.140 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:08.156 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:54037/post
+14:00:08.156 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+14:00:08.157 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [Héllo Wörld] as "text/plain"
+14:00:08.170 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 201 CREATED
+14:00:08.188 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:34907/post
+14:00:08.188 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+14:00:08.188 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [Héllo Wörld] as "text/plain"
+14:00:08.198 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 201 CREATED
+14:00:08.216 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:45647/post
+14:00:08.216 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+14:00:08.216 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [Héllo Wörld] as "text/plain"
+14:00:08.254 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 201 CREATED
+14:00:08.269 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:37797/post
+14:00:08.270 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+14:00:08.270 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [Héllo Wörld] as "text/plain"
+14:00:08.291 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 201 CREATED
+14:00:08.317 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:59815/status/nocontent
+14:00:08.317 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:08.330 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 204 NO_CONTENT
+14:00:08.331 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:59815/status/nocontent
+14:00:08.331 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:08.337 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 204 NO_CONTENT
+14:00:08.359 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:34361/status/nocontent
+14:00:08.359 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:08.386 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 204 NO_CONTENT
+14:00:08.386 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:34361/status/nocontent
+14:00:08.386 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:08.393 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 204 NO_CONTENT
+14:00:08.407 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:59167/status/nocontent
+14:00:08.407 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:08.435 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 204 NO_CONTENT
+14:00:08.435 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:59167/status/nocontent
+14:00:08.436 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:08.459 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 204 NO_CONTENT
+14:00:08.468 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:56849/status/nocontent
+14:00:08.468 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:08.496 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 204 NO_CONTENT
+14:00:08.497 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:56849/status/nocontent
+14:00:08.497 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:08.500 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 204 NO_CONTENT
+14:00:08.520 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53053/status/notfound
+14:00:08.533 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 404 NOT_FOUND
+14:00:08.548 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50729/status/notfound
+14:00:08.560 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 404 NOT_FOUND
+14:00:08.583 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:36477/status/notfound
+14:00:08.605 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 404 NOT_FOUND
+14:00:08.628 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:36607/status/notfound
+14:00:08.649 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 404 NOT_FOUND
+14:00:08.680 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:44201/multipartFormData
+14:00:08.680 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{name 1=[value 1], name 2=[value 2+1, value 2+2], logo=[class path resource [org/springframework/http/converter/logo.jpg]]}] with org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter
+14:00:08.691 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:08.711 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:36161/multipartFormData
+14:00:08.711 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{name 1=[value 1], name 2=[value 2+1, value 2+2], logo=[class path resource [org/springframework/http/converter/logo.jpg]]}] with org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter
+14:00:08.718 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:08.742 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:54691/multipartFormData
+14:00:08.742 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{name 1=[value 1], name 2=[value 2+1, value 2+2], logo=[class path resource [org/springframework/http/converter/logo.jpg]]}] with org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter
+14:00:08.767 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:08.774 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:45131/multipartFormData
+14:00:08.774 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{name 1=[value 1], name 2=[value 2+1, value 2+2], logo=[class path resource [org/springframework/http/converter/logo.jpg]]}] with org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter
+14:00:08.798 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:08.821 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:37773/jsonpost
+14:00:08.821 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:08.826 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [[org.springframework.web.client.RestTemplateIntegrationTests$Foo@104a1002, org.springframework.web.client.RestTemplateIntegrationTests$Bar@5aeb0e83]] as "application/json;charset=UTF-8"
+14:00:08.876 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 201 CREATED
+14:00:08.876 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "application/json;charset=utf-8"
+14:00:08.898 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:51905/jsonpost
+14:00:08.899 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:08.899 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [[org.springframework.web.client.RestTemplateIntegrationTests$Foo@8ec8c4a, org.springframework.web.client.RestTemplateIntegrationTests$Bar@161c844]] as "application/json;charset=UTF-8"
+14:00:08.922 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 201 CREATED
+14:00:08.922 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "application/json;charset=utf-8"
+14:00:08.939 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:35705/jsonpost
+14:00:08.939 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:08.939 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [[org.springframework.web.client.RestTemplateIntegrationTests$Foo@754f78aa, org.springframework.web.client.RestTemplateIntegrationTests$Bar@6765ddca]] as "application/json;charset=UTF-8"
+14:00:09.011 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 201 CREATED
+14:00:09.011 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "application/json;charset=utf-8"
+14:00:09.039 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:43785/jsonpost
+14:00:09.039 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+14:00:09.039 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [[org.springframework.web.client.RestTemplateIntegrationTests$Foo@50e6aa5b, org.springframework.web.client.RestTemplateIntegrationTests$Bar@76df93c5]] as "application/json;charset=UTF-8"
+14:00:09.073 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 201 CREATED
+14:00:09.073 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "application/json;charset=utf-8"
+]]></system-out>
+  <system-err><![CDATA[May 29, 2020 2:00:04 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[59861] starting to accept connections
+May 29, 2020 2:00:04 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[59861] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:04 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[59861] done accepting connections: Socket closed
+May 29, 2020 2:00:04 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[37105] starting to accept connections
+May 29, 2020 2:00:04 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[37105] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:04 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[37105] done accepting connections: Socket closed
+May 29, 2020 2:00:04 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[46157] starting to accept connections
+May 29, 2020 2:00:04 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[46157] done accepting connections: Socket closed
+May 29, 2020 2:00:04 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[46157] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:04 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[51481] starting to accept connections
+May 29, 2020 2:00:04 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[51481] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:04 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[51481] done accepting connections: Socket closed
+May 29, 2020 2:00:04 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[44321] starting to accept connections
+May 29, 2020 2:00:04 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[44321] received request: POST /jsonpost HTTP/1.1 and responded: HTTP/1.1 201 OK
+May 29, 2020 2:00:04 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[44321] done accepting connections: Socket closed
+May 29, 2020 2:00:04 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[37481] starting to accept connections
+May 29, 2020 2:00:04 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[37481] received request: POST /jsonpost HTTP/1.1 and responded: HTTP/1.1 201 OK
+May 29, 2020 2:00:04 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[37481] done accepting connections: Socket closed
+May 29, 2020 2:00:04 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[37273] starting to accept connections
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[37273] received request: POST /jsonpost HTTP/1.1 and responded: HTTP/1.1 201 OK
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[37273] done accepting connections: Socket closed
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[54151] starting to accept connections
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[54151] received request: POST /jsonpost HTTP/1.1 and responded: HTTP/1.1 201 OK
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[54151] done accepting connections: Socket closed
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[41569] starting to accept connections
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[41569] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[41569] done accepting connections: Socket closed
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[44549] starting to accept connections
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[44549] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[44549] done accepting connections: Socket closed
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[35109] starting to accept connections
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[35109] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[35109] done accepting connections: Socket closed
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[39525] starting to accept connections
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[39525] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[39525] done accepting connections: Socket closed
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[56383] starting to accept connections
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[56383] received request: POST /multipartMixed HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[56383] done accepting connections: Socket closed
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[54399] starting to accept connections
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[54399] received request: POST /multipartMixed HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[54399] done accepting connections: Socket closed
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[56733] starting to accept connections
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[56733] received request: POST /multipartMixed HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[56733] done accepting connections: Socket closed
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[58993] starting to accept connections
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[58993] received request: POST /multipartMixed HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[58993] done accepting connections: Socket closed
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[55283] starting to accept connections
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[55283] received request: GET /get/nocontenttype HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[55283] done accepting connections: Socket closed
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49997] starting to accept connections
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49997] received request: GET /get/nocontenttype HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49997] done accepting connections: Socket closed
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[59231] starting to accept connections
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[59231] received request: GET /get/nocontenttype HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[59231] done accepting connections: Socket closed
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[56327] starting to accept connections
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[56327] received request: GET /get/nocontenttype HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[56327] done accepting connections: Socket closed
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[56533] starting to accept connections
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[56533] received request: POST /jsonpost HTTP/1.1 and responded: HTTP/1.1 201 OK
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[56533] done accepting connections: Socket closed
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[52513] starting to accept connections
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[52513] received request: POST /jsonpost HTTP/1.1 and responded: HTTP/1.1 201 OK
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[52513] done accepting connections: Socket closed
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[33233] starting to accept connections
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[33233] received request: POST /jsonpost HTTP/1.1 and responded: HTTP/1.1 201 OK
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[33233] done accepting connections: Socket closed
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[51735] starting to accept connections
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[51735] received request: POST /jsonpost HTTP/1.1 and responded: HTTP/1.1 201 OK
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[51735] done accepting connections: Socket closed
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[38349] starting to accept connections
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[38349] received request: GET /status/notmodified HTTP/1.1 and responded: HTTP/1.1 304 Redirection
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[38349] received request: GET /status/notmodified HTTP/1.1 and responded: HTTP/1.1 304 Redirection
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[38349] done accepting connections: Socket closed
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[34321] starting to accept connections
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[34321] received request: GET /status/notmodified HTTP/1.1 and responded: HTTP/1.1 304 Redirection
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[34321] done accepting connections: Socket closed
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[34321] received request: GET /status/notmodified HTTP/1.1 and responded: HTTP/1.1 304 Redirection
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[48699] starting to accept connections
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[48699] received request: GET /status/notmodified HTTP/1.1 and responded: HTTP/1.1 304 Redirection
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[48699] received request: GET /status/notmodified HTTP/1.1 and responded: HTTP/1.1 304 Redirection
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[48699] done accepting connections: Socket closed
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[33371] starting to accept connections
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[33371] received request: GET /status/notmodified HTTP/1.1 and responded: HTTP/1.1 304 Redirection
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[33371] received request: GET /status/notmodified HTTP/1.1 and responded: HTTP/1.1 304 Redirection
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[33371] done accepting connections: Socket closed
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[32771] starting to accept connections
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[32771] received request: GET /status/server HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[32771] done accepting connections: Socket closed
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49823] starting to accept connections
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49823] received request: GET /status/server HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49823] done accepting connections: Socket closed
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[43871] starting to accept connections
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[43871] done accepting connections: Socket closed
+May 29, 2020 2:00:05 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[43871] received request: GET /status/server HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[58601] starting to accept connections
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[58601] received request: GET /status/server HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[58601] done accepting connections: Socket closed
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[32809] starting to accept connections
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[32809] received request: POST /jsonpost HTTP/1.1 and responded: HTTP/1.1 201 OK
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[32809] done accepting connections: Socket closed
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[35301] starting to accept connections
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[35301] received request: POST /jsonpost HTTP/1.1 and responded: HTTP/1.1 201 OK
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[35301] done accepting connections: Socket closed
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[59895] starting to accept connections
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[59895] received request: POST /jsonpost HTTP/1.1 and responded: HTTP/1.1 201 OK
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[59895] done accepting connections: Socket closed
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[55515] starting to accept connections
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[55515] done accepting connections: Socket closed
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[55515] received request: POST /jsonpost HTTP/1.1 and responded: HTTP/1.1 201 OK
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[50869] starting to accept connections
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[50869] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[50869] done accepting connections: Socket closed
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[41395] starting to accept connections
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[41395] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[41395] done accepting connections: Socket closed
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[41873] starting to accept connections
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[41873] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[41873] done accepting connections: Socket closed
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[35595] starting to accept connections
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[35595] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[35595] done accepting connections: Socket closed
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[55569] starting to accept connections
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[55569] received request: GET /status/badrequest HTTP/1.1 and responded: HTTP/1.1 400 Client Error
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[55569] done accepting connections: Socket closed
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[36355] starting to accept connections
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[36355] received request: GET /status/badrequest HTTP/1.1 and responded: HTTP/1.1 400 Client Error
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[36355] done accepting connections: Socket closed
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[58843] starting to accept connections
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[58843] received request: GET /status/badrequest HTTP/1.1 and responded: HTTP/1.1 400 Client Error
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[58843] done accepting connections: Socket closed
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[53923] starting to accept connections
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[53923] received request: GET /status/badrequest HTTP/1.1 and responded: HTTP/1.1 400 Client Error
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[53923] done accepting connections: Socket closed
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[50201] starting to accept connections
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[50201] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[50201] done accepting connections: Socket closed
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[43401] starting to accept connections
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[43401] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[43401] done accepting connections: Socket closed
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[32987] starting to accept connections
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[32987] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[32987] done accepting connections: Socket closed
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49573] starting to accept connections
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49573] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49573] done accepting connections: Socket closed
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[44757] starting to accept connections
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[44757] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[44757] done accepting connections: Socket closed
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[60089] starting to accept connections
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[60089] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[60089] done accepting connections: Socket closed
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[57747] starting to accept connections
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[57747] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[57747] done accepting connections: Socket closed
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[59573] starting to accept connections
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[59573] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[59573] done accepting connections: Socket closed
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[45313] starting to accept connections
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[45313] received request: GET /uri/Z%C3%BCrich HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[45313] received request: GET /uri/query=foo@bar HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[45313] received request: GET /uri/query=T%C5%8Dky%C5%8D HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[45313] done accepting connections: Socket closed
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[37383] starting to accept connections
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[37383] received request: GET /uri/Z%C3%BCrich HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[37383] received request: GET /uri/query=foo@bar HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[37383] received request: GET /uri/query=T%C5%8Dky%C5%8D HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:06 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[37383] done accepting connections: Socket closed
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[39005] starting to accept connections
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[39005] received request: GET /uri/Z%C3%BCrich HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[39005] received request: GET /uri/query=foo@bar HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[39005] received request: GET /uri/query=T%C5%8Dky%C5%8D HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[39005] done accepting connections: Socket closed
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[42815] starting to accept connections
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[42815] received request: GET /uri/Z%C3%BCrich HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[42815] received request: GET /uri/query=foo@bar HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[42815] received request: GET /uri/query=T%C5%8Dky%C5%8D HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[42815] done accepting connections: Socket closed
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[54859] starting to accept connections
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[54859] received request: POST /form HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[54859] done accepting connections: Socket closed
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[35159] starting to accept connections
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[35159] received request: POST /form HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[35159] done accepting connections: Socket closed
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[57803] starting to accept connections
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[57803] received request: POST /form HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[57803] done accepting connections: Socket closed
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[43061] starting to accept connections
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[43061] received request: POST /form HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[43061] done accepting connections: Socket closed
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[33991] starting to accept connections
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[33991] received request: POST /multipartRelated HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[33991] done accepting connections: Socket closed
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[34671] starting to accept connections
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[34671] received request: POST /multipartRelated HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[34671] done accepting connections: Socket closed
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[42915] starting to accept connections
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[42915] done accepting connections: Socket closed
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[42915] received request: POST /multipartRelated HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[54411] starting to accept connections
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[54411] received request: POST /multipartRelated HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[54411] done accepting connections: Socket closed
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[52211] starting to accept connections
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[52211] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[52211] done accepting connections: Socket closed
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[55919] starting to accept connections
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[55919] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[55919] done accepting connections: Socket closed
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[59853] starting to accept connections
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[59853] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[59853] done accepting connections: Socket closed
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[42605] starting to accept connections
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[42605] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[42605] done accepting connections: Socket closed
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[45227] starting to accept connections
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[45227] received request: GET /get/nothing HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[45227] done accepting connections: Socket closed
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[42879] starting to accept connections
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[42879] received request: GET /get/nothing HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[42879] done accepting connections: Socket closed
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[32827] starting to accept connections
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[32827] received request: GET /get/nothing HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[32827] done accepting connections: Socket closed
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[42799] starting to accept connections
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[42799] received request: GET /get/nothing HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[42799] done accepting connections: Socket closed
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[59467] starting to accept connections
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[59467] done accepting connections: Socket is closed
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[60707] starting to accept connections
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[60707] received request: PATCH /patch HTTP/1.1 and responded: HTTP/1.1 201 OK
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[60707] done accepting connections: Socket closed
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[41771] starting to accept connections
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[41771] received request: PATCH /patch HTTP/1.1 and responded: HTTP/1.1 201 OK
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[41771] done accepting connections: Socket closed
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[45979] starting to accept connections
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[45979] received request: PATCH /patch HTTP/1.1 and responded: HTTP/1.1 201 OK
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[45979] done accepting connections: Socket closed
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[34643] starting to accept connections
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[34643] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[34643] done accepting connections: Socket closed
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[41359] starting to accept connections
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[41359] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[41359] done accepting connections: Socket closed
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[37751] starting to accept connections
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[37751] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[37751] done accepting connections: Socket closed
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[33581] starting to accept connections
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[33581] done accepting connections: Socket closed
+May 29, 2020 2:00:07 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[33581] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[48177] starting to accept connections
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[48177] received request: OPTIONS /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[48177] done accepting connections: Socket closed
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[45767] starting to accept connections
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[45767] done accepting connections: Socket closed
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[45767] received request: OPTIONS /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[60585] starting to accept connections
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[60585] received request: OPTIONS /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[60585] done accepting connections: Socket closed
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[57269] starting to accept connections
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[57269] received request: OPTIONS /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[57269] done accepting connections: Socket closed
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[54037] starting to accept connections
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[54037] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[54037] done accepting connections: Socket closed
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[34907] starting to accept connections
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[34907] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[34907] done accepting connections: Socket closed
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[45647] starting to accept connections
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[45647] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[45647] done accepting connections: Socket closed
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[37797] starting to accept connections
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[37797] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[37797] done accepting connections: Socket closed
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[59815] starting to accept connections
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[59815] received request: GET /status/nocontent HTTP/1.1 and responded: HTTP/1.1 204 OK
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[59815] received request: GET /status/nocontent HTTP/1.1 and responded: HTTP/1.1 204 OK
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[59815] done accepting connections: Socket closed
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[34361] starting to accept connections
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[34361] received request: GET /status/nocontent HTTP/1.1 and responded: HTTP/1.1 204 OK
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[34361] received request: GET /status/nocontent HTTP/1.1 and responded: HTTP/1.1 204 OK
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[34361] done accepting connections: Socket closed
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[59167] starting to accept connections
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[59167] received request: GET /status/nocontent HTTP/1.1 and responded: HTTP/1.1 204 OK
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[59167] received request: GET /status/nocontent HTTP/1.1 and responded: HTTP/1.1 204 OK
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[59167] done accepting connections: Socket closed
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[56849] starting to accept connections
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[56849] received request: GET /status/nocontent HTTP/1.1 and responded: HTTP/1.1 204 OK
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[56849] received request: GET /status/nocontent HTTP/1.1 and responded: HTTP/1.1 204 OK
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[56849] done accepting connections: Socket closed
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[53053] starting to accept connections
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[53053] received request: GET /status/notfound HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[53053] done accepting connections: Socket closed
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[50729] starting to accept connections
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[50729] done accepting connections: Socket closed
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[50729] received request: GET /status/notfound HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[36477] starting to accept connections
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[36477] received request: GET /status/notfound HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[36477] done accepting connections: Socket closed
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[36607] starting to accept connections
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[36607] received request: GET /status/notfound HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[36607] done accepting connections: Socket closed
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[44201] starting to accept connections
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[44201] received request: POST /multipartFormData HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[44201] done accepting connections: Socket closed
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[36161] starting to accept connections
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[36161] received request: POST /multipartFormData HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[36161] done accepting connections: Socket closed
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[54691] starting to accept connections
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[54691] received request: POST /multipartFormData HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[54691] done accepting connections: Socket closed
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[45131] starting to accept connections
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[45131] received request: POST /multipartFormData HTTP/1.1 and responded: HTTP/1.1 200 OK
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[45131] done accepting connections: Socket closed
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[37773] starting to accept connections
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[37773] received request: POST /jsonpost HTTP/1.1 and responded: HTTP/1.1 201 OK
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[37773] done accepting connections: Socket closed
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[51905] starting to accept connections
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[51905] received request: POST /jsonpost HTTP/1.1 and responded: HTTP/1.1 201 OK
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[51905] done accepting connections: Socket closed
+May 29, 2020 2:00:08 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[35705] starting to accept connections
+May 29, 2020 2:00:09 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[35705] received request: POST /jsonpost HTTP/1.1 and responded: HTTP/1.1 201 OK
+May 29, 2020 2:00:09 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[35705] done accepting connections: Socket closed
+May 29, 2020 2:00:09 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[43785] starting to accept connections
+May 29, 2020 2:00:09 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[43785] received request: POST /jsonpost HTTP/1.1 and responded: HTTP/1.1 201 OK
+May 29, 2020 2:00:09 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[43785] done accepting connections: Socket closed
+]]></system-err>
+</testsuite>

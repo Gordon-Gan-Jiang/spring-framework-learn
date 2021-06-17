@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.function.server.ResourceHandlerFunctionTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:57" hostname="bamboo-18" time="0.173">
+  <properties/>
+  <testcase name="options()" classname="org.springframework.web.reactive.function.server.ResourceHandlerFunctionTests" time="0.032"/>
+  <testcase name="get()" classname="org.springframework.web.reactive.function.server.ResourceHandlerFunctionTests" time="0.106"/>
+  <testcase name="head()" classname="org.springframework.web.reactive.function.server.ResourceHandlerFunctionTests" time="0.035"/>
+  <system-out><![CDATA[14:00:57.826 [Test worker] DEBUG o.s.h.c.ResourceHttpMessageWriter - [2a8f40a2] Resource associated with 'text/plain'
+14:00:57.827 [Test worker] DEBUG o.s.c.c.ResourceEncoder - [2a8f40a2] Writing [class path resource [org/springframework/web/reactive/function/server/response.txt]]
+14:00:57.917 [Test worker] DEBUG o.s.h.c.ResourceHttpMessageWriter - [6abe4624] Resource associated with 'text/plain'
+14:00:57.926 [Test worker] DEBUG o.s.c.c.ResourceEncoder - [6abe4624] Writing [org.springframework.web.reactive.function.server.ResourceHandlerFunction$HeadMethodResource@6d226448]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

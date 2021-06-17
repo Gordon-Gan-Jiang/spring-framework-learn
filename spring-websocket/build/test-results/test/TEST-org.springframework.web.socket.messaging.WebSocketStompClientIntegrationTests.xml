@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.socket.messaging.WebSocketStompClientIntegrationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:01:18" hostname="bamboo-18" time="1.303">
+  <properties/>
+  <testcase name="publishSubscribe()" classname="org.springframework.web.socket.messaging.WebSocketStompClientIntegrationTests" time="1.303"/>
+  <system-out><![CDATA[14:01:20.233 [WebSocketClient-AsyncIO-1] ERROR o.s.w.s.m.WebSocketStompClientIntegrationTests - org.springframework.messaging.simp.stomp.ConnectionLostException: Connection closed
+]]></system-out>
+  <system-err><![CDATA[May 29, 2020 2:01:19 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-9"]
+May 29, 2020 2:01:19 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+May 29, 2020 2:01:19 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.35]
+May 29, 2020 2:01:19 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-9-44213"]
+May 29, 2020 2:01:19 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring DispatcherServlet 'dispatcherServlet'
+May 29, 2020 2:01:20 PM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'dispatcherServlet'
+May 29, 2020 2:01:20 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNING: The web application [ROOT] appears to have started a thread named [clientInboundChannel-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+May 29, 2020 2:01:20 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-9-44213"]
+May 29, 2020 2:01:20 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+May 29, 2020 2:01:20 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-9-44213"]
+]]></system-err>
+</testsuite>

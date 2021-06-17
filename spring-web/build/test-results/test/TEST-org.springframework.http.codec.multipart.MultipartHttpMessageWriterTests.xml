@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.multipart.MultipartHttpMessageWriterTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:32" hostname="bamboo-18" time="0.753">
+  <properties/>
+  <testcase name="singleSubscriberWithStrings()" classname="org.springframework.http.codec.multipart.MultipartHttpMessageWriterTests" time="0.133"/>
+  <testcase name="canWrite()" classname="org.springframework.http.codec.multipart.MultipartHttpMessageWriterTests" time="0.003"/>
+  <testcase name="writeMultipartRelated()" classname="org.springframework.http.codec.multipart.MultipartHttpMessageWriterTests" time="0.191"/>
+  <testcase name="customContentDisposition()" classname="org.springframework.http.codec.multipart.MultipartHttpMessageWriterTests" time="0.142"/>
+  <testcase name="writeMultipartFormData()" classname="org.springframework.http.codec.multipart.MultipartHttpMessageWriterTests" time="0.245"/>
+  <testcase name="singleSubscriberWithResource()" classname="org.springframework.http.codec.multipart.MultipartHttpMessageWriterTests" time="0.008"/>
+  <system-out><![CDATA[13:59:32.402 [Test worker] DEBUG o.s.w.HttpLogging - Encoding parts [name] (content masked)
+13:59:32.535 [Test worker] DEBUG o.s.w.HttpLogging - Encoding parts [name 1, name 2] (content masked)
+13:59:32.703 [Test worker] DEBUG o.s.w.HttpLogging - Parsed parts [name 2, name 1] (content masked)
+13:59:32.747 [Test worker] DEBUG o.s.w.HttpLogging - Encoding parts [resource, buffers] (content masked)
+13:59:32.869 [Test worker] DEBUG o.s.w.HttpLogging - Parsed parts [buffers, resource] (content masked)
+13:59:32.904 [Test worker] DEBUG o.s.w.HttpLogging - Encoding parts [name 1, name 2, logo, utf8, json, publisher, filePublisher] (content masked)
+13:59:33.085 [Test worker] DEBUG o.s.w.HttpLogging - Parsed parts [name 2, name 1, utf8, publisher, json, logo, filePublisher] (content masked)
+13:59:33.131 [Test worker] DEBUG o.s.w.HttpLogging - Encoding parts [logo] (content masked)
+13:59:33.138 [Test worker] DEBUG o.s.w.HttpLogging - Parsed parts [logo] (content masked)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.index.processor.CandidateComponentsIndexerTests" tests="25" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:56:56" hostname="bamboo-18" time="3.36">
+  <properties/>
+  <testcase name="persistenceEmbeddable()" classname="org.springframework.context.index.processor.CandidateComponentsIndexerTests" time="1.249"/>
+  <testcase name="stereotypeService()" classname="org.springframework.context.index.processor.CandidateComponentsIndexerTests" time="0.103"/>
+  <testcase name="cdiNamed()" classname="org.springframework.context.index.processor.CandidateComponentsIndexerTests" time="0.064"/>
+  <testcase name="typeStereotypeFromInterfaceFromSuperClass()" classname="org.springframework.context.index.processor.CandidateComponentsIndexerTests" time="0.094"/>
+  <testcase name="typeStereotypeOnIndexedInterface()" classname="org.springframework.context.index.processor.CandidateComponentsIndexerTests" time="0.069"/>
+  <testcase name="stereotypeRepository()" classname="org.springframework.context.index.processor.CandidateComponentsIndexerTests" time="0.051"/>
+  <testcase name="stereotypeControllerMetaAnnotation()" classname="org.springframework.context.index.processor.CandidateComponentsIndexerTests" time="0.081"/>
+  <testcase name="embeddedNonStaticCandidateAreIgnored()" classname="org.springframework.context.index.processor.CandidateComponentsIndexerTests" time="0.066"/>
+  <testcase name="noAnnotation()" classname="org.springframework.context.index.processor.CandidateComponentsIndexerTests" time="0.641"/>
+  <testcase name="typeStereotypeFromMetaInterface()" classname="org.springframework.context.index.processor.CandidateComponentsIndexerTests" time="0.045"/>
+  <testcase name="stereotypeOnAbstractClass()" classname="org.springframework.context.index.processor.CandidateComponentsIndexerTests" time="0.045"/>
+  <testcase name="typeStereotypeFromSeveralInterfaces()" classname="org.springframework.context.index.processor.CandidateComponentsIndexerTests" time="0.038"/>
+  <testcase name="typeStereotypeOnInterfaceFromSeveralInterfaces()" classname="org.springframework.context.index.processor.CandidateComponentsIndexerTests" time="0.061"/>
+  <testcase name="cdiManagedBean()" classname="org.springframework.context.index.processor.CandidateComponentsIndexerTests" time="0.036"/>
+  <testcase name="embeddedCandidatesAreDetected()" classname="org.springframework.context.index.processor.CandidateComponentsIndexerTests" time="0.088"/>
+  <testcase name="stereotypeControllerMetaIndex()" classname="org.springframework.context.index.processor.CandidateComponentsIndexerTests" time="0.097"/>
+  <testcase name="persistenceEntity()" classname="org.springframework.context.index.processor.CandidateComponentsIndexerTests" time="0.077"/>
+  <testcase name="packageInfo()" classname="org.springframework.context.index.processor.CandidateComponentsIndexerTests" time="0.029"/>
+  <testcase name="persistenceConverter()" classname="org.springframework.context.index.processor.CandidateComponentsIndexerTests" time="0.043"/>
+  <testcase name="typeStereotypeOnInterface()" classname="org.springframework.context.index.processor.CandidateComponentsIndexerTests" time="0.047"/>
+  <testcase name="cdiTransactional()" classname="org.springframework.context.index.processor.CandidateComponentsIndexerTests" time="0.04"/>
+  <testcase name="persistenceMappedSuperClass()" classname="org.springframework.context.index.processor.CandidateComponentsIndexerTests" time="0.057"/>
+  <testcase name="stereotypeController()" classname="org.springframework.context.index.processor.CandidateComponentsIndexerTests" time="0.046"/>
+  <testcase name="noCandidate()" classname="org.springframework.context.index.processor.CandidateComponentsIndexerTests" time="0.059"/>
+  <testcase name="stereotypeComponent()" classname="org.springframework.context.index.processor.CandidateComponentsIndexerTests" time="0.049"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

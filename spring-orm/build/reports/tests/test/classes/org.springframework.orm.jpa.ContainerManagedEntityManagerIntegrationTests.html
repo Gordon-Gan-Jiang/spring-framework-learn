@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - ContainerManagedEntityManagerIntegrationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>ContainerManagedEntityManagerIntegrationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.orm.jpa.html">org.springframework.orm.jpa</a> &gt; ContainerManagedEntityManagerIntegrationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">10</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.170s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testCommitOccurs()</td>
+<td class="success">0.014s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testContainerEntityManagerProxyAllowsJoinTransactionInTransaction()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testContainerEntityManagerProxyRejectsJoinTransactionWithoutTransaction()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testEntityManagerProxyIsProxy()</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testEntityManagerProxyRejectsProgrammaticTxManagement()</td>
+<td class="success">0.124s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testExceptionTranslationWithDialectFoundOnEntityManagerFactoryBean()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testExceptionTranslationWithDialectFoundOnIntroducedEntityManagerInfo()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInstantiateAndSave()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testReuseInNewTransaction()</td>
+<td class="success">0.021s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRollbackOccurs()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[EL Info]: 2020-05-29 13:58:29.547--ServerSession(792599067)--EclipseLink, version: Eclipse Persistence Services - 2.7.6.v20200131-b7c997804f
+[EL Warning]: metadata: 2020-05-29 13:58:29.548--ServerSession(792599067)--Reverting the lazy setting on the OneToOne or ManyToOne attribute [driversLicense] for the entity class [class org.springframework.orm.jpa.domain.Person] since weaving was not enabled or did not occur.
+[EL Info]: connection: 2020-05-29 13:58:29.548--ServerSession(792599067)--/file:/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-orm/build/classes/java/test/_Person login successful
+[EL Fine]: sql: 2020-05-29 13:58:29.563--ServerSession(792599067)--Connection(1106342157)--SELECT * FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'
+[EL Fine]: sql: 2020-05-29 13:58:29.579--ClientSession(1883400536)--Connection(103829146)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2020-05-29 13:58:29.58--ClientSession(1883400536)--Connection(103829146)--UPDATE SEQUENCE SET SEQ_COUNT = SEQ_COUNT + ? WHERE SEQ_NAME = ?
+	bind =&gt; [50, SEQ_GEN]
+[EL Fine]: sql: 2020-05-29 13:58:29.581--ClientSession(1883400536)--Connection(103829146)--SELECT SEQ_COUNT FROM SEQUENCE WHERE SEQ_NAME = ?
+	bind =&gt; [SEQ_GEN]
+[EL Fine]: sql: 2020-05-29 13:58:29.589--ClientSession(1883400536)--Connection(103829146)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+	bind =&gt; [51, Tony, Blair, null]
+[EL Fine]: sql: 2020-05-29 13:58:29.59--ClientSession(1883400536)--Connection(103829146)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2020-05-29 13:58:29.591--ServerSession(792599067)--Connection(1884573138)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2020-05-29 13:58:29.595--ServerSession(792599067)--Connection(1987733815)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+[EL Fine]: sql: 2020-05-29 13:58:29.597--ClientSession(94019270)--Connection(1864314124)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2020-05-29 13:58:29.597--ClientSession(94019270)--Connection(1864314124)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+	bind =&gt; [52, Tony, Blair, null]
+[EL Fine]: sql: 2020-05-29 13:58:29.598--ClientSession(94019270)--Connection(1864314124)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2020-05-29 13:58:29.599--ServerSession(792599067)--Connection(2104319553)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2020-05-29 13:58:29.6--ClientSession(1962362964)--Connection(604485323)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2020-05-29 13:58:29.601--ClientSession(1962362964)--Connection(604485323)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+	bind =&gt; [53, Tony, Blair, null]
+[EL Fine]: sql: 2020-05-29 13:58:29.609--ClientSession(1962362964)--Connection(604485323)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2020-05-29 13:58:29.61--ClientSession(2077379195)--Connection(185237253)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2020-05-29 13:58:29.611--ClientSession(2077379195)--Connection(185237253)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+	bind =&gt; [54, Tony, Blair, null]
+[EL Fine]: sql: 2020-05-29 13:58:29.612--ClientSession(2077379195)--Connection(185237253)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2020-05-29 13:58:29.613--ServerSession(792599067)--Connection(1183937338)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2020-05-29 13:58:29.621--ClientSession(34226860)--Connection(1944139270)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2020-05-29 13:58:29.622--ClientSession(34226860)--Connection(1944139270)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+	bind =&gt; [55, Tony, Blair, null]
+[EL Fine]: sql: 2020-05-29 13:58:29.623--ClientSession(34226860)--Connection(1944139270)--SELECT COUNT(0) FROM person
+[EL Info]: connection: 2020-05-29 13:58:29.624--ServerSession(792599067)--/file:/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-orm/build/classes/java/test/_Person logout successful
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.4</a> at May 29, 2020 1:58:30 PM</p>
+</div>
+</div>
+</body>
+</html>

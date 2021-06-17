@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.function.server.NestedRouteIntegrationTests" tests="24" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:33" hostname="bamboo-18" time="2.212">
+  <properties/>
+  <testcase name="removeFailedPathVariablesAnd(HttpServer)[1]" classname="org.springframework.web.reactive.function.server.NestedRouteIntegrationTests" time="0.053"/>
+  <testcase name="removeFailedPathVariablesAnd(HttpServer)[2]" classname="org.springframework.web.reactive.function.server.NestedRouteIntegrationTests" time="0.019"/>
+  <testcase name="removeFailedPathVariablesAnd(HttpServer)[3]" classname="org.springframework.web.reactive.function.server.NestedRouteIntegrationTests" time="0.155"/>
+  <testcase name="removeFailedPathVariablesAnd(HttpServer)[4]" classname="org.springframework.web.reactive.function.server.NestedRouteIntegrationTests" time="0.068"/>
+  <testcase name="removeFailedNestedPathVariables(HttpServer)[1]" classname="org.springframework.web.reactive.function.server.NestedRouteIntegrationTests" time="0.099"/>
+  <testcase name="removeFailedNestedPathVariables(HttpServer)[2]" classname="org.springframework.web.reactive.function.server.NestedRouteIntegrationTests" time="0.038"/>
+  <testcase name="removeFailedNestedPathVariables(HttpServer)[3]" classname="org.springframework.web.reactive.function.server.NestedRouteIntegrationTests" time="0.05"/>
+  <testcase name="removeFailedNestedPathVariables(HttpServer)[4]" classname="org.springframework.web.reactive.function.server.NestedRouteIntegrationTests" time="0.061"/>
+  <testcase name="variables(HttpServer)[1]" classname="org.springframework.web.reactive.function.server.NestedRouteIntegrationTests" time="0.093"/>
+  <testcase name="variables(HttpServer)[2]" classname="org.springframework.web.reactive.function.server.NestedRouteIntegrationTests" time="0.022"/>
+  <testcase name="variables(HttpServer)[3]" classname="org.springframework.web.reactive.function.server.NestedRouteIntegrationTests" time="0.17"/>
+  <testcase name="variables(HttpServer)[4]" classname="org.springframework.web.reactive.function.server.NestedRouteIntegrationTests" time="0.032"/>
+  <testcase name="bar(HttpServer)[1]" classname="org.springframework.web.reactive.function.server.NestedRouteIntegrationTests" time="0.097"/>
+  <testcase name="bar(HttpServer)[2]" classname="org.springframework.web.reactive.function.server.NestedRouteIntegrationTests" time="0.01"/>
+  <testcase name="bar(HttpServer)[3]" classname="org.springframework.web.reactive.function.server.NestedRouteIntegrationTests" time="0.095"/>
+  <testcase name="bar(HttpServer)[4]" classname="org.springframework.web.reactive.function.server.NestedRouteIntegrationTests" time="0.098"/>
+  <testcase name="baz(HttpServer)[1]" classname="org.springframework.web.reactive.function.server.NestedRouteIntegrationTests" time="0.128"/>
+  <testcase name="baz(HttpServer)[2]" classname="org.springframework.web.reactive.function.server.NestedRouteIntegrationTests" time="0.018"/>
+  <testcase name="baz(HttpServer)[3]" classname="org.springframework.web.reactive.function.server.NestedRouteIntegrationTests" time="0.117"/>
+  <testcase name="baz(HttpServer)[4]" classname="org.springframework.web.reactive.function.server.NestedRouteIntegrationTests" time="0.064"/>
+  <testcase name="parentVariables(HttpServer)[1]" classname="org.springframework.web.reactive.function.server.NestedRouteIntegrationTests" time="0.134"/>
+  <testcase name="parentVariables(HttpServer)[2]" classname="org.springframework.web.reactive.function.server.NestedRouteIntegrationTests" time="0.018"/>
+  <testcase name="parentVariables(HttpServer)[3]" classname="org.springframework.web.reactive.function.server.NestedRouteIntegrationTests" time="0.159"/>
+  <testcase name="parentVariables(HttpServer)[4]" classname="org.springframework.web.reactive.function.server.NestedRouteIntegrationTests" time="0.063"/>
+  <system-out><![CDATA[14:00:33.847 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:33.848 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+14:00:33.848 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@43555777{/,null,AVAILABLE}
+14:00:33.848 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+14:00:33.849 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.29.v20200521; built: 2020-05-21T17:20:40.598Z; git: 77c232aed8a45c818fd27232278d9f95a021095e; jvm 1.8.0_232-b09
+14:00:33.879 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@6ec57eb1{HTTP/1.1, (http/1.1)}{0.0.0.0:44829}
+14:00:33.879 [Test worker] INFO  o.e.j.s.Server - Started @40689ms
+14:00:33.879 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 44829(0 millis).
+14:00:33.879 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:44829/qux/quux
+14:00:33.879 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+14:00:33.879 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [] with org.springframework.http.converter.StringHttpMessageConverter
+14:00:33.883 [qtp760926168-468] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2b574d4c] HTTP POST "/qux/quux"
+14:00:33.887 [qtp760926168-468] DEBUG o.s.c.c.CharSequenceEncoder - [2b574d4c] Writing "{}"
+14:00:33.888 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:33.888 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=utf-8"
+14:00:33.890 [qtp760926168-468] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2b574d4c] Completed 200 OK
+14:00:33.890 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+14:00:33.890 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@43555777{/,null,UNAVAILABLE}
+14:00:33.892 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@6ec57eb1{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+14:00:33.893 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+14:00:34.008 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:34.008 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+14:00:34.011 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 36237(0 millis).
+14:00:34.011 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:36237/qux/quux
+14:00:34.011 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+14:00:34.011 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [] with org.springframework.http.converter.StringHttpMessageConverter
+14:00:34.014 [reactor-http-epoll-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [7a960171-16] HTTP POST "/qux/quux"
+14:00:34.015 [reactor-http-epoll-4] DEBUG o.s.c.c.CharSequenceEncoder - [7a960171-16] Writing "{}"
+14:00:34.016 [reactor-http-epoll-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [7a960171-16] Completed 200 OK
+14:00:34.016 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:34.016 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:34.016 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+14:00:34.016 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+14:00:34.048 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:34.077 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+14:00:34.169 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 38971(0 millis).
+14:00:34.169 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:38971/qux/quux
+14:00:34.170 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+14:00:34.170 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [] with org.springframework.http.converter.StringHttpMessageConverter
+14:00:34.176 [http-nio-auto-16-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [10a0f98b] HTTP POST "/qux/quux"
+14:00:34.176 [http-nio-auto-16-exec-1] DEBUG o.s.c.c.CharSequenceEncoder - [10a0f98b] Writing "{}"
+14:00:34.177 [http-nio-auto-16-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [10a0f98b] Completed 200 OK
+14:00:34.177 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:34.177 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:34.179 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+14:00:34.190 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+14:00:34.211 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:34.211 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+14:00:34.211 [Test worker] INFO  i.undertow - starting server: Undertow - 2.0.30.Final
+14:00:34.249 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 39975(0 millis).
+14:00:34.249 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:39975/qux/quux
+14:00:34.250 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+14:00:34.250 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [] with org.springframework.http.converter.StringHttpMessageConverter
+14:00:34.258 [XNIO-16 I/O-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [342fd5eb] HTTP POST "/qux/quux"
+14:00:34.260 [XNIO-16 I/O-4] DEBUG o.s.c.c.CharSequenceEncoder - [342fd5eb] Writing "{}"
+14:00:34.260 [XNIO-16 I/O-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [342fd5eb] Completed 200 OK
+14:00:34.261 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:34.261 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:34.264 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+14:00:34.264 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.0.30.Final
+14:00:34.266 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+14:00:34.282 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:34.283 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+14:00:34.283 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@30245121{/,null,AVAILABLE}
+14:00:34.303 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+14:00:34.304 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.29.v20200521; built: 2020-05-21T17:20:40.598Z; git: 77c232aed8a45c818fd27232278d9f95a021095e; jvm 1.8.0_232-b09
+14:00:34.356 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@6c9a9e5b{HTTP/1.1, (http/1.1)}{0.0.0.0:38449}
+14:00:34.356 [Test worker] INFO  o.e.j.s.Server - Started @41167ms
+14:00:34.356 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 38449(0 millis).
+14:00:34.356 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:38449/qux/quux
+14:00:34.357 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+14:00:34.363 [qtp1825775719-497] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [683db27a] HTTP GET "/qux/quux"
+14:00:34.370 [qtp1825775719-497] DEBUG o.s.c.c.CharSequenceEncoder - [683db27a] Writing "/{qux}/quux"
+14:00:34.371 [qtp1825775719-497] DEBUG o.s.c.c.CharSequenceEncoder - [683db27a] Writing "
+"
+14:00:34.371 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:34.371 [qtp1825775719-497] DEBUG o.s.c.c.CharSequenceEncoder - [683db27a] Writing "{qux=qux}"
+14:00:34.371 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=utf-8"
+14:00:34.371 [qtp1825775719-497] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [683db27a] Completed 200 OK
+14:00:34.371 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+14:00:34.371 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@30245121{/,null,UNAVAILABLE}
+14:00:34.374 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@6c9a9e5b{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+14:00:34.375 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+14:00:34.405 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:34.405 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+14:00:34.417 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 38711(0 millis).
+14:00:34.417 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:38711/qux/quux
+14:00:34.418 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+14:00:34.419 [reactor-http-epoll-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [c732d0b9-17] HTTP GET "/qux/quux"
+14:00:34.420 [reactor-http-epoll-2] DEBUG o.s.c.c.CharSequenceEncoder - [c732d0b9-17] Writing "/{qux}/quux"
+14:00:34.420 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:34.421 [reactor-http-epoll-2] DEBUG o.s.c.c.CharSequenceEncoder - [c732d0b9-17] Writing "
+"
+14:00:34.421 [reactor-http-epoll-2] DEBUG o.s.c.c.CharSequenceEncoder - [c732d0b9-17] Writing "{qux=qux}"
+14:00:34.421 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:34.421 [reactor-http-epoll-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [c732d0b9-17] Completed 200 OK
+14:00:34.422 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+14:00:34.422 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+14:00:34.433 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:34.434 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+14:00:34.458 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 46485(0 millis).
+14:00:34.458 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:46485/qux/quux
+14:00:34.458 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+14:00:34.460 [http-nio-auto-17-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [1dde1662] HTTP GET "/qux/quux"
+14:00:34.461 [http-nio-auto-17-exec-1] DEBUG o.s.c.c.CharSequenceEncoder - [1dde1662] Writing "/{qux}/quux"
+14:00:34.462 [http-nio-auto-17-exec-1] DEBUG o.s.c.c.CharSequenceEncoder - [1dde1662] Writing "
+"
+14:00:34.462 [http-nio-auto-17-exec-1] DEBUG o.s.c.c.CharSequenceEncoder - [1dde1662] Writing "{qux=qux}"
+14:00:34.462 [http-nio-auto-17-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [1dde1662] Completed 200 OK
+14:00:34.463 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:34.463 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:34.463 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+14:00:34.478 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+14:00:34.491 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:34.491 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+14:00:34.491 [Test worker] INFO  i.undertow - starting server: Undertow - 2.0.30.Final
+14:00:34.533 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 44839(0 millis).
+14:00:34.533 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:44839/qux/quux
+14:00:34.533 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+14:00:34.540 [XNIO-17 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [22cd18c] HTTP GET "/qux/quux"
+14:00:34.541 [XNIO-17 I/O-2] DEBUG o.s.c.c.CharSequenceEncoder - [22cd18c] Writing "/{qux}/quux"
+14:00:34.541 [XNIO-17 I/O-2] DEBUG o.s.c.c.CharSequenceEncoder - [22cd18c] Writing "
+"
+14:00:34.541 [XNIO-17 I/O-2] DEBUG o.s.c.c.CharSequenceEncoder - [22cd18c] Writing "{qux=qux}"
+14:00:34.541 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:34.542 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:34.542 [XNIO-17 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [22cd18c] Completed 200 OK
+14:00:34.542 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+14:00:34.542 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.0.30.Final
+14:00:34.545 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+14:00:34.569 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:34.569 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+14:00:34.575 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@4bc258b5{/,null,AVAILABLE}
+14:00:34.575 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+14:00:34.575 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.29.v20200521; built: 2020-05-21T17:20:40.598Z; git: 77c232aed8a45c818fd27232278d9f95a021095e; jvm 1.8.0_232-b09
+14:00:34.624 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@1b531cda{HTTP/1.1, (http/1.1)}{0.0.0.0:34555}
+14:00:34.624 [Test worker] INFO  o.e.j.s.Server - Started @41435ms
+14:00:34.624 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 34555(0 millis).
+14:00:34.625 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:34555/1/2/3
+14:00:34.625 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+14:00:34.649 [qtp1833339695-526] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6d39073f] HTTP GET "/1/2/3"
+14:00:34.650 [qtp1833339695-526] DEBUG o.s.c.c.CharSequenceEncoder - [6d39073f] Writing "/{foo}/{bar}/{baz}"
+14:00:34.650 [qtp1833339695-526] DEBUG o.s.c.c.CharSequenceEncoder - [6d39073f] Writing "
+"
+14:00:34.650 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:34.650 [qtp1833339695-526] DEBUG o.s.c.c.CharSequenceEncoder - [6d39073f] Writing "{foo=1, bar=2, baz=3}"
+14:00:34.650 [qtp1833339695-526] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6d39073f] Completed 200 OK
+14:00:34.651 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=utf-8"
+14:00:34.651 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+14:00:34.651 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@4bc258b5{/,null,UNAVAILABLE}
+14:00:34.652 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@1b531cda{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+14:00:34.652 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+14:00:34.665 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:34.665 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+14:00:34.666 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 34477(0 millis).
+14:00:34.666 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:34477/1/2/3
+14:00:34.666 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+14:00:34.670 [reactor-http-epoll-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [a0a2ffa0-18] HTTP GET "/1/2/3"
+14:00:34.670 [reactor-http-epoll-4] DEBUG o.s.c.c.CharSequenceEncoder - [a0a2ffa0-18] Writing "/{foo}/{bar}/{baz}"
+14:00:34.671 [reactor-http-epoll-4] DEBUG o.s.c.c.CharSequenceEncoder - [a0a2ffa0-18] Writing "
+"
+14:00:34.671 [reactor-http-epoll-4] DEBUG o.s.c.c.CharSequenceEncoder - [a0a2ffa0-18] Writing "{foo=1, bar=2, baz=3}"
+14:00:34.672 [reactor-http-epoll-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [a0a2ffa0-18] Completed 200 OK
+14:00:34.680 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:34.680 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:34.681 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+14:00:34.681 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+14:00:34.707 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:34.708 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+14:00:34.849 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 33045(0 millis).
+14:00:34.849 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:33045/1/2/3
+14:00:34.849 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+14:00:34.852 [http-nio-auto-18-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [4d7ee953] HTTP GET "/1/2/3"
+14:00:34.852 [http-nio-auto-18-exec-1] DEBUG o.s.c.c.CharSequenceEncoder - [4d7ee953] Writing "/{foo}/{bar}/{baz}"
+14:00:34.853 [http-nio-auto-18-exec-1] DEBUG o.s.c.c.CharSequenceEncoder - [4d7ee953] Writing "
+"
+14:00:34.853 [http-nio-auto-18-exec-1] DEBUG o.s.c.c.CharSequenceEncoder - [4d7ee953] Writing "{foo=1, bar=2, baz=3}"
+14:00:34.853 [http-nio-auto-18-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [4d7ee953] Completed 200 OK
+14:00:34.853 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:34.854 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:34.854 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+14:00:34.867 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+14:00:34.930 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:34.931 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+14:00:34.931 [Test worker] INFO  i.undertow - starting server: Undertow - 2.0.30.Final
+14:00:34.951 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 36259(0 millis).
+14:00:34.951 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:36259/1/2/3
+14:00:34.951 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+14:00:34.953 [XNIO-18 I/O-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6be72087] HTTP GET "/1/2/3"
+14:00:34.954 [XNIO-18 I/O-4] DEBUG o.s.c.c.CharSequenceEncoder - [6be72087] Writing "/{foo}/{bar}/{baz}"
+14:00:34.955 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:34.955 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:34.955 [XNIO-18 I/O-4] DEBUG o.s.c.c.CharSequenceEncoder - [6be72087] Writing "
+"
+14:00:34.955 [XNIO-18 I/O-4] DEBUG o.s.c.c.CharSequenceEncoder - [6be72087] Writing "{foo=1, bar=2, baz=3}"
+14:00:34.955 [XNIO-18 I/O-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6be72087] Completed 200 OK
+14:00:34.955 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+14:00:34.956 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.0.30.Final
+14:00:34.957 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+14:00:34.974 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:34.978 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+14:00:34.978 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@64709ec2{/,null,AVAILABLE}
+14:00:34.978 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+14:00:34.978 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.29.v20200521; built: 2020-05-21T17:20:40.598Z; git: 77c232aed8a45c818fd27232278d9f95a021095e; jvm 1.8.0_232-b09
+14:00:35.036 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@46fa23b8{HTTP/1.1, (http/1.1)}{0.0.0.0:42707}
+14:00:35.036 [Test worker] INFO  o.e.j.s.Server - Started @41847ms
+14:00:35.037 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 42707(0 millis).
+14:00:35.037 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:42707/foo/bar
+14:00:35.037 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+14:00:35.045 [qtp1159563636-555] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [e6e6774] HTTP GET "/foo/bar"
+14:00:35.046 [qtp1159563636-555] DEBUG o.s.c.c.CharSequenceEncoder - [e6e6774] Writing "/foo/bar"
+14:00:35.047 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:35.047 [qtp1159563636-555] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [e6e6774] Completed 200 OK
+14:00:35.047 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=utf-8"
+14:00:35.047 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+14:00:35.047 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@64709ec2{/,null,UNAVAILABLE}
+14:00:35.048 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@46fa23b8{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+14:00:35.061 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+14:00:35.073 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:35.073 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+14:00:35.074 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 46027(0 millis).
+14:00:35.074 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:46027/foo/bar
+14:00:35.075 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+14:00:35.076 [reactor-http-epoll-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [9d5e8ca2-19] HTTP GET "/foo/bar"
+14:00:35.076 [reactor-http-epoll-2] DEBUG o.s.c.c.CharSequenceEncoder - [9d5e8ca2-19] Writing "/foo/bar"
+14:00:35.077 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:35.077 [reactor-http-epoll-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [9d5e8ca2-19] Completed 200 OK
+14:00:35.077 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:35.077 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+14:00:35.078 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+14:00:35.089 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:35.090 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+14:00:35.162 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 46113(0 millis).
+14:00:35.162 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:46113/foo/bar
+14:00:35.162 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+14:00:35.164 [http-nio-auto-19-exec-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5d95631] HTTP GET "/foo/bar"
+14:00:35.165 [http-nio-auto-19-exec-2] DEBUG o.s.c.c.CharSequenceEncoder - [5d95631] Writing "/foo/bar"
+14:00:35.165 [http-nio-auto-19-exec-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5d95631] Completed 200 OK
+14:00:35.166 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:35.166 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:35.166 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+14:00:35.179 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+14:00:35.201 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:35.201 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+14:00:35.201 [Test worker] INFO  i.undertow - starting server: Undertow - 2.0.30.Final
+14:00:35.252 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 41653(0 millis).
+14:00:35.253 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:41653/foo/bar
+14:00:35.253 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+14:00:35.282 [XNIO-19 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [22b8f94a] HTTP GET "/foo/bar"
+14:00:35.283 [XNIO-19 I/O-2] DEBUG o.s.c.c.CharSequenceEncoder - [22b8f94a] Writing "/foo/bar"
+14:00:35.283 [XNIO-19 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [22b8f94a] Completed 200 OK
+14:00:35.283 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:35.284 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:35.284 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+14:00:35.284 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.0.30.Final
+14:00:35.287 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+14:00:35.309 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:35.310 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+14:00:35.310 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@4527b44a{/,null,AVAILABLE}
+14:00:35.310 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+14:00:35.310 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.29.v20200521; built: 2020-05-21T17:20:40.598Z; git: 77c232aed8a45c818fd27232278d9f95a021095e; jvm 1.8.0_232-b09
+14:00:35.398 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@50a375b2{HTTP/1.1, (http/1.1)}{0.0.0.0:36513}
+14:00:35.398 [Test worker] INFO  o.e.j.s.Server - Started @42209ms
+14:00:35.398 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 36513(0 millis).
+14:00:35.399 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:36513/foo/baz
+14:00:35.399 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+14:00:35.418 [qtp1808688125-584] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [238104eb] HTTP GET "/foo/baz"
+14:00:35.418 [qtp1808688125-584] DEBUG o.s.c.c.CharSequenceEncoder - [238104eb] Writing "/foo/baz"
+14:00:35.419 [qtp1808688125-584] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [238104eb] Completed 200 OK
+14:00:35.419 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:35.419 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=utf-8"
+14:00:35.420 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+14:00:35.420 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@4527b44a{/,null,UNAVAILABLE}
+14:00:35.421 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@50a375b2{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+14:00:35.421 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+14:00:35.440 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:35.440 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+14:00:35.441 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 35637(0 millis).
+14:00:35.442 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:35637/foo/baz
+14:00:35.442 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+14:00:35.443 [reactor-http-epoll-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [37e60c64-20] HTTP GET "/foo/baz"
+14:00:35.444 [reactor-http-epoll-4] DEBUG o.s.c.c.CharSequenceEncoder - [37e60c64-20] Writing "/foo/baz"
+14:00:35.445 [reactor-http-epoll-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [37e60c64-20] Completed 200 OK
+14:00:35.445 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:35.445 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:35.445 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+14:00:35.445 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+14:00:35.467 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:35.468 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+14:00:35.542 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 42141(0 millis).
+14:00:35.543 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:42141/foo/baz
+14:00:35.543 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+14:00:35.559 [http-nio-auto-20-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [3c7c1b10] HTTP GET "/foo/baz"
+14:00:35.560 [http-nio-auto-20-exec-1] DEBUG o.s.c.c.CharSequenceEncoder - [3c7c1b10] Writing "/foo/baz"
+14:00:35.560 [http-nio-auto-20-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [3c7c1b10] Completed 200 OK
+14:00:35.560 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:35.560 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:35.561 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+14:00:35.574 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+14:00:35.586 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:35.591 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+14:00:35.591 [Test worker] INFO  i.undertow - starting server: Undertow - 2.0.30.Final
+14:00:35.623 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 34747(0 millis).
+14:00:35.623 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:34747/foo/baz
+14:00:35.623 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+14:00:35.638 [XNIO-20 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [44a60c4e] HTTP GET "/foo/baz"
+14:00:35.639 [XNIO-20 I/O-2] DEBUG o.s.c.c.CharSequenceEncoder - [44a60c4e] Writing "/foo/baz"
+14:00:35.639 [XNIO-20 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [44a60c4e] Completed 200 OK
+14:00:35.639 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:35.639 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:35.640 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+14:00:35.640 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.0.30.Final
+14:00:35.644 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+14:00:35.662 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:35.663 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+14:00:35.663 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@468aa396{/,null,AVAILABLE}
+14:00:35.663 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+14:00:35.663 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.29.v20200521; built: 2020-05-21T17:20:40.598Z; git: 77c232aed8a45c818fd27232278d9f95a021095e; jvm 1.8.0_232-b09
+14:00:35.770 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@bb84fb3{HTTP/1.1, (http/1.1)}{0.0.0.0:45461}
+14:00:35.770 [Test worker] INFO  o.e.j.s.Server - Started @42580ms
+14:00:35.770 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 45461(0 millis).
+14:00:35.770 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:45461/1/bar
+14:00:35.770 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+14:00:35.782 [qtp689562561-613] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2d571d4c] HTTP GET "/1/bar"
+14:00:35.783 [qtp689562561-613] DEBUG o.s.c.c.CharSequenceEncoder - [2d571d4c] Writing "/{foo}/bar"
+14:00:35.783 [qtp689562561-613] DEBUG o.s.c.c.CharSequenceEncoder - [2d571d4c] Writing "
+"
+14:00:35.783 [qtp689562561-613] DEBUG o.s.c.c.CharSequenceEncoder - [2d571d4c] Writing "{foo=1}"
+14:00:35.783 [qtp689562561-613] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2d571d4c] Completed 200 OK
+14:00:35.784 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:35.784 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=utf-8"
+14:00:35.784 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+14:00:35.784 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@468aa396{/,null,UNAVAILABLE}
+14:00:35.786 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@bb84fb3{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+14:00:35.786 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+14:00:35.799 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:35.804 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+14:00:35.806 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 38939(0 millis).
+14:00:35.806 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:38939/1/bar
+14:00:35.807 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+14:00:35.808 [reactor-http-epoll-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [968f7c3a-21] HTTP GET "/1/bar"
+14:00:35.808 [reactor-http-epoll-2] DEBUG o.s.c.c.CharSequenceEncoder - [968f7c3a-21] Writing "/{foo}/bar"
+14:00:35.809 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:35.809 [reactor-http-epoll-2] DEBUG o.s.c.c.CharSequenceEncoder - [968f7c3a-21] Writing "
+"
+14:00:35.809 [reactor-http-epoll-2] DEBUG o.s.c.c.CharSequenceEncoder - [968f7c3a-21] Writing "{foo=1}"
+14:00:35.810 [reactor-http-epoll-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [968f7c3a-21] Completed 200 OK
+14:00:35.811 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:35.811 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+14:00:35.812 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+14:00:35.840 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:35.842 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+14:00:35.956 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 34951(0 millis).
+14:00:35.956 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:34951/1/bar
+14:00:35.956 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+14:00:35.962 [http-nio-auto-21-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [34e40814] HTTP GET "/1/bar"
+14:00:35.962 [http-nio-auto-21-exec-1] DEBUG o.s.c.c.CharSequenceEncoder - [34e40814] Writing "/{foo}/bar"
+14:00:35.963 [http-nio-auto-21-exec-1] DEBUG o.s.c.c.CharSequenceEncoder - [34e40814] Writing "
+"
+14:00:35.963 [http-nio-auto-21-exec-1] DEBUG o.s.c.c.CharSequenceEncoder - [34e40814] Writing "{foo=1}"
+14:00:35.963 [http-nio-auto-21-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [34e40814] Completed 200 OK
+14:00:35.964 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:35.964 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:35.964 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+14:00:35.981 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+14:00:36.003 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:00:36.003 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+14:00:36.003 [Test worker] INFO  i.undertow - starting server: Undertow - 2.0.30.Final
+14:00:36.044 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 43107(0 millis).
+14:00:36.044 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:43107/1/bar
+14:00:36.044 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+14:00:36.045 [XNIO-21 I/O-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [7782be62] HTTP GET "/1/bar"
+14:00:36.046 [XNIO-21 I/O-4] DEBUG o.s.c.c.CharSequenceEncoder - [7782be62] Writing "/{foo}/bar"
+14:00:36.046 [XNIO-21 I/O-4] DEBUG o.s.c.c.CharSequenceEncoder - [7782be62] Writing "
+"
+14:00:36.047 [XNIO-21 I/O-4] DEBUG o.s.c.c.CharSequenceEncoder - [7782be62] Writing "{foo=1}"
+14:00:36.047 [XNIO-21 I/O-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [7782be62] Completed 200 OK
+14:00:36.047 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+14:00:36.047 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+14:00:36.048 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+14:00:36.048 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.0.30.Final
+14:00:36.052 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

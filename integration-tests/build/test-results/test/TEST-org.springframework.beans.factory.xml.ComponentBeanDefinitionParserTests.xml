@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.beans.factory.xml.ComponentBeanDefinitionParserTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:57:11" hostname="bamboo-18" time="0.065">
+  <properties/>
+  <testcase name="testBionicFirstLevelChildren()" classname="org.springframework.beans.factory.xml.ComponentBeanDefinitionParserTests" time="0.056"/>
+  <testcase name="testBionicBasic()" classname="org.springframework.beans.factory.xml.ComponentBeanDefinitionParserTests" time="0.0"/>
+  <testcase name="testBionicSecondLevelChildren()" classname="org.springframework.beans.factory.xml.ComponentBeanDefinitionParserTests" time="0.0"/>
+  <system-out><![CDATA[13:57:11.099 [Test worker] DEBUG o.s.b.f.x.XmlBeanDefinitionReader - Loaded 1 bean definitions from class path resource [org/springframework/beans/factory/xml/component-config.xml]
+13:57:11.126 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'bionic-family'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

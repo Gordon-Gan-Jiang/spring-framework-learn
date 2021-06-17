@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.method.HandlerMethodMappingTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:21" hostname="bamboo-18" time="0.028">
+  <properties/>
+  <testcase name="directMatch()" classname="org.springframework.web.reactive.result.method.HandlerMethodMappingTests" time="0.012"/>
+  <testcase name="patternMatch()" classname="org.springframework.web.reactive.result.method.HandlerMethodMappingTests" time="0.001"/>
+  <testcase name="unregisterMapping()" classname="org.springframework.web.reactive.result.method.HandlerMethodMappingTests" time="0.0"/>
+  <testcase name="registerMappingWithSameMethodAndTwoHandlerInstances()" classname="org.springframework.web.reactive.result.method.HandlerMethodMappingTests" time="0.004"/>
+  <testcase name="registerDuplicates()" classname="org.springframework.web.reactive.result.method.HandlerMethodMappingTests" time="0.0"/>
+  <testcase name="registerMapping()" classname="org.springframework.web.reactive.result.method.HandlerMethodMappingTests" time="0.001"/>
+  <testcase name="ambiguousMatch()" classname="org.springframework.web.reactive.result.method.HandlerMethodMappingTests" time="0.006"/>
+  <system-out><![CDATA[14:00:21.991 [Test worker] DEBUG o.s.w.r.r.m.HandlerMethodMappingTests$MyHandlerMethodMapping - [28e26ee] Mapped to org.springframework.web.reactive.result.method.HandlerMethodMappingTests$MyHandler#handlerMethod1()
+14:00:22.005 [Test worker] DEBUG o.s.w.r.r.m.HandlerMethodMappingTests$MyHandlerMethodMapping - [477a2633] Mapped to org.springframework.web.reactive.result.method.HandlerMethodMappingTests$MyHandler#handlerMethod1()
+14:00:22.006 [Test worker] DEBUG o.s.w.r.r.m.HandlerMethodMappingTests$MyHandlerMethodMapping - [37243c7b] Mapped to org.springframework.web.reactive.result.method.HandlerMethodMappingTests$MyHandler#handlerMethod1()
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
