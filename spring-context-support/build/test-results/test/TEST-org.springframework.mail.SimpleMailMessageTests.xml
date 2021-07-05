@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.mail.SimpleMailMessageTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:57:19" hostname="bamboo-18" time="0.008">
+<testsuite name="org.springframework.mail.SimpleMailMessageTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:09:48" hostname="gankangdembp" time="0.026">
   <properties/>
-  <testcase name="testCopyCtorChokesOnNullOriginalMessage()" classname="org.springframework.mail.SimpleMailMessageTests" time="0.006"/>
-  <testcase name="testSimpleMessageCopyCtor()" classname="org.springframework.mail.SimpleMailMessageTests" time="0.0"/>
+  <testcase name="testCopyCtorChokesOnNullOriginalMessage()" classname="org.springframework.mail.SimpleMailMessageTests" time="0.002"/>
+  <testcase name="testSimpleMessageCopyCtor()" classname="org.springframework.mail.SimpleMailMessageTests" time="0.023"/>
   <testcase name="testDeepCopyOfStringArrayTypedFieldsOnCopyCtor()" classname="org.springframework.mail.SimpleMailMessageTests" time="0.0"/>
-  <testcase name="testHashCode()" classname="org.springframework.mail.SimpleMailMessageTests" time="0.0"/>
-  <testcase name="testCopyToChokesOnNullTargetMessage()" classname="org.springframework.mail.SimpleMailMessageTests" time="0.001"/>
+  <testcase name="testHashCode()" classname="org.springframework.mail.SimpleMailMessageTests" time="0.001"/>
+  <testcase name="testCopyToChokesOnNullTargetMessage()" classname="org.springframework.mail.SimpleMailMessageTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

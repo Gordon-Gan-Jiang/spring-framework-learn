@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jdbc.core.support.JdbcBeanDefinitionReaderTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:11" hostname="bamboo-18" time="0.033">
+<testsuite name="org.springframework.jdbc.core.support.JdbcBeanDefinitionReaderTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:09:47" hostname="gankangdembp" time="0.176">
   <properties/>
-  <testcase name="testValid()" classname="org.springframework.jdbc.core.support.JdbcBeanDefinitionReaderTests" time="0.033"/>
+  <testcase name="testValid()" classname="org.springframework.jdbc.core.support.JdbcBeanDefinitionReaderTests" time="0.176"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

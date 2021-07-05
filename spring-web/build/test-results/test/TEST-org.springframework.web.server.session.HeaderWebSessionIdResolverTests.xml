@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.server.session.HeaderWebSessionIdResolverTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:13" hostname="bamboo-18" time="0.019">
+<testsuite name="org.springframework.web.server.session.HeaderWebSessionIdResolverTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:11:21" hostname="gankangdembp" time="0.044">
   <properties/>
-  <testcase name="setSessionIdWhenCustomHeaderNameThenSetsHeader()" classname="org.springframework.web.server.session.HeaderWebSessionIdResolverTests" time="0.0"/>
+  <testcase name="setSessionIdWhenCustomHeaderNameThenSetsHeader()" classname="org.springframework.web.server.session.HeaderWebSessionIdResolverTests" time="0.001"/>
   <testcase name="resolveSessionIdsWhenNoIdsThenEmpty()" classname="org.springframework.web.server.session.HeaderWebSessionIdResolverTests" time="0.001"/>
-  <testcase name="resolveSessionIdsWhenMultipleIdsThenIdsFound()" classname="org.springframework.web.server.session.HeaderWebSessionIdResolverTests" time="0.0"/>
-  <testcase name="resolveSessionIdsWhenIdThenIdFound()" classname="org.springframework.web.server.session.HeaderWebSessionIdResolverTests" time="0.0"/>
+  <testcase name="resolveSessionIdsWhenMultipleIdsThenIdsFound()" classname="org.springframework.web.server.session.HeaderWebSessionIdResolverTests" time="0.001"/>
+  <testcase name="resolveSessionIdsWhenIdThenIdFound()" classname="org.springframework.web.server.session.HeaderWebSessionIdResolverTests" time="0.001"/>
   <testcase name="setSessionIdWhenValidThenSetsHeader()" classname="org.springframework.web.server.session.HeaderWebSessionIdResolverTests" time="0.001"/>
-  <testcase name="expireWhenAfterSetSessionIdThenSetsEmptyHeader()" classname="org.springframework.web.server.session.HeaderWebSessionIdResolverTests" time="0.008"/>
-  <testcase name="setSessionIdWhenNullIdThenIllegalArgumentException()" classname="org.springframework.web.server.session.HeaderWebSessionIdResolverTests" time="0.004"/>
-  <testcase name="expireWhenValidThenSetsEmptyHeader()" classname="org.springframework.web.server.session.HeaderWebSessionIdResolverTests" time="0.0"/>
-  <testcase name="expireWhenMultipleInvocationThenSetsSingleEmptyHeader()" classname="org.springframework.web.server.session.HeaderWebSessionIdResolverTests" time="0.0"/>
+  <testcase name="expireWhenAfterSetSessionIdThenSetsEmptyHeader()" classname="org.springframework.web.server.session.HeaderWebSessionIdResolverTests" time="0.001"/>
+  <testcase name="setSessionIdWhenNullIdThenIllegalArgumentException()" classname="org.springframework.web.server.session.HeaderWebSessionIdResolverTests" time="0.001"/>
+  <testcase name="expireWhenValidThenSetsEmptyHeader()" classname="org.springframework.web.server.session.HeaderWebSessionIdResolverTests" time="0.029"/>
+  <testcase name="expireWhenMultipleInvocationThenSetsSingleEmptyHeader()" classname="org.springframework.web.server.session.HeaderWebSessionIdResolverTests" time="0.006"/>
   <testcase name="setSessionIdWhenMultipleThenSetsSingleHeader()" classname="org.springframework.web.server.session.HeaderWebSessionIdResolverTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.cache.jcache.config.JCacheCustomInterceptorTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:57:35" hostname="bamboo-18" time="0.034">
+<testsuite name="org.springframework.cache.jcache.config.JCacheCustomInterceptorTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:09:34" hostname="gankangdembp" time="0.211">
   <properties/>
-  <testcase name="customInterceptorAppliesWithCheckedException()" classname="org.springframework.cache.jcache.config.JCacheCustomInterceptorTests" time="0.016"/>
-  <testcase name="customInterceptorAppliesWithRuntimeException()" classname="org.springframework.cache.jcache.config.JCacheCustomInterceptorTests" time="0.009"/>
-  <testcase name="onlyOneInterceptorIsAvailable()" classname="org.springframework.cache.jcache.config.JCacheCustomInterceptorTests" time="0.009"/>
+  <testcase name="customInterceptorAppliesWithCheckedException()" classname="org.springframework.cache.jcache.config.JCacheCustomInterceptorTests" time="0.113"/>
+  <testcase name="customInterceptorAppliesWithRuntimeException()" classname="org.springframework.cache.jcache.config.JCacheCustomInterceptorTests" time="0.051"/>
+  <testcase name="onlyOneInterceptorIsAvailable()" classname="org.springframework.cache.jcache.config.JCacheCustomInterceptorTests" time="0.046"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

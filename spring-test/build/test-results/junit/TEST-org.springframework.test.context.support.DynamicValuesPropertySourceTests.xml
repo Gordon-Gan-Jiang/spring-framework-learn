@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.context.support.DynamicValuesPropertySourceTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:51" hostname="bamboo-18" time="0.005">
+<testsuite name="org.springframework.test.context.support.DynamicValuesPropertySourceTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:12:11" hostname="gankangdembp" time="0.002">
   <properties/>
   <testcase name="getPropertyWhenMissingReturnsNull()" classname="org.springframework.test.context.support.DynamicValuesPropertySourceTests" time="0.001"/>
   <testcase name="containsPropertyWhenMissingReturnsFalse()" classname="org.springframework.test.context.support.DynamicValuesPropertySourceTests" time="0.0"/>
   <testcase name="containsPropertyWhenPresentReturnsTrue()" classname="org.springframework.test.context.support.DynamicValuesPropertySourceTests" time="0.0"/>
-  <testcase name="getPropertyReturnsSuppliedProperty()" classname="org.springframework.test.context.support.DynamicValuesPropertySourceTests" time="0.001"/>
-  <testcase name="getPropertyNamesReturnsNames()" classname="org.springframework.test.context.support.DynamicValuesPropertySourceTests" time="0.003"/>
+  <testcase name="getPropertyReturnsSuppliedProperty()" classname="org.springframework.test.context.support.DynamicValuesPropertySourceTests" time="0.0"/>
+  <testcase name="getPropertyNamesReturnsNames()" classname="org.springframework.test.context.support.DynamicValuesPropertySourceTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

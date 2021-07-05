@@ -1,18 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:21" hostname="bamboo-18" time="0.02">
+<testsuite name="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" tests="33" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:09:32" hostname="gankangdembp" time="0.584">
   <properties/>
-  <testcase name="readAndSplitScriptContainingMultiLineComments()" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.017"/>
-  <testcase name="splitSqlScriptDelimitedWithSemicolon()" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.0"/>
-  <testcase name="splitSqlScriptDelimitedWithNewLine()" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.0"/>
-  <testcase name="readAndSplitScriptContainingCommentsWithMultiplePrefixes()" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.0"/>
-  <testcase name="readAndSplitScriptContainingCommentsWithWindowsLineEnding()" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.0"/>
-  <testcase name="containsDelimiters()" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.001"/>
-  <testcase name="readAndSplitScriptContainingMultiLineNestedComments()" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.0"/>
-  <testcase name="readAndSplitScriptWithMultipleNewlinesAsSeparator()" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.0"/>
+  <testcase name="readAndSplitScriptContainingMultiLineComments()" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.098"/>
+  <testcase name="splitSqlScriptDelimitedWithSemicolon()" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.003"/>
+  <testcase name="splitSqlScriptDelimitedWithNewLine()" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.001"/>
+  <testcase name="containsStatementSeparator(String, String, boolean)[1]" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.091"/>
+  <testcase name="containsStatementSeparator(String, String, boolean)[2]" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.001"/>
+  <testcase name="containsStatementSeparator(String, String, boolean)[3]" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.001"/>
+  <testcase name="containsStatementSeparator(String, String, boolean)[4]" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.0"/>
+  <testcase name="containsStatementSeparator(String, String, boolean)[5]" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.0"/>
+  <testcase name="containsStatementSeparator(String, String, boolean)[6]" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.019"/>
+  <testcase name="containsStatementSeparator(String, String, boolean)[7]" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.001"/>
+  <testcase name="containsStatementSeparator(String, String, boolean)[8]" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.001"/>
+  <testcase name="containsStatementSeparator(String, String, boolean)[9]" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.001"/>
+  <testcase name="containsStatementSeparator(String, String, boolean)[10]" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.001"/>
+  <testcase name="containsStatementSeparator(String, String, boolean)[11]" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.001"/>
+  <testcase name="containsStatementSeparator(String, String, boolean)[12]" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.001"/>
+  <testcase name="containsStatementSeparator(String, String, boolean)[13]" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.0"/>
+  <testcase name="containsStatementSeparator(String, String, boolean)[14]" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.002"/>
+  <testcase name="containsStatementSeparator(String, String, boolean)[15]" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.0"/>
+  <testcase name="containsStatementSeparator(String, String, boolean)[16]" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.001"/>
+  <testcase name="containsStatementSeparator(String, String, boolean)[17]" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.001"/>
+  <testcase name="containsStatementSeparator(String, String, boolean)[18]" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.0"/>
+  <testcase name="containsStatementSeparator(String, String, boolean)[19]" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.001"/>
+  <testcase name="containsStatementSeparator(String, String, boolean)[20]" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.0"/>
+  <testcase name="containsStatementSeparator(String, String, boolean)[21]" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.001"/>
+  <testcase name="containsStatementSeparator(String, String, boolean)[22]" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.001"/>
+  <testcase name="readAndSplitScriptContainingCommentsWithMultiplePrefixes()" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.001"/>
+  <testcase name="readAndSplitScriptContainingCommentsWithWindowsLineEnding()" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.002"/>
+  <testcase name="readAndSplitScriptContainingMultiLineNestedComments()" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.001"/>
+  <testcase name="readAndSplitScriptWithMultipleNewlinesAsSeparator()" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.002"/>
   <testcase name="readAndSplitScriptContainingCommentsWithLeadingTabs()" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.001"/>
-  <testcase name="splitScriptWithSingleQuotesNestedInsideDoubleQuotes()" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.0"/>
-  <testcase name="readAndSplitScriptContainingComments()" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.0"/>
-  <testcase name="splitSqlScriptDelimitedWithNewLineButDefaultDelimiterSpecified()" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.0"/>
+  <testcase name="splitScriptWithSingleQuotesNestedInsideDoubleQuotes()" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.001"/>
+  <testcase name="readAndSplitScriptContainingComments()" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.001"/>
+  <testcase name="splitSqlScriptDelimitedWithNewLineButDefaultDelimiterSpecified()" classname="org.springframework.jdbc.datasource.init.ScriptUtilsUnitTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

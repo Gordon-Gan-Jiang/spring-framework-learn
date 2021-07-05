@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jms.annotation.EnableJmsTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:08" hostname="bamboo-18" time="0.656">
+<testsuite name="org.springframework.jms.annotation.EnableJmsTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:09:00" hostname="gankangdembp" time="0.97">
   <properties/>
-  <testcase name="jmsListeners()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.25"/>
-  <testcase name="unknownFactory()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.019"/>
-  <testcase name="sampleConfiguration()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.015"/>
-  <testcase name="customConfiguration()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.065"/>
-  <testcase name="composedJmsListeners()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.022"/>
-  <testcase name="containerCanBeStarterViaTheRegistry()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.039"/>
-  <testcase name="jmsHandlerMethodFactoryConfiguration()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.035"/>
-  <testcase name="explicitContainerFactory()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.031"/>
-  <testcase name="fullConfiguration()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.039"/>
-  <testcase name="lazyComponent()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.039"/>
-  <testcase name="defaultContainerFactory()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.025"/>
-  <testcase name="fullConfigurableConfiguration()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.046"/>
-  <testcase name="jmsListenerIsRepeatable()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.024"/>
-  <testcase name="containerAreStartedByDefault()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.005"/>
+  <testcase name="jmsListeners()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.379"/>
+  <testcase name="unknownFactory()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.047"/>
+  <testcase name="sampleConfiguration()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.054"/>
+  <testcase name="customConfiguration()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.078"/>
+  <testcase name="composedJmsListeners()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.032"/>
+  <testcase name="containerCanBeStarterViaTheRegistry()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.055"/>
+  <testcase name="jmsHandlerMethodFactoryConfiguration()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.073"/>
+  <testcase name="explicitContainerFactory()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.034"/>
+  <testcase name="fullConfiguration()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.032"/>
+  <testcase name="lazyComponent()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.034"/>
+  <testcase name="defaultContainerFactory()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.019"/>
+  <testcase name="fullConfigurableConfiguration()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.085"/>
+  <testcase name="jmsListenerIsRepeatable()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.017"/>
+  <testcase name="containerAreStartedByDefault()" classname="org.springframework.jms.annotation.EnableJmsTests" time="0.024"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

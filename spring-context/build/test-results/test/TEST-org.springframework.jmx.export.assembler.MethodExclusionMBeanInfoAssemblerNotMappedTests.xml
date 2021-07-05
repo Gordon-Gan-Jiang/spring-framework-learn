@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerNotMappedTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:25" hostname="bamboo-18" time="0.094">
+<testsuite name="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerNotMappedTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:12:58" hostname="gankangdembp" time="0.217">
   <properties/>
-  <testcase name="testDescriptionNotNull()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerNotMappedTests" time="0.003"/>
-  <testcase name="testGetMBeanAttributeInfo()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerNotMappedTests" time="0.003"/>
-  <testcase name="testSetAttribute()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerNotMappedTests" time="0.022"/>
-  <testcase name="testAttributeInfoHasDescriptors()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerNotMappedTests" time="0.014"/>
-  <testcase name="testGetMBeanInfo()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerNotMappedTests" time="0.003"/>
-  <testcase name="testGetMBeanOperationInfo()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerNotMappedTests" time="0.003"/>
-  <testcase name="testRegisterOperations()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerNotMappedTests" time="0.01"/>
-  <testcase name="testRegisterAttributes()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerNotMappedTests" time="0.014"/>
-  <testcase name="testNotificationMetadata()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerNotMappedTests" time="0.003"/>
-  <testcase name="testAttributeHasCorrespondingOperations()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerNotMappedTests" time="0.003"/>
-  <testcase name="testMBeanRegistration()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerNotMappedTests" time="0.003"/>
-  <testcase name="testGetAttribute()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerNotMappedTests" time="0.004"/>
-  <testcase name="testOperationInvocation()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerNotMappedTests" time="0.002"/>
-  <testcase name="testGetAgeIsReadOnly()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerNotMappedTests" time="0.003"/>
-  <testcase name="testNickNameIsExposed()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerNotMappedTests" time="0.003"/>
+  <testcase name="testDescriptionNotNull()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerNotMappedTests" time="0.01"/>
+  <testcase name="testGetMBeanAttributeInfo()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerNotMappedTests" time="0.009"/>
+  <testcase name="testSetAttribute()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerNotMappedTests" time="0.008"/>
+  <testcase name="testAttributeInfoHasDescriptors()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerNotMappedTests" time="0.033"/>
+  <testcase name="testGetMBeanInfo()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerNotMappedTests" time="0.025"/>
+  <testcase name="testGetMBeanOperationInfo()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerNotMappedTests" time="0.021"/>
+  <testcase name="testRegisterOperations()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerNotMappedTests" time="0.009"/>
+  <testcase name="testRegisterAttributes()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerNotMappedTests" time="0.02"/>
+  <testcase name="testNotificationMetadata()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerNotMappedTests" time="0.007"/>
+  <testcase name="testAttributeHasCorrespondingOperations()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerNotMappedTests" time="0.022"/>
+  <testcase name="testMBeanRegistration()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerNotMappedTests" time="0.007"/>
+  <testcase name="testGetAttribute()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerNotMappedTests" time="0.013"/>
+  <testcase name="testOperationInvocation()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerNotMappedTests" time="0.01"/>
+  <testcase name="testGetAgeIsReadOnly()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerNotMappedTests" time="0.011"/>
+  <testcase name="testNickNameIsExposed()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerNotMappedTests" time="0.008"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

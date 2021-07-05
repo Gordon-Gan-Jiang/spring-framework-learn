@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.annotation.configuration.ConfigurationClassWithPlaceholderConfigurerBeanTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:08" hostname="bamboo-18" time="0.069">
+<testsuite name="org.springframework.context.annotation.configuration.ConfigurationClassWithPlaceholderConfigurerBeanTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:11:06" hostname="gankangdembp" time="0.276">
   <properties/>
-  <testcase name="valueFieldsAreProcessedWhenStaticPlaceholderConfigurerIsIntegrated()" classname="org.springframework.context.annotation.configuration.ConfigurationClassWithPlaceholderConfigurerBeanTests" time="0.023"/>
-  <testcase name="valueFieldsAreProcessedWhenPlaceholderConfigurerIsSegregated()" classname="org.springframework.context.annotation.configuration.ConfigurationClassWithPlaceholderConfigurerBeanTests" time="0.018"/>
-  <testcase name="valueFieldsAreNotProcessedWhenPlaceholderConfigurerIsIntegrated()" classname="org.springframework.context.annotation.configuration.ConfigurationClassWithPlaceholderConfigurerBeanTests" time="0.017"/>
-  <testcase name="valueFieldsResolveToPlaceholderSpecifiedDefaultValuesWithPlaceholderConfigurer()" classname="org.springframework.context.annotation.configuration.ConfigurationClassWithPlaceholderConfigurerBeanTests" time="0.007"/>
-  <testcase name="valueFieldsResolveToPlaceholderSpecifiedDefaultValuesWithoutPlaceholderConfigurer()" classname="org.springframework.context.annotation.configuration.ConfigurationClassWithPlaceholderConfigurerBeanTests" time="0.002"/>
+  <testcase name="valueFieldsAreProcessedWhenStaticPlaceholderConfigurerIsIntegrated()" classname="org.springframework.context.annotation.configuration.ConfigurationClassWithPlaceholderConfigurerBeanTests" time="0.08"/>
+  <testcase name="valueFieldsAreProcessedWhenPlaceholderConfigurerIsSegregated()" classname="org.springframework.context.annotation.configuration.ConfigurationClassWithPlaceholderConfigurerBeanTests" time="0.099"/>
+  <testcase name="valueFieldsAreNotProcessedWhenPlaceholderConfigurerIsIntegrated()" classname="org.springframework.context.annotation.configuration.ConfigurationClassWithPlaceholderConfigurerBeanTests" time="0.036"/>
+  <testcase name="valueFieldsResolveToPlaceholderSpecifiedDefaultValuesWithPlaceholderConfigurer()" classname="org.springframework.context.annotation.configuration.ConfigurationClassWithPlaceholderConfigurerBeanTests" time="0.008"/>
+  <testcase name="valueFieldsResolveToPlaceholderSpecifiedDefaultValuesWithoutPlaceholderConfigurer()" classname="org.springframework.context.annotation.configuration.ConfigurationClassWithPlaceholderConfigurerBeanTests" time="0.053"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

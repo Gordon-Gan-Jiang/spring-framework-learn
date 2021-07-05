@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.ExceptionDepthComparatorTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:57:44" hostname="bamboo-18" time="0.002">
+<testsuite name="org.springframework.core.ExceptionDepthComparatorTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:06:55" hostname="gankangdembp" time="0.082">
   <properties/>
-  <testcase name="sameDepthBeforeTarget()" classname="org.springframework.core.ExceptionDepthComparatorTests" time="0.001"/>
+  <testcase name="sameDepthBeforeTarget()" classname="org.springframework.core.ExceptionDepthComparatorTests" time="0.076"/>
   <testcase name="highestDepthBeforeNoDepth()" classname="org.springframework.core.ExceptionDepthComparatorTests" time="0.0"/>
-  <testcase name="noDepthBeforeTarget()" classname="org.springframework.core.ExceptionDepthComparatorTests" time="0.0"/>
+  <testcase name="noDepthBeforeTarget()" classname="org.springframework.core.ExceptionDepthComparatorTests" time="0.001"/>
   <testcase name="highestDepthBeforeLowestDepth()" classname="org.springframework.core.ExceptionDepthComparatorTests" time="0.001"/>
   <testcase name="lowestDepthBeforeHighestDepth()" classname="org.springframework.core.ExceptionDepthComparatorTests" time="0.0"/>
   <testcase name="targetBeforeLowestDepth()" classname="org.springframework.core.ExceptionDepthComparatorTests" time="0.0"/>
-  <testcase name="targetBeforeSameDepth()" classname="org.springframework.core.ExceptionDepthComparatorTests" time="0.0"/>
+  <testcase name="targetBeforeSameDepth()" classname="org.springframework.core.ExceptionDepthComparatorTests" time="0.001"/>
   <testcase name="noDepthBeforeHighestDepth()" classname="org.springframework.core.ExceptionDepthComparatorTests" time="0.0"/>
   <testcase name="lowestDepthBeforeTarget()" classname="org.springframework.core.ExceptionDepthComparatorTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

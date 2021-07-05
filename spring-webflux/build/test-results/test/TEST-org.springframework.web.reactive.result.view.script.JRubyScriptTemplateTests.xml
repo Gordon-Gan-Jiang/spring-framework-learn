@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.result.view.script.JRubyScriptTemplateTests" tests="1" skipped="1" failures="0" errors="0" timestamp="2020-05-29T14:00:32" hostname="bamboo-18" time="0.001">
+<testsuite name="org.springframework.web.reactive.result.view.script.JRubyScriptTemplateTests" tests="1" skipped="1" failures="0" errors="0" timestamp="2021-06-20T08:11:02" hostname="gankangdembp" time="0.0">
   <properties/>
-  <testcase name="renderTemplate()" classname="org.springframework.web.reactive.result.view.script.JRubyScriptTemplateTests" time="0.001">
+  <testcase name="renderTemplate()" classname="org.springframework.web.reactive.result.view.script.JRubyScriptTemplateTests" time="0.0">
     <skipped/>
   </testcase>
   <system-out><![CDATA[]]></system-out>

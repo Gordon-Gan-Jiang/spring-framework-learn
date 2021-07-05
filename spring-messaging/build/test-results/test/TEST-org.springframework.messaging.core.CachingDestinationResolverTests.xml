@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.core.CachingDestinationResolverTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:23" hostname="bamboo-18" time="0.031">
+<testsuite name="org.springframework.messaging.core.CachingDestinationResolverTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:09:33" hostname="gankangdembp" time="0.025">
   <properties/>
   <testcase name="nullTargetThroughConstructor()" classname="org.springframework.messaging.core.CachingDestinationResolverTests" time="0.001"/>
   <testcase name="noTargetSet()" classname="org.springframework.messaging.core.CachingDestinationResolverTests" time="0.001"/>
-  <testcase name="cachedDestination()" classname="org.springframework.messaging.core.CachingDestinationResolverTests" time="0.029"/>
+  <testcase name="cachedDestination()" classname="org.springframework.messaging.core.CachingDestinationResolverTests" time="0.022"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

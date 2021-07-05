@@ -1,104 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.socket.WebSocketHandshakeTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:01:20" hostname="bamboo-18" time="1.526">
+<testsuite name="org.springframework.web.socket.WebSocketHandshakeTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:10:10" hostname="gankangdembp" time="0.93">
   <properties/>
-  <testcase name="unsolicitedPongWithEmptyPayload(WebSocketTestServer, WebSocketClient, TestInfo)[1]" classname="org.springframework.web.socket.WebSocketHandshakeTests" time="0.319"/>
-  <testcase name="unsolicitedPongWithEmptyPayload(WebSocketTestServer, WebSocketClient, TestInfo)[2]" classname="org.springframework.web.socket.WebSocketHandshakeTests" time="0.219"/>
-  <testcase name="unsolicitedPongWithEmptyPayload(WebSocketTestServer, WebSocketClient, TestInfo)[3]" classname="org.springframework.web.socket.WebSocketHandshakeTests" time="0.15"/>
-  <testcase name="subProtocolNegotiation(WebSocketTestServer, WebSocketClient, TestInfo)[1]" classname="org.springframework.web.socket.WebSocketHandshakeTests" time="0.319"/>
-  <testcase name="subProtocolNegotiation(WebSocketTestServer, WebSocketClient, TestInfo)[2]" classname="org.springframework.web.socket.WebSocketHandshakeTests" time="0.292"/>
-  <testcase name="subProtocolNegotiation(WebSocketTestServer, WebSocketClient, TestInfo)[3]" classname="org.springframework.web.socket.WebSocketHandshakeTests" time="0.224"/>
-  <system-out><![CDATA[14:01:20.931 [XNIO-18 I/O-4] ERROR o.x.listener - XNIO001007: A channel event listener threw an exception
+  <testcase name="unsolicitedPongWithEmptyPayload(WebSocketTestServer, WebSocketClient, TestInfo)[1]" classname="org.springframework.web.socket.WebSocketHandshakeTests" time="0.257"/>
+  <testcase name="unsolicitedPongWithEmptyPayload(WebSocketTestServer, WebSocketClient, TestInfo)[2]" classname="org.springframework.web.socket.WebSocketHandshakeTests" time="0.119"/>
+  <testcase name="unsolicitedPongWithEmptyPayload(WebSocketTestServer, WebSocketClient, TestInfo)[3]" classname="org.springframework.web.socket.WebSocketHandshakeTests" time="0.124"/>
+  <testcase name="subProtocolNegotiation(WebSocketTestServer, WebSocketClient, TestInfo)[1]" classname="org.springframework.web.socket.WebSocketHandshakeTests" time="0.185"/>
+  <testcase name="subProtocolNegotiation(WebSocketTestServer, WebSocketClient, TestInfo)[2]" classname="org.springframework.web.socket.WebSocketHandshakeTests" time="0.119"/>
+  <testcase name="subProtocolNegotiation(WebSocketTestServer, WebSocketClient, TestInfo)[3]" classname="org.springframework.web.socket.WebSocketHandshakeTests" time="0.11"/>
+  <system-out><![CDATA[16:10:10.798 [XNIO-6 I/O-7] ERROR o.x.listener - XNIO001007: A channel event listener threw an exception
 java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminating
 	at org.xnio.nio.WorkerThread.execute(WorkerThread.java:590) ~[xnio-nio-3.3.8.Final.jar:3.3.8.Final]
-	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:396) ~[undertow-websockets-jsr-2.0.30.Final.jar:2.0.30.Final]
-	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:388) ~[undertow-websockets-jsr-2.0.30.Final.jar:2.0.30.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:396) ~[undertow-websockets-jsr-2.0.32.Final.jar:2.0.32.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:388) ~[undertow-websockets-jsr-2.0.32.Final.jar:2.0.32.Final]
 	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) [xnio-api-3.3.8.Final.jar:3.3.8.Final]
-	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:1075) [undertow-core-2.0.30.Final.jar:2.0.30.Final]
-	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:990) [undertow-core-2.0.30.Final.jar:2.0.30.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:1075) [undertow-core-2.0.32.Final.jar:2.0.32.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:990) [undertow-core-2.0.32.Final.jar:2.0.32.Final]
 	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) [xnio-api-3.3.8.Final.jar:3.3.8.Final]
 	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.terminated(WriteReadyHandler.java:70) [xnio-api-3.3.8.Final.jar:3.3.8.Final]
 	at org.xnio.nio.NioSocketConduit.writeTerminated(NioSocketConduit.java:234) [xnio-nio-3.3.8.Final.jar:3.3.8.Final]
 	at org.xnio.nio.NioSocketConduit.terminateWrites(NioSocketConduit.java:223) [xnio-nio-3.3.8.Final.jar:3.3.8.Final]
 	at org.xnio.nio.NioSocketConduit.truncateWrites(NioSocketConduit.java:228) [xnio-nio-3.3.8.Final.jar:3.3.8.Final]
-	at io.undertow.conduits.IdleTimeoutConduit.truncateWrites(IdleTimeoutConduit.java:387) [undertow-core-2.0.30.Final.jar:2.0.30.Final]
+	at io.undertow.conduits.IdleTimeoutConduit.truncateWrites(IdleTimeoutConduit.java:387) [undertow-core-2.0.32.Final.jar:2.0.32.Final]
 	at org.xnio.conduits.ConduitStreamSinkChannel.close(ConduitStreamSinkChannel.java:186) [xnio-api-3.3.8.Final.jar:3.3.8.Final]
 	at org.xnio.IoUtils.safeClose(IoUtils.java:134) [xnio-api-3.3.8.Final.jar:3.3.8.Final]
 	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.forceTermination(WriteReadyHandler.java:57) [xnio-api-3.3.8.Final.jar:3.3.8.Final]
 	at org.xnio.nio.NioSocketConduit.forceTermination(NioSocketConduit.java:107) [xnio-nio-3.3.8.Final.jar:3.3.8.Final]
 	at org.xnio.nio.WorkerThread.run(WorkerThread.java:494) [xnio-nio-3.3.8.Final.jar:3.3.8.Final]
-14:01:21.764 [XNIO-20 task-1] ERROR i.u.w.j.request - UT026001: Unable to instantiate endpoint
-java.nio.channels.ClosedChannelException: null
-	at io.undertow.server.protocol.framed.AbstractFramedChannel.queueFrame(AbstractFramedChannel.java:730) ~[undertow-core-2.0.30.Final.jar:2.0.30.Final]
-	at io.undertow.server.protocol.framed.AbstractFramedStreamSinkChannel.queueFinalFrame(AbstractFramedStreamSinkChannel.java:267) ~[undertow-core-2.0.30.Final.jar:2.0.30.Final]
-	at io.undertow.server.protocol.framed.AbstractFramedStreamSinkChannel.shutdownWrites(AbstractFramedStreamSinkChannel.java:244) ~[undertow-core-2.0.30.Final.jar:2.0.30.Final]
-	at io.undertow.websockets.core.WebSocketChannel.sendClose(WebSocketChannel.java:365) ~[undertow-core-2.0.30.Final.jar:2.0.30.Final]
-	at io.undertow.websockets.jsr.EndpointSessionHandler.onConnect(EndpointSessionHandler.java:65) [undertow-websockets-jsr-2.0.30.Final.jar:2.0.30.Final]
-	at io.undertow.websockets.jsr.ServerWebSocketContainer$4.handleUpgrade(ServerWebSocketContainer.java:472) [undertow-websockets-jsr-2.0.30.Final.jar:2.0.30.Final]
-	at io.undertow.server.protocol.http.HttpReadListener.exchangeComplete(HttpReadListener.java:385) [undertow-core-2.0.30.Final.jar:2.0.30.Final]
-	at io.undertow.server.protocol.http.HttpServerConnection.exchangeComplete(HttpServerConnection.java:232) [undertow-core-2.0.30.Final.jar:2.0.30.Final]
-	at io.undertow.server.HttpServerExchange.invokeExchangeCompleteListeners(HttpServerExchange.java:1279) [undertow-core-2.0.30.Final.jar:2.0.30.Final]
-	at io.undertow.server.HttpServerExchange.terminateResponse(HttpServerExchange.java:1563) [undertow-core-2.0.30.Final.jar:2.0.30.Final]
-	at io.undertow.server.Connectors.terminateResponse(Connectors.java:159) [undertow-core-2.0.30.Final.jar:2.0.30.Final]
-	at io.undertow.server.protocol.http.HttpTransferEncoding$3.handleEvent(HttpTransferEncoding.java:197) [undertow-core-2.0.30.Final.jar:2.0.30.Final]
-	at io.undertow.server.protocol.http.HttpTransferEncoding$3.handleEvent(HttpTransferEncoding.java:195) [undertow-core-2.0.30.Final.jar:2.0.30.Final]
-	at io.undertow.conduits.HeadStreamSinkConduit.exitFlush(HeadStreamSinkConduit.java:192) [undertow-core-2.0.30.Final.jar:2.0.30.Final]
-	at io.undertow.conduits.HeadStreamSinkConduit.flush(HeadStreamSinkConduit.java:133) [undertow-core-2.0.30.Final.jar:2.0.30.Final]
-	at org.xnio.conduits.ConduitStreamSinkChannel.flush(ConduitStreamSinkChannel.java:162) [xnio-api-3.3.8.Final.jar:3.3.8.Final]
-	at io.undertow.channels.DetachableStreamSinkChannel.flush(DetachableStreamSinkChannel.java:119) [undertow-core-2.0.30.Final.jar:2.0.30.Final]
-	at org.xnio.channels.Channels.flushBlocking(Channels.java:63) [xnio-api-3.3.8.Final.jar:3.3.8.Final]
-	at io.undertow.servlet.spec.ServletOutputStreamImpl.close(ServletOutputStreamImpl.java:618) [undertow-servlet-2.0.30.Final.jar:2.0.30.Final]
-	at io.undertow.servlet.spec.HttpServletResponseImpl.closeStreamAndWriter(HttpServletResponseImpl.java:534) [undertow-servlet-2.0.30.Final.jar:2.0.30.Final]
-	at io.undertow.servlet.spec.HttpServletResponseImpl.responseDone(HttpServletResponseImpl.java:623) [undertow-servlet-2.0.30.Final.jar:2.0.30.Final]
-	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:328) [undertow-servlet-2.0.30.Final.jar:2.0.30.Final]
-	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78) [undertow-servlet-2.0.30.Final.jar:2.0.30.Final]
-	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133) [undertow-servlet-2.0.30.Final.jar:2.0.30.Final]
-	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130) [undertow-servlet-2.0.30.Final.jar:2.0.30.Final]
-	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48) [undertow-servlet-2.0.30.Final.jar:2.0.30.Final]
-	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43) [undertow-servlet-2.0.30.Final.jar:2.0.30.Final]
-	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249) [undertow-servlet-2.0.30.Final.jar:2.0.30.Final]
-	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78) [undertow-servlet-2.0.30.Final.jar:2.0.30.Final]
-	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99) [undertow-servlet-2.0.30.Final.jar:2.0.30.Final]
-	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:376) [undertow-core-2.0.30.Final.jar:2.0.30.Final]
-	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830) [undertow-core-2.0.30.Final.jar:2.0.30.Final]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_232]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_232]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+16:10:11.224 [XNIO-8 I/O-8] ERROR o.x.listener - XNIO001007: A channel event listener threw an exception
+java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminating
+	at org.xnio.nio.WorkerThread.execute(WorkerThread.java:590) ~[xnio-nio-3.3.8.Final.jar:3.3.8.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:396) ~[undertow-websockets-jsr-2.0.32.Final.jar:2.0.32.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:388) ~[undertow-websockets-jsr-2.0.32.Final.jar:2.0.32.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) [xnio-api-3.3.8.Final.jar:3.3.8.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:1075) [undertow-core-2.0.32.Final.jar:2.0.32.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:990) [undertow-core-2.0.32.Final.jar:2.0.32.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) [xnio-api-3.3.8.Final.jar:3.3.8.Final]
+	at org.xnio.conduits.ReadReadyHandler$ChannelListenerHandler.terminated(ReadReadyHandler.java:71) [xnio-api-3.3.8.Final.jar:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.readTerminated(NioSocketConduit.java:360) [xnio-nio-3.3.8.Final.jar:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.terminateReads(NioSocketConduit.java:353) [xnio-nio-3.3.8.Final.jar:3.3.8.Final]
+	at io.undertow.conduits.IdleTimeoutConduit.terminateReads(IdleTimeoutConduit.java:236) [undertow-core-2.0.32.Final.jar:2.0.32.Final]
+	at org.xnio.conduits.ConduitStreamSourceChannel.close(ConduitStreamSourceChannel.java:168) [xnio-api-3.3.8.Final.jar:3.3.8.Final]
+	at org.xnio.IoUtils.safeClose(IoUtils.java:134) [xnio-api-3.3.8.Final.jar:3.3.8.Final]
+	at org.xnio.conduits.ReadReadyHandler$ChannelListenerHandler.forceTermination(ReadReadyHandler.java:58) [xnio-api-3.3.8.Final.jar:3.3.8.Final]
+	at org.xnio.nio.NioSocketConduit.forceTermination(NioSocketConduit.java:105) [xnio-nio-3.3.8.Final.jar:3.3.8.Final]
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:494) [xnio-nio-3.3.8.Final.jar:3.3.8.Final]
 ]]></system-out>
-  <system-err><![CDATA[May 29, 2020 2:01:20 PM org.apache.coyote.AbstractProtocol init
-INFO: Initializing ProtocolHandler ["http-nio-auto-10"]
-May 29, 2020 2:01:20 PM org.apache.catalina.core.StandardService startInternal
-INFO: Starting service [Tomcat]
-May 29, 2020 2:01:20 PM org.apache.catalina.core.StandardEngine startInternal
-INFO: Starting Servlet engine: [Apache Tomcat/9.0.35]
-May 29, 2020 2:01:20 PM org.apache.coyote.AbstractProtocol start
-INFO: Starting ProtocolHandler ["http-nio-auto-10-33645"]
-May 29, 2020 2:01:20 PM org.apache.catalina.core.ApplicationContext log
-INFO: Initializing Spring DispatcherServlet 'dispatcherServlet'
-May 29, 2020 2:01:20 PM org.apache.catalina.core.ApplicationContext log
-INFO: Destroying Spring FrameworkServlet 'dispatcherServlet'
-May 29, 2020 2:01:20 PM org.apache.coyote.AbstractProtocol pause
-INFO: Pausing ProtocolHandler ["http-nio-auto-10-33645"]
-May 29, 2020 2:01:20 PM org.apache.catalina.core.StandardService stopInternal
-INFO: Stopping service [Tomcat]
-May 29, 2020 2:01:20 PM org.apache.coyote.AbstractProtocol stop
-INFO: Stopping ProtocolHandler ["http-nio-auto-10-33645"]
-May 29, 2020 2:01:21 PM org.apache.coyote.AbstractProtocol init
-INFO: Initializing ProtocolHandler ["http-nio-auto-11"]
-May 29, 2020 2:01:21 PM org.apache.catalina.core.StandardService startInternal
-INFO: Starting service [Tomcat]
-May 29, 2020 2:01:21 PM org.apache.catalina.core.StandardEngine startInternal
-INFO: Starting Servlet engine: [Apache Tomcat/9.0.35]
-May 29, 2020 2:01:21 PM org.apache.coyote.AbstractProtocol start
-INFO: Starting ProtocolHandler ["http-nio-auto-11-43875"]
-May 29, 2020 2:01:21 PM org.apache.catalina.core.ApplicationContext log
-INFO: Initializing Spring DispatcherServlet 'dispatcherServlet'
-May 29, 2020 2:01:21 PM org.apache.catalina.core.ApplicationContext log
-INFO: Destroying Spring FrameworkServlet 'dispatcherServlet'
-May 29, 2020 2:01:21 PM org.apache.coyote.AbstractProtocol pause
-INFO: Pausing ProtocolHandler ["http-nio-auto-11-43875"]
-May 29, 2020 2:01:21 PM org.apache.catalina.core.StandardService stopInternal
-INFO: Stopping service [Tomcat]
-May 29, 2020 2:01:21 PM org.apache.coyote.AbstractProtocol stop
-INFO: Stopping ProtocolHandler ["http-nio-auto-11-43875"]
+  <system-err><![CDATA[六月 20, 2021 4:10:10 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-3"]
+六月 20, 2021 4:10:10 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+六月 20, 2021 4:10:10 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet engine: [Apache Tomcat/9.0.37]
+六月 20, 2021 4:10:10 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-3-54478"]
+六月 20, 2021 4:10:10 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring DispatcherServlet 'dispatcherServlet'
+六月 20, 2021 4:10:10 下午 org.apache.catalina.core.ApplicationContext log
+信息: Destroying Spring FrameworkServlet 'dispatcherServlet'
+六月 20, 2021 4:10:10 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-3-54478"]
+六月 20, 2021 4:10:10 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+六月 20, 2021 4:10:10 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-3-54478"]
+六月 20, 2021 4:10:11 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-4"]
+六月 20, 2021 4:10:11 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+六月 20, 2021 4:10:11 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet engine: [Apache Tomcat/9.0.37]
+六月 20, 2021 4:10:11 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-4-54487"]
+六月 20, 2021 4:10:11 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring DispatcherServlet 'dispatcherServlet'
+六月 20, 2021 4:10:11 下午 org.apache.catalina.core.ApplicationContext log
+信息: Destroying Spring FrameworkServlet 'dispatcherServlet'
+六月 20, 2021 4:10:11 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-4-54487"]
+六月 20, 2021 4:10:11 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+六月 20, 2021 4:10:11 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-4-54487"]
 ]]></system-err>
 </testsuite>

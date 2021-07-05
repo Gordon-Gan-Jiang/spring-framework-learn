@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.aop.scope.ScopedProxyAutowireTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:56:36" hostname="bamboo-18" time="0.116">
+<testsuite name="org.springframework.aop.scope.ScopedProxyAutowireTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:07:20" hostname="gankangdembp" time="0.032">
   <properties/>
-  <testcase name="testScopedProxyInheritsAutowireCandidateFalse()" classname="org.springframework.aop.scope.ScopedProxyAutowireTests" time="0.051"/>
-  <testcase name="testScopedProxyReplacesAutowireCandidateTrue()" classname="org.springframework.aop.scope.ScopedProxyAutowireTests" time="0.064"/>
+  <testcase name="testScopedProxyInheritsAutowireCandidateFalse()" classname="org.springframework.aop.scope.ScopedProxyAutowireTests" time="0.017"/>
+  <testcase name="testScopedProxyReplacesAutowireCandidateTrue()" classname="org.springframework.aop.scope.ScopedProxyAutowireTests" time="0.014"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

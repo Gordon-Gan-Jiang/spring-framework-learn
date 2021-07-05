@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.factory.wiring.BeanConfigurerSupportTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:57:17" hostname="bamboo-18" time="0.056">
+<testsuite name="org.springframework.beans.factory.wiring.BeanConfigurerSupportTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:07:14" hostname="gankangdembp" time="0.011">
   <properties/>
-  <testcase name="configureBeanPerformsAutowiringByTypeIfAppropriateBeanWiringInfoResolverIsPluggedIn()" classname="org.springframework.beans.factory.wiring.BeanConfigurerSupportTests" time="0.033"/>
+  <testcase name="configureBeanPerformsAutowiringByTypeIfAppropriateBeanWiringInfoResolverIsPluggedIn()" classname="org.springframework.beans.factory.wiring.BeanConfigurerSupportTests" time="0.007"/>
   <testcase name="configureBeanReallyDoesDefaultToUsingTheFullyQualifiedClassNameOfTheSuppliedBeanInstance()" classname="org.springframework.beans.factory.wiring.BeanConfigurerSupportTests" time="0.001"/>
   <testcase name="configureBeanDoesNothingIfBeanWiringInfoResolverResolvesToNull()" classname="org.springframework.beans.factory.wiring.BeanConfigurerSupportTests" time="0.0"/>
-  <testcase name="configureBeanPerformsAutowiringByNameIfAppropriateBeanWiringInfoResolverIsPluggedIn()" classname="org.springframework.beans.factory.wiring.BeanConfigurerSupportTests" time="0.007"/>
-  <testcase name="supplyIncompatibleBeanFactoryImplementation()" classname="org.springframework.beans.factory.wiring.BeanConfigurerSupportTests" time="0.008"/>
-  <testcase name="configureBeanDoesNothingIfNoBeanFactoryHasBeenSet()" classname="org.springframework.beans.factory.wiring.BeanConfigurerSupportTests" time="0.001"/>
+  <testcase name="configureBeanPerformsAutowiringByNameIfAppropriateBeanWiringInfoResolverIsPluggedIn()" classname="org.springframework.beans.factory.wiring.BeanConfigurerSupportTests" time="0.002"/>
+  <testcase name="supplyIncompatibleBeanFactoryImplementation()" classname="org.springframework.beans.factory.wiring.BeanConfigurerSupportTests" time="0.001"/>
+  <testcase name="configureBeanDoesNothingIfNoBeanFactoryHasBeenSet()" classname="org.springframework.beans.factory.wiring.BeanConfigurerSupportTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

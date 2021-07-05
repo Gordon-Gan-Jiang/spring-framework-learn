@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.aop.framework.autoproxy.AdvisorAutoProxyCreatorTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:42" hostname="bamboo-18" time="0.041">
+<testsuite name="org.springframework.aop.framework.autoproxy.AdvisorAutoProxyCreatorTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:13:03" hostname="gankangdembp" time="0.172">
   <properties/>
-  <testcase name="testCustomTargetSourceNoMatch()" classname="org.springframework.aop.framework.autoproxy.AdvisorAutoProxyCreatorTests" time="0.003"/>
-  <testcase name="testLazyInitTargetSource()" classname="org.springframework.aop.framework.autoproxy.AdvisorAutoProxyCreatorTests" time="0.003"/>
-  <testcase name="testQuickTargetSourceCreator()" classname="org.springframework.aop.framework.autoproxy.AdvisorAutoProxyCreatorTests" time="0.01"/>
-  <testcase name="testCustomPrototypeTargetSource()" classname="org.springframework.aop.framework.autoproxy.AdvisorAutoProxyCreatorTests" time="0.002"/>
-  <testcase name="testCommonInterceptorAndAdvisor()" classname="org.springframework.aop.framework.autoproxy.AdvisorAutoProxyCreatorTests" time="0.008"/>
-  <testcase name="testWithOptimizedProxy()" classname="org.springframework.aop.framework.autoproxy.AdvisorAutoProxyCreatorTests" time="0.014"/>
+  <testcase name="testCustomTargetSourceNoMatch()" classname="org.springframework.aop.framework.autoproxy.AdvisorAutoProxyCreatorTests" time="0.015"/>
+  <testcase name="testLazyInitTargetSource()" classname="org.springframework.aop.framework.autoproxy.AdvisorAutoProxyCreatorTests" time="0.009"/>
+  <testcase name="testQuickTargetSourceCreator()" classname="org.springframework.aop.framework.autoproxy.AdvisorAutoProxyCreatorTests" time="0.052"/>
+  <testcase name="testCustomPrototypeTargetSource()" classname="org.springframework.aop.framework.autoproxy.AdvisorAutoProxyCreatorTests" time="0.007"/>
+  <testcase name="testCommonInterceptorAndAdvisor()" classname="org.springframework.aop.framework.autoproxy.AdvisorAutoProxyCreatorTests" time="0.041"/>
+  <testcase name="testWithOptimizedProxy()" classname="org.springframework.aop.framework.autoproxy.AdvisorAutoProxyCreatorTests" time="0.046"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

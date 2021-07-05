@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.015s</div>
+<div class="counter">0.009s</div>
 <p>duration</p>
 </div>
 </td>
@@ -89,7 +89,7 @@
 </tr>
 <tr>
 <td class="success">checkResource()</td>
-<td class="success">0.005s</td>
+<td class="success">0.003s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -104,7 +104,7 @@
 </tr>
 <tr>
 <td class="success">ignoreInvalidEscapeSequence()</td>
-<td class="success">0.007s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -114,12 +114,12 @@
 </tr>
 <tr>
 <td class="success">resolveFromClasspath()</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">resolveFromClasspathRoot()</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -132,19 +132,19 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>14:01:36.698 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;../testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
-14:01:36.699 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;test/../../testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
-14:01:36.699 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;file:/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
-14:01:36.702 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;/file:/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
-14:01:36.702 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;//opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
-14:01:36.702 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;////../../opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/../../opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
-14:01:36.702 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resolved resource path contains encoded &quot;../&quot; or &quot;..\&quot;: file:/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/%2E%2E/testsecret/secret.txt
-14:01:36.702 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;/%2E%2E/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/%2E%2E/testsecret/secret.txt&quot; is neither under the current location &quot;file:/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
-14:01:36.702 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resolved resource path contains encoded &quot;../&quot; or &quot;..\&quot;: file:/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/%2e%2e/testsecret/secret.txt
-14:01:36.702 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;/%2e%2e/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/%2e%2e/testsecret/secret.txt&quot; is neither under the current location &quot;file:/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
-14:01:36.702 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot; /opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
-14:01:36.703 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;/  /opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
-14:01:36.703 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;url:/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
+<pre>16:13:56.218 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;../testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/gankang/spring-framework-learn/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/gankang/spring-framework-learn/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
+16:13:56.219 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;test/../../testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/gankang/spring-framework-learn/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/gankang/spring-framework-learn/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
+16:13:56.219 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;file:/Users/gankang/spring-framework-learn/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/gankang/spring-framework-learn/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/gankang/spring-framework-learn/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
+16:13:56.219 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;/file:/Users/gankang/spring-framework-learn/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/gankang/spring-framework-learn/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/gankang/spring-framework-learn/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
+16:13:56.219 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;//Users/gankang/spring-framework-learn/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/gankang/spring-framework-learn/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/gankang/spring-framework-learn/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
+16:13:56.220 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;////../../Users/gankang/spring-framework-learn/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/../../Users/gankang/spring-framework-learn/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/gankang/spring-framework-learn/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
+16:13:56.220 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resolved resource path contains encoded &quot;../&quot; or &quot;..\&quot;: file:/Users/gankang/spring-framework-learn/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/%2E%2E/testsecret/secret.txt
+16:13:56.220 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;/%2E%2E/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/gankang/spring-framework-learn/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/%2E%2E/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/gankang/spring-framework-learn/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
+16:13:56.221 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resolved resource path contains encoded &quot;../&quot; or &quot;..\&quot;: file:/Users/gankang/spring-framework-learn/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/%2e%2e/testsecret/secret.txt
+16:13:56.221 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;/%2e%2e/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/gankang/spring-framework-learn/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/%2e%2e/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/gankang/spring-framework-learn/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
+16:13:56.221 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot; /Users/gankang/spring-framework-learn/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/gankang/spring-framework-learn/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/gankang/spring-framework-learn/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
+16:13:56.221 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;/  /Users/gankang/spring-framework-learn/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/gankang/spring-framework-learn/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/gankang/spring-framework-learn/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
+16:13:56.221 [Test worker] WARN  o.s.w.s.r.PathResourceResolver - Resource path &quot;url:/Users/gankang/spring-framework-learn/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/gankang/spring-framework-learn/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/gankang/spring-framework-learn/spring-webmvc/build/resources/test/org/springframework/web/servlet/resource/test/&quot; nor under any of the allowed locations []
 </pre>
 </span>
 </div>
@@ -156,7 +156,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.6.4</a> at May 29, 2020 2:02:10 PM</p>
+<a href="http://www.gradle.org">Gradle 5.6.4</a> at 2021-6-20 16:14:01</p>
 </div>
 </div>
 </body>

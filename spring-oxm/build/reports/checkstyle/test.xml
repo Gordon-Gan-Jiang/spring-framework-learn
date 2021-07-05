@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.22">
-<file name="/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-oxm/src/test/java/org/springframework/oxm/AbstractMarshallerTests.java">
+<file name="/Users/gankang/spring-framework-learn/spring-oxm/src/test/java/org/springframework/oxm/AbstractMarshallerTests.java">
 </file>
-<file name="/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-oxm/src/test/java/org/springframework/oxm/AbstractUnmarshallerTests.java">
+<file name="/Users/gankang/spring-framework-learn/spring-oxm/src/test/java/org/springframework/oxm/AbstractUnmarshallerTests.java">
 </file>
-<file name="/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-oxm/src/test/java/org/springframework/oxm/config/OxmNamespaceHandlerTests.java">
+<file name="/Users/gankang/spring-framework-learn/spring-oxm/src/test/java/org/springframework/oxm/config/OxmNamespaceHandlerTests.java">
 </file>
-<file name="/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-oxm/src/test/java/org/springframework/oxm/jaxb/Airplane.java">
+<file name="/Users/gankang/spring-framework-learn/spring-oxm/src/test/java/org/springframework/oxm/jaxb/Airplane.java">
 </file>
-<file name="/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-oxm/src/test/java/org/springframework/oxm/jaxb/BinaryObject.java">
+<file name="/Users/gankang/spring-framework-learn/spring-oxm/src/test/java/org/springframework/oxm/jaxb/BinaryObject.java">
 </file>
-<file name="/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-oxm/src/test/java/org/springframework/oxm/jaxb/Jaxb2MarshallerTests.java">
+<file name="/Users/gankang/spring-framework-learn/spring-oxm/src/test/java/org/springframework/oxm/jaxb/Jaxb2MarshallerTests.java">
 </file>
-<file name="/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-oxm/src/test/java/org/springframework/oxm/jaxb/Jaxb2UnmarshallerTests.java">
+<file name="/Users/gankang/spring-framework-learn/spring-oxm/src/test/java/org/springframework/oxm/jaxb/Jaxb2UnmarshallerTests.java">
 </file>
-<file name="/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-oxm/src/test/java/org/springframework/oxm/jaxb/Primitives.java">
+<file name="/Users/gankang/spring-framework-learn/spring-oxm/src/test/java/org/springframework/oxm/jaxb/Primitives.java">
 </file>
-<file name="/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-oxm/src/test/java/org/springframework/oxm/jaxb/StandardClasses.java">
+<file name="/Users/gankang/spring-framework-learn/spring-oxm/src/test/java/org/springframework/oxm/jaxb/StandardClasses.java">
 </file>
-<file name="/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-oxm/src/test/java/org/springframework/oxm/jaxb/XmlRegObjectFactory.java">
+<file name="/Users/gankang/spring-framework-learn/spring-oxm/src/test/java/org/springframework/oxm/jaxb/XmlRegObjectFactory.java">
 </file>
-<file name="/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-oxm/src/test/java/org/springframework/oxm/jibx/FlightType.java">
+<file name="/Users/gankang/spring-framework-learn/spring-oxm/src/test/java/org/springframework/oxm/jibx/FlightType.java">
 </file>
-<file name="/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-oxm/src/test/java/org/springframework/oxm/jibx/Flights.java">
+<file name="/Users/gankang/spring-framework-learn/spring-oxm/src/test/java/org/springframework/oxm/jibx/Flights.java">
 </file>
-<file name="/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-oxm/src/test/java/org/springframework/oxm/jibx/JibxMarshallerTests.java">
+<file name="/Users/gankang/spring-framework-learn/spring-oxm/src/test/java/org/springframework/oxm/jibx/JibxMarshallerTests.java">
 </file>
-<file name="/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-oxm/src/test/java/org/springframework/oxm/jibx/JibxUnmarshallerTests.java">
+<file name="/Users/gankang/spring-framework-learn/spring-oxm/src/test/java/org/springframework/oxm/jibx/JibxUnmarshallerTests.java">
 </file>
-<file name="/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-oxm/src/test/java/org/springframework/oxm/xstream/Flight.java">
+<file name="/Users/gankang/spring-framework-learn/spring-oxm/src/test/java/org/springframework/oxm/xstream/Flight.java">
 </file>
-<file name="/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-oxm/src/test/java/org/springframework/oxm/xstream/FlightSubclass.java">
+<file name="/Users/gankang/spring-framework-learn/spring-oxm/src/test/java/org/springframework/oxm/xstream/FlightSubclass.java">
 </file>
-<file name="/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-oxm/src/test/java/org/springframework/oxm/xstream/Flights.java">
+<file name="/Users/gankang/spring-framework-learn/spring-oxm/src/test/java/org/springframework/oxm/xstream/Flights.java">
 </file>
-<file name="/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-oxm/src/test/java/org/springframework/oxm/xstream/XStreamMarshallerTests.java">
+<file name="/Users/gankang/spring-framework-learn/spring-oxm/src/test/java/org/springframework/oxm/xstream/XStreamMarshallerTests.java">
 </file>
-<file name="/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-oxm/src/test/java/org/springframework/oxm/xstream/XStreamUnmarshallerTests.java">
+<file name="/Users/gankang/spring-framework-learn/spring-oxm/src/test/java/org/springframework/oxm/xstream/XStreamUnmarshallerTests.java">
 </file>
 </checkstyle>

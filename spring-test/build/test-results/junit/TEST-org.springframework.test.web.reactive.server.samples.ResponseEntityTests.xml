@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.web.reactive.server.samples.ResponseEntityTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:31" hostname="bamboo-18" time="1.358">
+<testsuite name="org.springframework.test.web.reactive.server.samples.ResponseEntityTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:12:53" hostname="gankangdembp" time="1.478">
   <properties/>
-  <testcase name="entityList()" classname="org.springframework.test.web.reactive.server.samples.ResponseEntityTests" time="0.071"/>
-  <testcase name="entity()" classname="org.springframework.test.web.reactive.server.samples.ResponseEntityTests" time="0.015"/>
-  <testcase name="entityMap()" classname="org.springframework.test.web.reactive.server.samples.ResponseEntityTests" time="0.022"/>
-  <testcase name="entityListWithConsumer()" classname="org.springframework.test.web.reactive.server.samples.ResponseEntityTests" time="0.005"/>
+  <testcase name="entityList()" classname="org.springframework.test.web.reactive.server.samples.ResponseEntityTests" time="0.09"/>
+  <testcase name="entity()" classname="org.springframework.test.web.reactive.server.samples.ResponseEntityTests" time="0.008"/>
+  <testcase name="entityMap()" classname="org.springframework.test.web.reactive.server.samples.ResponseEntityTests" time="0.007"/>
+  <testcase name="entityListWithConsumer()" classname="org.springframework.test.web.reactive.server.samples.ResponseEntityTests" time="0.007"/>
   <testcase name="entityWithConsumer()" classname="org.springframework.test.web.reactive.server.samples.ResponseEntityTests" time="0.005"/>
-  <testcase name="entityMatcher()" classname="org.springframework.test.web.reactive.server.samples.ResponseEntityTests" time="0.008"/>
-  <testcase name="entityStream()" classname="org.springframework.test.web.reactive.server.samples.ResponseEntityTests" time="0.81"/>
-  <testcase name="postEntity()" classname="org.springframework.test.web.reactive.server.samples.ResponseEntityTests" time="0.015"/>
+  <testcase name="entityMatcher()" classname="org.springframework.test.web.reactive.server.samples.ResponseEntityTests" time="0.007"/>
+  <testcase name="entityStream()" classname="org.springframework.test.web.reactive.server.samples.ResponseEntityTests" time="0.833"/>
+  <testcase name="postEntity()" classname="org.springframework.test.web.reactive.server.samples.ResponseEntityTests" time="0.01"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.remoting.caucho.CauchoRemotingTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:56" hostname="bamboo-18" time="0.279">
+<testsuite name="org.springframework.remoting.caucho.CauchoRemotingTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:10:57" hostname="gankangdembp" time="2.903">
   <properties/>
-  <testcase name="hessianProxyFactoryBeanWithAuthenticationAndAccessError()" classname="org.springframework.remoting.caucho.CauchoRemotingTests" time="0.054"/>
-  <testcase name="simpleHessianServiceExporter()" classname="org.springframework.remoting.caucho.CauchoRemotingTests" time="0.222"/>
-  <testcase name="hessianProxyFactoryBeanWithCustomProxyFactory()" classname="org.springframework.remoting.caucho.CauchoRemotingTests" time="0.001"/>
-  <testcase name="hessianProxyFactoryBeanWithClassInsteadOfInterface()" classname="org.springframework.remoting.caucho.CauchoRemotingTests" time="0.0"/>
-  <testcase name="hessianProxyFactoryBeanWithAccessError()" classname="org.springframework.remoting.caucho.CauchoRemotingTests" time="0.001"/>
+  <testcase name="hessianProxyFactoryBeanWithAuthenticationAndAccessError()" classname="org.springframework.remoting.caucho.CauchoRemotingTests" time="2.669"/>
+  <testcase name="simpleHessianServiceExporter()" classname="org.springframework.remoting.caucho.CauchoRemotingTests" time="0.224"/>
+  <testcase name="hessianProxyFactoryBeanWithCustomProxyFactory()" classname="org.springframework.remoting.caucho.CauchoRemotingTests" time="0.003"/>
+  <testcase name="hessianProxyFactoryBeanWithClassInsteadOfInterface()" classname="org.springframework.remoting.caucho.CauchoRemotingTests" time="0.002"/>
+  <testcase name="hessianProxyFactoryBeanWithAccessError()" classname="org.springframework.remoting.caucho.CauchoRemotingTests" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

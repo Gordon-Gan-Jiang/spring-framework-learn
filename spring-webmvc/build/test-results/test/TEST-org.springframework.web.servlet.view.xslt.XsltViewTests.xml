@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.servlet.view.xslt.XsltViewTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:01:38" hostname="bamboo-18" time="0.645">
+<testsuite name="org.springframework.web.servlet.view.xslt.XsltViewTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:13:54" hostname="gankangdembp" time="0.365">
   <properties/>
-  <testcase name="withoutUrl()" classname="org.springframework.web.servlet.view.xslt.XsltViewTests" time="0.002"/>
-  <testcase name="testSimpleTransformWithInputStream()" classname="org.springframework.web.servlet.view.xslt.XsltViewTests" time="0.382"/>
-  <testcase name="withNoSource()" classname="org.springframework.web.servlet.view.xslt.XsltViewTests" time="0.03"/>
-  <testcase name="testSimpleTransformWithReader()" classname="org.springframework.web.servlet.view.xslt.XsltViewTests" time="0.026"/>
-  <testcase name="testStaticAttributesCarriedAcross()" classname="org.springframework.web.servlet.view.xslt.XsltViewTests" time="0.023"/>
-  <testcase name="simpleTransformWithSource()" classname="org.springframework.web.servlet.view.xslt.XsltViewTests" time="0.019"/>
-  <testcase name="testSimpleTransformWithNode()" classname="org.springframework.web.servlet.view.xslt.XsltViewTests" time="0.025"/>
-  <testcase name="testContentTypeCarriedFromTemplate()" classname="org.springframework.web.servlet.view.xslt.XsltViewTests" time="0.024"/>
-  <testcase name="testSimpleTransformWithResource()" classname="org.springframework.web.servlet.view.xslt.XsltViewTests" time="0.026"/>
-  <testcase name="testWithSourceKey()" classname="org.springframework.web.servlet.view.xslt.XsltViewTests" time="0.028"/>
-  <testcase name="testSimpleTransformWithDocument()" classname="org.springframework.web.servlet.view.xslt.XsltViewTests" time="0.043"/>
-  <testcase name="testModelParametersCarriedAcross()" classname="org.springframework.web.servlet.view.xslt.XsltViewTests" time="0.01"/>
+  <testcase name="withoutUrl()" classname="org.springframework.web.servlet.view.xslt.XsltViewTests" time="0.001"/>
+  <testcase name="testSimpleTransformWithInputStream()" classname="org.springframework.web.servlet.view.xslt.XsltViewTests" time="0.174"/>
+  <testcase name="withNoSource()" classname="org.springframework.web.servlet.view.xslt.XsltViewTests" time="0.021"/>
+  <testcase name="testSimpleTransformWithReader()" classname="org.springframework.web.servlet.view.xslt.XsltViewTests" time="0.028"/>
+  <testcase name="testStaticAttributesCarriedAcross()" classname="org.springframework.web.servlet.view.xslt.XsltViewTests" time="0.02"/>
+  <testcase name="simpleTransformWithSource()" classname="org.springframework.web.servlet.view.xslt.XsltViewTests" time="0.017"/>
+  <testcase name="testSimpleTransformWithNode()" classname="org.springframework.web.servlet.view.xslt.XsltViewTests" time="0.022"/>
+  <testcase name="testContentTypeCarriedFromTemplate()" classname="org.springframework.web.servlet.view.xslt.XsltViewTests" time="0.016"/>
+  <testcase name="testSimpleTransformWithResource()" classname="org.springframework.web.servlet.view.xslt.XsltViewTests" time="0.017"/>
+  <testcase name="testWithSourceKey()" classname="org.springframework.web.servlet.view.xslt.XsltViewTests" time="0.015"/>
+  <testcase name="testSimpleTransformWithDocument()" classname="org.springframework.web.servlet.view.xslt.XsltViewTests" time="0.017"/>
+  <testcase name="testModelParametersCarriedAcross()" classname="org.springframework.web.servlet.view.xslt.XsltViewTests" time="0.016"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

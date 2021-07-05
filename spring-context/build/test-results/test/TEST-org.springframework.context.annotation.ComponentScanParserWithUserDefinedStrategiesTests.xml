@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.annotation.ComponentScanParserWithUserDefinedStrategiesTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:04" hostname="bamboo-18" time="0.112">
+<testsuite name="org.springframework.context.annotation.ComponentScanParserWithUserDefinedStrategiesTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:11:26" hostname="gankangdembp" time="0.213">
   <properties/>
-  <testcase name="testInvalidConstructorBeanNameGenerator()" classname="org.springframework.context.annotation.ComponentScanParserWithUserDefinedStrategiesTests" time="0.018"/>
-  <testcase name="testCustomScopeMetadataResolver()" classname="org.springframework.context.annotation.ComponentScanParserWithUserDefinedStrategiesTests" time="0.045"/>
-  <testcase name="testCustomBeanNameGenerator()" classname="org.springframework.context.annotation.ComponentScanParserWithUserDefinedStrategiesTests" time="0.037"/>
-  <testcase name="testInvalidClassNameScopeMetadataResolver()" classname="org.springframework.context.annotation.ComponentScanParserWithUserDefinedStrategiesTests" time="0.012"/>
+  <testcase name="testInvalidConstructorBeanNameGenerator()" classname="org.springframework.context.annotation.ComponentScanParserWithUserDefinedStrategiesTests" time="0.049"/>
+  <testcase name="testCustomScopeMetadataResolver()" classname="org.springframework.context.annotation.ComponentScanParserWithUserDefinedStrategiesTests" time="0.05"/>
+  <testcase name="testCustomBeanNameGenerator()" classname="org.springframework.context.annotation.ComponentScanParserWithUserDefinedStrategiesTests" time="0.083"/>
+  <testcase name="testInvalidClassNameScopeMetadataResolver()" classname="org.springframework.context.annotation.ComponentScanParserWithUserDefinedStrategiesTests" time="0.03"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

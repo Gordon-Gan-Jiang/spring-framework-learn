@@ -23,7 +23,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">13</div>
+<div class="counter">19</div>
 <p>tests</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.363s</div>
+<div class="counter">2.634s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,67 +79,97 @@
 </thead>
 <tr>
 <td class="success">bindDataClass()</td>
-<td class="success">0.035s</td>
+<td class="success">0.187s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">bindExisting()</td>
-<td class="success">0.037s</td>
+<td class="success">0.086s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">bindExistingMono()</td>
-<td class="success">0.018s</td>
+<td class="success">0.080s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">bindExistingMonoToMono()</td>
-<td class="success">0.057s</td>
+<td class="success">0.128s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">bindExistingSingle()</td>
-<td class="success">0.021s</td>
+<td class="success">0.154s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">createAndBind()</td>
-<td class="success">0.025s</td>
+<td class="success">0.041s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">createAndBindToMono()</td>
-<td class="success">0.019s</td>
+<td class="success">0.064s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">createAndBindToSingle()</td>
-<td class="success">0.068s</td>
+<td class="success">0.205s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">createButDoNotBind()</td>
+<td class="success">0.065s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">createButDoNotBindToMono()</td>
+<td class="success">0.063s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">createButDoNotBindToSingle()</td>
+<td class="success">0.046s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">supports()</td>
-<td class="success">0.013s</td>
+<td class="success">0.185s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">supportsWithDefaultResolution()</td>
-<td class="success">0.010s</td>
+<td class="success">0.060s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">validationError()</td>
-<td class="success">0.025s</td>
+<td class="success">validationErrorForMono()</td>
+<td class="success">0.058s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">validationErrorToMono()</td>
-<td class="success">0.016s</td>
+<td class="success">validationErrorForPojo()</td>
+<td class="success">0.103s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">validationErrorToSingle()</td>
-<td class="success">0.019s</td>
+<td class="success">validationErrorForSingle()</td>
+<td class="success">0.121s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">validationErrorWithoutBindingForMono()</td>
+<td class="success">0.720s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">validationErrorWithoutBindingForPojo()</td>
+<td class="success">0.087s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">validationErrorWithoutBindingForSingle()</td>
+<td class="success">0.181s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -147,17 +177,17 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>14:00:05.249 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [79c08b6a] Read form fields [name, age] (content masked)
-14:00:05.304 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [4a05e602] Read form fields [name, age] (content masked)
-14:00:05.330 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [76fc9a4e] Read form fields [name, age] (content masked)
-14:00:05.391 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [1e7c973b] Read form fields [name, age] (content masked)
-14:00:05.407 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [58ef3286] Read form fields [age] (content masked)
-14:00:05.437 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [493abc77] Read form fields [age] (content masked)
-14:00:05.470 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [28c6c9e0] Read form fields [name, age] (content masked)
-14:00:05.486 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [432ec7da] Read form fields [age] (content masked)
-14:00:05.511 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [5386c814] Read form fields [name, age, count] (content masked)
-14:00:05.548 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [42b1377f] Read form fields [name, age] (content masked)
-14:00:05.586 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [7a7f8886] Read form fields [name, age] (content masked)
+<pre>16:12:14.446 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [16686ad9] Read form fields [name, age] (content masked)
+16:12:15.546 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [74da02d3] Read form fields [name, age] (content masked)
+16:12:15.602 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [2f695fb1] Read form fields [age] (content masked)
+16:12:15.708 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [3d936049] Read form fields [age] (content masked)
+16:12:15.808 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [38fc3e6b] Read form fields [age] (content masked)
+16:12:15.991 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [354ef4c0] Read form fields [name, age] (content masked)
+16:12:16.099 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [409c4917] Read form fields [name, age] (content masked)
+16:12:16.364 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [267f1605] Read form fields [name, age] (content masked)
+16:12:16.580 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [42f13cdb] Read form fields [name, age, count] (content masked)
+16:12:16.658 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [68e45189] Read form fields [name, age] (content masked)
+16:12:16.929 [Test worker] DEBUG o.s.h.c.FormHttpMessageReader - [61d28d77] Read form fields [name, age] (content masked)
 </pre>
 </span>
 </div>
@@ -169,7 +199,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.6.4</a> at May 29, 2020 2:02:36 PM</p>
+<a href="http://www.gradle.org">Gradle 5.6.4</a> at 2021-6-20 16:13:04</p>
 </div>
 </div>
 </body>

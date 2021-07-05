@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.121s</div>
+<div class="counter">0.505s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,82 +79,82 @@
 </thead>
 <tr>
 <td class="success">isConcurrentHandlingStarted()</td>
-<td class="success">0.001s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">setAsyncWebRequestAfterAsyncStarted()</td>
-<td class="success">0.001s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">startAsyncProcessingWithoutAsyncWebRequest()</td>
-<td class="success">0.001s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">startCallableProcessing()</td>
-<td class="success">0.004s</td>
+<td class="success">0.031s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">startCallableProcessingBeforeConcurrentHandlingException()</td>
-<td class="success">0.005s</td>
+<td class="success">0.031s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">startCallableProcessingCallableException()</td>
-<td class="success">0.002s</td>
+<td class="success">0.009s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">startCallableProcessingNullInput()</td>
-<td class="success">0.032s</td>
+<td class="success">0.221s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">startCallableProcessingPostProcessContinueAfterException()</td>
-<td class="success">0.012s</td>
+<td class="success">0.037s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">startCallableProcessingPostProcessException()</td>
-<td class="success">0.001s</td>
+<td class="success">0.039s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">startCallableProcessingPreProcessException()</td>
-<td class="success">0.002s</td>
+<td class="success">0.022s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">startCallableProcessingWithAsyncTask()</td>
-<td class="success">0.017s</td>
+<td class="success">0.057s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">startDeferredResultProcessing()</td>
-<td class="success">0.013s</td>
+<td class="success">0.006s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">startDeferredResultProcessingBeforeConcurrentHandlingException()</td>
-<td class="success">0.016s</td>
+<td class="success">0.015s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">startDeferredResultProcessingNullInput()</td>
-<td class="success">0.001s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">startDeferredResultProcessingPostProcessException()</td>
-<td class="success">0.012s</td>
+<td class="success">0.005s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">startDeferredResultProcessingPreProcessException()</td>
-<td class="success">0.001s</td>
+<td class="success">0.024s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -162,7 +162,7 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>14:00:09.983 [Test worker] WARN  o.s.w.c.r.a.WebAsyncManager - 
+<pre>16:11:15.846 [Test worker] WARN  o.s.w.c.r.a.WebAsyncManager - 
 !!!
 An Executor is required to handle java.util.concurrent.Callable return values.
 Please, configure a TaskExecutor in the MVC config under &quot;async support&quot;.
@@ -170,23 +170,6 @@ The SyncTaskExecutor currently in use is not suitable under load.
 -------------------------------
 Request URI: ''
 !!!
-14:00:09.983 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Started async request
-14:00:09.983 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async error, dispatch to 
-14:00:09.985 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Started async request
-14:00:09.985 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async error, dispatch to 
-14:00:09.988 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Started async request
-14:00:09.989 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async error, dispatch to 
-14:00:10.005 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Started async request
-14:00:10.010 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Started async request
-14:00:10.010 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async result set, dispatch to 
-14:00:10.027 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Started async request
-14:00:10.027 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async result set, dispatch to 
-14:00:10.034 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Started async request
-14:00:10.034 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async error, dispatch to 
-14:00:10.036 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Started async request
-14:00:10.036 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async error, dispatch to 
-14:00:10.047 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Started async request
-14:00:10.048 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async error, dispatch to 
 </pre>
 </span>
 </div>
@@ -198,7 +181,7 @@ Request URI: ''
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.6.4</a> at May 29, 2020 2:00:20 PM</p>
+<a href="http://www.gradle.org">Gradle 5.6.4</a> at 2021-6-20 16:12:49</p>
 </div>
 </div>
 </body>

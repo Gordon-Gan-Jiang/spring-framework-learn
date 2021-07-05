@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.annotation.DestroyMethodInferenceTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:00" hostname="bamboo-18" time="0.024">
+<testsuite name="org.springframework.context.annotation.DestroyMethodInferenceTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:11:18" hostname="gankangdembp" time="0.118">
   <properties/>
-  <testcase name="beanMethods()" classname="org.springframework.context.annotation.DestroyMethodInferenceTests" time="0.01"/>
-  <testcase name="xml()" classname="org.springframework.context.annotation.DestroyMethodInferenceTests" time="0.005"/>
+  <testcase name="beanMethods()" classname="org.springframework.context.annotation.DestroyMethodInferenceTests" time="0.078"/>
+  <testcase name="xml()" classname="org.springframework.context.annotation.DestroyMethodInferenceTests" time="0.04"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

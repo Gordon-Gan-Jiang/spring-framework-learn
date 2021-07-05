@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.simp.user.UserRegistryMessageHandlerTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:32" hostname="bamboo-18" time="0.312">
+<testsuite name="org.springframework.messaging.simp.user.UserRegistryMessageHandlerTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:09:42" hostname="gankangdembp" time="0.133">
   <properties/>
-  <testcase name="brokerUnavailableEvent()" classname="org.springframework.messaging.simp.user.UserRegistryMessageHandlerTests" time="0.137"/>
-  <testcase name="broadcastRegistry()" classname="org.springframework.messaging.simp.user.UserRegistryMessageHandlerTests" time="0.105"/>
-  <testcase name="handleMessageFromOwnBroadcast()" classname="org.springframework.messaging.simp.user.UserRegistryMessageHandlerTests" time="0.032"/>
-  <testcase name="handleMessage()" classname="org.springframework.messaging.simp.user.UserRegistryMessageHandlerTests" time="0.036"/>
-  <testcase name="brokerAvailableEvent()" classname="org.springframework.messaging.simp.user.UserRegistryMessageHandlerTests" time="0.001"/>
+  <testcase name="brokerUnavailableEvent()" classname="org.springframework.messaging.simp.user.UserRegistryMessageHandlerTests" time="0.002"/>
+  <testcase name="broadcastRegistry()" classname="org.springframework.messaging.simp.user.UserRegistryMessageHandlerTests" time="0.011"/>
+  <testcase name="handleMessageFromOwnBroadcast()" classname="org.springframework.messaging.simp.user.UserRegistryMessageHandlerTests" time="0.07"/>
+  <testcase name="handleMessage()" classname="org.springframework.messaging.simp.user.UserRegistryMessageHandlerTests" time="0.029"/>
+  <testcase name="brokerAvailableEvent()" classname="org.springframework.messaging.simp.user.UserRegistryMessageHandlerTests" time="0.02"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

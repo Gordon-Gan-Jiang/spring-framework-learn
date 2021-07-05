@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.expression.ApplicationContextExpressionTests" tests="6" skipped="1" failures="0" errors="0" timestamp="2020-05-29T13:58:11" hostname="bamboo-18" time="0.134">
+<testsuite name="org.springframework.context.expression.ApplicationContextExpressionTests" tests="6" skipped="1" failures="0" errors="0" timestamp="2021-06-20T08:11:55" hostname="gankangdembp" time="0.395">
   <properties/>
-  <testcase name="systemPropertiesSecurityManager()" classname="org.springframework.context.expression.ApplicationContextExpressionTests" time="0.016"/>
-  <testcase name="prototypeCreationReevaluatesExpressions()" classname="org.springframework.context.expression.ApplicationContextExpressionTests" time="0.013"/>
-  <testcase name="stringConcatenationWithDebugLogging()" classname="org.springframework.context.expression.ApplicationContextExpressionTests" time="0.012"/>
-  <testcase name="resourceInjection()" classname="org.springframework.context.expression.ApplicationContextExpressionTests" time="0.022"/>
+  <testcase name="systemPropertiesSecurityManager()" classname="org.springframework.context.expression.ApplicationContextExpressionTests" time="0.073"/>
+  <testcase name="prototypeCreationReevaluatesExpressions()" classname="org.springframework.context.expression.ApplicationContextExpressionTests" time="0.046"/>
+  <testcase name="stringConcatenationWithDebugLogging()" classname="org.springframework.context.expression.ApplicationContextExpressionTests" time="0.021"/>
+  <testcase name="resourceInjection()" classname="org.springframework.context.expression.ApplicationContextExpressionTests" time="0.03"/>
   <testcase name="prototypeCreationIsFastEnough()" classname="org.springframework.context.expression.ApplicationContextExpressionTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="genericApplicationContext()" classname="org.springframework.context.expression.ApplicationContextExpressionTests" time="0.07"/>
+  <testcase name="genericApplicationContext()" classname="org.springframework.context.expression.ApplicationContextExpressionTests" time="0.222"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.146s</div>
+<div class="counter">0.185s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,32 +79,32 @@
 </thead>
 <tr>
 <td class="success">deferredResultSubscriberWithError()</td>
-<td class="success">0.006s</td>
+<td class="success">0.008s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">deferredResultSubscriberWithMultipleValues()</td>
-<td class="success">0.005s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">deferredResultSubscriberWithNoValues()</td>
-<td class="success">0.003s</td>
+<td class="success">0.008s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">deferredResultSubscriberWithOneValue()</td>
-<td class="success">0.079s</td>
+<td class="success">0.125s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">doesNotSupportType()</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">mediaTypes()</td>
-<td class="success">0.003s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -114,27 +114,27 @@
 </tr>
 <tr>
 <td class="success">writeFluxOfString()</td>
-<td class="success">0.008s</td>
+<td class="success">0.026s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">writeServerSentEvents()</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">writeServerSentEventsWithBuilder()</td>
-<td class="success">0.010s</td>
+<td class="success">0.003s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">writeStreamJson()</td>
-<td class="success">0.029s</td>
+<td class="success">0.005s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">writeText()</td>
-<td class="success">0.002s</td>
+<td class="success">0.004s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -142,7 +142,7 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>14:01:22.619 [Test worker] WARN  o.s.w.s.m.m.a.ReactiveTypeHandler - 
+<pre>16:12:58.940 [Test worker] WARN  o.s.w.s.m.m.a.ReactiveTypeHandler - 
 !!!
 Streaming through a reactive type requires an Executor to write to the response.
 Please, configure a TaskExecutor in the MVC config under &quot;async support&quot;.
@@ -152,7 +152,7 @@ Controller:	org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHa
 Method:		handleFlux
 Returning:	reactor.core.publisher.Flux&lt;org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandlerTests$Bar&gt;
 !!!
-14:01:22.635 [Test worker] WARN  o.s.w.s.m.m.a.ReactiveTypeHandler - 
+16:12:58.945 [Test worker] WARN  o.s.w.s.m.m.a.ReactiveTypeHandler - 
 !!!
 Streaming through a reactive type requires an Executor to write to the response.
 Please, configure a TaskExecutor in the MVC config under &quot;async support&quot;.
@@ -162,7 +162,7 @@ Controller:	org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHa
 Method:		handleFluxString
 Returning:	reactor.core.publisher.Flux&lt;java.lang.String&gt;
 !!!
-14:01:22.727 [Test worker] WARN  o.s.w.s.m.m.a.ReactiveTypeHandler - 
+16:12:59.105 [Test worker] WARN  o.s.w.s.m.m.a.ReactiveTypeHandler - 
 !!!
 Streaming through a reactive type requires an Executor to write to the response.
 Please, configure a TaskExecutor in the MVC config under &quot;async support&quot;.
@@ -172,7 +172,7 @@ Controller:	org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHa
 Method:		handleFluxString
 Returning:	reactor.core.publisher.Flux&lt;java.lang.String&gt;
 !!!
-14:01:22.741 [Test worker] WARN  o.s.w.s.m.m.a.ReactiveTypeHandler - 
+16:12:59.120 [Test worker] WARN  o.s.w.s.m.m.a.ReactiveTypeHandler - 
 !!!
 Streaming through a reactive type requires an Executor to write to the response.
 Please, configure a TaskExecutor in the MVC config under &quot;async support&quot;.
@@ -182,7 +182,7 @@ Controller:	org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHa
 Method:		handleFluxSseEventBuilder
 Returning:	reactor.core.publisher.Flux&lt;org.springframework.http.codec.ServerSentEvent&lt;java.lang.String&gt;&gt;
 !!!
-14:01:22.748 [Test worker] WARN  o.s.w.s.m.m.a.ReactiveTypeHandler - 
+16:12:59.123 [Test worker] WARN  o.s.w.s.m.m.a.ReactiveTypeHandler - 
 !!!
 Streaming through a reactive type requires an Executor to write to the response.
 Please, configure a TaskExecutor in the MVC config under &quot;async support&quot;.
@@ -192,7 +192,7 @@ Controller:	org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHa
 Method:		handleFluxString
 Returning:	reactor.core.publisher.Flux&lt;java.lang.String&gt;
 !!!
-14:01:22.751 [Test worker] WARN  o.s.w.s.m.m.a.ReactiveTypeHandler - 
+16:12:59.125 [Test worker] WARN  o.s.w.s.m.m.a.ReactiveTypeHandler - 
 !!!
 Streaming through a reactive type requires an Executor to write to the response.
 Please, configure a TaskExecutor in the MVC config under &quot;async support&quot;.
@@ -213,7 +213,7 @@ Returning:	reactor.core.publisher.Flux&lt;java.lang.String&gt;
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.6.4</a> at May 29, 2020 2:02:10 PM</p>
+<a href="http://www.gradle.org">Gradle 5.6.4</a> at 2021-6-20 16:14:01</p>
 </div>
 </div>
 </body>

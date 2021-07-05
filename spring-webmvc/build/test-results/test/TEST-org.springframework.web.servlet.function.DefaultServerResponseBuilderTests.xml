@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" tests="29" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:01:15" hostname="bamboo-18" time="0.078">
+<testsuite name="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" tests="29" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:13:26" hostname="gankangdembp" time="0.046">
   <properties/>
-  <testcase name="accepted()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.001"/>
-  <testcase name="notModifiedEtag()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.001"/>
+  <testcase name="accepted()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.0"/>
+  <testcase name="notModifiedEtag()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.003"/>
   <testcase name="temporaryRedirect()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.0"/>
   <testcase name="status()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.0"/>
-  <testcase name="varyBy()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.001"/>
-  <testcase name="contentLength()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.0"/>
+  <testcase name="varyBy()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.0"/>
+  <testcase name="contentLength()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.001"/>
   <testcase name="permanentRedirect()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.0"/>
-  <testcase name="contentType()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.0"/>
+  <testcase name="contentType()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.001"/>
   <testcase name="badRequest()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.0"/>
-  <testcase name="ok()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.0"/>
-  <testcase name="body()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.001"/>
-  <testcase name="eTag()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.0"/>
-  <testcase name="from()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.0"/>
-  <testcase name="allow()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.001"/>
+  <testcase name="ok()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.001"/>
+  <testcase name="body()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.002"/>
+  <testcase name="eTag()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.001"/>
+  <testcase name="from()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.002"/>
+  <testcase name="allow()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.0"/>
   <testcase name="build()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.0"/>
-  <testcase name="cacheControlTag()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.0"/>
+  <testcase name="cacheControlTag()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.001"/>
   <testcase name="statusCode()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.0"/>
-  <testcase name="bodyPublisher()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.022"/>
-  <testcase name="bodyCompletionStage()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.005"/>
+  <testcase name="bodyPublisher()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.008"/>
+  <testcase name="bodyCompletionStage()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.004"/>
   <testcase name="notModifiedLastModified()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.004"/>
-  <testcase name="headers()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.0"/>
-  <testcase name="cookies()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.007"/>
+  <testcase name="headers()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.001"/>
+  <testcase name="cookies()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.001"/>
   <testcase name="seeOther()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.0"/>
-  <testcase name="created()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.0"/>
+  <testcase name="created()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.001"/>
   <testcase name="noContent()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.0"/>
   <testcase name="notFound()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.0"/>
-  <testcase name="bodyWithParameterizedTypeReference()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.028"/>
+  <testcase name="bodyWithParameterizedTypeReference()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.008"/>
   <testcase name="unprocessableEntity()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.0"/>
   <testcase name="lastModified()" classname="org.springframework.web.servlet.function.DefaultServerResponseBuilderTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>

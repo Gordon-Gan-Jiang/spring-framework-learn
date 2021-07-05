@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.util.StopWatchTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:57:52" hostname="bamboo-18" time="0.608">
+<testsuite name="org.springframework.util.StopWatchTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:07:10" hostname="gankangdembp" time="0.616">
   <properties/>
   <testcase name="failureToStartBeforeStop()" classname="org.springframework.util.StopWatchTests" time="0.0"/>
-  <testcase name="validUsageDoesNotKeepTaskList()" classname="org.springframework.util.StopWatchTests" time="0.302"/>
+  <testcase name="validUsageDoesNotKeepTaskList()" classname="org.springframework.util.StopWatchTests" time="0.305"/>
   <testcase name="rejectsStartTwice()" classname="org.springframework.util.StopWatchTests" time="0.0"/>
-  <testcase name="validUsage()" classname="org.springframework.util.StopWatchTests" time="0.304"/>
-  <testcase name="failureToStartBeforeGettingTimings()" classname="org.springframework.util.StopWatchTests" time="0.001"/>
+  <testcase name="validUsage()" classname="org.springframework.util.StopWatchTests" time="0.308"/>
+  <testcase name="failureToStartBeforeGettingTimings()" classname="org.springframework.util.StopWatchTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

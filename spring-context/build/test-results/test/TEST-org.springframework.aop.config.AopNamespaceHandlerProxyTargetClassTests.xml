@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.aop.config.AopNamespaceHandlerProxyTargetClassTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:37" hostname="bamboo-18" time="0.213">
+<testsuite name="org.springframework.aop.config.AopNamespaceHandlerProxyTargetClassTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:13:05" hostname="gankangdembp" time="0.204">
   <properties/>
-  <testcase name="testAspectAppliedForInitializeBeanWithEmptyName()" classname="org.springframework.aop.config.AopNamespaceHandlerProxyTargetClassTests" time="0.068"/>
-  <testcase name="testAdviceInvokedCorrectly()" classname="org.springframework.aop.config.AopNamespaceHandlerProxyTargetClassTests" time="0.031"/>
-  <testcase name="testAspectAppliedForInitializeBeanWithNullName()" classname="org.springframework.aop.config.AopNamespaceHandlerProxyTargetClassTests" time="0.02"/>
-  <testcase name="testIsProxy()" classname="org.springframework.aop.config.AopNamespaceHandlerProxyTargetClassTests" time="0.039"/>
+  <testcase name="testAspectAppliedForInitializeBeanWithEmptyName()" classname="org.springframework.aop.config.AopNamespaceHandlerProxyTargetClassTests" time="0.076"/>
+  <testcase name="testAdviceInvokedCorrectly()" classname="org.springframework.aop.config.AopNamespaceHandlerProxyTargetClassTests" time="0.025"/>
+  <testcase name="testAspectAppliedForInitializeBeanWithNullName()" classname="org.springframework.aop.config.AopNamespaceHandlerProxyTargetClassTests" time="0.023"/>
+  <testcase name="testIsProxy()" classname="org.springframework.aop.config.AopNamespaceHandlerProxyTargetClassTests" time="0.034"/>
   <testcase name="testAspectApplied()" classname="org.springframework.aop.config.AopNamespaceHandlerProxyTargetClassTests" time="0.021"/>
-  <testcase name="testIsClassProxy()" classname="org.springframework.aop.config.AopNamespaceHandlerProxyTargetClassTests" time="0.032"/>
+  <testcase name="testIsClassProxy()" classname="org.springframework.aop.config.AopNamespaceHandlerProxyTargetClassTests" time="0.023"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

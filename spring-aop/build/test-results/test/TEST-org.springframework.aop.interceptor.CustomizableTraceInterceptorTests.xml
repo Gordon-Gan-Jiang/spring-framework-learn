@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.aop.interceptor.CustomizableTraceInterceptorTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:56:38" hostname="bamboo-18" time="0.041">
+<testsuite name="org.springframework.aop.interceptor.CustomizableTraceInterceptorTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:07:20" hostname="gankangdembp" time="0.011">
   <properties/>
-  <testcase name="testSunnyDayPathLogsCorrectlyWithPrettyMuchAllPlaceholdersMatching()" classname="org.springframework.aop.interceptor.CustomizableTraceInterceptorTests" time="0.033"/>
-  <testcase name="testSetEmptyExceptionMessage()" classname="org.springframework.aop.interceptor.CustomizableTraceInterceptorTests" time="0.001"/>
+  <testcase name="testSunnyDayPathLogsCorrectlyWithPrettyMuchAllPlaceholdersMatching()" classname="org.springframework.aop.interceptor.CustomizableTraceInterceptorTests" time="0.005"/>
+  <testcase name="testSetEmptyExceptionMessage()" classname="org.springframework.aop.interceptor.CustomizableTraceInterceptorTests" time="0.0"/>
   <testcase name="testSetExitMessageWithExceptionPlaceholder()" classname="org.springframework.aop.interceptor.CustomizableTraceInterceptorTests" time="0.0"/>
   <testcase name="testSetEmptyExitMessage()" classname="org.springframework.aop.interceptor.CustomizableTraceInterceptorTests" time="0.0"/>
   <testcase name="testSetEnterMessageWithInvocationTimePlaceholder()" classname="org.springframework.aop.interceptor.CustomizableTraceInterceptorTests" time="0.0"/>
   <testcase name="testSetExceptionMethodWithReturnValuePlaceholder()" classname="org.springframework.aop.interceptor.CustomizableTraceInterceptorTests" time="0.001"/>
   <testcase name="testSetEnterMessageWithReturnValuePlaceholder()" classname="org.springframework.aop.interceptor.CustomizableTraceInterceptorTests" time="0.0"/>
   <testcase name="testSetEmptyEnterMessage()" classname="org.springframework.aop.interceptor.CustomizableTraceInterceptorTests" time="0.0"/>
-  <testcase name="testExceptionPathLogsCorrectly()" classname="org.springframework.aop.interceptor.CustomizableTraceInterceptorTests" time="0.002"/>
-  <testcase name="testSetEnterMessageWithExceptionPlaceholder()" classname="org.springframework.aop.interceptor.CustomizableTraceInterceptorTests" time="0.001"/>
+  <testcase name="testExceptionPathLogsCorrectly()" classname="org.springframework.aop.interceptor.CustomizableTraceInterceptorTests" time="0.001"/>
+  <testcase name="testSetEnterMessageWithExceptionPlaceholder()" classname="org.springframework.aop.interceptor.CustomizableTraceInterceptorTests" time="0.0"/>
   <testcase name="testSunnyDayPathLogsCorrectly()" classname="org.springframework.aop.interceptor.CustomizableTraceInterceptorTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

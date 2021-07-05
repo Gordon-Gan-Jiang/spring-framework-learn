@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.support.SimpleThreadScopeTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:57:54" hostname="bamboo-18" time="0.082">
+<testsuite name="org.springframework.context.support.SimpleThreadScopeTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:11:48" hostname="gankangdembp" time="0.072">
   <properties/>
-  <testcase name="getMultipleInstances()" classname="org.springframework.context.support.SimpleThreadScopeTests" time="0.068"/>
-  <testcase name="getFromScope()" classname="org.springframework.context.support.SimpleThreadScopeTests" time="0.0"/>
+  <testcase name="getMultipleInstances()" classname="org.springframework.context.support.SimpleThreadScopeTests" time="0.058"/>
+  <testcase name="getFromScope()" classname="org.springframework.context.support.SimpleThreadScopeTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

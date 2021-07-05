@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.http.codec.json.Jackson2SmileEncoderTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:41" hostname="bamboo-18" time="0.05">
+<testsuite name="org.springframework.http.codec.json.Jackson2SmileEncoderTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:12:02" hostname="gankangdembp" time="0.083">
   <properties/>
-  <testcase name="encode()" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.001"/>
-  <testcase name="encodeAsStream()" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.024"/>
-  <testcase name="canEncode()" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.002"/>
-  <testcase name="canNotEncode()" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.001"/>
+  <testcase name="encode()" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.002"/>
+  <testcase name="encodeAsStream()" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.064"/>
+  <testcase name="canEncode()" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.001"/>
+  <testcase name="canNotEncode()" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.011"/>
   <testcase name="encodeError()" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.001"/>
-  <system-out><![CDATA[13:59:41.246 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foo', bar='bar']]
-13:59:41.257 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
-13:59:41.258 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
-]]></system-out>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

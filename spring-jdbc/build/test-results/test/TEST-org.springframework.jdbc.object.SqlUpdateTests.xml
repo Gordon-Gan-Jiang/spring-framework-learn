@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jdbc.object.SqlUpdateTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:25" hostname="bamboo-18" time="0.034">
+<testsuite name="org.springframework.jdbc.object.SqlUpdateTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:09:52" hostname="gankangdembp" time="0.103">
   <properties/>
-  <testcase name="testNamedParameterUpdateWithUnnamedDeclarations()" classname="org.springframework.jdbc.object.SqlUpdateTests" time="0.001"/>
-  <testcase name="testUpdateInt()" classname="org.springframework.jdbc.object.SqlUpdateTests" time="0.0"/>
-  <testcase name="testUpdateMixed()" classname="org.springframework.jdbc.object.SqlUpdateTests" time="0.001"/>
-  <testcase name="testUpdateConstructor()" classname="org.springframework.jdbc.object.SqlUpdateTests" time="0.001"/>
-  <testcase name="testRequiredRows()" classname="org.springframework.jdbc.object.SqlUpdateTests" time="0.0"/>
-  <testcase name="testUpdateIntInt()" classname="org.springframework.jdbc.object.SqlUpdateTests" time="0.001"/>
-  <testcase name="testUpdateAndGeneratedKeys()" classname="org.springframework.jdbc.object.SqlUpdateTests" time="0.002"/>
+  <testcase name="testNamedParameterUpdateWithUnnamedDeclarations()" classname="org.springframework.jdbc.object.SqlUpdateTests" time="0.021"/>
+  <testcase name="testUpdateInt()" classname="org.springframework.jdbc.object.SqlUpdateTests" time="0.002"/>
+  <testcase name="testUpdateMixed()" classname="org.springframework.jdbc.object.SqlUpdateTests" time="0.002"/>
+  <testcase name="testUpdateConstructor()" classname="org.springframework.jdbc.object.SqlUpdateTests" time="0.002"/>
+  <testcase name="testRequiredRows()" classname="org.springframework.jdbc.object.SqlUpdateTests" time="0.02"/>
+  <testcase name="testUpdateIntInt()" classname="org.springframework.jdbc.object.SqlUpdateTests" time="0.002"/>
+  <testcase name="testUpdateAndGeneratedKeys()" classname="org.springframework.jdbc.object.SqlUpdateTests" time="0.005"/>
   <testcase name="testUpdateString()" classname="org.springframework.jdbc.object.SqlUpdateTests" time="0.001"/>
-  <testcase name="testNamedParameterUpdateWithNamedDeclarations()" classname="org.springframework.jdbc.object.SqlUpdateTests" time="0.0"/>
-  <testcase name="testMaxRows()" classname="org.springframework.jdbc.object.SqlUpdateTests" time="0.014"/>
-  <testcase name="testNotRequiredRows()" classname="org.springframework.jdbc.object.SqlUpdateTests" time="0.004"/>
-  <testcase name="testOverMaxRows()" classname="org.springframework.jdbc.object.SqlUpdateTests" time="0.001"/>
-  <testcase name="testUpdate()" classname="org.springframework.jdbc.object.SqlUpdateTests" time="0.001"/>
+  <testcase name="testNamedParameterUpdateWithNamedDeclarations()" classname="org.springframework.jdbc.object.SqlUpdateTests" time="0.001"/>
+  <testcase name="testMaxRows()" classname="org.springframework.jdbc.object.SqlUpdateTests" time="0.001"/>
+  <testcase name="testNotRequiredRows()" classname="org.springframework.jdbc.object.SqlUpdateTests" time="0.002"/>
+  <testcase name="testOverMaxRows()" classname="org.springframework.jdbc.object.SqlUpdateTests" time="0.022"/>
+  <testcase name="testUpdate()" classname="org.springframework.jdbc.object.SqlUpdateTests" time="0.002"/>
   <testcase name="testUnderMaxRows()" classname="org.springframework.jdbc.object.SqlUpdateTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

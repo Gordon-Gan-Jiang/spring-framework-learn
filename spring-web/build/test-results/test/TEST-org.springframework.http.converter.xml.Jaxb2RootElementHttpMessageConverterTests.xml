@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:55" hostname="bamboo-18" time="0.403">
+<testsuite name="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:11:51" hostname="gankangdembp" time="0.792">
   <properties/>
-  <testcase name="customizeMarshaller()" classname="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" time="0.222"/>
-  <testcase name="readXmlRootElementExternalEntityDisabled()" classname="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" time="0.023"/>
-  <testcase name="readXmlRootElementExternalEntityEnabled()" classname="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" time="0.016"/>
-  <testcase name="canWrite()" classname="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" time="0.006"/>
-  <testcase name="writeXmlRootElementSubclass()" classname="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" time="0.091"/>
-  <testcase name="canRead()" classname="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" time="0.0"/>
-  <testcase name="customizeUnmarshaller()" classname="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" time="0.002"/>
-  <testcase name="writeXmlRootElement()" classname="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" time="0.016"/>
+  <testcase name="customizeMarshaller()" classname="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" time="0.345"/>
+  <testcase name="readXmlRootElementExternalEntityDisabled()" classname="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" time="0.033"/>
+  <testcase name="readXmlRootElementExternalEntityEnabled()" classname="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" time="0.006"/>
+  <testcase name="canWrite()" classname="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" time="0.002"/>
+  <testcase name="writeXmlRootElementSubclass()" classname="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" time="0.133"/>
+  <testcase name="canRead()" classname="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" time="0.001"/>
+  <testcase name="customizeUnmarshaller()" classname="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" time="0.007"/>
+  <testcase name="writeXmlRootElement()" classname="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" time="0.037"/>
   <testcase name="readXmlRootElement()" classname="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" time="0.004"/>
-  <testcase name="readXmlRootElementSubclass()" classname="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" time="0.006"/>
-  <testcase name="readXmlType()" classname="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" time="0.003"/>
-  <testcase name="testXmlBomb()" classname="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" time="0.006"/>
+  <testcase name="readXmlRootElementSubclass()" classname="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" time="0.03"/>
+  <testcase name="readXmlType()" classname="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" time="0.005"/>
+  <testcase name="testXmlBomb()" classname="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" time="0.179"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

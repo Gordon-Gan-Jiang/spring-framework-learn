@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.format.number.money.MoneyFormattingTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:37" hostname="bamboo-18" time="0.165">
+<testsuite name="org.springframework.format.number.money.MoneyFormattingTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:13:15" hostname="gankangdembp" time="0.257">
   <properties/>
-  <testcase name="testAmountWithNumberFormat1()" classname="org.springframework.format.number.money.MoneyFormattingTests" time="0.096"/>
-  <testcase name="testAmountWithNumberFormat2()" classname="org.springframework.format.number.money.MoneyFormattingTests" time="0.002"/>
-  <testcase name="testAmountWithNumberFormat3()" classname="org.springframework.format.number.money.MoneyFormattingTests" time="0.001"/>
-  <testcase name="testAmountWithNumberFormat4()" classname="org.springframework.format.number.money.MoneyFormattingTests" time="0.006"/>
-  <testcase name="testAmountWithNumberFormat5()" classname="org.springframework.format.number.money.MoneyFormattingTests" time="0.009"/>
-  <testcase name="testAmountAndUnit()" classname="org.springframework.format.number.money.MoneyFormattingTests" time="0.046"/>
+  <testcase name="testAmountWithNumberFormat1()" classname="org.springframework.format.number.money.MoneyFormattingTests" time="0.143"/>
+  <testcase name="testAmountWithNumberFormat2()" classname="org.springframework.format.number.money.MoneyFormattingTests" time="0.003"/>
+  <testcase name="testAmountWithNumberFormat3()" classname="org.springframework.format.number.money.MoneyFormattingTests" time="0.006"/>
+  <testcase name="testAmountWithNumberFormat4()" classname="org.springframework.format.number.money.MoneyFormattingTests" time="0.008"/>
+  <testcase name="testAmountWithNumberFormat5()" classname="org.springframework.format.number.money.MoneyFormattingTests" time="0.008"/>
+  <testcase name="testAmountAndUnit()" classname="org.springframework.format.number.money.MoneyFormattingTests" time="0.083"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Mai 29, 2020 1:58:37 PM org.javamoney.moneta.DefaultMonetaryContextFactory createMonetaryContextNonNullConfig
+  <system-err><![CDATA[Jun 20, 2021 4:13:15 PM org.javamoney.moneta.DefaultMonetaryContextFactory createMonetaryContextNonNullConfig
 INFORMATION: Using custom MathContext: precision=256, roundingMode=HALF_EVEN
 ]]></system-err>
 </testsuite>

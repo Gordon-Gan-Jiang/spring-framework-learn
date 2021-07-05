@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.mail.javamail.JavaMailSenderTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:57:19" hostname="bamboo-18" time="0.441">
+<testsuite name="org.springframework.mail.javamail.JavaMailSenderTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:09:48" hostname="gankangdembp" time="0.533">
   <properties/>
-  <testcase name="javaMailProperties()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.148"/>
-  <testcase name="failedMimeMessage()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.046"/>
-  <testcase name="javaMailSenderWithMimeMessagePreparator()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.018"/>
-  <testcase name="testConnectionWithFailure()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.003"/>
-  <testcase name="testConnection()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.028"/>
-  <testcase name="javaMailSenderWithCustomSession()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.021"/>
-  <testcase name="javaMailSenderWithSimpleMessage()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.057"/>
-  <testcase name="javaMailSenderWithMimeMessageHelperAndDefaultEncoding()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.005"/>
-  <testcase name="failedMailServerConnect()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.024"/>
-  <testcase name="javaMailSenderWithMimeMessagePreparators()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.022"/>
-  <testcase name="javaMailSenderWithMimeMessage()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.003"/>
-  <testcase name="failedMailServerClose()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.003"/>
-  <testcase name="javaMailSenderWithParseExceptionOnSimpleMessage()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.003"/>
-  <testcase name="javaMailSenderWithSimpleMessages()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.002"/>
-  <testcase name="javaMailSenderWithMimeMessageHelperAndSpecificEncoding()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.013"/>
-  <testcase name="javaMailSenderWithParseExceptionOnMimeMessagePreparator()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.008"/>
-  <testcase name="failedSimpleMessage()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.014"/>
-  <testcase name="javaMailSenderWithMimeMessageHelper()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.002"/>
-  <testcase name="javaMailSenderWithMimeMessages()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.007"/>
+  <testcase name="javaMailProperties()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.209"/>
+  <testcase name="failedMimeMessage()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.022"/>
+  <testcase name="javaMailSenderWithMimeMessagePreparator()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.023"/>
+  <testcase name="testConnectionWithFailure()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.004"/>
+  <testcase name="testConnection()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.003"/>
+  <testcase name="javaMailSenderWithCustomSession()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.004"/>
+  <testcase name="javaMailSenderWithSimpleMessage()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.024"/>
+  <testcase name="javaMailSenderWithMimeMessageHelperAndDefaultEncoding()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.004"/>
+  <testcase name="failedMailServerConnect()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.095"/>
+  <testcase name="javaMailSenderWithMimeMessagePreparators()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.008"/>
+  <testcase name="javaMailSenderWithMimeMessage()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.004"/>
+  <testcase name="failedMailServerClose()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.005"/>
+  <testcase name="javaMailSenderWithParseExceptionOnSimpleMessage()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.023"/>
+  <testcase name="javaMailSenderWithSimpleMessages()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.005"/>
+  <testcase name="javaMailSenderWithMimeMessageHelperAndSpecificEncoding()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.02"/>
+  <testcase name="javaMailSenderWithParseExceptionOnMimeMessagePreparator()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.024"/>
+  <testcase name="failedSimpleMessage()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.013"/>
+  <testcase name="javaMailSenderWithMimeMessageHelper()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.003"/>
+  <testcase name="javaMailSenderWithMimeMessages()" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[org.springframework.mail.MailSendException: Failed messages: javax.mail.MessagingException: failed; message exception details (1) are:
 Failed message 1:

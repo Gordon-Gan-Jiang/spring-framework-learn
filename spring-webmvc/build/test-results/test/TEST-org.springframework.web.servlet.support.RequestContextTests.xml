@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.servlet.support.RequestContextTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:01:11" hostname="bamboo-18" time="0.038">
+<testsuite name="org.springframework.web.servlet.support.RequestContextTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:13:29" hostname="gankangdembp" time="0.004">
   <properties/>
-  <testcase name="testGetContextUrlWithMap()" classname="org.springframework.web.servlet.support.RequestContextTests" time="0.032"/>
-  <testcase name="testPathToServlet()" classname="org.springframework.web.servlet.support.RequestContextTests" time="0.001"/>
-  <testcase name="testGetContextUrlWithMapEscaping()" classname="org.springframework.web.servlet.support.RequestContextTests" time="0.001"/>
+  <testcase name="testGetContextUrlWithMap()" classname="org.springframework.web.servlet.support.RequestContextTests" time="0.002"/>
+  <testcase name="testPathToServlet()" classname="org.springframework.web.servlet.support.RequestContextTests" time="0.0"/>
+  <testcase name="testGetContextUrlWithMapEscaping()" classname="org.springframework.web.servlet.support.RequestContextTests" time="0.0"/>
   <testcase name="testGetContextUrl()" classname="org.springframework.web.servlet.support.RequestContextTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

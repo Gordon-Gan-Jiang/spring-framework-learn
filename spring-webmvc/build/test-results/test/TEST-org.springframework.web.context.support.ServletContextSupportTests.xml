@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.context.support.ServletContextSupportTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:46" hostname="bamboo-18" time="0.224">
+<testsuite name="org.springframework.web.context.support.ServletContextSupportTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:13:57" hostname="gankangdembp" time="0.016">
   <properties/>
-  <testcase name="testServletContextAttributeFactoryBean()" classname="org.springframework.web.context.support.ServletContextSupportTests" time="0.153"/>
-  <testcase name="testServletContextResourcePatternResolverWithUnboundedPatternPath()" classname="org.springframework.web.context.support.ServletContextSupportTests" time="0.015"/>
-  <testcase name="testServletContextParameterFactoryBeanWithAttributeNotFound()" classname="org.springframework.web.context.support.ServletContextSupportTests" time="0.018"/>
-  <testcase name="testServletContextResourcePatternResolverWithPatternPath()" classname="org.springframework.web.context.support.ServletContextSupportTests" time="0.011"/>
-  <testcase name="testServletContextAttributeFactoryBeanWithAttributeNotFound()" classname="org.springframework.web.context.support.ServletContextSupportTests" time="0.002"/>
-  <testcase name="testServletContextResourceLoader()" classname="org.springframework.web.context.support.ServletContextSupportTests" time="0.007"/>
-  <testcase name="testServletContextParameterFactoryBean()" classname="org.springframework.web.context.support.ServletContextSupportTests" time="0.006"/>
-  <testcase name="testServletContextAttributeExporter()" classname="org.springframework.web.context.support.ServletContextSupportTests" time="0.002"/>
-  <testcase name="testServletContextResourcePatternResolverWithAbsolutePaths()" classname="org.springframework.web.context.support.ServletContextSupportTests" time="0.001"/>
-  <testcase name="testServletContextResourcePatternResolver()" classname="org.springframework.web.context.support.ServletContextSupportTests" time="0.001"/>
+  <testcase name="testServletContextAttributeFactoryBean()" classname="org.springframework.web.context.support.ServletContextSupportTests" time="0.005"/>
+  <testcase name="testServletContextResourcePatternResolverWithUnboundedPatternPath()" classname="org.springframework.web.context.support.ServletContextSupportTests" time="0.001"/>
+  <testcase name="testServletContextParameterFactoryBeanWithAttributeNotFound()" classname="org.springframework.web.context.support.ServletContextSupportTests" time="0.004"/>
+  <testcase name="testServletContextResourcePatternResolverWithPatternPath()" classname="org.springframework.web.context.support.ServletContextSupportTests" time="0.001"/>
+  <testcase name="testServletContextAttributeFactoryBeanWithAttributeNotFound()" classname="org.springframework.web.context.support.ServletContextSupportTests" time="0.001"/>
+  <testcase name="testServletContextResourceLoader()" classname="org.springframework.web.context.support.ServletContextSupportTests" time="0.001"/>
+  <testcase name="testServletContextParameterFactoryBean()" classname="org.springframework.web.context.support.ServletContextSupportTests" time="0.001"/>
+  <testcase name="testServletContextAttributeExporter()" classname="org.springframework.web.context.support.ServletContextSupportTests" time="0.001"/>
+  <testcase name="testServletContextResourcePatternResolverWithAbsolutePaths()" classname="org.springframework.web.context.support.ServletContextSupportTests" time="0.0"/>
+  <testcase name="testServletContextResourcePatternResolver()" classname="org.springframework.web.context.support.ServletContextSupportTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

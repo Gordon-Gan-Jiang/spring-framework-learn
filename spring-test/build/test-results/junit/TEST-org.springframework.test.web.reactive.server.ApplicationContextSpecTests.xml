@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.web.reactive.server.ApplicationContextSpecTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:29" hostname="bamboo-18" time="0.985">
+<testsuite name="org.springframework.test.web.reactive.server.ApplicationContextSpecTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:12:52" hostname="gankangdembp" time="0.216">
   <properties/>
-  <testcase name="sessionManagerBean()" classname="org.springframework.test.web.reactive.server.ApplicationContextSpecTests" time="0.985"/>
+  <testcase name="sessionManagerBean()" classname="org.springframework.test.web.reactive.server.ApplicationContextSpecTests" time="0.216"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

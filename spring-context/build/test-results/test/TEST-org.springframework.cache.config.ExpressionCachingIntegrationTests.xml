@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.cache.config.ExpressionCachingIntegrationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:27" hostname="bamboo-18" time="0.247">
+<testsuite name="org.springframework.cache.config.ExpressionCachingIntegrationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:12:38" hostname="gankangdembp" time="0.059">
   <properties/>
-  <testcase name="expressionIsCacheBasedOnActualMethod()" classname="org.springframework.cache.config.ExpressionCachingIntegrationTests" time="0.247"/>
+  <testcase name="expressionIsCacheBasedOnActualMethod()" classname="org.springframework.cache.config.ExpressionCachingIntegrationTests" time="0.059"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.util.xml.TransformerUtilsTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:57:54" hostname="bamboo-18" time="0.009">
+<testsuite name="org.springframework.util.xml.TransformerUtilsTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:07:09" hostname="gankangdembp" time="0.003">
   <properties/>
-  <testcase name="enableIndentingWithNegativeIndentAmount()" classname="org.springframework.util.xml.TransformerUtilsTests" time="0.0"/>
+  <testcase name="enableIndentingWithNegativeIndentAmount()" classname="org.springframework.util.xml.TransformerUtilsTests" time="0.002"/>
   <testcase name="disableIndentingWithNullTransformer()" classname="org.springframework.util.xml.TransformerUtilsTests" time="0.0"/>
   <testcase name="enableIndentingSunnyDayWithCustomKosherIndentAmount()" classname="org.springframework.util.xml.TransformerUtilsTests" time="0.0"/>
-  <testcase name="enableIndentingWithZeroIndentAmount()" classname="org.springframework.util.xml.TransformerUtilsTests" time="0.0"/>
+  <testcase name="enableIndentingWithZeroIndentAmount()" classname="org.springframework.util.xml.TransformerUtilsTests" time="0.001"/>
   <testcase name="enableIndentingSunnyDay()" classname="org.springframework.util.xml.TransformerUtilsTests" time="0.0"/>
   <testcase name="enableIndentingWithNullTransformer()" classname="org.springframework.util.xml.TransformerUtilsTests" time="0.0"/>
   <testcase name="disableIndentingSunnyDay()" classname="org.springframework.util.xml.TransformerUtilsTests" time="0.0"/>

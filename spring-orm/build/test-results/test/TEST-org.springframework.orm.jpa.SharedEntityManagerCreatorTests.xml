@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:29" hostname="bamboo-18" time="0.29">
+<testsuite name="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:09:30" hostname="gankangdembp" time="1.433">
   <properties/>
-  <testcase name="transactionRequiredExceptionOnRemove()" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.036"/>
-  <testcase name="transactionRequiredExceptionOnJoinTransaction()" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.007"/>
-  <testcase name="proxyingWorksIfInfoReturnsNullEntityManagerInterface()" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.056"/>
-  <testcase name="transactionRequiredExceptionOnRefresh()" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.001"/>
+  <testcase name="transactionRequiredExceptionOnRemove()" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.077"/>
+  <testcase name="transactionRequiredExceptionOnJoinTransaction()" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.001"/>
+  <testcase name="proxyingWorksIfInfoReturnsNullEntityManagerInterface()" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.327"/>
+  <testcase name="transactionRequiredExceptionOnRefresh()" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.026"/>
   <testcase name="transactionRequiredExceptionOnFlush()" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.001"/>
-  <testcase name="transactionRequiredExceptionOnMerge()" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.009"/>
-  <testcase name="deferredQueryWithUpdate()" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.062"/>
-  <testcase name="deferredQueryWithResultStream()" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.004"/>
-  <testcase name="deferredStoredProcedureQueryWithNamedParameters()" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.103"/>
-  <testcase name="deferredQueryWithResultList()" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.001"/>
-  <testcase name="deferredStoredProcedureQueryWithIndexedParameters()" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.004"/>
-  <testcase name="deferredQueryWithSingleResult()" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.001"/>
-  <testcase name="transactionRequiredExceptionOnPersist()" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.001"/>
+  <testcase name="transactionRequiredExceptionOnMerge()" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.001"/>
+  <testcase name="deferredQueryWithUpdate()" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.614"/>
+  <testcase name="deferredQueryWithResultStream()" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.01"/>
+  <testcase name="deferredStoredProcedureQueryWithNamedParameters()" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.321"/>
+  <testcase name="deferredQueryWithResultList()" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.003"/>
+  <testcase name="deferredStoredProcedureQueryWithIndexedParameters()" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.024"/>
+  <testcase name="deferredQueryWithSingleResult()" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.002"/>
+  <testcase name="transactionRequiredExceptionOnPersist()" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

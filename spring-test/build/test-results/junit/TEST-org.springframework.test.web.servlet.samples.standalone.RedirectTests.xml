@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.web.servlet.samples.standalone.RedirectTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:23" hostname="bamboo-18" time="0.152">
+<testsuite name="org.springframework.test.web.servlet.samples.standalone.RedirectTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:12:32" hostname="gankangdembp" time="0.899">
   <properties/>
-  <testcase name="saveSpecial()" classname="org.springframework.test.web.servlet.samples.standalone.RedirectTests" time="0.025"/>
-  <testcase name="saveSpecialWithErrors()" classname="org.springframework.test.web.servlet.samples.standalone.RedirectTests" time="0.03"/>
-  <testcase name="save()" classname="org.springframework.test.web.servlet.samples.standalone.RedirectTests" time="0.034"/>
-  <testcase name="saveWithErrors()" classname="org.springframework.test.web.servlet.samples.standalone.RedirectTests" time="0.048"/>
-  <testcase name="getPerson()" classname="org.springframework.test.web.servlet.samples.standalone.RedirectTests" time="0.015"/>
+  <testcase name="saveSpecial()" classname="org.springframework.test.web.servlet.samples.standalone.RedirectTests" time="0.405"/>
+  <testcase name="saveSpecialWithErrors()" classname="org.springframework.test.web.servlet.samples.standalone.RedirectTests" time="0.214"/>
+  <testcase name="save()" classname="org.springframework.test.web.servlet.samples.standalone.RedirectTests" time="0.106"/>
+  <testcase name="saveWithErrors()" classname="org.springframework.test.web.servlet.samples.standalone.RedirectTests" time="0.103"/>
+  <testcase name="getPerson()" classname="org.springframework.test.web.servlet.samples.standalone.RedirectTests" time="0.069"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

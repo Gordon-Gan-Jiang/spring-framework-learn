@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.server.i18n.AcceptHeaderLocaleContextResolverTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:13" hostname="bamboo-18" time="0.035">
+<testsuite name="org.springframework.web.server.i18n.AcceptHeaderLocaleContextResolverTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:11:20" hostname="gankangdembp" time="0.086">
   <properties/>
-  <testcase name="resolveInvalidAcceptLanguageHeaderWithDefault()" classname="org.springframework.web.server.i18n.AcceptHeaderLocaleContextResolverTests" time="0.0"/>
+  <testcase name="resolveInvalidAcceptLanguageHeaderWithDefault()" classname="org.springframework.web.server.i18n.AcceptHeaderLocaleContextResolverTests" time="0.002"/>
   <testcase name="resolveMissingAcceptLanguageHeader()" classname="org.springframework.web.server.i18n.AcceptHeaderLocaleContextResolverTests" time="0.0"/>
-  <testcase name="resolvePreferredAgainstCountryIfPossible()" classname="org.springframework.web.server.i18n.AcceptHeaderLocaleContextResolverTests" time="0.015"/>
-  <testcase name="resolveInvalidAcceptLanguageHeader()" classname="org.springframework.web.server.i18n.AcceptHeaderLocaleContextResolverTests" time="0.0"/>
+  <testcase name="resolvePreferredAgainstCountryIfPossible()" classname="org.springframework.web.server.i18n.AcceptHeaderLocaleContextResolverTests" time="0.016"/>
+  <testcase name="resolveInvalidAcceptLanguageHeader()" classname="org.springframework.web.server.i18n.AcceptHeaderLocaleContextResolverTests" time="0.001"/>
   <testcase name="resolvePreferredSupported()" classname="org.springframework.web.server.i18n.AcceptHeaderLocaleContextResolverTests" time="0.001"/>
-  <testcase name="resolvePreferredNotSupported()" classname="org.springframework.web.server.i18n.AcceptHeaderLocaleContextResolverTests" time="0.0"/>
+  <testcase name="resolvePreferredNotSupported()" classname="org.springframework.web.server.i18n.AcceptHeaderLocaleContextResolverTests" time="0.002"/>
   <testcase name="resolveMissingAcceptLanguageHeaderWithDefault()" classname="org.springframework.web.server.i18n.AcceptHeaderLocaleContextResolverTests" time="0.001"/>
-  <testcase name="resolvePreferredAgainstLanguageOnly()" classname="org.springframework.web.server.i18n.AcceptHeaderLocaleContextResolverTests" time="0.0"/>
-  <testcase name="resolveEmptyAcceptLanguageHeaderWithDefault()" classname="org.springframework.web.server.i18n.AcceptHeaderLocaleContextResolverTests" time="0.003"/>
-  <testcase name="resolvePreferredNotSupportedWithDefault()" classname="org.springframework.web.server.i18n.AcceptHeaderLocaleContextResolverTests" time="0.0"/>
-  <testcase name="defaultLocale()" classname="org.springframework.web.server.i18n.AcceptHeaderLocaleContextResolverTests" time="0.001"/>
-  <testcase name="resolve()" classname="org.springframework.web.server.i18n.AcceptHeaderLocaleContextResolverTests" time="0.0"/>
-  <testcase name="resolveEmptyAcceptLanguageHeader()" classname="org.springframework.web.server.i18n.AcceptHeaderLocaleContextResolverTests" time="0.0"/>
-  <testcase name="resolvePreferredAgainstLanguageWithMultipleSupportedLocales()" classname="org.springframework.web.server.i18n.AcceptHeaderLocaleContextResolverTests" time="0.0"/>
+  <testcase name="resolvePreferredAgainstLanguageOnly()" classname="org.springframework.web.server.i18n.AcceptHeaderLocaleContextResolverTests" time="0.002"/>
+  <testcase name="resolveEmptyAcceptLanguageHeaderWithDefault()" classname="org.springframework.web.server.i18n.AcceptHeaderLocaleContextResolverTests" time="0.001"/>
+  <testcase name="resolvePreferredNotSupportedWithDefault()" classname="org.springframework.web.server.i18n.AcceptHeaderLocaleContextResolverTests" time="0.044"/>
+  <testcase name="defaultLocale()" classname="org.springframework.web.server.i18n.AcceptHeaderLocaleContextResolverTests" time="0.004"/>
+  <testcase name="resolve()" classname="org.springframework.web.server.i18n.AcceptHeaderLocaleContextResolverTests" time="0.002"/>
+  <testcase name="resolveEmptyAcceptLanguageHeader()" classname="org.springframework.web.server.i18n.AcceptHeaderLocaleContextResolverTests" time="0.001"/>
+  <testcase name="resolvePreferredAgainstLanguageWithMultipleSupportedLocales()" classname="org.springframework.web.server.i18n.AcceptHeaderLocaleContextResolverTests" time="0.006"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

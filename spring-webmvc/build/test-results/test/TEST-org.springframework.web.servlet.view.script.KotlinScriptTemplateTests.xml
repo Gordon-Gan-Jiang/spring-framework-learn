@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.servlet.view.script.KotlinScriptTemplateTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:01:45" hostname="bamboo-18" time="12.851">
+<testsuite name="org.springframework.web.servlet.view.script.KotlinScriptTemplateTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:13:42" hostname="gankangdembp" time="10.197">
   <properties/>
-  <testcase name="renderTemplateWithFrenchLocale()" classname="org.springframework.web.servlet.view.script.KotlinScriptTemplateTests" time="11.046"/>
-  <testcase name="renderTemplateWithoutRenderFunction()" classname="org.springframework.web.servlet.view.script.KotlinScriptTemplateTests" time="0.471"/>
-  <testcase name="renderTemplateWithEnglishLocale()" classname="org.springframework.web.servlet.view.script.KotlinScriptTemplateTests" time="1.334"/>
+  <testcase name="renderTemplateWithFrenchLocale()" classname="org.springframework.web.servlet.view.script.KotlinScriptTemplateTests" time="9.048"/>
+  <testcase name="renderTemplateWithoutRenderFunction()" classname="org.springframework.web.servlet.view.script.KotlinScriptTemplateTests" time="0.284"/>
+  <testcase name="renderTemplateWithEnglishLocale()" classname="org.springframework.web.servlet.view.script.KotlinScriptTemplateTests" time="0.865"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.rsocket.PayloadUtilsTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:28" hostname="bamboo-18" time="0.016">
+<testsuite name="org.springframework.messaging.rsocket.PayloadUtilsTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:10:19" hostname="gankangdembp" time="0.01">
   <properties/>
-  <testcase name="retainAndReleaseWithNettyFactory()" classname="org.springframework.messaging.rsocket.PayloadUtilsTests" time="0.004"/>
-  <testcase name="createWithNettyAndDefaultBuffers()" classname="org.springframework.messaging.rsocket.PayloadUtilsTests" time="0.004"/>
-  <testcase name="retainAndReleaseWithDefaultFactory()" classname="org.springframework.messaging.rsocket.PayloadUtilsTests" time="0.0"/>
+  <testcase name="retainAndReleaseWithNettyFactory()" classname="org.springframework.messaging.rsocket.PayloadUtilsTests" time="0.001"/>
+  <testcase name="createWithNettyAndDefaultBuffers()" classname="org.springframework.messaging.rsocket.PayloadUtilsTests" time="0.001"/>
+  <testcase name="retainAndReleaseWithDefaultFactory()" classname="org.springframework.messaging.rsocket.PayloadUtilsTests" time="0.003"/>
   <testcase name="createWithDefaultBuffer()" classname="org.springframework.messaging.rsocket.PayloadUtilsTests" time="0.001"/>
   <testcase name="createWithNettyBuffer()" classname="org.springframework.messaging.rsocket.PayloadUtilsTests" time="0.0"/>
   <testcase name="createWithNettyBuffers()" classname="org.springframework.messaging.rsocket.PayloadUtilsTests" time="0.0"/>
-  <testcase name="createWithDefaultBuffers()" classname="org.springframework.messaging.rsocket.PayloadUtilsTests" time="0.0"/>
+  <testcase name="createWithDefaultBuffers()" classname="org.springframework.messaging.rsocket.PayloadUtilsTests" time="0.001"/>
   <testcase name="createWithDefaultAndNettyBuffers()" classname="org.springframework.messaging.rsocket.PayloadUtilsTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

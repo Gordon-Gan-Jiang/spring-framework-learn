@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.http.converter.json.JsonbHttpMessageConverterTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:53" hostname="bamboo-18" time="0.108">
+<testsuite name="org.springframework.http.converter.json.JsonbHttpMessageConverterTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:11:57" hostname="gankangdembp" time="0.672">
   <properties/>
-  <testcase name="readAndWriteGenerics()" classname="org.springframework.http.converter.json.JsonbHttpMessageConverterTests" time="0.077"/>
-  <testcase name="readInvalidJson()" classname="org.springframework.http.converter.json.JsonbHttpMessageConverterTests" time="0.004"/>
-  <testcase name="prefixJson()" classname="org.springframework.http.converter.json.JsonbHttpMessageConverterTests" time="0.0"/>
-  <testcase name="readTyped()" classname="org.springframework.http.converter.json.JsonbHttpMessageConverterTests" time="0.003"/>
-  <testcase name="readUntyped()" classname="org.springframework.http.converter.json.JsonbHttpMessageConverterTests" time="0.0"/>
-  <testcase name="writeUTF16()" classname="org.springframework.http.converter.json.JsonbHttpMessageConverterTests" time="0.001"/>
-  <testcase name="writeParameterizedBaseType()" classname="org.springframework.http.converter.json.JsonbHttpMessageConverterTests" time="0.003"/>
+  <testcase name="readAndWriteGenerics()" classname="org.springframework.http.converter.json.JsonbHttpMessageConverterTests" time="0.33"/>
+  <testcase name="readInvalidJson()" classname="org.springframework.http.converter.json.JsonbHttpMessageConverterTests" time="0.06"/>
+  <testcase name="prefixJson()" classname="org.springframework.http.converter.json.JsonbHttpMessageConverterTests" time="0.001"/>
+  <testcase name="readTyped()" classname="org.springframework.http.converter.json.JsonbHttpMessageConverterTests" time="0.023"/>
+  <testcase name="readUntyped()" classname="org.springframework.http.converter.json.JsonbHttpMessageConverterTests" time="0.001"/>
+  <testcase name="writeUTF16()" classname="org.springframework.http.converter.json.JsonbHttpMessageConverterTests" time="0.019"/>
+  <testcase name="writeParameterizedBaseType()" classname="org.springframework.http.converter.json.JsonbHttpMessageConverterTests" time="0.014"/>
   <testcase name="canWrite()" classname="org.springframework.http.converter.json.JsonbHttpMessageConverterTests" time="0.0"/>
-  <testcase name="readAndWriteParameterizedType()" classname="org.springframework.http.converter.json.JsonbHttpMessageConverterTests" time="0.003"/>
-  <testcase name="write()" classname="org.springframework.http.converter.json.JsonbHttpMessageConverterTests" time="0.002"/>
+  <testcase name="readAndWriteParameterizedType()" classname="org.springframework.http.converter.json.JsonbHttpMessageConverterTests" time="0.029"/>
+  <testcase name="write()" classname="org.springframework.http.converter.json.JsonbHttpMessageConverterTests" time="0.007"/>
   <testcase name="canRead()" classname="org.springframework.http.converter.json.JsonbHttpMessageConverterTests" time="0.0"/>
-  <testcase name="prefixJsonCustom()" classname="org.springframework.http.converter.json.JsonbHttpMessageConverterTests" time="0.0"/>
+  <testcase name="prefixJsonCustom()" classname="org.springframework.http.converter.json.JsonbHttpMessageConverterTests" time="0.053"/>
   <testcase name="canReadAndWriteMicroformats()" classname="org.springframework.http.converter.json.JsonbHttpMessageConverterTests" time="0.0"/>
-  <testcase name="writeWithBaseType()" classname="org.springframework.http.converter.json.JsonbHttpMessageConverterTests" time="0.002"/>
+  <testcase name="writeWithBaseType()" classname="org.springframework.http.converter.json.JsonbHttpMessageConverterTests" time="0.032"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

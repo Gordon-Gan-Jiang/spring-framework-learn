@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.converter.StringMessageConverterTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:07" hostname="bamboo-18" time="0.004">
+<testsuite name="org.springframework.messaging.converter.StringMessageConverterTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:09:34" hostname="gankangdembp" time="0.008">
   <properties/>
-  <testcase name="fromMessageByteArray()" classname="org.springframework.messaging.converter.StringMessageConverterTests" time="0.001"/>
-  <testcase name="toMessage()" classname="org.springframework.messaging.converter.StringMessageConverterTests" time="0.0"/>
+  <testcase name="fromMessageByteArray()" classname="org.springframework.messaging.converter.StringMessageConverterTests" time="0.0"/>
+  <testcase name="toMessage()" classname="org.springframework.messaging.converter.StringMessageConverterTests" time="0.001"/>
   <testcase name="fromMessageNoContentTypeHeader()" classname="org.springframework.messaging.converter.StringMessageConverterTests" time="0.0"/>
   <testcase name="fromStringMessage()" classname="org.springframework.messaging.converter.StringMessageConverterTests" time="0.0"/>
   <testcase name="fromMessageDefaultCharset()" classname="org.springframework.messaging.converter.StringMessageConverterTests" time="0.0"/>
   <testcase name="fromMessageTargetClassNotSupported()" classname="org.springframework.messaging.converter.StringMessageConverterTests" time="0.0"/>
-  <testcase name="fromMessageCharset()" classname="org.springframework.messaging.converter.StringMessageConverterTests" time="0.0"/>
-  <testcase name="fromByteArrayMessage()" classname="org.springframework.messaging.converter.StringMessageConverterTests" time="0.001"/>
+  <testcase name="fromMessageCharset()" classname="org.springframework.messaging.converter.StringMessageConverterTests" time="0.003"/>
+  <testcase name="fromByteArrayMessage()" classname="org.springframework.messaging.converter.StringMessageConverterTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

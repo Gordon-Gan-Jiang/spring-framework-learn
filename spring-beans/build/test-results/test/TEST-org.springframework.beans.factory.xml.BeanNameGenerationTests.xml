@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.factory.xml.BeanNameGenerationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:57:18" hostname="bamboo-18" time="0.008">
+<testsuite name="org.springframework.beans.factory.xml.BeanNameGenerationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:07:14" hostname="gankangdembp" time="0.003">
   <properties/>
-  <testcase name="naming()" classname="org.springframework.beans.factory.xml.BeanNameGenerationTests" time="0.008"/>
+  <testcase name="naming()" classname="org.springframework.beans.factory.xml.BeanNameGenerationTests" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.scheduling.aspectj.AnnotationAsyncExecutionAspectTests" tests="8" skipped="8" failures="0" errors="0" timestamp="2020-05-29T13:57:15" hostname="bamboo-18" time="0.004">
+<testsuite name="org.springframework.scheduling.aspectj.AnnotationAsyncExecutionAspectTests" tests="8" skipped="8" failures="0" errors="0" timestamp="2021-06-20T08:10:32" hostname="gankangdembp" time="0.001">
   <properties/>
-  <testcase name="asyncMethodReturningFutureGetsRoutedAsynchronouslyAndReturnsAFuture()" classname="org.springframework.scheduling.aspectj.AnnotationAsyncExecutionAspectTests" time="0.004">
+  <testcase name="asyncMethodReturningFutureGetsRoutedAsynchronouslyAndReturnsAFuture()" classname="org.springframework.scheduling.aspectj.AnnotationAsyncExecutionAspectTests" time="0.0">
     <skipped/>
   </testcase>
   <testcase name="exceptionHandlerCalled()" classname="org.springframework.scheduling.aspectj.AnnotationAsyncExecutionAspectTests" time="0.0">

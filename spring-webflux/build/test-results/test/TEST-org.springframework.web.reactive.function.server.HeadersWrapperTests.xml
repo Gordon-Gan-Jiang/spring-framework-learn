@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.function.server.HeadersWrapperTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:58" hostname="bamboo-18" time="0.042">
+<testsuite name="org.springframework.web.reactive.function.server.HeadersWrapperTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:12:26" hostname="gankangdembp" time="0.056">
   <properties/>
-  <testcase name="asHttpHeaders()" classname="org.springframework.web.reactive.function.server.HeadersWrapperTests" time="0.037"/>
-  <testcase name="accept()" classname="org.springframework.web.reactive.function.server.HeadersWrapperTests" time="0.0"/>
-  <testcase name="header()" classname="org.springframework.web.reactive.function.server.HeadersWrapperTests" time="0.0"/>
+  <testcase name="asHttpHeaders()" classname="org.springframework.web.reactive.function.server.HeadersWrapperTests" time="0.002"/>
+  <testcase name="accept()" classname="org.springframework.web.reactive.function.server.HeadersWrapperTests" time="0.001"/>
+  <testcase name="header()" classname="org.springframework.web.reactive.function.server.HeadersWrapperTests" time="0.001"/>
   <testcase name="acceptCharset()" classname="org.springframework.web.reactive.function.server.HeadersWrapperTests" time="0.001"/>
-  <testcase name="contentLength()" classname="org.springframework.web.reactive.function.server.HeadersWrapperTests" time="0.0"/>
-  <testcase name="contentType()" classname="org.springframework.web.reactive.function.server.HeadersWrapperTests" time="0.0"/>
-  <testcase name="host()" classname="org.springframework.web.reactive.function.server.HeadersWrapperTests" time="0.001"/>
-  <testcase name="range()" classname="org.springframework.web.reactive.function.server.HeadersWrapperTests" time="0.0"/>
+  <testcase name="contentLength()" classname="org.springframework.web.reactive.function.server.HeadersWrapperTests" time="0.003"/>
+  <testcase name="contentType()" classname="org.springframework.web.reactive.function.server.HeadersWrapperTests" time="0.001"/>
+  <testcase name="host()" classname="org.springframework.web.reactive.function.server.HeadersWrapperTests" time="0.042"/>
+  <testcase name="range()" classname="org.springframework.web.reactive.function.server.HeadersWrapperTests" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

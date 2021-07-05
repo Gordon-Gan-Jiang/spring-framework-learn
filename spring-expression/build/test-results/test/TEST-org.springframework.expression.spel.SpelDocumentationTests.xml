@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.expression.spel.SpelDocumentationTests" tests="24" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:57:47" hostname="bamboo-18" time="0.025">
+<testsuite name="org.springframework.expression.spel.SpelDocumentationTests" tests="24" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:06:57" hostname="gankangdembp" time="0.02">
   <properties/>
   <testcase name="testTernary()" classname="org.springframework.expression.spel.SpelDocumentationTests" time="0.001"/>
-  <testcase name="testMethodInvocation2()" classname="org.springframework.expression.spel.SpelDocumentationTests" time="0.0"/>
+  <testcase name="testMethodInvocation2()" classname="org.springframework.expression.spel.SpelDocumentationTests" time="0.001"/>
   <testcase name="testRelationalOperators()" classname="org.springframework.expression.spel.SpelDocumentationTests" time="0.0"/>
-  <testcase name="testPropertyNavigation()" classname="org.springframework.expression.spel.SpelDocumentationTests" time="0.003"/>
+  <testcase name="testPropertyNavigation()" classname="org.springframework.expression.spel.SpelDocumentationTests" time="0.0"/>
   <testcase name="testTypes()" classname="org.springframework.expression.spel.SpelDocumentationTests" time="0.001"/>
-  <testcase name="testDictionaryAccess()" classname="org.springframework.expression.spel.SpelDocumentationTests" time="0.004"/>
-  <testcase name="testSelection()" classname="org.springframework.expression.spel.SpelDocumentationTests" time="0.001"/>
+  <testcase name="testDictionaryAccess()" classname="org.springframework.expression.spel.SpelDocumentationTests" time="0.001"/>
+  <testcase name="testSelection()" classname="org.springframework.expression.spel.SpelDocumentationTests" time="0.0"/>
   <testcase name="testConstructors()" classname="org.springframework.expression.spel.SpelDocumentationTests" time="0.001"/>
-  <testcase name="testSpecialVariables()" classname="org.springframework.expression.spel.SpelDocumentationTests" time="0.001"/>
+  <testcase name="testSpecialVariables()" classname="org.springframework.expression.spel.SpelDocumentationTests" time="0.0"/>
   <testcase name="testMethodInvocation()" classname="org.springframework.expression.spel.SpelDocumentationTests" time="0.0"/>
   <testcase name="testLogicalOperators()" classname="org.springframework.expression.spel.SpelDocumentationTests" time="0.0"/>
   <testcase name="testBeanPropertyAccess()" classname="org.springframework.expression.spel.SpelDocumentationTests" time="0.001"/>
   <testcase name="testAssignment()" classname="org.springframework.expression.spel.SpelDocumentationTests" time="0.0"/>
-  <testcase name="testFunctions()" classname="org.springframework.expression.spel.SpelDocumentationTests" time="0.0"/>
-  <testcase name="testNumericalOperators()" classname="org.springframework.expression.spel.SpelDocumentationTests" time="0.001"/>
+  <testcase name="testFunctions()" classname="org.springframework.expression.spel.SpelDocumentationTests" time="0.001"/>
+  <testcase name="testNumericalOperators()" classname="org.springframework.expression.spel.SpelDocumentationTests" time="0.0"/>
   <testcase name="testVariables()" classname="org.springframework.expression.spel.SpelDocumentationTests" time="0.0"/>
-  <testcase name="testTemplating()" classname="org.springframework.expression.spel.SpelDocumentationTests" time="0.001"/>
-  <testcase name="testPropertyAccess()" classname="org.springframework.expression.spel.SpelDocumentationTests" time="0.001"/>
+  <testcase name="testTemplating()" classname="org.springframework.expression.spel.SpelDocumentationTests" time="0.0"/>
+  <testcase name="testPropertyAccess()" classname="org.springframework.expression.spel.SpelDocumentationTests" time="0.0"/>
   <testcase name="testOtherOperators()" classname="org.springframework.expression.spel.SpelDocumentationTests" time="0.0"/>
   <testcase name="testXMLBasedConfig()" classname="org.springframework.expression.spel.SpelDocumentationTests" time="0.0"/>
-  <testcase name="testRootObject()" classname="org.springframework.expression.spel.SpelDocumentationTests" time="0.0"/>
+  <testcase name="testRootObject()" classname="org.springframework.expression.spel.SpelDocumentationTests" time="0.001"/>
   <testcase name="testArrayLengthAccess()" classname="org.springframework.expression.spel.SpelDocumentationTests" time="0.0"/>
-  <testcase name="testLiterals()" classname="org.springframework.expression.spel.SpelDocumentationTests" time="0.0"/>
+  <testcase name="testLiterals()" classname="org.springframework.expression.spel.SpelDocumentationTests" time="0.001"/>
   <testcase name="testEqualityCheck()" classname="org.springframework.expression.spel.SpelDocumentationTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

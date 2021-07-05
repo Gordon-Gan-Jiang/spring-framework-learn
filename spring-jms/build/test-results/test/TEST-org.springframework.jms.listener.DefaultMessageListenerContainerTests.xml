@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jms.listener.DefaultMessageListenerContainerTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:04" hostname="bamboo-18" time="0.182">
+<testsuite name="org.springframework.jms.listener.DefaultMessageListenerContainerTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:08:54" hostname="gankangdembp" time="0.292">
   <properties/>
-  <testcase name="runnableIsInvokedEvenIfContainerIsNotRunning()" classname="org.springframework.jms.listener.DefaultMessageListenerContainerTests" time="0.051"/>
-  <testcase name="recoverResetBackOff()" classname="org.springframework.jms.listener.DefaultMessageListenerContainerTests" time="0.075"/>
-  <testcase name="applyBackOff()" classname="org.springframework.jms.listener.DefaultMessageListenerContainerTests" time="0.002"/>
-  <testcase name="applyBackOffRetry()" classname="org.springframework.jms.listener.DefaultMessageListenerContainerTests" time="0.053"/>
-  <system-out><![CDATA[13:58:04.578 [Test worker] ERROR o.s.j.l.DefaultMessageListenerContainer - Could not refresh JMS Connection for destination 'org.springframework.jms.listener.DefaultMessageListenerContainerTests$1@1b53fb48' - retrying using Mock for BackOffExecution, hashCode: 24166924. Cause: Test exception (attempt 1)
-13:58:04.635 [Test worker] ERROR o.s.j.l.DefaultMessageListenerContainer - Could not refresh JMS Connection for destination 'org.springframework.jms.listener.DefaultMessageListenerContainerTests$1@7fb80ae7' - retrying using Mock for BackOffExecution, hashCode: 1610782009. Cause: Test exception
-13:58:04.636 [Test worker] ERROR o.s.j.l.DefaultMessageListenerContainer - Stopping container for destination 'org.springframework.jms.listener.DefaultMessageListenerContainerTests$1@7fb80ae7': back-off policy does not allow for further attempts.
-13:58:04.638 [Test worker] ERROR o.s.j.l.DefaultMessageListenerContainer - Could not refresh JMS Connection for destination 'org.springframework.jms.listener.DefaultMessageListenerContainerTests$1@1091e43a' - retrying using Mock for BackOffExecution, hashCode: 1682833484. Cause: Test exception
-13:58:04.688 [Test worker] ERROR o.s.j.l.DefaultMessageListenerContainer - Could not refresh JMS Connection for destination 'org.springframework.jms.listener.DefaultMessageListenerContainerTests$1@1091e43a' - retrying using Mock for BackOffExecution, hashCode: 1682833484. Cause: Test exception
-13:58:04.689 [Test worker] ERROR o.s.j.l.DefaultMessageListenerContainer - Stopping container for destination 'org.springframework.jms.listener.DefaultMessageListenerContainerTests$1@1091e43a': back-off policy does not allow for further attempts.
+  <testcase name="runnableIsInvokedEvenIfContainerIsNotRunning()" classname="org.springframework.jms.listener.DefaultMessageListenerContainerTests" time="0.124"/>
+  <testcase name="recoverResetBackOff()" classname="org.springframework.jms.listener.DefaultMessageListenerContainerTests" time="0.102"/>
+  <testcase name="applyBackOff()" classname="org.springframework.jms.listener.DefaultMessageListenerContainerTests" time="0.005"/>
+  <testcase name="applyBackOffRetry()" classname="org.springframework.jms.listener.DefaultMessageListenerContainerTests" time="0.058"/>
+  <system-out><![CDATA[16:08:55.022 [Test worker] ERROR o.s.j.l.DefaultMessageListenerContainer - Could not refresh JMS Connection for destination 'org.springframework.jms.listener.DefaultMessageListenerContainerTests$1@a660670' - retrying using Mock for BackOffExecution, hashCode: 254555380. Cause: Test exception (attempt 1)
+16:08:55.081 [Test worker] ERROR o.s.j.l.DefaultMessageListenerContainer - Could not refresh JMS Connection for destination 'org.springframework.jms.listener.DefaultMessageListenerContainerTests$1@113e7591' - retrying using Mock for BackOffExecution, hashCode: 1025527299. Cause: Test exception
+16:08:55.081 [Test worker] ERROR o.s.j.l.DefaultMessageListenerContainer - Stopping container for destination 'org.springframework.jms.listener.DefaultMessageListenerContainerTests$1@113e7591': back-off policy does not allow for further attempts.
+16:08:55.087 [Test worker] ERROR o.s.j.l.DefaultMessageListenerContainer - Could not refresh JMS Connection for destination 'org.springframework.jms.listener.DefaultMessageListenerContainerTests$1@573144e2' - retrying using Mock for BackOffExecution, hashCode: 841006858. Cause: Test exception
+16:08:55.141 [Test worker] ERROR o.s.j.l.DefaultMessageListenerContainer - Could not refresh JMS Connection for destination 'org.springframework.jms.listener.DefaultMessageListenerContainerTests$1@573144e2' - retrying using Mock for BackOffExecution, hashCode: 841006858. Cause: Test exception
+16:08:55.142 [Test worker] ERROR o.s.j.l.DefaultMessageListenerContainer - Stopping container for destination 'org.springframework.jms.listener.DefaultMessageListenerContainerTests$1@573144e2': back-off policy does not allow for further attempts.
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

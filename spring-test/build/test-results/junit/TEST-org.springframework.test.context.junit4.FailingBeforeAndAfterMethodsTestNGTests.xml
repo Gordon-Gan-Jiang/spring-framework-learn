@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.context.junit4.FailingBeforeAndAfterMethodsTestNGTests" tests="9" skipped="9" failures="0" errors="0" timestamp="2020-05-29T13:59:51" hostname="bamboo-18" time="0.0">
+<testsuite name="org.springframework.test.context.junit4.FailingBeforeAndAfterMethodsTestNGTests" tests="9" skipped="9" failures="0" errors="0" timestamp="2021-06-20T08:13:12" hostname="gankangdembp" time="0.002">
   <properties/>
   <testcase name="runTestAndAssertCounters[AlwaysFailingBeforeTestClassTestCase]" classname="org.springframework.test.context.junit4.FailingBeforeAndAfterMethodsTestNGTests" time="0.0">
     <skipped/>

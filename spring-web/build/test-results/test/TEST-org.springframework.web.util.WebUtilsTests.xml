@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.util.WebUtilsTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:15" hostname="bamboo-18" time="0.005">
+<testsuite name="org.springframework.web.util.WebUtilsTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:11:17" hostname="gankangdembp" time="0.025">
   <properties/>
   <testcase name="parseMatrixVariablesString()" classname="org.springframework.web.util.WebUtilsTests" time="0.001"/>
-  <testcase name="isSameOrigin()" classname="org.springframework.web.util.WebUtilsTests" time="0.0"/>
-  <testcase name="isSameOriginWithForwardedHeader()" classname="org.springframework.web.util.WebUtilsTests" time="0.001"/>
-  <testcase name="isSameOriginWithXForwardedHeaders()" classname="org.springframework.web.util.WebUtilsTests" time="0.002"/>
+  <testcase name="isSameOrigin()" classname="org.springframework.web.util.WebUtilsTests" time="0.009"/>
+  <testcase name="isSameOriginWithForwardedHeader()" classname="org.springframework.web.util.WebUtilsTests" time="0.011"/>
+  <testcase name="isSameOriginWithXForwardedHeaders()" classname="org.springframework.web.util.WebUtilsTests" time="0.001"/>
   <testcase name="isValidOrigin()" classname="org.springframework.web.util.WebUtilsTests" time="0.0"/>
   <testcase name="findParameterValue()" classname="org.springframework.web.util.WebUtilsTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.context.junit4.rules.BasicAnnotationConfigWacSpringRuleTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:45" hostname="bamboo-18" time="0.019">
+<testsuite name="org.springframework.test.context.junit4.rules.BasicAnnotationConfigWacSpringRuleTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:13:15" hostname="gankangdembp" time="0.01">
   <properties/>
-  <testcase name="fooEnigmaAutowired" classname="org.springframework.test.context.junit4.rules.BasicAnnotationConfigWacSpringRuleTests" time="0.017"/>
-  <testcase name="servletContextAwareBeanProcessed" classname="org.springframework.test.context.junit4.rules.BasicAnnotationConfigWacSpringRuleTests" time="0.0"/>
+  <testcase name="fooEnigmaAutowired" classname="org.springframework.test.context.junit4.rules.BasicAnnotationConfigWacSpringRuleTests" time="0.007"/>
+  <testcase name="servletContextAwareBeanProcessed" classname="org.springframework.test.context.junit4.rules.BasicAnnotationConfigWacSpringRuleTests" time="0.001"/>
   <testcase name="basicWacFeatures" classname="org.springframework.test.context.junit4.rules.BasicAnnotationConfigWacSpringRuleTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

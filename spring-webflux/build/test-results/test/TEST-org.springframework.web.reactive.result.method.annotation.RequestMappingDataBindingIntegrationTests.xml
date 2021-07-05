@@ -1,176 +1,176 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:16" hostname="bamboo-18" time="1.995">
+<testsuite name="org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:11:30" hostname="gankangdembp" time="3.798">
   <properties/>
-  <testcase name="handleDateParam(HttpServer)[1]" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests" time="0.318"/>
-  <testcase name="handleDateParam(HttpServer)[2]" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests" time="0.255"/>
-  <testcase name="handleDateParam(HttpServer)[3]" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests" time="0.421"/>
-  <testcase name="handleDateParam(HttpServer)[4]" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests" time="0.146"/>
-  <testcase name="handleForm(HttpServer)[1]" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests" time="0.237"/>
-  <testcase name="handleForm(HttpServer)[2]" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests" time="0.087"/>
-  <testcase name="handleForm(HttpServer)[3]" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests" time="0.195"/>
-  <testcase name="handleForm(HttpServer)[4]" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests" time="0.276"/>
-  <system-out><![CDATA[14:00:16.478 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 2 mappings in 'requestMappingHandlerMapping'
-14:00:16.514 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-14:00:16.534 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-14:00:16.542 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
-14:00:16.543 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@6a87b24c{/,null,AVAILABLE}
-14:00:16.550 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
-14:00:16.550 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.29.v20200521; built: 2020-05-21T17:20:40.598Z; git: 77c232aed8a45c818fd27232278d9f95a021095e; jvm 1.8.0_232-b09
-14:00:16.637 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@124ffda2{HTTP/1.1, (http/1.1)}{0.0.0.0:42727}
-14:00:16.637 [Test worker] INFO  o.e.j.s.Server - Started @23447ms
-14:00:16.637 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 42727(0 millis).
-14:00:16.642 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:42727/date-param?date=2016-10-31&date-pattern=YYYY-mm-dd
-14:00:16.642 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-14:00:16.656 [qtp1714107370-285] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [92a689d] HTTP POST "/date-param?date=2016-10-31&date-pattern=YYYY-mm-dd"
-14:00:16.657 [qtp1714107370-285] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [92a689d] Mapped to org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests$TestController#handleDateParam(Date)
-14:00:16.685 [qtp1714107370-285] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - Using 'text/plain;charset=UTF-8' given [text/plain, application/json, application/x-jackson-smile, application/*+json, */*] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
-14:00:16.685 [qtp1714107370-285] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [92a689d] 0..1 [java.lang.String]
-14:00:16.685 [qtp1714107370-285] DEBUG o.s.c.c.CharSequenceEncoder - [92a689d] Writing "Processed date!"
-14:00:16.694 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-14:00:16.694 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=utf-8"
-14:00:16.700 [qtp1714107370-285] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [92a689d] Completed 200 OK
-14:00:16.700 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
-14:00:16.701 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@6a87b24c{/,null,UNAVAILABLE}
-14:00:16.701 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@124ffda2{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
-14:00:16.705 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
-14:00:16.837 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 2 mappings in 'requestMappingHandlerMapping'
-14:00:16.887 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-14:00:16.954 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-14:00:16.954 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
-14:00:16.958 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 40175(0 millis).
-14:00:16.958 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:40175/date-param?date=2016-10-31&date-pattern=YYYY-mm-dd
-14:00:16.958 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-14:00:16.973 [reactor-http-epoll-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [fa4fd726-10] HTTP POST "/date-param?date=2016-10-31&date-pattern=YYYY-mm-dd"
-14:00:16.974 [reactor-http-epoll-4] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [fa4fd726-10] Mapped to org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests$TestController#handleDateParam(Date)
-14:00:16.977 [reactor-http-epoll-4] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - Using 'text/plain;charset=UTF-8' given [text/plain, application/json, application/x-jackson-smile, application/*+json, */*] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
-14:00:16.977 [reactor-http-epoll-4] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [fa4fd726-10] 0..1 [java.lang.String]
-14:00:16.979 [reactor-http-epoll-4] DEBUG o.s.c.c.CharSequenceEncoder - [fa4fd726-10] Writing "Processed date!"
-14:00:16.980 [reactor-http-epoll-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [fa4fd726-10] Completed 200 OK
-14:00:16.980 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-14:00:16.980 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
-14:00:16.980 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
-14:00:16.980 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
-14:00:17.099 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 2 mappings in 'requestMappingHandlerMapping'
-14:00:17.153 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-14:00:17.185 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-14:00:17.198 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
-14:00:17.383 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 35351(0 millis).
-14:00:17.384 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:35351/date-param?date=2016-10-31&date-pattern=YYYY-mm-dd
-14:00:17.384 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-14:00:17.390 [http-nio-auto-10-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2f465c98] HTTP POST "/date-param?date=2016-10-31&date-pattern=YYYY-mm-dd"
-14:00:17.390 [http-nio-auto-10-exec-1] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [2f465c98] Mapped to org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests$TestController#handleDateParam(Date)
-14:00:17.393 [http-nio-auto-10-exec-1] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - Using 'text/plain;charset=UTF-8' given [text/plain, application/json, application/x-jackson-smile, application/*+json, */*] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
-14:00:17.393 [http-nio-auto-10-exec-1] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [2f465c98] 0..1 [java.lang.String]
-14:00:17.393 [http-nio-auto-10-exec-1] DEBUG o.s.c.c.CharSequenceEncoder - [2f465c98] Writing "Processed date!"
-14:00:17.397 [http-nio-auto-10-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2f465c98] Completed 200 OK
-14:00:17.397 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-14:00:17.398 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
-14:00:17.398 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
-14:00:17.408 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
-14:00:17.448 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 2 mappings in 'requestMappingHandlerMapping'
-14:00:17.459 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-14:00:17.481 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-14:00:17.481 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
-14:00:17.481 [Test worker] INFO  i.undertow - starting server: Undertow - 2.0.30.Final
-14:00:17.550 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 36217(0 millis).
-14:00:17.550 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:36217/date-param?date=2016-10-31&date-pattern=YYYY-mm-dd
-14:00:17.551 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-14:00:17.554 [XNIO-10 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5e946e73] HTTP POST "/date-param?date=2016-10-31&date-pattern=YYYY-mm-dd"
-14:00:17.554 [XNIO-10 I/O-2] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [5e946e73] Mapped to org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests$TestController#handleDateParam(Date)
-14:00:17.556 [XNIO-10 I/O-2] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - Using 'text/plain;charset=UTF-8' given [text/plain, application/json, application/x-jackson-smile, application/*+json, */*] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
-14:00:17.556 [XNIO-10 I/O-2] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [5e946e73] 0..1 [java.lang.String]
-14:00:17.556 [XNIO-10 I/O-2] DEBUG o.s.c.c.CharSequenceEncoder - [5e946e73] Writing "Processed date!"
-14:00:17.557 [XNIO-10 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5e946e73] Completed 200 OK
-14:00:17.557 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-14:00:17.557 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
-14:00:17.557 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
-14:00:17.557 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.0.30.Final
-14:00:17.560 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
-14:00:17.598 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 2 mappings in 'requestMappingHandlerMapping'
-14:00:17.625 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-14:00:17.634 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-14:00:17.645 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
-14:00:17.645 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@28fc57f1{/,null,AVAILABLE}
-14:00:17.646 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
-14:00:17.646 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.29.v20200521; built: 2020-05-21T17:20:40.598Z; git: 77c232aed8a45c818fd27232278d9f95a021095e; jvm 1.8.0_232-b09
-14:00:17.712 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@3f995537{HTTP/1.1, (http/1.1)}{0.0.0.0:34077}
-14:00:17.712 [Test worker] INFO  o.e.j.s.Server - Started @24522ms
-14:00:17.712 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 34077(0 millis).
-14:00:17.712 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:34077/foos/1
-14:00:17.712 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-14:00:17.713 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{name=[George], age=[5]}] as "application/x-www-form-urlencoded"
-14:00:17.724 [qtp879434185-315] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [25d5cfc] HTTP POST "/foos/1"
-14:00:17.724 [qtp879434185-315] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [25d5cfc] Mapped to org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests$TestController#handleForm(Foo, Errors)
-14:00:17.744 [qtp879434185-315] DEBUG o.s.h.c.FormHttpMessageReader - [25d5cfc] Read form fields [name, age] (content masked)
-14:00:17.782 [qtp879434185-315] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - Using 'text/plain;charset=UTF-8' given [text/plain] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
-14:00:17.782 [qtp879434185-315] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [25d5cfc] 0..1 [java.lang.String]
-14:00:17.783 [qtp879434185-315] DEBUG o.s.c.c.CharSequenceEncoder - [25d5cfc] Writing "Processed form: Foo[id=1, name='George', age=5]"
-14:00:17.783 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-14:00:17.783 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=utf-8"
-14:00:17.784 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
-14:00:17.784 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@28fc57f1{/,null,UNAVAILABLE}
-14:00:17.784 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@3f995537{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
-14:00:17.802 [qtp879434185-315] ERROR o.s.w.s.a.HttpWebHandlerAdapter - [25d5cfc] Error [java.io.IOException: Close org.eclipse.jetty.server.HttpConnection$SendCallback@7f1b8a0f[PROCESSING][i=HTTP/1.1{s=200,h=3,cl=47},cb=org.eclipse.jetty.server.HttpChannel$SendCallback@71dc7b9c] in state PROCESSING] for HTTP POST "/foos/1", but ServerHttpResponse already committed (200 OK)
-14:00:17.804 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
-14:00:17.839 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 2 mappings in 'requestMappingHandlerMapping'
-14:00:17.867 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-14:00:17.876 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-14:00:17.876 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
-14:00:17.880 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 43907(0 millis).
-14:00:17.880 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:43907/foos/1
-14:00:17.880 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-14:00:17.880 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{name=[George], age=[5]}] as "application/x-www-form-urlencoded"
-14:00:17.884 [reactor-http-epoll-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [4515d3ff-11] HTTP POST "/foos/1"
-14:00:17.884 [reactor-http-epoll-2] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [4515d3ff-11] Mapped to org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests$TestController#handleForm(Foo, Errors)
-14:00:17.891 [reactor-http-epoll-2] DEBUG o.s.h.c.FormHttpMessageReader - [4515d3ff-11] Read form fields [name, age] (content masked)
-14:00:17.896 [reactor-http-epoll-2] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - Using 'text/plain;charset=UTF-8' given [text/plain] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
-14:00:17.896 [reactor-http-epoll-2] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [4515d3ff-11] 0..1 [java.lang.String]
-14:00:17.896 [reactor-http-epoll-2] DEBUG o.s.c.c.CharSequenceEncoder - [4515d3ff-11] Writing "Processed form: Foo[id=1, name='George', age=5]"
-14:00:17.897 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-14:00:17.897 [reactor-http-epoll-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [4515d3ff-11] Completed 200 OK
-14:00:17.897 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
-14:00:17.897 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
-14:00:17.897 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
-14:00:17.937 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 2 mappings in 'requestMappingHandlerMapping'
-14:00:17.947 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-14:00:17.956 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-14:00:17.956 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
-14:00:18.075 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 38363(0 millis).
-14:00:18.075 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:38363/foos/1
-14:00:18.075 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-14:00:18.076 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{name=[George], age=[5]}] as "application/x-www-form-urlencoded"
-14:00:18.082 [http-nio-auto-11-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [73201682] HTTP POST "/foos/1"
-14:00:18.082 [http-nio-auto-11-exec-1] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [73201682] Mapped to org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests$TestController#handleForm(Foo, Errors)
-14:00:18.085 [http-nio-auto-11-exec-1] DEBUG o.s.h.c.FormHttpMessageReader - [73201682] Read form fields [name, age] (content masked)
-14:00:18.085 [http-nio-auto-11-exec-1] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - Using 'text/plain;charset=UTF-8' given [text/plain] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
-14:00:18.086 [http-nio-auto-11-exec-1] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [73201682] 0..1 [java.lang.String]
-14:00:18.086 [http-nio-auto-11-exec-1] DEBUG o.s.c.c.CharSequenceEncoder - [73201682] Writing "Processed form: Foo[id=1, name='George', age=5]"
-14:00:18.086 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-14:00:18.086 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
-14:00:18.087 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
-14:00:18.088 [http-nio-auto-11-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [73201682] Completed 200 OK
-14:00:18.098 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
-14:00:18.189 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 2 mappings in 'requestMappingHandlerMapping'
-14:00:18.251 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
-14:00:18.280 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-14:00:18.292 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
-14:00:18.294 [Test worker] INFO  i.undertow - starting server: Undertow - 2.0.30.Final
-14:00:18.350 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 36079(0 millis).
-14:00:18.350 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:36079/foos/1
-14:00:18.350 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
-14:00:18.350 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{name=[George], age=[5]}] as "application/x-www-form-urlencoded"
-14:00:18.356 [XNIO-11 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6f2b589c] HTTP POST "/foos/1"
-14:00:18.356 [XNIO-11 I/O-2] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [6f2b589c] Mapped to org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests$TestController#handleForm(Foo, Errors)
-14:00:18.364 [XNIO-11 I/O-2] DEBUG o.s.h.c.FormHttpMessageReader - [6f2b589c] Read form fields [name, age] (content masked)
-14:00:18.374 [XNIO-11 I/O-2] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - Using 'text/plain;charset=UTF-8' given [text/plain] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
-14:00:18.374 [XNIO-11 I/O-2] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [6f2b589c] 0..1 [java.lang.String]
-14:00:18.374 [XNIO-11 I/O-2] DEBUG o.s.c.c.CharSequenceEncoder - [6f2b589c] Writing "Processed form: Foo[id=1, name='George', age=5]"
-14:00:18.375 [XNIO-11 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6f2b589c] Completed 200 OK
-14:00:18.375 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-14:00:18.375 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
-14:00:18.375 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
-14:00:18.376 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.0.30.Final
-14:00:18.382 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+  <testcase name="handleDateParam(HttpServer)[1]" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests" time="0.523"/>
+  <testcase name="handleDateParam(HttpServer)[2]" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests" time="0.409"/>
+  <testcase name="handleDateParam(HttpServer)[3]" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests" time="0.454"/>
+  <testcase name="handleDateParam(HttpServer)[4]" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests" time="0.456"/>
+  <testcase name="handleForm(HttpServer)[1]" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests" time="0.468"/>
+  <testcase name="handleForm(HttpServer)[2]" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests" time="0.39"/>
+  <testcase name="handleForm(HttpServer)[3]" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests" time="0.392"/>
+  <testcase name="handleForm(HttpServer)[4]" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests" time="0.436"/>
+  <system-out><![CDATA[16:11:30.961 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 2 mappings in 'requestMappingHandlerMapping'
+16:11:31.083 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+16:11:31.161 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:11:31.161 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+16:11:31.162 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@69cdf535{/,null,AVAILABLE}
+16:11:31.162 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+16:11:31.178 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.31.v20200723; built: 2020-07-23T17:57:36.812Z; git: 450ba27947e13e66baa8cd1ce7e85a4461cacc1d; jvm 1.8.0_201-b09
+16:11:31.206 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@6888e661{HTTP/1.1, (http/1.1)}{0.0.0.0:54930}
+16:11:31.206 [Test worker] INFO  o.e.j.s.Server - Started @59046ms
+16:11:31.206 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 54930(0 millis).
+16:11:31.207 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:54930/date-param?date=2016-10-31&date-pattern=YYYY-mm-dd
+16:11:31.208 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+16:11:31.217 [qtp1549986244-238] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [fe4a28f] HTTP POST "/date-param?date=2016-10-31&date-pattern=YYYY-mm-dd"
+16:11:31.217 [qtp1549986244-238] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [fe4a28f] Mapped to org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests$TestController#handleDateParam(Date)
+16:11:31.235 [qtp1549986244-238] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - Using 'text/plain;charset=UTF-8' given [text/plain, application/json, application/x-jackson-smile, application/*+json, */*] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
+16:11:31.235 [qtp1549986244-238] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [fe4a28f] 0..1 [java.lang.String]
+16:11:31.236 [qtp1549986244-238] DEBUG o.s.c.c.CharSequenceEncoder - [fe4a28f] Writing "Processed date!"
+16:11:31.237 [qtp1549986244-238] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [fe4a28f] Completed 200 OK
+16:11:31.237 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+16:11:31.237 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=utf-8"
+16:11:31.238 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+16:11:31.239 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@69cdf535{/,null,UNAVAILABLE}
+16:11:31.241 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@6888e661{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+16:11:31.252 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+16:11:31.464 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 2 mappings in 'requestMappingHandlerMapping'
+16:11:31.555 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+16:11:31.651 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:11:31.652 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+16:11:31.654 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 54946(0 millis).
+16:11:31.654 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:54946/date-param?date=2016-10-31&date-pattern=YYYY-mm-dd
+16:11:31.655 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+16:11:31.664 [reactor-http-nio-8] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [8379671b-6] HTTP POST "/date-param?date=2016-10-31&date-pattern=YYYY-mm-dd"
+16:11:31.665 [reactor-http-nio-8] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [8379671b-6] Mapped to org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests$TestController#handleDateParam(Date)
+16:11:31.670 [reactor-http-nio-8] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - Using 'text/plain;charset=UTF-8' given [text/plain, application/json, application/x-jackson-smile, application/*+json, */*] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
+16:11:31.670 [reactor-http-nio-8] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [8379671b-6] 0..1 [java.lang.String]
+16:11:31.670 [reactor-http-nio-8] DEBUG o.s.c.c.CharSequenceEncoder - [8379671b-6] Writing "Processed date!"
+16:11:31.673 [reactor-http-nio-8] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [8379671b-6] Completed 200 OK
+16:11:31.679 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+16:11:31.680 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+16:11:31.681 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+16:11:31.681 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+16:11:31.914 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 2 mappings in 'requestMappingHandlerMapping'
+16:11:32.026 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+16:11:32.107 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:11:32.127 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+16:11:32.142 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 54964(0 millis).
+16:11:32.142 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:54964/date-param?date=2016-10-31&date-pattern=YYYY-mm-dd
+16:11:32.143 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+16:11:32.152 [http-nio-auto-6-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [3a71e76a] HTTP POST "/date-param?date=2016-10-31&date-pattern=YYYY-mm-dd"
+16:11:32.152 [http-nio-auto-6-exec-1] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [3a71e76a] Mapped to org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests$TestController#handleDateParam(Date)
+16:11:32.158 [http-nio-auto-6-exec-1] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - Using 'text/plain;charset=UTF-8' given [text/plain, application/json, application/x-jackson-smile, application/*+json, */*] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
+16:11:32.158 [http-nio-auto-6-exec-1] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [3a71e76a] 0..1 [java.lang.String]
+16:11:32.158 [http-nio-auto-6-exec-1] DEBUG o.s.c.c.CharSequenceEncoder - [3a71e76a] Writing "Processed date!"
+16:11:32.160 [http-nio-auto-6-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [3a71e76a] Completed 200 OK
+16:11:32.160 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+16:11:32.161 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+16:11:32.162 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+16:11:32.193 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+16:11:32.446 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 2 mappings in 'requestMappingHandlerMapping'
+16:11:32.544 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+16:11:32.661 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:11:32.668 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+16:11:32.669 [Test worker] INFO  i.undertow - starting server: Undertow - 2.0.32.Final
+16:11:32.686 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 54987(0 millis).
+16:11:32.686 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:54987/date-param?date=2016-10-31&date-pattern=YYYY-mm-dd
+16:11:32.687 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+16:11:32.693 [XNIO-6 I/O-6] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [66c10d94] HTTP POST "/date-param?date=2016-10-31&date-pattern=YYYY-mm-dd"
+16:11:32.694 [XNIO-6 I/O-6] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [66c10d94] Mapped to org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests$TestController#handleDateParam(Date)
+16:11:32.700 [XNIO-6 I/O-6] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - Using 'text/plain;charset=UTF-8' given [text/plain, application/json, application/x-jackson-smile, application/*+json, */*] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
+16:11:32.701 [XNIO-6 I/O-6] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [66c10d94] 0..1 [java.lang.String]
+16:11:32.701 [XNIO-6 I/O-6] DEBUG o.s.c.c.CharSequenceEncoder - [66c10d94] Writing "Processed date!"
+16:11:32.702 [XNIO-6 I/O-6] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [66c10d94] Completed 200 OK
+16:11:32.702 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+16:11:32.703 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+16:11:32.703 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+16:11:32.703 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.0.32.Final
+16:11:32.708 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+16:11:32.929 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 2 mappings in 'requestMappingHandlerMapping'
+16:11:33.029 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+16:11:33.111 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:11:33.112 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+16:11:33.112 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@183e2be6{/,null,AVAILABLE}
+16:11:33.113 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+16:11:33.113 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.31.v20200723; built: 2020-07-23T17:57:36.812Z; git: 450ba27947e13e66baa8cd1ce7e85a4461cacc1d; jvm 1.8.0_201-b09
+16:11:33.162 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@6a933e27{HTTP/1.1, (http/1.1)}{0.0.0.0:54994}
+16:11:33.162 [Test worker] INFO  o.e.j.s.Server - Started @61002ms
+16:11:33.163 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 54994(0 millis).
+16:11:33.164 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:54994/foos/1
+16:11:33.165 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+16:11:33.166 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{name=[George], age=[5]}] as "application/x-www-form-urlencoded"
+16:11:33.179 [qtp1133920085-276] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [22aa6998] HTTP POST "/foos/1"
+16:11:33.180 [qtp1133920085-276] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [22aa6998] Mapped to org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests$TestController#handleForm(Foo, Errors)
+16:11:33.200 [qtp1133920085-276] DEBUG o.s.h.c.FormHttpMessageReader - [22aa6998] Read form fields [name, age] (content masked)
+16:11:33.216 [qtp1133920085-276] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - Using 'text/plain;charset=UTF-8' given [text/plain] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
+16:11:33.216 [qtp1133920085-276] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [22aa6998] 0..1 [java.lang.String]
+16:11:33.217 [qtp1133920085-276] DEBUG o.s.c.c.CharSequenceEncoder - [22aa6998] Writing "Processed form: Foo[id=1, name='George', age=5]"
+16:11:33.218 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+16:11:33.218 [qtp1133920085-276] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [22aa6998] Completed 200 OK
+16:11:33.218 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=utf-8"
+16:11:33.218 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+16:11:33.219 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@183e2be6{/,null,UNAVAILABLE}
+16:11:33.221 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@6a933e27{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+16:11:33.232 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+16:11:33.423 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 2 mappings in 'requestMappingHandlerMapping'
+16:11:33.529 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+16:11:33.611 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:11:33.612 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+16:11:33.615 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 55001(0 millis).
+16:11:33.616 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:55001/foos/1
+16:11:33.616 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+16:11:33.617 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{name=[George], age=[5]}] as "application/x-www-form-urlencoded"
+16:11:33.624 [reactor-http-nio-10] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [7da43fca-7] HTTP POST "/foos/1"
+16:11:33.624 [reactor-http-nio-10] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [7da43fca-7] Mapped to org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests$TestController#handleForm(Foo, Errors)
+16:11:33.632 [reactor-http-nio-10] DEBUG o.s.h.c.FormHttpMessageReader - [7da43fca-7] Read form fields [name, age] (content masked)
+16:11:33.635 [reactor-http-nio-10] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - Using 'text/plain;charset=UTF-8' given [text/plain] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
+16:11:33.635 [reactor-http-nio-10] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [7da43fca-7] 0..1 [java.lang.String]
+16:11:33.635 [reactor-http-nio-10] DEBUG o.s.c.c.CharSequenceEncoder - [7da43fca-7] Writing "Processed form: Foo[id=1, name='George', age=5]"
+16:11:33.637 [reactor-http-nio-10] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [7da43fca-7] Completed 200 OK
+16:11:33.637 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+16:11:33.638 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+16:11:33.639 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+16:11:33.639 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+16:11:33.810 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 2 mappings in 'requestMappingHandlerMapping'
+16:11:33.909 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+16:11:33.988 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:11:33.990 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+16:11:34.004 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 55005(0 millis).
+16:11:34.005 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:55005/foos/1
+16:11:34.005 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+16:11:34.006 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{name=[George], age=[5]}] as "application/x-www-form-urlencoded"
+16:11:34.015 [http-nio-auto-7-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [558b513c] HTTP POST "/foos/1"
+16:11:34.015 [http-nio-auto-7-exec-1] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [558b513c] Mapped to org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests$TestController#handleForm(Foo, Errors)
+16:11:34.020 [http-nio-auto-7-exec-1] DEBUG o.s.h.c.FormHttpMessageReader - [558b513c] Read form fields [name, age] (content masked)
+16:11:34.021 [http-nio-auto-7-exec-1] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - Using 'text/plain;charset=UTF-8' given [text/plain] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
+16:11:34.021 [http-nio-auto-7-exec-1] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [558b513c] 0..1 [java.lang.String]
+16:11:34.022 [http-nio-auto-7-exec-1] DEBUG o.s.c.c.CharSequenceEncoder - [558b513c] Writing "Processed form: Foo[id=1, name='George', age=5]"
+16:11:34.023 [http-nio-auto-7-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [558b513c] Completed 200 OK
+16:11:34.023 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+16:11:34.024 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+16:11:34.025 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+16:11:34.063 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+16:11:34.274 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 2 mappings in 'requestMappingHandlerMapping'
+16:11:34.371 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+16:11:34.464 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:11:34.464 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+16:11:34.464 [Test worker] INFO  i.undertow - starting server: Undertow - 2.0.32.Final
+16:11:34.497 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 55008(0 millis).
+16:11:34.497 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:55008/foos/1
+16:11:34.498 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/json, application/x-jackson-smile, application/*+json, */*]
+16:11:34.498 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{name=[George], age=[5]}] as "application/x-www-form-urlencoded"
+16:11:34.510 [XNIO-7 I/O-6] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [53c5d568] HTTP POST "/foos/1"
+16:11:34.510 [XNIO-7 I/O-6] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [53c5d568] Mapped to org.springframework.web.reactive.result.method.annotation.RequestMappingDataBindingIntegrationTests$TestController#handleForm(Foo, Errors)
+16:11:34.518 [XNIO-7 I/O-6] DEBUG o.s.h.c.FormHttpMessageReader - [53c5d568] Read form fields [name, age] (content masked)
+16:11:34.524 [XNIO-7 I/O-6] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - Using 'text/plain;charset=UTF-8' given [text/plain] and supported [text/plain;charset=UTF-8, text/event-stream, text/plain;charset=UTF-8, */*]
+16:11:34.524 [XNIO-7 I/O-6] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [53c5d568] 0..1 [java.lang.String]
+16:11:34.524 [XNIO-7 I/O-6] DEBUG o.s.c.c.CharSequenceEncoder - [53c5d568] Writing "Processed form: Foo[id=1, name='George', age=5]"
+16:11:34.525 [XNIO-7 I/O-6] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [53c5d568] Completed 200 OK
+16:11:34.525 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+16:11:34.525 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+16:11:34.526 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+16:11:34.526 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.0.32.Final
+16:11:34.527 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

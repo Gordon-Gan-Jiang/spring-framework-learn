@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.util.SystemPropertyUtilsTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:57:52" hostname="bamboo-18" time="0.004">
+<testsuite name="org.springframework.util.SystemPropertyUtilsTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:07:08" hostname="gankangdembp" time="0.004">
   <properties/>
   <testcase name="replaceWithNoDefault()" classname="org.springframework.util.SystemPropertyUtilsTests" time="0.002"/>
   <testcase name="replaceWithExpressionDefault()" classname="org.springframework.util.SystemPropertyUtilsTests" time="0.0"/>
-  <testcase name="replaceWithDefault()" classname="org.springframework.util.SystemPropertyUtilsTests" time="0.001"/>
+  <testcase name="replaceWithDefault()" classname="org.springframework.util.SystemPropertyUtilsTests" time="0.0"/>
   <testcase name="replaceWithNoDefaultIgnored()" classname="org.springframework.util.SystemPropertyUtilsTests" time="0.0"/>
   <testcase name="replaceFromSystemPropertyWithExpressionDefault()" classname="org.springframework.util.SystemPropertyUtilsTests" time="0.0"/>
   <testcase name="replaceFromSystemProperty()" classname="org.springframework.util.SystemPropertyUtilsTests" time="0.0"/>

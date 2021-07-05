@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.annotation.AnnotationConfigApplicationContextExtensionsTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:45" hostname="bamboo-18" time="0.01">
+<testsuite name="org.springframework.context.annotation.AnnotationConfigApplicationContextExtensionsTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:13:20" hostname="gankangdembp" time="0.013">
   <properties/>
-  <testcase name="Instantiate AnnotationConfigApplicationContext()" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextExtensionsTests" time="0.01"/>
+  <testcase name="Instantiate AnnotationConfigApplicationContext()" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextExtensionsTests" time="0.013"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

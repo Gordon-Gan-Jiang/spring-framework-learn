@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.annotation.EnableAspectJAutoProxyTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:06" hostname="bamboo-18" time="0.324">
+<testsuite name="org.springframework.context.annotation.EnableAspectJAutoProxyTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:11:26" hostname="gankangdembp" time="0.5">
   <properties/>
-  <testcase name="withCglibProxy()" classname="org.springframework.context.annotation.EnableAspectJAutoProxyTests" time="0.08"/>
-  <testcase name="withJdkProxy()" classname="org.springframework.context.annotation.EnableAspectJAutoProxyTests" time="0.042"/>
-  <testcase name="withAnnotationOnArgumentAndCglibProxy()" classname="org.springframework.context.annotation.EnableAspectJAutoProxyTests" time="0.094"/>
-  <testcase name="withAnnotationOnArgumentAndJdkProxy()" classname="org.springframework.context.annotation.EnableAspectJAutoProxyTests" time="0.074"/>
-  <testcase name="withExposedProxy()" classname="org.springframework.context.annotation.EnableAspectJAutoProxyTests" time="0.033"/>
+  <testcase name="withCglibProxy()" classname="org.springframework.context.annotation.EnableAspectJAutoProxyTests" time="0.107"/>
+  <testcase name="withJdkProxy()" classname="org.springframework.context.annotation.EnableAspectJAutoProxyTests" time="0.066"/>
+  <testcase name="withAnnotationOnArgumentAndCglibProxy()" classname="org.springframework.context.annotation.EnableAspectJAutoProxyTests" time="0.179"/>
+  <testcase name="withAnnotationOnArgumentAndJdkProxy()" classname="org.springframework.context.annotation.EnableAspectJAutoProxyTests" time="0.077"/>
+  <testcase name="withExposedProxy()" classname="org.springframework.context.annotation.EnableAspectJAutoProxyTests" time="0.071"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

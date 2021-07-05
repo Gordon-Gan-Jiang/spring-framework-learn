@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.context.request.async.StandardServletAsyncWebRequestTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:09" hostname="bamboo-18" time="0.031">
+<testsuite name="org.springframework.web.context.request.async.StandardServletAsyncWebRequestTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:11:15" hostname="gankangdembp" time="0.17">
   <properties/>
-  <testcase name="onErrorHandlerAfterOnErrorEvent()" classname="org.springframework.web.context.request.async.StandardServletAsyncWebRequestTests" time="0.024"/>
-  <testcase name="startAsync()" classname="org.springframework.web.context.request.async.StandardServletAsyncWebRequestTests" time="0.0"/>
-  <testcase name="onErrorHandler()" classname="org.springframework.web.context.request.async.StandardServletAsyncWebRequestTests" time="0.001"/>
-  <testcase name="onTimeoutHandler()" classname="org.springframework.web.context.request.async.StandardServletAsyncWebRequestTests" time="0.003"/>
-  <testcase name="isAsyncStarted()" classname="org.springframework.web.context.request.async.StandardServletAsyncWebRequestTests" time="0.001"/>
+  <testcase name="onErrorHandlerAfterOnErrorEvent()" classname="org.springframework.web.context.request.async.StandardServletAsyncWebRequestTests" time="0.094"/>
+  <testcase name="startAsync()" classname="org.springframework.web.context.request.async.StandardServletAsyncWebRequestTests" time="0.001"/>
+  <testcase name="onErrorHandler()" classname="org.springframework.web.context.request.async.StandardServletAsyncWebRequestTests" time="0.002"/>
+  <testcase name="onTimeoutHandler()" classname="org.springframework.web.context.request.async.StandardServletAsyncWebRequestTests" time="0.049"/>
+  <testcase name="isAsyncStarted()" classname="org.springframework.web.context.request.async.StandardServletAsyncWebRequestTests" time="0.0"/>
   <testcase name="onTimeoutDefaultBehavior()" classname="org.springframework.web.context.request.async.StandardServletAsyncWebRequestTests" time="0.0"/>
-  <testcase name="startAsyncMultipleTimes()" classname="org.springframework.web.context.request.async.StandardServletAsyncWebRequestTests" time="0.0"/>
-  <testcase name="onCompletionHandlerAfterOnCompleteEvent()" classname="org.springframework.web.context.request.async.StandardServletAsyncWebRequestTests" time="0.0"/>
-  <testcase name="startAsyncNotSupported()" classname="org.springframework.web.context.request.async.StandardServletAsyncWebRequestTests" time="0.001"/>
-  <testcase name="setTimeoutDuringConcurrentHandling()" classname="org.springframework.web.context.request.async.StandardServletAsyncWebRequestTests" time="0.0"/>
-  <testcase name="startAsyncAfterCompleted()" classname="org.springframework.web.context.request.async.StandardServletAsyncWebRequestTests" time="0.0"/>
-  <testcase name="onCompletionHandler()" classname="org.springframework.web.context.request.async.StandardServletAsyncWebRequestTests" time="0.0"/>
+  <testcase name="startAsyncMultipleTimes()" classname="org.springframework.web.context.request.async.StandardServletAsyncWebRequestTests" time="0.001"/>
+  <testcase name="onCompletionHandlerAfterOnCompleteEvent()" classname="org.springframework.web.context.request.async.StandardServletAsyncWebRequestTests" time="0.001"/>
+  <testcase name="startAsyncNotSupported()" classname="org.springframework.web.context.request.async.StandardServletAsyncWebRequestTests" time="0.003"/>
+  <testcase name="setTimeoutDuringConcurrentHandling()" classname="org.springframework.web.context.request.async.StandardServletAsyncWebRequestTests" time="0.001"/>
+  <testcase name="startAsyncAfterCompleted()" classname="org.springframework.web.context.request.async.StandardServletAsyncWebRequestTests" time="0.001"/>
+  <testcase name="onCompletionHandler()" classname="org.springframework.web.context.request.async.StandardServletAsyncWebRequestTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.support.ConversionServiceFactoryBeanTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:57:47" hostname="bamboo-18" time="0.056">
+<testsuite name="org.springframework.context.support.ConversionServiceFactoryBeanTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:11:49" hostname="gankangdembp" time="0.086">
   <properties/>
-  <testcase name="createDefaultConversionService()" classname="org.springframework.context.support.ConversionServiceFactoryBeanTests" time="0.036"/>
-  <testcase name="conversionServiceInApplicationContext()" classname="org.springframework.context.support.ConversionServiceFactoryBeanTests" time="0.007"/>
-  <testcase name="conversionServiceInApplicationContextWithResourceOverriding()" classname="org.springframework.context.support.ConversionServiceFactoryBeanTests" time="0.006"/>
-  <testcase name="createDefaultConversionServiceWithInvalidSupplements()" classname="org.springframework.context.support.ConversionServiceFactoryBeanTests" time="0.001"/>
-  <testcase name="createDefaultConversionServiceWithSupplements()" classname="org.springframework.context.support.ConversionServiceFactoryBeanTests" time="0.004"/>
+  <testcase name="createDefaultConversionService()" classname="org.springframework.context.support.ConversionServiceFactoryBeanTests" time="0.001"/>
+  <testcase name="conversionServiceInApplicationContext()" classname="org.springframework.context.support.ConversionServiceFactoryBeanTests" time="0.051"/>
+  <testcase name="conversionServiceInApplicationContextWithResourceOverriding()" classname="org.springframework.context.support.ConversionServiceFactoryBeanTests" time="0.026"/>
+  <testcase name="createDefaultConversionServiceWithInvalidSupplements()" classname="org.springframework.context.support.ConversionServiceFactoryBeanTests" time="0.002"/>
+  <testcase name="createDefaultConversionServiceWithSupplements()" classname="org.springframework.context.support.ConversionServiceFactoryBeanTests" time="0.006"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

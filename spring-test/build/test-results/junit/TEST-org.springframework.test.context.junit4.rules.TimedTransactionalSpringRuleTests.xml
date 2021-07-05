@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.context.junit4.rules.TimedTransactionalSpringRuleTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:44" hostname="bamboo-18" time="0.317">
+<testsuite name="org.springframework.test.context.junit4.rules.TimedTransactionalSpringRuleTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:13:17" hostname="gankangdembp" time="0.032">
   <properties/>
-  <testcase name="transactionalWithJUnitTimeout" classname="org.springframework.test.context.junit4.rules.TimedTransactionalSpringRuleTests" time="0.164"/>
-  <testcase name="transactionalWithJUnitRuleBasedTimeout" classname="org.springframework.test.context.junit4.rules.TimedTransactionalSpringRuleTests" time="0.014"/>
-  <testcase name="notTransactionalWithJUnitTimeout" classname="org.springframework.test.context.junit4.rules.TimedTransactionalSpringRuleTests" time="0.115"/>
-  <testcase name="transactionalWithSpringTimeout" classname="org.springframework.test.context.junit4.rules.TimedTransactionalSpringRuleTests" time="0.014"/>
-  <testcase name="notTransactionalWithSpringTimeout" classname="org.springframework.test.context.junit4.rules.TimedTransactionalSpringRuleTests" time="0.01"/>
+  <testcase name="transactionalWithJUnitTimeout" classname="org.springframework.test.context.junit4.rules.TimedTransactionalSpringRuleTests" time="0.014"/>
+  <testcase name="transactionalWithJUnitRuleBasedTimeout" classname="org.springframework.test.context.junit4.rules.TimedTransactionalSpringRuleTests" time="0.003"/>
+  <testcase name="notTransactionalWithJUnitTimeout" classname="org.springframework.test.context.junit4.rules.TimedTransactionalSpringRuleTests" time="0.007"/>
+  <testcase name="transactionalWithSpringTimeout" classname="org.springframework.test.context.junit4.rules.TimedTransactionalSpringRuleTests" time="0.006"/>
+  <testcase name="notTransactionalWithSpringTimeout" classname="org.springframework.test.context.junit4.rules.TimedTransactionalSpringRuleTests" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

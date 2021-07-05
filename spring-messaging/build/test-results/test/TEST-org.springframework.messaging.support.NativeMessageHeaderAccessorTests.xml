@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.support.NativeMessageHeaderAccessorTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:20" hostname="bamboo-18" time="1.299">
+<testsuite name="org.springframework.messaging.support.NativeMessageHeaderAccessorTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:10:20" hostname="gankangdembp" time="0.054">
   <properties/>
-  <testcase name="setImmutableIdempotent()" classname="org.springframework.messaging.support.NativeMessageHeaderAccessorTests" time="0.911"/>
-  <testcase name="addNativeHeaderLazyInitNullValue()" classname="org.springframework.messaging.support.NativeMessageHeaderAccessorTests" time="0.302"/>
-  <testcase name="addNativeHeaderNullValue()" classname="org.springframework.messaging.support.NativeMessageHeaderAccessorTests" time="0.008"/>
-  <testcase name="addNativeHeaderImmutable()" classname="org.springframework.messaging.support.NativeMessageHeaderAccessorTests" time="0.01"/>
+  <testcase name="setImmutableIdempotent()" classname="org.springframework.messaging.support.NativeMessageHeaderAccessorTests" time="0.001"/>
+  <testcase name="addNativeHeaderLazyInitNullValue()" classname="org.springframework.messaging.support.NativeMessageHeaderAccessorTests" time="0.0"/>
+  <testcase name="addNativeHeaderNullValue()" classname="org.springframework.messaging.support.NativeMessageHeaderAccessorTests" time="0.001"/>
+  <testcase name="addNativeHeaderImmutable()" classname="org.springframework.messaging.support.NativeMessageHeaderAccessorTests" time="0.001"/>
+  <testcase name="copyImmutableToMutable()" classname="org.springframework.messaging.support.NativeMessageHeaderAccessorTests" time="0.001"/>
+  <testcase name="copySelf()" classname="org.springframework.messaging.support.NativeMessageHeaderAccessorTests" time="0.001"/>
   <testcase name="addNativeHeader()" classname="org.springframework.messaging.support.NativeMessageHeaderAccessorTests" time="0.001"/>
   <testcase name="setNativeHeaderLazyInit()" classname="org.springframework.messaging.support.NativeMessageHeaderAccessorTests" time="0.001"/>
-  <testcase name="setNativeHeaderNullValue()" classname="org.springframework.messaging.support.NativeMessageHeaderAccessorTests" time="0.005"/>
-  <testcase name="setNativeHeader()" classname="org.springframework.messaging.support.NativeMessageHeaderAccessorTests" time="0.001"/>
-  <testcase name="createFromNativeHeaderMap()" classname="org.springframework.messaging.support.NativeMessageHeaderAccessorTests" time="0.008"/>
-  <testcase name="createFromMessageAndModify()" classname="org.springframework.messaging.support.NativeMessageHeaderAccessorTests" time="0.017"/>
+  <testcase name="setNativeHeaderNullValue()" classname="org.springframework.messaging.support.NativeMessageHeaderAccessorTests" time="0.0"/>
+  <testcase name="setNativeHeader()" classname="org.springframework.messaging.support.NativeMessageHeaderAccessorTests" time="0.0"/>
+  <testcase name="createFromNativeHeaderMap()" classname="org.springframework.messaging.support.NativeMessageHeaderAccessorTests" time="0.001"/>
+  <testcase name="copyIfAbsentImmutableToMutable()" classname="org.springframework.messaging.support.NativeMessageHeaderAccessorTests" time="0.001"/>
+  <testcase name="createFromMessageAndModify()" classname="org.springframework.messaging.support.NativeMessageHeaderAccessorTests" time="0.023"/>
   <testcase name="setNativeHeaderImmutable()" classname="org.springframework.messaging.support.NativeMessageHeaderAccessorTests" time="0.001"/>
-  <testcase name="createFromMessageNull()" classname="org.springframework.messaging.support.NativeMessageHeaderAccessorTests" time="0.0"/>
-  <testcase name="setNativeHeaderLazyInitNullValue()" classname="org.springframework.messaging.support.NativeMessageHeaderAccessorTests" time="0.001"/>
+  <testcase name="createFromMessageNull()" classname="org.springframework.messaging.support.NativeMessageHeaderAccessorTests" time="0.001"/>
+  <testcase name="setNativeHeaderLazyInitNullValue()" classname="org.springframework.messaging.support.NativeMessageHeaderAccessorTests" time="0.0"/>
   <testcase name="createFromMessage()" classname="org.springframework.messaging.support.NativeMessageHeaderAccessorTests" time="0.0"/>
-  <testcase name="addNativeHeaderLazyInit()" classname="org.springframework.messaging.support.NativeMessageHeaderAccessorTests" time="0.001"/>
+  <testcase name="addNativeHeaderLazyInit()" classname="org.springframework.messaging.support.NativeMessageHeaderAccessorTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

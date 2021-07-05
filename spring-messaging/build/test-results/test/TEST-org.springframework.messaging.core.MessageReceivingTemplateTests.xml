@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.core.MessageReceivingTemplateTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:24" hostname="bamboo-18" time="0.056">
+<testsuite name="org.springframework.messaging.core.MessageReceivingTemplateTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:09:33" hostname="gankangdembp" time="0.008">
   <properties/>
-  <testcase name="receiveAndConvertNoConverter()" classname="org.springframework.messaging.core.MessageReceivingTemplateTests" time="0.04"/>
-  <testcase name="receiveAndConvertFromDestination()" classname="org.springframework.messaging.core.MessageReceivingTemplateTests" time="0.001"/>
-  <testcase name="receiveAndConvert()" classname="org.springframework.messaging.core.MessageReceivingTemplateTests" time="0.0"/>
+  <testcase name="receiveAndConvertNoConverter()" classname="org.springframework.messaging.core.MessageReceivingTemplateTests" time="0.002"/>
+  <testcase name="receiveAndConvertFromDestination()" classname="org.springframework.messaging.core.MessageReceivingTemplateTests" time="0.0"/>
+  <testcase name="receiveAndConvert()" classname="org.springframework.messaging.core.MessageReceivingTemplateTests" time="0.001"/>
   <testcase name="receiveAndConvertFailed()" classname="org.springframework.messaging.core.MessageReceivingTemplateTests" time="0.002"/>
   <testcase name="receiveMissingDefaultDestination()" classname="org.springframework.messaging.core.MessageReceivingTemplateTests" time="0.001"/>
   <testcase name="receive()" classname="org.springframework.messaging.core.MessageReceivingTemplateTests" time="0.0"/>

@@ -1,62 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.http.server.reactive.RandomHandlerIntegrationTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:42" hostname="bamboo-18" time="3.228">
+<testsuite name="org.springframework.http.server.reactive.RandomHandlerIntegrationTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:12:31" hostname="gankangdembp" time="0.136">
   <properties/>
-  <testcase name="random(HttpServer)[1]" classname="org.springframework.http.server.reactive.RandomHandlerIntegrationTests" time="0.888"/>
-  <testcase name="random(HttpServer)[2]" classname="org.springframework.http.server.reactive.RandomHandlerIntegrationTests" time="0.33"/>
-  <testcase name="random(HttpServer)[3]" classname="org.springframework.http.server.reactive.RandomHandlerIntegrationTests" time="1.425"/>
-  <testcase name="random(HttpServer)[4]" classname="org.springframework.http.server.reactive.RandomHandlerIntegrationTests" time="0.566"/>
-  <system-out><![CDATA[13:59:42.854 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
-13:59:43.026 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 44115(0 millis).
-13:59:43.170 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:44115
-13:59:43.200 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
-13:59:43.200 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [[B@69bb521d] with org.springframework.http.converter.ByteArrayHttpMessageConverter
-13:59:43.382 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-13:59:43.383 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "application/octet-stream"
-13:59:43.405 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
-13:59:43.414 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
-13:59:43.468 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
-13:59:43.638 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 35683(0 millis).
-13:59:43.642 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:35683
-13:59:43.642 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
-13:59:43.642 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [[B@5778c4bb] with org.springframework.http.converter.ByteArrayHttpMessageConverter
-13:59:43.735 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-13:59:43.743 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "application/octet-stream"
-13:59:43.743 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
-13:59:43.744 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
-13:59:43.899 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
-13:59:44.966 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 45743(0 millis).
-13:59:45.009 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:45743
-13:59:45.009 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
-13:59:45.009 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [[B@1598d2f] with org.springframework.http.converter.ByteArrayHttpMessageConverter
-13:59:45.134 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-13:59:45.135 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "application/octet-stream"
-13:59:45.135 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
-13:59:45.170 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
-13:59:45.198 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
-13:59:45.584 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 35277(0 millis).
-13:59:45.600 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:35277
-13:59:45.601 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
-13:59:45.601 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [[B@151dbe3e] with org.springframework.http.converter.ByteArrayHttpMessageConverter
-13:59:45.737 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-13:59:45.737 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "application/octet-stream"
-13:59:45.740 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
-13:59:45.755 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
-]]></system-out>
-  <system-err><![CDATA[May 29, 2020 1:59:44 PM org.apache.catalina.core.StandardService startInternal
+  <testcase name="random(HttpServer)[1]" classname="org.springframework.http.server.reactive.RandomHandlerIntegrationTests" time="0.039"/>
+  <testcase name="random(HttpServer)[2]" classname="org.springframework.http.server.reactive.RandomHandlerIntegrationTests" time="0.012"/>
+  <testcase name="random(HttpServer)[3]" classname="org.springframework.http.server.reactive.RandomHandlerIntegrationTests" time="0.063"/>
+  <testcase name="random(HttpServer)[4]" classname="org.springframework.http.server.reactive.RandomHandlerIntegrationTests" time="0.019"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Jun 20, 2021 4:12:31 PM org.apache.catalina.core.StandardService startInternal
 INFO: Starting service [Tomcat]
-May 29, 2020 1:59:44 PM org.apache.catalina.core.StandardEngine startInternal
-INFO: Starting Servlet engine: [Apache Tomcat/9.0.35]
-May 29, 2020 1:59:44 PM org.apache.coyote.AbstractProtocol init
-INFO: Initializing ProtocolHandler ["http-nio-auto-1"]
-May 29, 2020 1:59:44 PM org.apache.coyote.AbstractProtocol start
-INFO: Starting ProtocolHandler ["http-nio-auto-1-45743"]
-May 29, 2020 1:59:45 PM org.apache.coyote.AbstractProtocol pause
-INFO: Pausing ProtocolHandler ["http-nio-auto-1-45743"]
-May 29, 2020 1:59:45 PM org.apache.catalina.core.StandardService stopInternal
+Jun 20, 2021 4:12:31 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.37]
+Jun 20, 2021 4:12:31 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-14"]
+Jun 20, 2021 4:12:31 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-14-56419"]
+Jun 20, 2021 4:12:31 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-14-56419"]
+Jun 20, 2021 4:12:31 PM org.apache.catalina.core.StandardService stopInternal
 INFO: Stopping service [Tomcat]
-May 29, 2020 1:59:45 PM org.apache.coyote.AbstractProtocol stop
-INFO: Stopping ProtocolHandler ["http-nio-auto-1-45743"]
-May 29, 2020 1:59:45 PM org.apache.coyote.AbstractProtocol destroy
-INFO: Destroying ProtocolHandler ["http-nio-auto-1-45743"]
+Jun 20, 2021 4:12:31 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-14-56419"]
+Jun 20, 2021 4:12:31 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-14-56419"]
 ]]></system-err>
 </testsuite>

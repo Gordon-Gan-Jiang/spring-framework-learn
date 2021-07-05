@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.aop.target.LazyInitTargetSourceTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:56:41" hostname="bamboo-18" time="0.107">
+<testsuite name="org.springframework.aop.target.LazyInitTargetSourceTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:07:19" hostname="gankangdembp" time="0.046">
   <properties/>
-  <testcase name="testLazyInitFactoryBeanTargetSource()" classname="org.springframework.aop.target.LazyInitTargetSourceTests" time="0.052"/>
-  <testcase name="testCustomLazyInitSingletonTargetSource()" classname="org.springframework.aop.target.LazyInitTargetSourceTests" time="0.006"/>
-  <testcase name="testLazyInitSingletonTargetSource()" classname="org.springframework.aop.target.LazyInitTargetSourceTests" time="0.013"/>
+  <testcase name="testLazyInitFactoryBeanTargetSource()" classname="org.springframework.aop.target.LazyInitTargetSourceTests" time="0.025"/>
+  <testcase name="testCustomLazyInitSingletonTargetSource()" classname="org.springframework.aop.target.LazyInitTargetSourceTests" time="0.014"/>
+  <testcase name="testLazyInitSingletonTargetSource()" classname="org.springframework.aop.target.LazyInitTargetSourceTests" time="0.005"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

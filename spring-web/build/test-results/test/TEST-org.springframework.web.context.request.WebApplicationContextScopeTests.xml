@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.context.request.WebApplicationContextScopeTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:11" hostname="bamboo-18" time="0.016">
+<testsuite name="org.springframework.web.context.request.WebApplicationContextScopeTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:11:16" hostname="gankangdembp" time="0.013">
   <properties/>
-  <testcase name="testRequestScope()" classname="org.springframework.web.context.request.WebApplicationContextScopeTests" time="0.006"/>
-  <testcase name="testApplicationScope()" classname="org.springframework.web.context.request.WebApplicationContextScopeTests" time="0.002"/>
-  <testcase name="testSessionScope()" classname="org.springframework.web.context.request.WebApplicationContextScopeTests" time="0.008"/>
-  <system-out><![CDATA[14:00:11.451 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@72265da6
-14:00:11.456 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@d37e220
-14:00:11.457 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@36b7ed38
-]]></system-out>
+  <testcase name="testRequestScope()" classname="org.springframework.web.context.request.WebApplicationContextScopeTests" time="0.003"/>
+  <testcase name="testApplicationScope()" classname="org.springframework.web.context.request.WebApplicationContextScopeTests" time="0.003"/>
+  <testcase name="testSessionScope()" classname="org.springframework.web.context.request.WebApplicationContextScopeTests" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

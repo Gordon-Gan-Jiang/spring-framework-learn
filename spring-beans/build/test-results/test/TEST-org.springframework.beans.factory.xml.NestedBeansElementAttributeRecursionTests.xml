@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.factory.xml.NestedBeansElementAttributeRecursionTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:57:18" hostname="bamboo-18" time="0.156">
+<testsuite name="org.springframework.beans.factory.xml.NestedBeansElementAttributeRecursionTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:07:13" hostname="gankangdembp" time="0.027">
   <properties/>
-  <testcase name="defaultMerge()" classname="org.springframework.beans.factory.xml.NestedBeansElementAttributeRecursionTests" time="0.016"/>
-  <testcase name="defaultAutowireCandidatesWithNonValidatingParser()" classname="org.springframework.beans.factory.xml.NestedBeansElementAttributeRecursionTests" time="0.003"/>
+  <testcase name="defaultMerge()" classname="org.springframework.beans.factory.xml.NestedBeansElementAttributeRecursionTests" time="0.006"/>
+  <testcase name="defaultAutowireCandidatesWithNonValidatingParser()" classname="org.springframework.beans.factory.xml.NestedBeansElementAttributeRecursionTests" time="0.002"/>
   <testcase name="initMethod()" classname="org.springframework.beans.factory.xml.NestedBeansElementAttributeRecursionTests" time="0.007"/>
-  <testcase name="defaultMergeWithNonValidatingParser()" classname="org.springframework.beans.factory.xml.NestedBeansElementAttributeRecursionTests" time="0.006"/>
-  <testcase name="defaultLazyInit()" classname="org.springframework.beans.factory.xml.NestedBeansElementAttributeRecursionTests" time="0.036"/>
-  <testcase name="defaultAutowireCandidates()" classname="org.springframework.beans.factory.xml.NestedBeansElementAttributeRecursionTests" time="0.024"/>
-  <testcase name="defaultLazyInitWithNonValidatingParser()" classname="org.springframework.beans.factory.xml.NestedBeansElementAttributeRecursionTests" time="0.002"/>
+  <testcase name="defaultMergeWithNonValidatingParser()" classname="org.springframework.beans.factory.xml.NestedBeansElementAttributeRecursionTests" time="0.002"/>
+  <testcase name="defaultLazyInit()" classname="org.springframework.beans.factory.xml.NestedBeansElementAttributeRecursionTests" time="0.004"/>
+  <testcase name="defaultAutowireCandidates()" classname="org.springframework.beans.factory.xml.NestedBeansElementAttributeRecursionTests" time="0.005"/>
+  <testcase name="defaultLazyInitWithNonValidatingParser()" classname="org.springframework.beans.factory.xml.NestedBeansElementAttributeRecursionTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

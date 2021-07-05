@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:36" hostname="bamboo-18" time="0.106">
+<testsuite name="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:11:12" hostname="gankangdembp" time="0.311">
   <properties/>
-  <testcase name="getMappingOverridesConsumesFromTypeLevelAnnotation()" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.004"/>
-  <testcase name="patchMapping()" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.003"/>
-  <testcase name="resolveRequestMappingViaComposedAnnotation()" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.001"/>
-  <testcase name="consumesWithOptionalRequestBody()" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.05"/>
+  <testcase name="getMappingOverridesConsumesFromTypeLevelAnnotation()" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.022"/>
+  <testcase name="patchMapping()" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.005"/>
+  <testcase name="resolveRequestMappingViaComposedAnnotation()" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.003"/>
+  <testcase name="consumesWithOptionalRequestBody()" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.157"/>
   <testcase name="deleteMapping()" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.001"/>
-  <testcase name="pathPrefix()" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.01"/>
-  <testcase name="putMapping()" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.009"/>
-  <testcase name="resolveEmbeddedValuesInPatterns()" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.022"/>
-  <testcase name="postMapping()" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.001"/>
-  <testcase name="getMapping()" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.0"/>
-  <system-out><![CDATA[14:00:36.177 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
-14:00:36.222 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 7 mappings in <unknown>
+  <testcase name="pathPrefix()" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.042"/>
+  <testcase name="putMapping()" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.001"/>
+  <testcase name="resolveEmbeddedValuesInPatterns()" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.047"/>
+  <testcase name="postMapping()" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.015"/>
+  <testcase name="getMapping()" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.001"/>
+  <system-out><![CDATA[16:11:12.100 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
+16:11:12.254 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 7 mappings in <unknown>
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

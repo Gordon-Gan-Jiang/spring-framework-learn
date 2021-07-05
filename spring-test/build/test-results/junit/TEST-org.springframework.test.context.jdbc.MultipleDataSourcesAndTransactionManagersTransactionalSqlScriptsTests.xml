@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.context.jdbc.MultipleDataSourcesAndTransactionManagersTransactionalSqlScriptsTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:52" hostname="bamboo-18" time="0.008">
+<testsuite name="org.springframework.test.context.jdbc.MultipleDataSourcesAndTransactionManagersTransactionalSqlScriptsTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:12:03" hostname="gankangdembp" time="0.033">
   <properties/>
-  <testcase name="database1()" classname="org.springframework.test.context.jdbc.MultipleDataSourcesAndTransactionManagersTransactionalSqlScriptsTests" time="0.005"/>
-  <testcase name="database2()" classname="org.springframework.test.context.jdbc.MultipleDataSourcesAndTransactionManagersTransactionalSqlScriptsTests" time="0.002"/>
+  <testcase name="database1()" classname="org.springframework.test.context.jdbc.MultipleDataSourcesAndTransactionManagersTransactionalSqlScriptsTests" time="0.003"/>
+  <testcase name="database2()" classname="org.springframework.test.context.jdbc.MultipleDataSourcesAndTransactionManagersTransactionalSqlScriptsTests" time="0.03"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
