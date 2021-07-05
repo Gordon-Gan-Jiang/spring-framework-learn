@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.factory.support.QualifierAnnotationAutowireBeanFactoryTests" tests="8" skipped="3" failures="0" errors="0" timestamp="2020-05-29T13:57:14" hostname="bamboo-18" time="0.013">
+<testsuite name="org.springframework.beans.factory.support.QualifierAnnotationAutowireBeanFactoryTests" tests="8" skipped="3" failures="0" errors="0" timestamp="2021-06-20T08:07:14" hostname="gankangdembp" time="0.001">
   <properties/>
-  <testcase name="testAutowireCandidateWithMultipleCandidatesDescriptor()" classname="org.springframework.beans.factory.support.QualifierAnnotationAutowireBeanFactoryTests" time="0.009"/>
+  <testcase name="testAutowireCandidateWithMultipleCandidatesDescriptor()" classname="org.springframework.beans.factory.support.QualifierAnnotationAutowireBeanFactoryTests" time="0.0"/>
   <testcase name="testAutowireCandidateDefaultWithIrrelevantDescriptor()" classname="org.springframework.beans.factory.support.QualifierAnnotationAutowireBeanFactoryTests" time="0.0"/>
   <testcase name="testAutowireCandidateWithShortClassName()" classname="org.springframework.beans.factory.support.QualifierAnnotationAutowireBeanFactoryTests" time="0.0"/>
   <testcase name="testAutowireCandidateWithFieldDescriptor()" classname="org.springframework.beans.factory.support.QualifierAnnotationAutowireBeanFactoryTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testAutowireCandidateWithMethodDescriptor()" classname="org.springframework.beans.factory.support.QualifierAnnotationAutowireBeanFactoryTests" time="0.001">
+  <testcase name="testAutowireCandidateWithMethodDescriptor()" classname="org.springframework.beans.factory.support.QualifierAnnotationAutowireBeanFactoryTests" time="0.0">
     <skipped/>
   </testcase>
   <testcase name="testAutowireCandidateWithConstructorDescriptor()" classname="org.springframework.beans.factory.support.QualifierAnnotationAutowireBeanFactoryTests" time="0.0">

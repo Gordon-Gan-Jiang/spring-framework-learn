@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.web.servlet.samples.standalone.resultmatchers.XpathAssertionTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:18" hostname="bamboo-18" time="0.395">
+<testsuite name="org.springframework.test.web.servlet.samples.standalone.resultmatchers.XpathAssertionTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:12:37" hostname="gankangdembp" time="1.786">
   <properties/>
-  <testcase name="testFeedWithLinefeedChars()" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.XpathAssertionTests" time="0.083"/>
-  <testcase name="testBoolean()" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.XpathAssertionTests" time="0.039"/>
-  <testcase name="testDoesNotExist()" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.XpathAssertionTests" time="0.061"/>
-  <testcase name="testNodeCount()" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.XpathAssertionTests" time="0.055"/>
-  <testcase name="testExists()" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.XpathAssertionTests" time="0.052"/>
-  <testcase name="testNumber()" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.XpathAssertionTests" time="0.051"/>
-  <testcase name="testString()" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.XpathAssertionTests" time="0.053"/>
+  <testcase name="testFeedWithLinefeedChars()" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.XpathAssertionTests" time="0.207"/>
+  <testcase name="testBoolean()" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.XpathAssertionTests" time="0.925"/>
+  <testcase name="testDoesNotExist()" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.XpathAssertionTests" time="0.122"/>
+  <testcase name="testNodeCount()" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.XpathAssertionTests" time="0.103"/>
+  <testcase name="testExists()" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.XpathAssertionTests" time="0.167"/>
+  <testcase name="testNumber()" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.XpathAssertionTests" time="0.117"/>
+  <testcase name="testString()" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.XpathAssertionTests" time="0.142"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

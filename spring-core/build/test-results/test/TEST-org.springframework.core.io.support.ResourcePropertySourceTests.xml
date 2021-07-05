@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.io.support.ResourcePropertySourceTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:57:30" hostname="bamboo-18" time="0.049">
+<testsuite name="org.springframework.core.io.support.ResourcePropertySourceTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:06:59" hostname="gankangdembp" time="0.012">
   <properties/>
-  <testcase name="withLocationAndExplicitName()" classname="org.springframework.core.io.support.ResourcePropertySourceTests" time="0.003"/>
+  <testcase name="withLocationAndExplicitName()" classname="org.springframework.core.io.support.ResourcePropertySourceTests" time="0.001"/>
   <testcase name="withLocationAndGeneratedName()" classname="org.springframework.core.io.support.ResourcePropertySourceTests" time="0.0"/>
-  <testcase name="withResourceHavingNoDescription()" classname="org.springframework.core.io.support.ResourcePropertySourceTests" time="0.0"/>
-  <testcase name="withResourceAndGeneratedName()" classname="org.springframework.core.io.support.ResourcePropertySourceTests" time="0.006"/>
-  <testcase name="xmlWithLocationAndGeneratedName()" classname="org.springframework.core.io.support.ResourcePropertySourceTests" time="0.019"/>
-  <testcase name="withLocationAndGeneratedNameAndExplicitClassLoader()" classname="org.springframework.core.io.support.ResourcePropertySourceTests" time="0.001"/>
+  <testcase name="withResourceHavingNoDescription()" classname="org.springframework.core.io.support.ResourcePropertySourceTests" time="0.001"/>
+  <testcase name="withResourceAndGeneratedName()" classname="org.springframework.core.io.support.ResourcePropertySourceTests" time="0.0"/>
+  <testcase name="xmlWithLocationAndGeneratedName()" classname="org.springframework.core.io.support.ResourcePropertySourceTests" time="0.008"/>
+  <testcase name="withLocationAndGeneratedNameAndExplicitClassLoader()" classname="org.springframework.core.io.support.ResourcePropertySourceTests" time="0.0"/>
   <testcase name="withLocationAndExplicitNameAndExplicitClassLoader()" classname="org.springframework.core.io.support.ResourcePropertySourceTests" time="0.0"/>
-  <testcase name="withResourceAndExplicitName()" classname="org.springframework.core.io.support.ResourcePropertySourceTests" time="0.001"/>
+  <testcase name="withResourceAndExplicitName()" classname="org.springframework.core.io.support.ResourcePropertySourceTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

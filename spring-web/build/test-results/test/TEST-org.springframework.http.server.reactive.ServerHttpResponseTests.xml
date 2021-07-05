@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.http.server.reactive.ServerHttpResponseTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:48" hostname="bamboo-18" time="0.013">
+<testsuite name="org.springframework.http.server.reactive.ServerHttpResponseTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:12:34" hostname="gankangdembp" time="0.033">
   <properties/>
   <testcase name="writeWith()" classname="org.springframework.http.server.reactive.ServerHttpResponseTests" time="0.001"/>
-  <testcase name="writeWithMonoError()" classname="org.springframework.http.server.reactive.ServerHttpResponseTests" time="0.001"/>
-  <testcase name="writeAndFlushWithFluxOfDefaultDataBuffer()" classname="org.springframework.http.server.reactive.ServerHttpResponseTests" time="0.0"/>
-  <testcase name="writeWithFluxError()" classname="org.springframework.http.server.reactive.ServerHttpResponseTests" time="0.001"/>
+  <testcase name="writeWithMonoError()" classname="org.springframework.http.server.reactive.ServerHttpResponseTests" time="0.002"/>
+  <testcase name="writeAndFlushWithFluxOfDefaultDataBuffer()" classname="org.springframework.http.server.reactive.ServerHttpResponseTests" time="0.017"/>
+  <testcase name="writeWithFluxError()" classname="org.springframework.http.server.reactive.ServerHttpResponseTests" time="0.0"/>
   <testcase name="beforeCommitErrorShouldLeaveResponseNotCommitted()" classname="org.springframework.http.server.reactive.ServerHttpResponseTests" time="0.006"/>
+  <testcase name="monoResponseShouldNotLeakIfCancelled()" classname="org.springframework.http.server.reactive.ServerHttpResponseTests" time="0.004"/>
   <testcase name="beforeCommitWithComplete()" classname="org.springframework.http.server.reactive.ServerHttpResponseTests" time="0.001"/>
   <testcase name="beforeCommitActionWithSetComplete()" classname="org.springframework.http.server.reactive.ServerHttpResponseTests" time="0.0"/>
   <testcase name="setComplete()" classname="org.springframework.http.server.reactive.ServerHttpResponseTests" time="0.0"/>

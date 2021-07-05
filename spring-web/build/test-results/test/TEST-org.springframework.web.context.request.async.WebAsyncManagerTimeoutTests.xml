@@ -1,41 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:09" hostname="bamboo-18" time="0.025">
+<testsuite name="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:11:16" hostname="gankangdembp" time="0.123">
   <properties/>
-  <testcase name="startCallableProcessingTimeoutAndResumeThroughInterceptor()" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.001"/>
-  <testcase name="startCallableProcessingAfterTimeoutException()" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.001"/>
-  <testcase name="startDeferredResultProcessingTimeoutAndResumeThroughCallback()" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.0"/>
-  <testcase name="startCallableProcessingTimeoutAndResumeThroughCallback()" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.001"/>
-  <testcase name="startCallableProcessingTimeoutAndComplete()" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.002"/>
-  <testcase name="startDeferredResultProcessingAfterTimeoutException()" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.001"/>
-  <testcase name="startDeferredResultProcessingTimeoutAndResumeThroughInterceptor()" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.0"/>
-  <testcase name="startDeferredResultProcessingTimeoutAndComplete()" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.001"/>
-  <testcase name="startCallableProcessingTimeoutAndCheckThreadInterrupted()" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.018"/>
-  <testcase name="startDeferredResultProcessingTimeoutAndResumeWithDefaultResult()" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.0"/>
-  <system-out><![CDATA[14:00:09.895 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Started async request
-14:00:09.895 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async request timeout for /test
-14:00:09.895 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async result set, dispatch to /test
-14:00:09.896 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Started async request
-14:00:09.896 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async request timeout for /test
-14:00:09.896 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async error, dispatch to /test
-14:00:09.896 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Started async request
-14:00:09.896 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async result set, dispatch to /test
-14:00:09.897 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Started async request
-14:00:09.897 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async request timeout for /test
-14:00:09.897 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async result set, dispatch to /test
-14:00:09.897 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Started async request
-14:00:09.899 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async request timeout for /test
-14:00:09.899 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async error, dispatch to /test
-14:00:09.900 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Started async request
-14:00:09.900 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async error, dispatch to /test
-14:00:09.900 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Started async request
-14:00:09.900 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async result set, dispatch to /test
-14:00:09.901 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Started async request
-14:00:09.901 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async error, dispatch to /test
-14:00:09.918 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Started async request
-14:00:09.919 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async request timeout for /test
-14:00:09.919 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async error, dispatch to /test
-14:00:09.919 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Started async request
-14:00:09.919 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async result set, dispatch to /test
-]]></system-out>
+  <testcase name="startCallableProcessingTimeoutAndResumeThroughInterceptor()" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.002"/>
+  <testcase name="startCallableProcessingAfterTimeoutException()" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.002"/>
+  <testcase name="startDeferredResultProcessingTimeoutAndResumeThroughCallback()" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.002"/>
+  <testcase name="startCallableProcessingTimeoutAndResumeThroughCallback()" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.006"/>
+  <testcase name="startCallableProcessingTimeoutAndComplete()" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.003"/>
+  <testcase name="startDeferredResultProcessingAfterTimeoutException()" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.002"/>
+  <testcase name="startDeferredResultProcessingTimeoutAndResumeThroughInterceptor()" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.002"/>
+  <testcase name="startDeferredResultProcessingTimeoutAndComplete()" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.004"/>
+  <testcase name="startCallableProcessingTimeoutAndCheckThreadInterrupted()" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.08"/>
+  <testcase name="startDeferredResultProcessingTimeoutAndResumeWithDefaultResult()" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

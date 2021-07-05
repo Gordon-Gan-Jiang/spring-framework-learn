@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.annotation.aspectj.AnnotationBeanConfigurerTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:57:16" hostname="bamboo-18" time="0.332">
+<testsuite name="org.springframework.context.annotation.aspectj.AnnotationBeanConfigurerTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:10:13" hostname="gankangdembp" time="0.71">
   <properties/>
-  <testcase name="injection()" classname="org.springframework.context.annotation.aspectj.AnnotationBeanConfigurerTests" time="0.332"/>
+  <testcase name="injection()" classname="org.springframework.context.annotation.aspectj.AnnotationBeanConfigurerTests" time="0.71"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

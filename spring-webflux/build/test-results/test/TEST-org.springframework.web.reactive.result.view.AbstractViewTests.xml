@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.result.view.AbstractViewTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:53" hostname="bamboo-18" time="0.124">
+<testsuite name="org.springframework.web.reactive.result.view.AbstractViewTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:10:52" hostname="gankangdembp" time="0.283">
   <properties/>
-  <testcase name="resolveAsyncAttributes()" classname="org.springframework.web.reactive.result.view.AbstractViewTests" time="0.124"/>
-  <system-out><![CDATA[14:00:53.639 [Test worker] DEBUG o.s.w.r.r.v.AbstractViewTests$TestView - [475eb0bb] View [TestView], model {attr5=MonoEmpty, attr2=FluxConcatMap, attr1=MonoDelayElement, attr4=io.reactivex.internal.operators.observable.ObservableFromArray@6b0705cc, attr3=io.reactivex.internal.operators.single.SingleJust@5c1aba4}
+  <testcase name="resolveAsyncAttributes()" classname="org.springframework.web.reactive.result.view.AbstractViewTests" time="0.283"/>
+  <system-out><![CDATA[16:10:52.710 [Test worker] DEBUG o.s.w.r.r.v.AbstractViewTests$TestView - [41c7ea05] View [TestView], model {attr5=MonoEmpty, attr2=FluxConcatMap, attr1=MonoDelayElement, attr4=io.reactivex.internal.operators.observable.ObservableFromArray@7fcb6ad4, attr3=io.reactivex.internal.operators.single.SingleJust@2c56ae87}
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

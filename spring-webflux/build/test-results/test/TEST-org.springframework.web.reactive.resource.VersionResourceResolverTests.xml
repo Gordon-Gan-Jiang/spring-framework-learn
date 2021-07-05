@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.resource.VersionResourceResolverTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:36" hostname="bamboo-18" time="0.068">
+<testsuite name="org.springframework.web.reactive.resource.VersionResourceResolverTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:12:27" hostname="gankangdembp" time="0.166">
   <properties/>
-  <testcase name="getStrategyForPath()" classname="org.springframework.web.reactive.resource.VersionResourceResolverTests" time="0.044"/>
-  <testcase name="resolveResourceNoResourceAfterVersionRemoved()" classname="org.springframework.web.reactive.resource.VersionResourceResolverTests" time="0.007"/>
-  <testcase name="resolveResourceSuccess()" classname="org.springframework.web.reactive.resource.VersionResourceResolverTests" time="0.004"/>
-  <testcase name="shouldConfigureFixedPrefixAutomatically()" classname="org.springframework.web.reactive.resource.VersionResourceResolverTests" time="0.004"/>
-  <testcase name="resolveResourceNoVersionStrategy()" classname="org.springframework.web.reactive.resource.VersionResourceResolverTests" time="0.001"/>
-  <testcase name="resolveResourceNoVersionInPath()" classname="org.springframework.web.reactive.resource.VersionResourceResolverTests" time="0.001"/>
-  <testcase name="resolveResourceExisting()" classname="org.springframework.web.reactive.resource.VersionResourceResolverTests" time="0.001"/>
-  <testcase name="resolveResourceVersionDoesNotMatch()" classname="org.springframework.web.reactive.resource.VersionResourceResolverTests" time="0.001"/>
-  <testcase name="resolveUrlPathNoVersionStrategy()" classname="org.springframework.web.reactive.resource.VersionResourceResolverTests" time="0.002"/>
+  <testcase name="getStrategyForPath()" classname="org.springframework.web.reactive.resource.VersionResourceResolverTests" time="0.077"/>
+  <testcase name="resolveResourceNoResourceAfterVersionRemoved()" classname="org.springframework.web.reactive.resource.VersionResourceResolverTests" time="0.011"/>
+  <testcase name="resolveResourceSuccess()" classname="org.springframework.web.reactive.resource.VersionResourceResolverTests" time="0.022"/>
+  <testcase name="shouldConfigureFixedPrefixAutomatically()" classname="org.springframework.web.reactive.resource.VersionResourceResolverTests" time="0.003"/>
+  <testcase name="resolveResourceNoVersionStrategy()" classname="org.springframework.web.reactive.resource.VersionResourceResolverTests" time="0.002"/>
+  <testcase name="resolveResourceNoVersionInPath()" classname="org.springframework.web.reactive.resource.VersionResourceResolverTests" time="0.002"/>
+  <testcase name="resolveResourceExisting()" classname="org.springframework.web.reactive.resource.VersionResourceResolverTests" time="0.002"/>
+  <testcase name="resolveResourceVersionDoesNotMatch()" classname="org.springframework.web.reactive.resource.VersionResourceResolverTests" time="0.002"/>
+  <testcase name="resolveUrlPathNoVersionStrategy()" classname="org.springframework.web.reactive.resource.VersionResourceResolverTests" time="0.028"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

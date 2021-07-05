@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - AfterAdviceFirstTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>AfterAdviceFirstTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.aop.config.html">org.springframework.aop.config</a> &gt; AopNamespaceHandlerAdviceOrderIntegrationTests$AfterAdviceFirstTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.011s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">afterAdviceIsInvokedFirst(Echo, InvocationTrackingAspect)</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>16:10:15.016 [Test worker] DEBUG o.s.t.c.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+16:10:15.016 [Test worker] DEBUG o.s.t.c.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+16:10:15.017 [Test worker] DEBUG o.s.t.c.BootstrapUtils - Instantiating TestContextBootstrapper for test class [org.springframework.aop.config.AopNamespaceHandlerAdviceOrderIntegrationTests$AfterAdviceFirstTests] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+16:10:15.018 [Test worker] DEBUG o.s.t.c.s.AbstractDelegatingSmartContextLoader - Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@1b48c35b declaringClass = 'org.springframework.aop.config.AopNamespaceHandlerAdviceOrderIntegrationTests$AfterAdviceFirstTests', classes = '{}', locations = '{AopNamespaceHandlerAdviceOrderIntegrationTests-afterFirst.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+16:10:15.018 [Test worker] DEBUG o.s.t.c.s.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [org.springframework.aop.config.AopNamespaceHandlerAdviceOrderIntegrationTests$AfterAdviceFirstTests]
+16:10:15.019 [Test worker] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - @TestExecutionListeners is not present for class [org.springframework.aop.config.AopNamespaceHandlerAdviceOrderIntegrationTests$AfterAdviceFirstTests]: using defaults.
+16:10:15.019 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+16:10:15.019 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@f42b3d7, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1dae4842, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@66f33c89, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3bfc7917, org.springframework.test.context.transaction.TransactionalTestExecutionListener@213aa9b4, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4e391989, org.springframework.test.context.event.EventPublishingTestExecutionListener@31d163b3]
+16:10:15.019 [Test worker] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@693d905f testClass = AopNamespaceHandlerAdviceOrderIntegrationTests.AfterAdviceFirstTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1dbef3c5 testClass = AopNamespaceHandlerAdviceOrderIntegrationTests.AfterAdviceFirstTests, locations = '{classpath:/org/springframework/aop/config/AopNamespaceHandlerAdviceOrderIntegrationTests-afterFirst.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [true] with mode [AFTER_CLASS].
+16:10:15.020 [Test worker] DEBUG o.s.t.c.s.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@693d905f testClass = AopNamespaceHandlerAdviceOrderIntegrationTests.AfterAdviceFirstTests, testInstance = org.springframework.aop.config.AopNamespaceHandlerAdviceOrderIntegrationTests$AfterAdviceFirstTests@1b4d54aa, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1dbef3c5 testClass = AopNamespaceHandlerAdviceOrderIntegrationTests.AfterAdviceFirstTests, locations = '{classpath:/org/springframework/aop/config/AopNamespaceHandlerAdviceOrderIntegrationTests-afterFirst.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]]].
+16:10:15.020 [Test worker] DEBUG o.s.t.c.s.AbstractDelegatingSmartContextLoader - Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@1dbef3c5 testClass = AopNamespaceHandlerAdviceOrderIntegrationTests.AfterAdviceFirstTests, locations = '{classpath:/org/springframework/aop/config/AopNamespaceHandlerAdviceOrderIntegrationTests-afterFirst.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].
+16:10:15.020 [Test worker] DEBUG o.s.t.c.s.AbstractGenericContextLoader - Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@1dbef3c5 testClass = AopNamespaceHandlerAdviceOrderIntegrationTests.AfterAdviceFirstTests, locations = '{classpath:/org/springframework/aop/config/AopNamespaceHandlerAdviceOrderIntegrationTests-afterFirst.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+16:10:15.021 [Test worker] DEBUG o.s.c.e.StandardEnvironment - Activating profiles []
+16:10:15.075 [Test worker] DEBUG o.s.b.f.x.XmlBeanDefinitionReader - Loaded 9 bean definitions from class path resource [org/springframework/aop/config/AopNamespaceHandlerAdviceOrderIntegrationTests-afterFirst.xml]
+16:10:15.075 [Test worker] DEBUG o.s.c.s.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@213b608b
+16:10:15.076 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+16:10:15.077 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+16:10:15.077 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+16:10:15.077 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+16:10:15.077 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+16:10:15.078 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+16:10:15.078 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+16:10:15.079 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'echo'
+16:10:15.079 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+16:10:15.111 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+16:10:15.115 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+16:10:15.117 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+16:10:15.120 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#4'
+16:10:15.159 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'invocationTrackingAspect'
+16:10:15.160 [Test worker] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate - Storing ApplicationContext [557539467] in cache under key [[MergedContextConfiguration@1dbef3c5 testClass = AopNamespaceHandlerAdviceOrderIntegrationTests.AfterAdviceFirstTests, locations = '{classpath:/org/springframework/aop/config/AopNamespaceHandlerAdviceOrderIntegrationTests-afterFirst.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+16:10:15.160 [Test worker] DEBUG o.s.t.c.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@19c913e6 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 24, missCount = 4]
+16:10:15.182 [Test worker] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [557539467] from cache with key [[MergedContextConfiguration@1dbef3c5 testClass = AopNamespaceHandlerAdviceOrderIntegrationTests.AfterAdviceFirstTests, locations = '{classpath:/org/springframework/aop/config/AopNamespaceHandlerAdviceOrderIntegrationTests-afterFirst.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+16:10:15.182 [Test worker] DEBUG o.s.t.c.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@19c913e6 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 25, missCount = 4]
+16:10:15.184 [Test worker] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test method: context [DefaultTestContext@693d905f testClass = AopNamespaceHandlerAdviceOrderIntegrationTests.AfterAdviceFirstTests, testInstance = org.springframework.aop.config.AopNamespaceHandlerAdviceOrderIntegrationTests$AfterAdviceFirstTests@1b4d54aa, testMethod = afterAdviceIsInvokedFirst@AopNamespaceHandlerAdviceOrderIntegrationTests.AfterAdviceFirstTests, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1dbef3c5 testClass = AopNamespaceHandlerAdviceOrderIntegrationTests.AfterAdviceFirstTests, locations = '{classpath:/org/springframework/aop/config/AopNamespaceHandlerAdviceOrderIntegrationTests-afterFirst.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [true] with mode [AFTER_CLASS], method annotated with @DirtiesContext [false] with mode [null].
+16:10:15.185 [Test worker] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [557539467] from cache with key [[MergedContextConfiguration@1dbef3c5 testClass = AopNamespaceHandlerAdviceOrderIntegrationTests.AfterAdviceFirstTests, locations = '{classpath:/org/springframework/aop/config/AopNamespaceHandlerAdviceOrderIntegrationTests-afterFirst.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+16:10:15.185 [Test worker] DEBUG o.s.t.c.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@19c913e6 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 26, missCount = 4]
+16:10:15.186 [Test worker] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [557539467] from cache with key [[MergedContextConfiguration@1dbef3c5 testClass = AopNamespaceHandlerAdviceOrderIntegrationTests.AfterAdviceFirstTests, locations = '{classpath:/org/springframework/aop/config/AopNamespaceHandlerAdviceOrderIntegrationTests-afterFirst.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+16:10:15.187 [Test worker] DEBUG o.s.t.c.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@19c913e6 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 27, missCount = 4]
+16:10:15.188 [Test worker] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [557539467] from cache with key [[MergedContextConfiguration@1dbef3c5 testClass = AopNamespaceHandlerAdviceOrderIntegrationTests.AfterAdviceFirstTests, locations = '{classpath:/org/springframework/aop/config/AopNamespaceHandlerAdviceOrderIntegrationTests-afterFirst.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+16:10:15.188 [Test worker] DEBUG o.s.t.c.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@19c913e6 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 28, missCount = 4]
+16:10:15.189 [Test worker] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [557539467] from cache with key [[MergedContextConfiguration@1dbef3c5 testClass = AopNamespaceHandlerAdviceOrderIntegrationTests.AfterAdviceFirstTests, locations = '{classpath:/org/springframework/aop/config/AopNamespaceHandlerAdviceOrderIntegrationTests-afterFirst.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+16:10:15.190 [Test worker] DEBUG o.s.t.c.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@19c913e6 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 29, missCount = 4]
+16:10:15.192 [Test worker] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [557539467] from cache with key [[MergedContextConfiguration@1dbef3c5 testClass = AopNamespaceHandlerAdviceOrderIntegrationTests.AfterAdviceFirstTests, locations = '{classpath:/org/springframework/aop/config/AopNamespaceHandlerAdviceOrderIntegrationTests-afterFirst.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+16:10:15.192 [Test worker] DEBUG o.s.t.c.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@19c913e6 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 30, missCount = 4]
+16:10:15.193 [Test worker] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [557539467] from cache with key [[MergedContextConfiguration@1dbef3c5 testClass = AopNamespaceHandlerAdviceOrderIntegrationTests.AfterAdviceFirstTests, locations = '{classpath:/org/springframework/aop/config/AopNamespaceHandlerAdviceOrderIntegrationTests-afterFirst.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+16:10:15.193 [Test worker] DEBUG o.s.t.c.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@19c913e6 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 31, missCount = 4]
+16:10:15.193 [Test worker] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - After test method: context [DefaultTestContext@693d905f testClass = AopNamespaceHandlerAdviceOrderIntegrationTests.AfterAdviceFirstTests, testInstance = org.springframework.aop.config.AopNamespaceHandlerAdviceOrderIntegrationTests$AfterAdviceFirstTests@1b4d54aa, testMethod = afterAdviceIsInvokedFirst@AopNamespaceHandlerAdviceOrderIntegrationTests.AfterAdviceFirstTests, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1dbef3c5 testClass = AopNamespaceHandlerAdviceOrderIntegrationTests.AfterAdviceFirstTests, locations = '{classpath:/org/springframework/aop/config/AopNamespaceHandlerAdviceOrderIntegrationTests-afterFirst.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [true] with mode [AFTER_CLASS], method annotated with @DirtiesContext [false] with mode [null].
+16:10:15.193 [Test worker] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [557539467] from cache with key [[MergedContextConfiguration@1dbef3c5 testClass = AopNamespaceHandlerAdviceOrderIntegrationTests.AfterAdviceFirstTests, locations = '{classpath:/org/springframework/aop/config/AopNamespaceHandlerAdviceOrderIntegrationTests-afterFirst.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+16:10:15.194 [Test worker] DEBUG o.s.t.c.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@19c913e6 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 32, missCount = 4]
+16:10:15.194 [Test worker] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - After test class: context [DefaultTestContext@693d905f testClass = AopNamespaceHandlerAdviceOrderIntegrationTests.AfterAdviceFirstTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1dbef3c5 testClass = AopNamespaceHandlerAdviceOrderIntegrationTests.AfterAdviceFirstTests, locations = '{classpath:/org/springframework/aop/config/AopNamespaceHandlerAdviceOrderIntegrationTests-afterFirst.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [true] with mode [AFTER_CLASS].
+16:10:15.194 [Test worker] DEBUG o.s.c.s.GenericApplicationContext - Closing org.springframework.context.support.GenericApplicationContext@213b608b, started on Sun Jun 20 16:10:15 CST 2021
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.4</a> at 2021-6-20 16:10:17</p>
+</div>
+</div>
+</body>
+</html>

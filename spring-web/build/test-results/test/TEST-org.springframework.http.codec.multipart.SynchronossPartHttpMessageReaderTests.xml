@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.http.codec.multipart.SynchronossPartHttpMessageReaderTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:33" hostname="bamboo-18" time="0.136">
+<testsuite name="org.springframework.http.codec.multipart.SynchronossPartHttpMessageReaderTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:12:04" hostname="gankangdembp" time="0.109">
   <properties/>
-  <testcase name="transferTo()" classname="org.springframework.http.codec.multipart.SynchronossPartHttpMessageReaderTests" time="0.021"/>
-  <testcase name="readPartsWithoutDemand()" classname="org.springframework.http.codec.multipart.SynchronossPartHttpMessageReaderTests" time="0.008"/>
-  <testcase name="readPartHeadersTooBig()" classname="org.springframework.http.codec.multipart.SynchronossPartHttpMessageReaderTests" time="0.063"/>
-  <testcase name="readFilePartTooBig()" classname="org.springframework.http.codec.multipart.SynchronossPartHttpMessageReaderTests" time="0.018"/>
+  <testcase name="transferTo()" classname="org.springframework.http.codec.multipart.SynchronossPartHttpMessageReaderTests" time="0.032"/>
+  <testcase name="readPartsWithoutDemand()" classname="org.springframework.http.codec.multipart.SynchronossPartHttpMessageReaderTests" time="0.005"/>
+  <testcase name="readPartHeadersTooBig()" classname="org.springframework.http.codec.multipart.SynchronossPartHttpMessageReaderTests" time="0.007"/>
+  <testcase name="readFilePartTooBig()" classname="org.springframework.http.codec.multipart.SynchronossPartHttpMessageReaderTests" time="0.042"/>
   <testcase name="gh23768()" classname="org.springframework.http.codec.multipart.SynchronossPartHttpMessageReaderTests" time="0.006"/>
-  <testcase name="resolveParts()" classname="org.springframework.http.codec.multipart.SynchronossPartHttpMessageReaderTests" time="0.008"/>
+  <testcase name="resolveParts()" classname="org.springframework.http.codec.multipart.SynchronossPartHttpMessageReaderTests" time="0.007"/>
   <testcase name="canRead()" classname="org.springframework.http.codec.multipart.SynchronossPartHttpMessageReaderTests" time="0.001"/>
   <testcase name="readTooManyParts()" classname="org.springframework.http.codec.multipart.SynchronossPartHttpMessageReaderTests" time="0.006"/>
-  <testcase name="bodyError()" classname="org.springframework.http.codec.multipart.SynchronossPartHttpMessageReaderTests" time="0.0"/>
-  <system-out><![CDATA[13:59:33.142 [Test worker] DEBUG o.s.w.HttpLogging - Encoding parts [filePart, textPart] (content masked)
-13:59:33.159 [Test worker] DEBUG o.s.w.HttpLogging - Parsed parts [filePart, textPart] (content masked)
-13:59:33.162 [Test worker] DEBUG o.s.w.HttpLogging - Encoding parts [filePart, textPart] (content masked)
-13:59:33.170 [Test worker] DEBUG o.s.w.HttpLogging - Encoding parts [filePart, textPart] (content masked)
-13:59:33.240 [Test worker] DEBUG o.s.w.HttpLogging - Encoding parts [filePart, textPart] (content masked)
-13:59:33.254 [Test worker] DEBUG o.s.w.HttpLogging - Parsed parts [] (content masked)
-13:59:33.258 [Test worker] DEBUG o.s.w.HttpLogging - Encoding parts [filePart, textPart] (content masked)
-13:59:33.265 [Test worker] DEBUG o.s.w.HttpLogging - Parsed parts [filePart, textPart] (content masked)
-13:59:33.269 [Test worker] DEBUG o.s.w.HttpLogging - Encoding parts [filePart, textPart] (content masked)
-]]></system-out>
+  <testcase name="bodyError()" classname="org.springframework.http.codec.multipart.SynchronossPartHttpMessageReaderTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

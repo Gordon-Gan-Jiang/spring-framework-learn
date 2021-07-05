@@ -23,7 +23,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">12</div>
+<div class="counter">33</div>
 <p>tests</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.019s</div>
+<div class="counter">0.237s</div>
 <p>duration</p>
 </div>
 </td>
@@ -70,68 +70,236 @@
 <thead>
 <tr>
 <th>Test</th>
+<th>Method name</th>
 <th>Duration</th>
 <th>Result</th>
 </tr>
 </thead>
 <tr>
-<td class="success">containsDelimiters()</td>
+<td class="success">[10] script=insert into users(first, last)
+values('Charles', 'd\'Artagnan'); select 1, delimiter=;, expected=true</td>
+<td class="success">containsStatementSeparator(String, String, boolean)[10]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[11] script=-- a;b;c
+insert into colors(color_num) values(42);, delimiter=;, expected=true</td>
+<td class="success">containsStatementSeparator(String, String, boolean)[11]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[12] script=/* a;b;c */
+insert into colors(color_num) values(42);, delimiter=;, expected=true</td>
+<td class="success">containsStatementSeparator(String, String, boolean)[12]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[13] script=-- a;b;c
+insert into colors(color_num) values(42), delimiter=;, expected=false</td>
+<td class="success">containsStatementSeparator(String, String, boolean)[13]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[14] script=/* a;b;c */
+insert into colors(color_num) values(42), delimiter=;, expected=false</td>
+<td class="success">containsStatementSeparator(String, String, boolean)[14]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[15] script=-- What\'s your favorite color?
+insert into colors(color_num) values(42);, delimiter=;, expected=true</td>
+<td class="success">containsStatementSeparator(String, String, boolean)[15]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[16] script=-- What's your favorite color?
+insert into colors(color_num) values(42);, delimiter=;, expected=true</td>
+<td class="success">containsStatementSeparator(String, String, boolean)[16]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[17] script=/* What\'s your favorite color? */
+insert into colors(color_num) values(42);, delimiter=;, expected=true</td>
+<td class="success">containsStatementSeparator(String, String, boolean)[17]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[18] script=/* What's your favorite color? */
+insert into colors(color_num) values(42);, delimiter=;, expected=true</td>
+<td class="success">containsStatementSeparator(String, String, boolean)[18]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[19] script=-- double &quot; quotes
+insert into colors(color_num) values(42);, delimiter=;, expected=true</td>
+<td class="success">containsStatementSeparator(String, String, boolean)[19]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] script=select 1
+ select ';', delimiter=;, expected=false</td>
+<td class="success">containsStatementSeparator(String, String, boolean)[1]</td>
+<td class="success">0.091s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[20] script=-- double \&quot; quotes
+insert into colors(color_num) values(42);, delimiter=;, expected=true</td>
+<td class="success">containsStatementSeparator(String, String, boolean)[20]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[21] script=/* double &quot; quotes */
+insert into colors(color_num) values(42);, delimiter=;, expected=true</td>
+<td class="success">containsStatementSeparator(String, String, boolean)[21]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[22] script=/* double \&quot; quotes */
+insert into colors(color_num) values(42);, delimiter=;, expected=true</td>
+<td class="success">containsStatementSeparator(String, String, boolean)[22]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] script=select 1
+ select &quot;;&quot;, delimiter=;, expected=false</td>
+<td class="success">containsStatementSeparator(String, String, boolean)[2]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[3] script=select 1; select 2, delimiter=;, expected=true</td>
+<td class="success">containsStatementSeparator(String, String, boolean)[3]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[4] script=select 1; select '
+', delimiter=
+, expected=false</td>
+<td class="success">containsStatementSeparator(String, String, boolean)[4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[5] script=select 1; select &quot;
+&quot;, delimiter=
+, expected=false</td>
+<td class="success">containsStatementSeparator(String, String, boolean)[5]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[6] script=select 1
+ select 2, delimiter=
+, expected=true</td>
+<td class="success">containsStatementSeparator(String, String, boolean)[6]</td>
+<td class="success">0.019s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[7] script=select 1
+ select 2, delimiter=
+
+, expected=false</td>
+<td class="success">containsStatementSeparator(String, String, boolean)[7]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[8] script=select 1
+
+ select 2, delimiter=
+
+, expected=true</td>
+<td class="success">containsStatementSeparator(String, String, boolean)[8]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[9] script=insert into users(first, last)
+values('a\\', 'b;'), delimiter=;, expected=false</td>
+<td class="success">containsStatementSeparator(String, String, boolean)[9]</td>
 <td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">readAndSplitScriptContainingComments()</td>
-<td class="success">0s</td>
+<td class="success">readAndSplitScriptContainingComments()</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
+<td class="success">readAndSplitScriptContainingCommentsWithLeadingTabs()</td>
 <td class="success">readAndSplitScriptContainingCommentsWithLeadingTabs()</td>
 <td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">readAndSplitScriptContainingCommentsWithMultiplePrefixes()</td>
-<td class="success">0s</td>
+<td class="success">readAndSplitScriptContainingCommentsWithMultiplePrefixes()</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">readAndSplitScriptContainingCommentsWithWindowsLineEnding()</td>
-<td class="success">0s</td>
+<td class="success">readAndSplitScriptContainingCommentsWithWindowsLineEnding()</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">readAndSplitScriptContainingMultiLineComments()</td>
-<td class="success">0.017s</td>
+<td class="success">readAndSplitScriptContainingMultiLineComments()</td>
+<td class="success">0.098s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">readAndSplitScriptContainingMultiLineNestedComments()</td>
-<td class="success">0s</td>
+<td class="success">readAndSplitScriptContainingMultiLineNestedComments()</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">readAndSplitScriptWithMultipleNewlinesAsSeparator()</td>
-<td class="success">0s</td>
+<td class="success">readAndSplitScriptWithMultipleNewlinesAsSeparator()</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">splitScriptWithSingleQuotesNestedInsideDoubleQuotes()</td>
-<td class="success">0s</td>
+<td class="success">splitScriptWithSingleQuotesNestedInsideDoubleQuotes()</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">splitSqlScriptDelimitedWithNewLine()</td>
-<td class="success">0s</td>
+<td class="success">splitSqlScriptDelimitedWithNewLine()</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">splitSqlScriptDelimitedWithNewLineButDefaultDelimiterSpecified()</td>
-<td class="success">0s</td>
+<td class="success">splitSqlScriptDelimitedWithNewLineButDefaultDelimiterSpecified()</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">splitSqlScriptDelimitedWithSemicolon()</td>
-<td class="success">0s</td>
+<td class="success">splitSqlScriptDelimitedWithSemicolon()</td>
+<td class="success">0.003s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -144,7 +312,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.6.4</a> at May 29, 2020 1:58:33 PM</p>
+<a href="http://www.gradle.org">Gradle 5.6.4</a> at 2021-6-20 16:10:06</p>
 </div>
 </div>
 </body>

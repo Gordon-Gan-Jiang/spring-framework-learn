@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.util.ResizableByteArrayOutputStreamTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:57:52" hostname="bamboo-18" time="0.002">
+<testsuite name="org.springframework.util.ResizableByteArrayOutputStreamTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:07:10" hostname="gankangdembp" time="0.002">
   <properties/>
-  <testcase name="resize()" classname="org.springframework.util.ResizableByteArrayOutputStreamTests" time="0.0"/>
+  <testcase name="resize()" classname="org.springframework.util.ResizableByteArrayOutputStreamTests" time="0.001"/>
   <testcase name="grow()" classname="org.springframework.util.ResizableByteArrayOutputStreamTests" time="0.0"/>
   <testcase name="failResize()" classname="org.springframework.util.ResizableByteArrayOutputStreamTests" time="0.001"/>
   <testcase name="write()" classname="org.springframework.util.ResizableByteArrayOutputStreamTests" time="0.0"/>

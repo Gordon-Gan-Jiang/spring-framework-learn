@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.util.ExponentialBackOffTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:57:53" hostname="bamboo-18" time="0.011">
+<testsuite name="org.springframework.util.ExponentialBackOffTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:07:10" hostname="gankangdembp" time="0.003">
   <properties/>
-  <testcase name="maxIntervalReachedImmediately()" classname="org.springframework.util.ExponentialBackOffTests" time="0.009"/>
+  <testcase name="maxIntervalReachedImmediately()" classname="org.springframework.util.ExponentialBackOffTests" time="0.001"/>
   <testcase name="defaultInstance()" classname="org.springframework.util.ExponentialBackOffTests" time="0.0"/>
   <testcase name="startReturnDifferentInstances()" classname="org.springframework.util.ExponentialBackOffTests" time="0.0"/>
   <testcase name="invalidInterval()" classname="org.springframework.util.ExponentialBackOffTests" time="0.0"/>

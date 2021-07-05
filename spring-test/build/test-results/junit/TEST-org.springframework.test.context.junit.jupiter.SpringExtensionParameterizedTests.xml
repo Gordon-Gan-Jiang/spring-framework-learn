@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.context.junit.jupiter.SpringExtensionParameterizedTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:02" hostname="bamboo-18" time="0.028">
+<testsuite name="org.springframework.test.context.junit.jupiter.SpringExtensionParameterizedTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:11:53" hostname="gankangdembp" time="0.201">
   <properties/>
-  <testcase name="people(String, List)[1]" classname="org.springframework.test.context.junit.jupiter.SpringExtensionParameterizedTests" time="0.002"/>
-  <testcase name="people(String, List)[2]" classname="org.springframework.test.context.junit.jupiter.SpringExtensionParameterizedTests" time="0.001"/>
-  <testcase name="cats(String, String, ApplicationContext)[1]" classname="org.springframework.test.context.junit.jupiter.SpringExtensionParameterizedTests" time="0.0"/>
-  <testcase name="cats(String, String, ApplicationContext)[2]" classname="org.springframework.test.context.junit.jupiter.SpringExtensionParameterizedTests" time="0.0"/>
+  <testcase name="people(String, List)[1]" classname="org.springframework.test.context.junit.jupiter.SpringExtensionParameterizedTests" time="0.037"/>
+  <testcase name="people(String, List)[2]" classname="org.springframework.test.context.junit.jupiter.SpringExtensionParameterizedTests" time="0.002"/>
+  <testcase name="cats(String, String, ApplicationContext)[1]" classname="org.springframework.test.context.junit.jupiter.SpringExtensionParameterizedTests" time="0.028"/>
+  <testcase name="cats(String, String, ApplicationContext)[2]" classname="org.springframework.test.context.junit.jupiter.SpringExtensionParameterizedTests" time="0.003"/>
   <testcase name="dogs(String, String, ApplicationContext)[1]" classname="org.springframework.test.context.junit.jupiter.SpringExtensionParameterizedTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

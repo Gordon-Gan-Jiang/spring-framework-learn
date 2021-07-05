@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.transaction.support.SimpleTransactionScopeTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:28" hostname="bamboo-18" time="0.018">
+<testsuite name="org.springframework.transaction.support.SimpleTransactionScopeTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:12:57" hostname="gankangdembp" time="0.03">
   <properties/>
-  <testcase name="getFromScope()" classname="org.springframework.transaction.support.SimpleTransactionScopeTests" time="0.006"/>
-  <testcase name="getWithTransactionManager()" classname="org.springframework.transaction.support.SimpleTransactionScopeTests" time="0.011"/>
+  <testcase name="getFromScope()" classname="org.springframework.transaction.support.SimpleTransactionScopeTests" time="0.024"/>
+  <testcase name="getWithTransactionManager()" classname="org.springframework.transaction.support.SimpleTransactionScopeTests" time="0.005"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

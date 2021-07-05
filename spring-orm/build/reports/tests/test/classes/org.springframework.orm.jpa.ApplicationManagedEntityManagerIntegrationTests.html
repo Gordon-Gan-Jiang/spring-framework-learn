@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.679s</div>
+<div class="counter">0.467s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,37 +79,37 @@
 </thead>
 <tr>
 <td class="success">testCannotFlushWithoutGettingTransaction()</td>
-<td class="success">0.018s</td>
+<td class="success">0.053s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testCommitOccurs()</td>
-<td class="success">0.071s</td>
+<td class="success">0.025s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testEntityManagerProxyAcceptsProgrammaticTxJoining()</td>
-<td class="success">0.169s</td>
+<td class="success">0.267s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testEntityManagerProxyIsProxy()</td>
-<td class="success">0.361s</td>
+<td class="success">0.057s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testInstantiateAndSave()</td>
-<td class="success">0.014s</td>
+<td class="success">0.005s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testReuseInNewTransaction()</td>
-<td class="success">0.023s</td>
+<td class="success">0.035s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testRollbackOccurs()</td>
-<td class="success">0.021s</td>
+<td class="success">0.023s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -122,37 +122,35 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>[EL Info]: 2020-05-29 13:58:28.892--ServerSession(2109517186)--EclipseLink, version: Eclipse Persistence Services - 2.7.6.v20200131-b7c997804f
-[EL Warning]: metadata: 2020-05-29 13:58:28.896--ServerSession(2109517186)--Reverting the lazy setting on the OneToOne or ManyToOne attribute [driversLicense] for the entity class [class org.springframework.orm.jpa.domain.Person] since weaving was not enabled or did not occur.
-[EL Info]: connection: 2020-05-29 13:58:28.897--ServerSession(2109517186)--/file:/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-orm/build/classes/java/test/_Person login successful
-[EL Fine]: sql: 2020-05-29 13:58:28.9--ServerSession(2109517186)--Connection(182964196)--SELECT * FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'
-[EL Fine]: sql: 2020-05-29 13:58:28.926--ClientSession(468372154)--Connection(156392851)--UPDATE SEQUENCE SET SEQ_COUNT = SEQ_COUNT + ? WHERE SEQ_NAME = ?
+<pre>[EL Info]: 2021-06-20 16:09:44.946--ServerSession(696341732)--EclipseLink, version: Eclipse Persistence Services - 2.7.7.v20200504-69f2c2b80d
+[EL Warning]: metadata: 2021-06-20 16:09:44.947--ServerSession(696341732)--Reverting the lazy setting on the OneToOne or ManyToOne attribute [driversLicense] for the entity class [class org.springframework.orm.jpa.domain.Person] since weaving was not enabled or did not occur.
+[EL Fine]: sql: 2021-06-20 16:09:44.955--ServerSession(696341732)--Connection(745637997)--SELECT * FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'
+[EL Fine]: sql: 2021-06-20 16:09:44.987--ClientSession(798496521)--Connection(2026406023)--UPDATE SEQUENCE SET SEQ_COUNT = SEQ_COUNT + ? WHERE SEQ_NAME = ?
 	bind =&gt; [50, SEQ_GEN]
-[EL Fine]: sql: 2020-05-29 13:58:28.938--ClientSession(468372154)--Connection(156392851)--SELECT SEQ_COUNT FROM SEQUENCE WHERE SEQ_NAME = ?
+[EL Fine]: sql: 2021-06-20 16:09:44.988--ClientSession(798496521)--Connection(2026406023)--SELECT SEQ_COUNT FROM SEQUENCE WHERE SEQ_NAME = ?
 	bind =&gt; [SEQ_GEN]
-[EL Fine]: sql: 2020-05-29 13:58:28.962--ClientSession(468372154)--Connection(1263672617)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
-	bind =&gt; [1, Tony, Blair, null]
-[EL Fine]: sql: 2020-05-29 13:58:28.986--ClientSession(468372154)--Connection(1263672617)--SELECT COUNT(0) FROM person
-[EL Fine]: sql: 2020-05-29 13:58:28.994--ServerSession(2109517186)--Connection(890391275)--SELECT COUNT(0) FROM person
-[EL Fine]: sql: 2020-05-29 13:58:29.348--ServerSession(2109517186)--Connection(272095716)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
-[EL Fine]: sql: 2020-05-29 13:58:29.39--ClientSession(1103831661)--Connection(409474849)--DELETE FROM PERSON
-[EL Fine]: sql: 2020-05-29 13:58:29.403--ClientSession(193481458)--Connection(237337875)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
-	bind =&gt; [3, Tony, Blair, null]
-[EL Fine]: sql: 2020-05-29 13:58:29.411--ClientSession(193481458)--Connection(237337875)--SELECT COUNT(0) FROM person
-[EL Fine]: sql: 2020-05-29 13:58:29.412--ServerSession(2109517186)--Connection(1881554475)--SELECT COUNT(0) FROM person
-[EL Fine]: sql: 2020-05-29 13:58:29.414--ClientSession(308925023)--Connection(662995675)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
-	bind =&gt; [4, Tony, Blair, null]
-[EL Fine]: sql: 2020-05-29 13:58:29.415--ClientSession(308925023)--Connection(662995675)--SELECT COUNT(0) FROM person
-[EL Fine]: sql: 2020-05-29 13:58:29.425--ClientSession(1530444896)--Connection(437981912)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
-	bind =&gt; [5, Tony, Blair, null]
-[EL Fine]: sql: 2020-05-29 13:58:29.426--ClientSession(1530444896)--Connection(437981912)--SELECT COUNT(0) FROM person
-[EL Fine]: sql: 2020-05-29 13:58:29.434--ServerSession(2109517186)--Connection(1719488803)--SELECT COUNT(0) FROM person
-[EL Fine]: sql: 2020-05-29 13:58:29.434--ClientSession(1530444896)--Connection(1499254893)--DELETE FROM PERSON
-[EL Fine]: sql: 2020-05-29 13:58:29.436--ClientSession(1530444896)--Connection(1499254893)--SELECT COUNT(0) FROM person
-[EL Fine]: sql: 2020-05-29 13:58:29.442--ClientSession(163642072)--Connection(1669354014)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
-	bind =&gt; [6, Tony, Blair, null]
-[EL Fine]: sql: 2020-05-29 13:58:29.45--ClientSession(163642072)--Connection(1669354014)--SELECT COUNT(0) FROM person
-[EL Info]: connection: 2020-05-29 13:58:29.451--ServerSession(2109517186)--/file:/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-orm/build/classes/java/test/_Person logout successful
+[EL Fine]: sql: 2021-06-20 16:09:45.005--ClientSession(798496521)--Connection(1040628815)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+	bind =&gt; [101, Tony, Blair, null]
+[EL Fine]: sql: 2021-06-20 16:09:45.006--ClientSession(798496521)--Connection(1040628815)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-06-20 16:09:45.008--ServerSession(696341732)--Connection(1018810895)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-06-20 16:09:45.012--ServerSession(696341732)--Connection(475780287)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+[EL Fine]: sql: 2021-06-20 16:09:45.117--ClientSession(2109071591)--Connection(900486100)--DELETE FROM PERSON
+[EL Fine]: sql: 2021-06-20 16:09:45.123--ClientSession(1190150183)--Connection(1263860060)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+	bind =&gt; [103, Tony, Blair, null]
+[EL Fine]: sql: 2021-06-20 16:09:45.124--ClientSession(1190150183)--Connection(1263860060)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-06-20 16:09:45.141--ServerSession(696341732)--Connection(724539198)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-06-20 16:09:45.148--ClientSession(1142562159)--Connection(1668671331)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+	bind =&gt; [104, Tony, Blair, null]
+[EL Fine]: sql: 2021-06-20 16:09:45.15--ClientSession(1142562159)--Connection(1668671331)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-06-20 16:09:45.152--ClientSession(1475010550)--Connection(52740134)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+	bind =&gt; [105, Tony, Blair, null]
+[EL Fine]: sql: 2021-06-20 16:09:45.153--ClientSession(1475010550)--Connection(52740134)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-06-20 16:09:45.155--ServerSession(696341732)--Connection(854968167)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-06-20 16:09:45.175--ClientSession(1475010550)--Connection(1545847105)--DELETE FROM PERSON
+[EL Fine]: sql: 2021-06-20 16:09:45.177--ClientSession(1475010550)--Connection(1545847105)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-06-20 16:09:45.181--ClientSession(1504887700)--Connection(1295081145)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+	bind =&gt; [106, Tony, Blair, null]
+[EL Fine]: sql: 2021-06-20 16:09:45.182--ClientSession(1504887700)--Connection(1295081145)--SELECT COUNT(0) FROM person
 </pre>
 </span>
 </div>
@@ -164,7 +162,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.6.4</a> at May 29, 2020 1:58:30 PM</p>
+<a href="http://www.gradle.org">Gradle 5.6.4</a> at 2021-6-20 16:09:45</p>
 </div>
 </div>
 </body>

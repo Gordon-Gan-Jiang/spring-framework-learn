@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.ExtendedBeanInfoFactoryTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:57:22" hostname="bamboo-18" time="0.011">
+<testsuite name="org.springframework.beans.ExtendedBeanInfoFactoryTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:07:10" hostname="gankangdembp" time="0.007">
   <properties/>
   <testcase name="shouldNotSupportClassHavingNonPublicNonVoidReturningIndexedSetter()" classname="org.springframework.beans.ExtendedBeanInfoFactoryTests" time="0.001"/>
-  <testcase name="shouldSupportClassHavingNonVoidReturningIndexedSetter()" classname="org.springframework.beans.ExtendedBeanInfoFactoryTests" time="0.002"/>
-  <testcase name="shouldNotSupportClassHavingNonVoidReturningMethodNamedSet()" classname="org.springframework.beans.ExtendedBeanInfoFactoryTests" time="0.001"/>
+  <testcase name="shouldSupportClassHavingNonVoidReturningIndexedSetter()" classname="org.springframework.beans.ExtendedBeanInfoFactoryTests" time="0.001"/>
+  <testcase name="shouldNotSupportClassHavingNonVoidReturningMethodNamedSet()" classname="org.springframework.beans.ExtendedBeanInfoFactoryTests" time="0.0"/>
   <testcase name="shouldSupportClassHavingNonVoidReturningSetter()" classname="org.springframework.beans.ExtendedBeanInfoFactoryTests" time="0.001"/>
   <testcase name="shouldNotSupportClassHavingNonVoidReturningParameterlessSetter()" classname="org.springframework.beans.ExtendedBeanInfoFactoryTests" time="0.0"/>
   <testcase name="shouldNotSupportClassHavingOnlyVoidReturningSetter()" classname="org.springframework.beans.ExtendedBeanInfoFactoryTests" time="0.0"/>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.util.XmlExpectationsHelperTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:34" hostname="bamboo-18" time="0.152">
+<testsuite name="org.springframework.test.util.XmlExpectationsHelperTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:12:19" hostname="gankangdembp" time="2.264">
   <properties/>
-  <testcase name="assertXmlEqualForEqual()" classname="org.springframework.test.util.XmlExpectationsHelperTests" time="0.045"/>
-  <testcase name="assertXmlEqualExceptionForIncorrectValue()" classname="org.springframework.test.util.XmlExpectationsHelperTests" time="0.024"/>
-  <testcase name="assertXmlEqualForOutOfOrder()" classname="org.springframework.test.util.XmlExpectationsHelperTests" time="0.021"/>
-  <testcase name="assertXmlEqualExceptionForMoreEntries()" classname="org.springframework.test.util.XmlExpectationsHelperTests" time="0.029"/>
-  <testcase name="assertXmlEqualExceptionForLessEntries()" classname="org.springframework.test.util.XmlExpectationsHelperTests" time="0.033"/>
+  <testcase name="assertXmlEqualForEqual()" classname="org.springframework.test.util.XmlExpectationsHelperTests" time="1.765"/>
+  <testcase name="assertXmlEqualExceptionForIncorrectValue()" classname="org.springframework.test.util.XmlExpectationsHelperTests" time="0.14"/>
+  <testcase name="assertXmlEqualForOutOfOrder()" classname="org.springframework.test.util.XmlExpectationsHelperTests" time="0.088"/>
+  <testcase name="assertXmlEqualExceptionForMoreEntries()" classname="org.springframework.test.util.XmlExpectationsHelperTests" time="0.128"/>
+  <testcase name="assertXmlEqualExceptionForLessEntries()" classname="org.springframework.test.util.XmlExpectationsHelperTests" time="0.142"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

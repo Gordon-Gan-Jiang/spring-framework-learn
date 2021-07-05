@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.servlet.tags.ParamTagTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:01:30" hostname="bamboo-18" time="0.028">
+<testsuite name="org.springframework.web.servlet.tags.ParamTagTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:13:28" hostname="gankangdembp" time="0.045">
   <properties/>
-  <testcase name="paramWithNameAndValue()" classname="org.springframework.web.servlet.tags.ParamTagTests" time="0.002"/>
+  <testcase name="paramWithNameAndValue()" classname="org.springframework.web.servlet.tags.ParamTagTests" time="0.008"/>
   <testcase name="paramWithNoParent()" classname="org.springframework.web.servlet.tags.ParamTagTests" time="0.005"/>
-  <testcase name="paramWithValueThenReleaseThenBodyValue()" classname="org.springframework.web.servlet.tags.ParamTagTests" time="0.004"/>
-  <testcase name="paramWithImplicitNullValue()" classname="org.springframework.web.servlet.tags.ParamTagTests" time="0.002"/>
-  <testcase name="paramWithBodyValue()" classname="org.springframework.web.servlet.tags.ParamTagTests" time="0.002"/>
-  <testcase name="paramWithExplicitNullValue()" classname="org.springframework.web.servlet.tags.ParamTagTests" time="0.012"/>
+  <testcase name="paramWithValueThenReleaseThenBodyValue()" classname="org.springframework.web.servlet.tags.ParamTagTests" time="0.01"/>
+  <testcase name="paramWithImplicitNullValue()" classname="org.springframework.web.servlet.tags.ParamTagTests" time="0.005"/>
+  <testcase name="paramWithBodyValue()" classname="org.springframework.web.servlet.tags.ParamTagTests" time="0.007"/>
+  <testcase name="paramWithExplicitNullValue()" classname="org.springframework.web.servlet.tags.ParamTagTests" time="0.007"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

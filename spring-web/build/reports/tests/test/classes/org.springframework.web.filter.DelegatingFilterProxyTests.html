@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.034s</div>
+<div class="counter">0.108s</div>
 <p>duration</p>
 </div>
 </td>
@@ -63,9 +63,6 @@
 <li>
 <a href="#tab0">Tests</a>
 </li>
-<li>
-<a href="#tab1">Standard output</a>
-</li>
 </ul>
 <div id="tab0" class="tab">
 <h2>Tests</h2>
@@ -79,47 +76,47 @@
 </thead>
 <tr>
 <td class="success">testDelegatingFilterProxy()</td>
-<td class="success">0.001s</td>
+<td class="success">0.003s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testDelegatingFilterProxyAndCustomContextAttribute()</td>
-<td class="success">0.009s</td>
+<td class="success">0.008s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testDelegatingFilterProxyInjectedPreferred()</td>
-<td class="success">0.001s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testDelegatingFilterProxyNotInjectedWacServletAttrPreferred()</td>
-<td class="success">0.011s</td>
+<td class="success">0.029s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testDelegatingFilterProxyNotInjectedWithRootPreferred()</td>
-<td class="success">0.001s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testDelegatingFilterProxyWithFilterDelegateInstance()</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testDelegatingFilterProxyWithFilterName()</td>
-<td class="success">0.001s</td>
+<td class="success">0.026s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testDelegatingFilterProxyWithFrameworkServletContext()</td>
-<td class="success">0.001s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testDelegatingFilterProxyWithLazyContextStartup()</td>
-<td class="success">0.001s</td>
+<td class="success">0.029s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -129,12 +126,12 @@
 </tr>
 <tr>
 <td class="success">testDelegatingFilterProxyWithTargetBeanNameAndNoApplicationContext()</td>
-<td class="success">0.002s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testDelegatingFilterProxyWithTargetBeanNameAndNotYetRefreshedApplicationContext()</td>
-<td class="success">0.001s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -144,36 +141,6 @@
 </tr>
 </table>
 </div>
-<div id="tab1" class="tab">
-<h2>Standard output</h2>
-<span class="code">
-<pre>14:00:13.144 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
-14:00:13.150 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
-14:00:13.155 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
-14:00:13.164 [Test worker] DEBUG o.s.w.f.DelegatingFilterProxy - Filter '' configured for use
-14:00:13.165 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
-14:00:13.166 [Test worker] DEBUG o.s.w.f.DelegatingFilterProxy - Filter '' configured for use
-14:00:13.166 [Test worker] DEBUG o.s.w.f.DelegatingFilterProxy - Filter '' configured for use
-14:00:13.167 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
-14:00:13.167 [Test worker] DEBUG o.s.w.f.DelegatingFilterProxy - Filter '' configured for use
-14:00:13.167 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
-14:00:13.168 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
-14:00:13.168 [Test worker] DEBUG o.s.w.f.DelegatingFilterProxy - Filter '' configured for use
-14:00:13.171 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
-14:00:13.171 [Test worker] DEBUG o.s.w.f.DelegatingFilterProxy - Filter '' configured for use
-14:00:13.171 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
-14:00:13.172 [Test worker] DEBUG o.s.w.f.DelegatingFilterProxy - Filter 'targetFilter' configured for use
-14:00:13.172 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
-14:00:13.175 [Test worker] DEBUG o.s.w.f.DelegatingFilterProxy - Filter '' configured for use
-14:00:13.181 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
-14:00:13.182 [Test worker] DEBUG o.s.w.f.DelegatingFilterProxy - Filter '' configured for use
-14:00:13.182 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
-14:00:13.182 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
-14:00:13.183 [Test worker] DEBUG o.s.w.f.DelegatingFilterProxy - Filter '' configured for use
-14:00:13.183 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
-</pre>
-</span>
-</div>
 </div>
 <div id="footer">
 <p>
@@ -182,7 +149,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.6.4</a> at May 29, 2020 2:00:20 PM</p>
+<a href="http://www.gradle.org">Gradle 5.6.4</a> at 2021-6-20 16:12:49</p>
 </div>
 </div>
 </body>

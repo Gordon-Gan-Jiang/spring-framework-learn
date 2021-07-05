@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.socket.config.annotation.WebMvcStompEndpointRegistryTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:01:07" hostname="bamboo-18" time="0.057">
+<testsuite name="org.springframework.web.socket.config.annotation.WebMvcStompEndpointRegistryTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:09:53" hostname="gankangdembp" time="1.847">
   <properties/>
-  <testcase name="stompProtocolHandler()" classname="org.springframework.web.socket.config.annotation.WebMvcStompEndpointRegistryTests" time="0.001"/>
-  <testcase name="handlerMapping()" classname="org.springframework.web.socket.config.annotation.WebMvcStompEndpointRegistryTests" time="0.001"/>
-  <testcase name="errorHandler()" classname="org.springframework.web.socket.config.annotation.WebMvcStompEndpointRegistryTests" time="0.053"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="stompProtocolHandler()" classname="org.springframework.web.socket.config.annotation.WebMvcStompEndpointRegistryTests" time="0.463"/>
+  <testcase name="handlerMapping()" classname="org.springframework.web.socket.config.annotation.WebMvcStompEndpointRegistryTests" time="1.211"/>
+  <testcase name="errorHandler()" classname="org.springframework.web.socket.config.annotation.WebMvcStompEndpointRegistryTests" time="0.169"/>
+  <system-out><![CDATA[16:09:54.702 [Test worker] WARN  o.s.w.HttpLogging - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

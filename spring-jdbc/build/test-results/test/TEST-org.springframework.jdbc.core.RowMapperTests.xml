@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jdbc.core.RowMapperTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:11" hostname="bamboo-18" time="0.043">
+<testsuite name="org.springframework.jdbc.core.RowMapperTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:09:44" hostname="gankangdembp" time="0.079">
   <properties/>
-  <testcase name="preparedStatementSetterWithRowMapper()" classname="org.springframework.jdbc.core.RowMapperTests" time="0.028"/>
-  <testcase name="queryWithArgsAndRowMapper()" classname="org.springframework.jdbc.core.RowMapperTests" time="0.002"/>
-  <testcase name="queryWithArgsAndTypesAndRowMapper()" classname="org.springframework.jdbc.core.RowMapperTests" time="0.003"/>
-  <testcase name="staticQueryWithRowMapper()" classname="org.springframework.jdbc.core.RowMapperTests" time="0.004"/>
-  <testcase name="preparedStatementCreatorWithRowMapper()" classname="org.springframework.jdbc.core.RowMapperTests" time="0.005"/>
+  <testcase name="preparedStatementSetterWithRowMapper()" classname="org.springframework.jdbc.core.RowMapperTests" time="0.029"/>
+  <testcase name="queryWithArgsAndRowMapper()" classname="org.springframework.jdbc.core.RowMapperTests" time="0.023"/>
+  <testcase name="queryWithArgsAndTypesAndRowMapper()" classname="org.springframework.jdbc.core.RowMapperTests" time="0.005"/>
+  <testcase name="staticQueryWithRowMapper()" classname="org.springframework.jdbc.core.RowMapperTests" time="0.003"/>
+  <testcase name="preparedStatementCreatorWithRowMapper()" classname="org.springframework.jdbc.core.RowMapperTests" time="0.017"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

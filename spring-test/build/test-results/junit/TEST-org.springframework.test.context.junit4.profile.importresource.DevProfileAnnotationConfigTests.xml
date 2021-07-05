@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.context.junit4.profile.importresource.DevProfileAnnotationConfigTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:46" hostname="bamboo-18" time="0.001">
+<testsuite name="org.springframework.test.context.junit4.profile.importresource.DevProfileAnnotationConfigTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:13:15" hostname="gankangdembp" time="0.002">
   <properties/>
   <testcase name="employee" classname="org.springframework.test.context.junit4.profile.importresource.DevProfileAnnotationConfigTests" time="0.001"/>
-  <testcase name="pet" classname="org.springframework.test.context.junit4.profile.importresource.DevProfileAnnotationConfigTests" time="0.0"/>
+  <testcase name="pet" classname="org.springframework.test.context.junit4.profile.importresource.DevProfileAnnotationConfigTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

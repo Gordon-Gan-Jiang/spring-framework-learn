@@ -1,48 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.bind.support.WebExchangeDataBinderTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:09" hostname="bamboo-18" time="0.095">
+<testsuite name="org.springframework.web.bind.support.WebExchangeDataBinderTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:11:36" hostname="gankangdembp" time="0.559">
   <properties/>
-  <testcase name="testFieldDefault()" classname="org.springframework.web.bind.support.WebExchangeDataBinderTests" time="0.027"/>
-  <testcase name="testFieldPrefixCausesFieldReset()" classname="org.springframework.web.bind.support.WebExchangeDataBinderTests" time="0.011"/>
-  <testcase name="testBindingWithNestedObjectCreation()" classname="org.springframework.web.bind.support.WebExchangeDataBinderTests" time="0.001"/>
-  <testcase name="testFieldDefaultPreemptsFieldMarker()" classname="org.springframework.web.bind.support.WebExchangeDataBinderTests" time="0.004"/>
-  <testcase name="testMultipart()" classname="org.springframework.web.bind.support.WebExchangeDataBinderTests" time="0.041"/>
-  <testcase name="testFieldDefaultNonBoolean()" classname="org.springframework.web.bind.support.WebExchangeDataBinderTests" time="0.002"/>
+  <testcase name="testFieldDefault()" classname="org.springframework.web.bind.support.WebExchangeDataBinderTests" time="0.058"/>
+  <testcase name="testFieldPrefixCausesFieldReset()" classname="org.springframework.web.bind.support.WebExchangeDataBinderTests" time="0.023"/>
+  <testcase name="testBindingWithNestedObjectCreation()" classname="org.springframework.web.bind.support.WebExchangeDataBinderTests" time="0.005"/>
+  <testcase name="testFieldDefaultPreemptsFieldMarker()" classname="org.springframework.web.bind.support.WebExchangeDataBinderTests" time="0.027"/>
+  <testcase name="testMultipart()" classname="org.springframework.web.bind.support.WebExchangeDataBinderTests" time="0.392"/>
+  <testcase name="testFieldDefaultNonBoolean()" classname="org.springframework.web.bind.support.WebExchangeDataBinderTests" time="0.007"/>
   <testcase name="testBindingWithQueryParams()" classname="org.springframework.web.bind.support.WebExchangeDataBinderTests" time="0.001"/>
-  <testcase name="testFieldPrefixCausesFieldResetWithIgnoreUnknownFields()" classname="org.springframework.web.bind.support.WebExchangeDataBinderTests" time="0.002"/>
-  <testcase name="testWithCommaSeparatedStringArray()" classname="org.springframework.web.bind.support.WebExchangeDataBinderTests" time="0.002"/>
-  <testcase name="testBindingWithNestedObjectCreationAndWrongOrder()" classname="org.springframework.web.bind.support.WebExchangeDataBinderTests" time="0.002"/>
-  <system-out><![CDATA[14:00:09.524 [Test worker] DEBUG o.s.w.HttpLogging - Writing form fields [!postProcessed, postProcessed] (content masked)
-14:00:09.528 [Test worker] DEBUG o.s.w.HttpLogging - [5cef362c] Read form fields [!postProcessed, postProcessed] (content masked)
-14:00:09.548 [Test worker] DEBUG o.s.w.HttpLogging - Writing form fields [!postProcessed] (content masked)
-14:00:09.550 [Test worker] DEBUG o.s.w.HttpLogging - [4a4190d8] Read form fields [!postProcessed] (content masked)
-14:00:09.550 [Test worker] DEBUG o.s.w.HttpLogging - Writing form fields [_postProcessed, postProcessed] (content masked)
-14:00:09.558 [Test worker] DEBUG o.s.w.HttpLogging - [3a47b2de] Read form fields [_postProcessed, postProcessed] (content masked)
-14:00:09.560 [Test worker] DEBUG o.s.w.HttpLogging - Writing form fields [_postProcessed] (content masked)
-14:00:09.561 [Test worker] DEBUG o.s.w.HttpLogging - [3678fc33] Read form fields [_postProcessed] (content masked)
-14:00:09.562 [Test worker] DEBUG o.s.w.HttpLogging - Writing form fields [spouse, spouse.name] (content masked)
-14:00:09.563 [Test worker] DEBUG o.s.w.HttpLogging - [169c2eda] Read form fields [spouse, spouse.name] (content masked)
-14:00:09.563 [Test worker] DEBUG o.s.w.HttpLogging - Writing form fields [!postProcessed, _postProcessed, postProcessed] (content masked)
-14:00:09.564 [Test worker] DEBUG o.s.w.HttpLogging - [6774c15e] Read form fields [!postProcessed, _postProcessed, postProcessed] (content masked)
-14:00:09.564 [Test worker] DEBUG o.s.w.HttpLogging - Writing form fields [!postProcessed, _postProcessed] (content masked)
-14:00:09.565 [Test worker] DEBUG o.s.w.HttpLogging - [69a144fc] Read form fields [!postProcessed, _postProcessed] (content masked)
-14:00:09.565 [Test worker] DEBUG o.s.w.HttpLogging - Writing form fields [_postProcessed] (content masked)
-14:00:09.567 [Test worker] DEBUG o.s.w.HttpLogging - [2d54bf70] Read form fields [_postProcessed] (content masked)
-14:00:09.568 [Test worker] DEBUG o.s.w.HttpLogging - Encoding parts [name, someList, someArray, part, somePartList] (content masked)
-14:00:09.606 [Test worker] DEBUG o.s.w.HttpLogging - [671daa05] Parsed parts [somePartList, part, name, someList, someArray] (content masked)
-14:00:09.610 [Test worker] DEBUG o.s.w.HttpLogging - Writing form fields [!name, name] (content masked)
-14:00:09.610 [Test worker] DEBUG o.s.w.HttpLogging - [2dbbc2b3] Read form fields [!name, name] (content masked)
-14:00:09.611 [Test worker] DEBUG o.s.w.HttpLogging - Writing form fields [!name] (content masked)
-14:00:09.611 [Test worker] DEBUG o.s.w.HttpLogging - [7ff89a6b] Read form fields [!name] (content masked)
-14:00:09.613 [Test worker] DEBUG o.s.w.HttpLogging - Writing form fields [_postProcessed, postProcessed] (content masked)
-14:00:09.613 [Test worker] DEBUG o.s.w.HttpLogging - [40d15f34] Read form fields [_postProcessed, postProcessed] (content masked)
-14:00:09.614 [Test worker] DEBUG o.s.w.HttpLogging - Writing form fields [_postProcessed] (content masked)
-14:00:09.614 [Test worker] DEBUG o.s.w.HttpLogging - [7b41ae87] Read form fields [_postProcessed] (content masked)
-14:00:09.615 [Test worker] DEBUG o.s.w.HttpLogging - Writing form fields [stringArray] (content masked)
-14:00:09.615 [Test worker] DEBUG o.s.w.HttpLogging - [74a18c3e] Read form fields [stringArray] (content masked)
-14:00:09.616 [Test worker] DEBUG o.s.w.HttpLogging - Writing form fields [stringArray] (content masked)
-14:00:09.616 [Test worker] DEBUG o.s.w.HttpLogging - [22963e4b] Read form fields [stringArray] (content masked)
-14:00:09.616 [Test worker] DEBUG o.s.w.HttpLogging - Writing form fields [spouse.name, spouse] (content masked)
-14:00:09.617 [Test worker] DEBUG o.s.w.HttpLogging - [68f4fdd2] Read form fields [spouse.name, spouse] (content masked)
-]]></system-out>
+  <testcase name="testFieldPrefixCausesFieldResetWithIgnoreUnknownFields()" classname="org.springframework.web.bind.support.WebExchangeDataBinderTests" time="0.009"/>
+  <testcase name="testWithCommaSeparatedStringArray()" classname="org.springframework.web.bind.support.WebExchangeDataBinderTests" time="0.028"/>
+  <testcase name="testBindingWithNestedObjectCreationAndWrongOrder()" classname="org.springframework.web.bind.support.WebExchangeDataBinderTests" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

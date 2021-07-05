@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.http.server.reactive.ContextPathCompositeHandlerTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:50" hostname="bamboo-18" time="0.011">
+<testsuite name="org.springframework.http.server.reactive.ContextPathCompositeHandlerTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:12:34" hostname="gankangdembp" time="0.023">
   <properties/>
-  <testcase name="notFoundWithCommitAction()" classname="org.springframework.http.server.reactive.ContextPathCompositeHandlerTests" time="0.003"/>
-  <testcase name="invalidContextPath()" classname="org.springframework.http.server.reactive.ContextPathCompositeHandlerTests" time="0.001"/>
-  <testcase name="match()" classname="org.springframework.http.server.reactive.ContextPathCompositeHandlerTests" time="0.001"/>
+  <testcase name="notFoundWithCommitAction()" classname="org.springframework.http.server.reactive.ContextPathCompositeHandlerTests" time="0.021"/>
+  <testcase name="invalidContextPath()" classname="org.springframework.http.server.reactive.ContextPathCompositeHandlerTests" time="0.0"/>
+  <testcase name="match()" classname="org.springframework.http.server.reactive.ContextPathCompositeHandlerTests" time="0.0"/>
   <testcase name="matchWithContextPathEqualToPath()" classname="org.springframework.http.server.reactive.ContextPathCompositeHandlerTests" time="0.0"/>
   <testcase name="notFound()" classname="org.springframework.http.server.reactive.ContextPathCompositeHandlerTests" time="0.0"/>
-  <testcase name="matchWithNativeContextPath()" classname="org.springframework.http.server.reactive.ContextPathCompositeHandlerTests" time="0.001"/>
+  <testcase name="matchWithNativeContextPath()" classname="org.springframework.http.server.reactive.ContextPathCompositeHandlerTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.cache.jcache.JCacheEhCache3ApiTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:57:38" hostname="bamboo-18" time="0.216">
+<testsuite name="org.springframework.cache.jcache.JCacheEhCache3ApiTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:09:43" hostname="gankangdembp" time="0.393">
   <properties/>
-  <testcase name="testCacheGetCallableNotInvokedWithHitNull()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.021"/>
+  <testcase name="testCacheGetCallableNotInvokedWithHitNull()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.037"/>
   <testcase name="testCacheGetSynchronized()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.108"/>
-  <testcase name="testCachePutIfAbsent()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.004"/>
+  <testcase name="testCachePutIfAbsent()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.014"/>
   <testcase name="testCacheClear()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.01"/>
-  <testcase name="testCacheRemove()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.004"/>
-  <testcase name="testCacheGetCallableNotInvokedWithHit()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.004"/>
-  <testcase name="testCacheName()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.003"/>
-  <testcase name="testCachePut()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.004"/>
-  <testcase name="testCacheGetCallable()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.019"/>
-  <testcase name="testNativeCache()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.017"/>
-  <testcase name="testCacheGetCallableFail()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.004"/>
-  <testcase name="testCacheGetCallableWithNull()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.009"/>
-  <testcase name="testCachePutNullValueAllowNullFalse()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.006"/>
+  <testcase name="testCacheRemove()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.008"/>
+  <testcase name="testCacheGetCallableNotInvokedWithHit()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.04"/>
+  <testcase name="testCacheName()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.031"/>
+  <testcase name="testCachePut()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.023"/>
+  <testcase name="testCacheGetCallable()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.007"/>
+  <testcase name="testNativeCache()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.006"/>
+  <testcase name="testCacheGetCallableFail()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.047"/>
+  <testcase name="testCacheGetCallableWithNull()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.022"/>
+  <testcase name="testCachePutNullValueAllowNullFalse()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.007"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,258 +1,262 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:01:55" hostname="bamboo-18" time="1.893">
+<testsuite name="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:10:49" hostname="gankangdembp" time="10.72">
   <properties/>
-  <testcase name="testHandlerNotFound(HttpServer)[1]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.181"/>
-  <testcase name="testHandlerNotFound(HttpServer)[2]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.046"/>
-  <testcase name="testHandlerNotFound(HttpServer)[3]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.196"/>
-  <testcase name="testHandlerNotFound(HttpServer)[4]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.072"/>
-  <testcase name="testRequestToFooHandler(HttpServer)[1]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.152"/>
-  <testcase name="testRequestToFooHandler(HttpServer)[2]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.037"/>
-  <testcase name="testRequestToFooHandler(HttpServer)[3]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.234"/>
-  <testcase name="testRequestToFooHandler(HttpServer)[4]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.08"/>
-  <testcase name="testRequestToHeaderSettingHandler(HttpServer)[1]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.131"/>
-  <testcase name="testRequestToHeaderSettingHandler(HttpServer)[2]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.038"/>
-  <testcase name="testRequestToHeaderSettingHandler(HttpServer)[3]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.221"/>
-  <testcase name="testRequestToHeaderSettingHandler(HttpServer)[4]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.084"/>
-  <testcase name="testRequestToBarHandler(HttpServer)[1]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.121"/>
-  <testcase name="testRequestToBarHandler(HttpServer)[2]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.022"/>
-  <testcase name="testRequestToBarHandler(HttpServer)[3]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.168"/>
-  <testcase name="testRequestToBarHandler(HttpServer)[4]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.106"/>
-  <system-out><![CDATA[14:01:55.960 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/foo, /bar, /header] in 'handlerMapping'
-14:01:55.964 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-14:01:55.964 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
-14:01:55.964 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@4f97b8d0{/,null,AVAILABLE}
-14:01:55.964 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
-14:01:55.964 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.29.v20200521; built: 2020-05-21T17:20:40.598Z; git: 77c232aed8a45c818fd27232278d9f95a021095e; jvm 1.8.0_232-b09
-14:01:56.070 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@71840150{HTTP/1.1, (http/1.1)}{0.0.0.0:45143}
-14:01:56.070 [Test worker] INFO  o.e.j.s.Server - Started @68712ms
-14:01:56.070 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 45143(0 millis).
-14:01:56.076 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:45143/oops
-14:01:56.076 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/json, application/x-jackson-smile, application/*+json, */*]
-14:01:56.095 [qtp1014956770-1684] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [140d7f32] HTTP GET "/oops"
-14:01:56.096 [qtp1014956770-1684] DEBUG o.s.w.s.h.ResponseStatusExceptionHandler - [140d7f32] Resolved [ResponseStatusException: 404 NOT_FOUND "No matching handler"] for HTTP GET /oops
-14:01:56.096 [qtp1014956770-1684] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [140d7f32] Completed 404 NOT_FOUND
-14:01:56.097 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 404 NOT_FOUND
-14:01:56.100 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
-14:01:56.101 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@4f97b8d0{/,null,UNAVAILABLE}
-14:01:56.102 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@71840150{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
-14:01:56.104 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
-14:01:56.108 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/foo, /bar, /header] in 'handlerMapping'
-14:01:56.108 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-14:01:56.108 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
-14:01:56.111 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 37269(0 millis).
-14:01:56.126 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:37269/oops
-14:01:56.126 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/json, application/x-jackson-smile, application/*+json, */*]
-14:01:56.144 [reactor-http-epoll-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [66cec7c9-59] HTTP GET "/oops"
-14:01:56.144 [reactor-http-epoll-4] DEBUG o.s.w.s.h.ResponseStatusExceptionHandler - [66cec7c9-59] Resolved [ResponseStatusException: 404 NOT_FOUND "No matching handler"] for HTTP GET /oops
-14:01:56.144 [reactor-http-epoll-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [66cec7c9-59] Completed 404 NOT_FOUND
-14:01:56.149 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 404 NOT_FOUND
-14:01:56.149 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
-14:01:56.151 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
-14:01:56.173 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/foo, /bar, /header] in 'handlerMapping'
-14:01:56.174 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-14:01:56.174 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
-14:01:56.323 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 33639(0 millis).
-14:01:56.329 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:33639/oops
-14:01:56.330 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/json, application/x-jackson-smile, application/*+json, */*]
-14:01:56.331 [http-nio-auto-58-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [3d96816f] HTTP GET "/oops"
-14:01:56.332 [http-nio-auto-58-exec-1] DEBUG o.s.w.s.h.ResponseStatusExceptionHandler - [3d96816f] Resolved [ResponseStatusException: 404 NOT_FOUND "No matching handler"] for HTTP GET /oops
-14:01:56.332 [http-nio-auto-58-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [3d96816f] Completed 404 NOT_FOUND
-14:01:56.332 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 404 NOT_FOUND
-14:01:56.333 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
-14:01:56.347 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
-14:01:56.351 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/foo, /bar, /header] in 'handlerMapping'
-14:01:56.351 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-14:01:56.351 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
-14:01:56.351 [Test worker] INFO  i.undertow - starting server: Undertow - 2.0.30.Final
-14:01:56.409 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 39785(0 millis).
-14:01:56.417 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:39785/oops
-14:01:56.417 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/json, application/x-jackson-smile, application/*+json, */*]
-14:01:56.418 [XNIO-58 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [7597ee4c] HTTP GET "/oops"
-14:01:56.418 [XNIO-58 I/O-2] DEBUG o.s.w.s.h.ResponseStatusExceptionHandler - [7597ee4c] Resolved [ResponseStatusException: 404 NOT_FOUND "No matching handler"] for HTTP GET /oops
-14:01:56.418 [XNIO-58 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [7597ee4c] Completed 404 NOT_FOUND
-14:01:56.419 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 404 NOT_FOUND
-14:01:56.419 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
-14:01:56.419 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.0.30.Final
-14:01:56.420 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
-14:01:56.424 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/foo, /bar, /header] in 'handlerMapping'
-14:01:56.425 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-14:01:56.433 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
-14:01:56.433 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@67a8cf1d{/,null,AVAILABLE}
-14:01:56.434 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
-14:01:56.434 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.29.v20200521; built: 2020-05-21T17:20:40.598Z; git: 77c232aed8a45c818fd27232278d9f95a021095e; jvm 1.8.0_232-b09
-14:01:56.551 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@ee3ea3c{HTTP/1.1, (http/1.1)}{0.0.0.0:35041}
-14:01:56.551 [Test worker] INFO  o.e.j.s.Server - Started @69193ms
-14:01:56.551 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 35041(0 millis).
-14:01:56.557 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:35041/foo
-14:01:56.557 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/json, application/x-jackson-smile, application/*+json, */*]
-14:01:56.568 [qtp1100543545-1713] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [7d69e4bd] HTTP GET "/foo"
-14:01:56.568 [qtp1100543545-1713] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [7d69e4bd] Mapped to org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$$Lambda$1166/1440485911@73ae1560
-14:01:56.569 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-14:01:56.569 [qtp1100543545-1713] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [7d69e4bd] Completed 200 OK
-14:01:56.569 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "application/octet-stream"
-14:01:56.569 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
-14:01:56.569 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@67a8cf1d{/,null,UNAVAILABLE}
-14:01:56.572 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@ee3ea3c{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
-14:01:56.572 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
-14:01:56.576 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/foo, /bar, /header] in 'handlerMapping'
-14:01:56.576 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-14:01:56.576 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
-14:01:56.578 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 40425(0 millis).
-14:01:56.603 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:40425/foo
-14:01:56.603 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/json, application/x-jackson-smile, application/*+json, */*]
-14:01:56.608 [reactor-http-epoll-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [c5522210-60] HTTP GET "/foo"
-14:01:56.608 [reactor-http-epoll-2] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [c5522210-60] Mapped to org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$$Lambda$1166/1440485911@73ae1560
-14:01:56.608 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-14:01:56.609 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "application/octet-stream"
-14:01:56.609 [reactor-http-epoll-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [c5522210-60] Completed 200 OK
-14:01:56.609 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
-14:01:56.609 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
-14:01:56.613 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/foo, /bar, /header] in 'handlerMapping'
-14:01:56.613 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-14:01:56.613 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
-14:01:56.825 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 35233(0 millis).
-14:01:56.831 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:35233/foo
-14:01:56.832 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/json, application/x-jackson-smile, application/*+json, */*]
-14:01:56.833 [http-nio-auto-59-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [3e9dbcd9] HTTP GET "/foo"
-14:01:56.833 [http-nio-auto-59-exec-1] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [3e9dbcd9] Mapped to org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$$Lambda$1166/1440485911@73ae1560
-14:01:56.834 [http-nio-auto-59-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [3e9dbcd9] Completed 200 OK
-14:01:56.834 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-14:01:56.834 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "application/octet-stream"
-14:01:56.834 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
-14:01:56.843 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
-14:01:56.847 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/foo, /bar, /header] in 'handlerMapping'
-14:01:56.847 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-14:01:56.847 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
-14:01:56.847 [Test worker] INFO  i.undertow - starting server: Undertow - 2.0.30.Final
-14:01:56.903 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 43821(0 millis).
-14:01:56.914 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:43821/foo
-14:01:56.915 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/json, application/x-jackson-smile, application/*+json, */*]
-14:01:56.915 [XNIO-59 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [18d1696d] HTTP GET "/foo"
-14:01:56.916 [XNIO-59 I/O-2] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [18d1696d] Mapped to org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$$Lambda$1166/1440485911@73ae1560
-14:01:56.916 [XNIO-59 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [18d1696d] Completed 200 OK
-14:01:56.917 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-14:01:56.917 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "application/octet-stream"
-14:01:56.917 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
-14:01:56.917 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.0.30.Final
-14:01:56.924 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
-14:01:56.928 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/foo, /bar, /header] in 'handlerMapping'
-14:01:56.928 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-14:01:56.928 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
-14:01:56.928 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@3e089879{/,null,AVAILABLE}
-14:01:56.929 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
-14:01:56.929 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.29.v20200521; built: 2020-05-21T17:20:40.598Z; git: 77c232aed8a45c818fd27232278d9f95a021095e; jvm 1.8.0_232-b09
-14:01:57.034 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@a4b42c{HTTP/1.1, (http/1.1)}{0.0.0.0:34709}
-14:01:57.034 [Test worker] INFO  o.e.j.s.Server - Started @69676ms
-14:01:57.034 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 34709(0 millis).
-14:01:57.040 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:34709/header
-14:01:57.040 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/json, application/x-jackson-smile, application/*+json, */*]
-14:01:57.048 [qtp139643084-1742] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [532e8567] HTTP GET "/header"
-14:01:57.049 [qtp139643084-1742] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [532e8567] Mapped to org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$$Lambda$1168/206937938@5de97172
-14:01:57.049 [qtp139643084-1742] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [532e8567] Completed 200 OK
-14:01:57.051 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-14:01:57.051 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
-14:01:57.051 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@3e089879{/,null,UNAVAILABLE}
-14:01:57.054 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@a4b42c{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
-14:01:57.054 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
-14:01:57.059 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/foo, /bar, /header] in 'handlerMapping'
-14:01:57.060 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-14:01:57.060 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
-14:01:57.066 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 40977(0 millis).
-14:01:57.073 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:40977/header
-14:01:57.073 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/json, application/x-jackson-smile, application/*+json, */*]
-14:01:57.089 [reactor-http-epoll-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6ec29036-61] HTTP GET "/header"
-14:01:57.090 [reactor-http-epoll-4] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [6ec29036-61] Mapped to org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$$Lambda$1168/206937938@5de97172
-14:01:57.090 [reactor-http-epoll-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6ec29036-61] Completed 200 OK
-14:01:57.093 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-14:01:57.093 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
-14:01:57.093 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
-14:01:57.097 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/foo, /bar, /header] in 'handlerMapping'
-14:01:57.101 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-14:01:57.101 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
-14:01:57.290 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 33635(0 millis).
-14:01:57.296 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:33635/header
-14:01:57.296 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/json, application/x-jackson-smile, application/*+json, */*]
-14:01:57.298 [http-nio-auto-60-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2b175b99] HTTP GET "/header"
-14:01:57.298 [http-nio-auto-60-exec-1] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [2b175b99] Mapped to org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$$Lambda$1168/206937938@5de97172
-14:01:57.298 [http-nio-auto-60-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2b175b99] Completed 200 OK
-14:01:57.303 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-14:01:57.303 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
-14:01:57.314 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
-14:01:57.318 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/foo, /bar, /header] in 'handlerMapping'
-14:01:57.319 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-14:01:57.319 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
-14:01:57.319 [Test worker] INFO  i.undertow - starting server: Undertow - 2.0.30.Final
-14:01:57.389 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 35931(0 millis).
-14:01:57.395 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:35931/header
-14:01:57.395 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/json, application/x-jackson-smile, application/*+json, */*]
-14:01:57.397 [XNIO-60 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [167caa] HTTP GET "/header"
-14:01:57.397 [XNIO-60 I/O-2] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [167caa] Mapped to org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$$Lambda$1168/206937938@5de97172
-14:01:57.397 [XNIO-60 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [167caa] Completed 200 OK
-14:01:57.397 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-14:01:57.397 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
-14:01:57.398 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.0.30.Final
-14:01:57.398 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
-14:01:57.403 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/foo, /bar, /header] in 'handlerMapping'
-14:01:57.406 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-14:01:57.406 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
-14:01:57.407 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@362debdc{/,null,AVAILABLE}
-14:01:57.407 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
-14:01:57.407 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.29.v20200521; built: 2020-05-21T17:20:40.598Z; git: 77c232aed8a45c818fd27232278d9f95a021095e; jvm 1.8.0_232-b09
-14:01:57.478 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@2c829799{HTTP/1.1, (http/1.1)}{0.0.0.0:39179}
-14:01:57.478 [Test worker] INFO  o.e.j.s.Server - Started @70119ms
-14:01:57.478 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 39179(0 millis).
-14:01:57.484 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:39179/bar
-14:01:57.484 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/json, application/x-jackson-smile, application/*+json, */*]
-14:01:57.517 [qtp838630763-1771] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [15d17b66] HTTP GET "/bar"
-14:01:57.518 [qtp838630763-1771] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [15d17b66] Mapped to org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$$Lambda$1167/2069171239@1b1687ac
-14:01:57.518 [qtp838630763-1771] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [15d17b66] Completed 200 OK
-14:01:57.518 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-14:01:57.518 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "application/octet-stream"
-14:01:57.519 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
-14:01:57.519 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@362debdc{/,null,UNAVAILABLE}
-14:01:57.519 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@2c829799{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
-14:01:57.520 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
-14:01:57.524 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/foo, /bar, /header] in 'handlerMapping'
-14:01:57.524 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-14:01:57.524 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
-14:01:57.525 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 44019(0 millis).
-14:01:57.538 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:44019/bar
-14:01:57.539 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/json, application/x-jackson-smile, application/*+json, */*]
-14:01:57.540 [reactor-http-epoll-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [fafe4d36-62] HTTP GET "/bar"
-14:01:57.540 [reactor-http-epoll-2] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [fafe4d36-62] Mapped to org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$$Lambda$1167/2069171239@1b1687ac
-14:01:57.540 [reactor-http-epoll-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [fafe4d36-62] Completed 200 OK
-14:01:57.541 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-14:01:57.541 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "application/octet-stream"
-14:01:57.541 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
-14:01:57.541 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
-14:01:57.545 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/foo, /bar, /header] in 'handlerMapping'
-14:01:57.550 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-14:01:57.550 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
-14:01:57.691 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 34065(0 millis).
-14:01:57.697 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:34065/bar
-14:01:57.697 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/json, application/x-jackson-smile, application/*+json, */*]
-14:01:57.699 [http-nio-auto-61-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [aa74b36] HTTP GET "/bar"
-14:01:57.699 [http-nio-auto-61-exec-1] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [aa74b36] Mapped to org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$$Lambda$1167/2069171239@1b1687ac
-14:01:57.699 [http-nio-auto-61-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [aa74b36] Completed 200 OK
-14:01:57.700 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-14:01:57.700 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "application/octet-stream"
-14:01:57.700 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
-14:01:57.709 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
-14:01:57.714 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/foo, /bar, /header] in 'handlerMapping'
-14:01:57.722 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-14:01:57.722 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
-14:01:57.722 [Test worker] INFO  i.undertow - starting server: Undertow - 2.0.30.Final
-14:01:57.801 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 42401(0 millis).
-14:01:57.807 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:42401/bar
-14:01:57.807 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/json, application/x-jackson-smile, application/*+json, */*]
-14:01:57.809 [XNIO-61 I/O-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [7eaa0d3b] HTTP GET "/bar"
-14:01:57.809 [XNIO-61 I/O-4] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [7eaa0d3b] Mapped to org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$$Lambda$1167/2069171239@1b1687ac
-14:01:57.809 [XNIO-61 I/O-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [7eaa0d3b] Completed 200 OK
-14:01:57.810 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-14:01:57.810 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "application/octet-stream"
-14:01:57.810 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
-14:01:57.810 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.0.30.Final
-14:01:57.816 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+  <testcase name="testHandlerNotFound(HttpServer)[1]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="4.295"/>
+  <testcase name="testHandlerNotFound(HttpServer)[2]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="1.583"/>
+  <testcase name="testHandlerNotFound(HttpServer)[3]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="2.54"/>
+  <testcase name="testHandlerNotFound(HttpServer)[4]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.783"/>
+  <testcase name="testRequestToFooHandler(HttpServer)[1]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.12"/>
+  <testcase name="testRequestToFooHandler(HttpServer)[2]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.113"/>
+  <testcase name="testRequestToFooHandler(HttpServer)[3]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.129"/>
+  <testcase name="testRequestToFooHandler(HttpServer)[4]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.144"/>
+  <testcase name="testRequestToHeaderSettingHandler(HttpServer)[1]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.143"/>
+  <testcase name="testRequestToHeaderSettingHandler(HttpServer)[2]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.1"/>
+  <testcase name="testRequestToHeaderSettingHandler(HttpServer)[3]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.116"/>
+  <testcase name="testRequestToHeaderSettingHandler(HttpServer)[4]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.13"/>
+  <testcase name="testRequestToBarHandler(HttpServer)[1]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.12"/>
+  <testcase name="testRequestToBarHandler(HttpServer)[2]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.084"/>
+  <testcase name="testRequestToBarHandler(HttpServer)[3]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.133"/>
+  <testcase name="testRequestToBarHandler(HttpServer)[4]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.139"/>
+  <system-out><![CDATA[16:10:51.057 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/foo, /bar, /header] in 'handlerMapping'
+16:10:51.211 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:10:51.307 [Test worker] INFO  o.e.j.u.log - Logging initialized @19154ms to org.eclipse.jetty.util.log.Slf4jLog
+16:10:51.529 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+16:10:51.751 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@33d7b130{/,null,AVAILABLE}
+16:10:51.989 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+16:10:52.015 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.31.v20200723; built: 2020-07-23T17:57:36.812Z; git: 450ba27947e13e66baa8cd1ce7e85a4461cacc1d; jvm 1.8.0_201-b09
+16:10:52.176 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@1fccdeb7{HTTP/1.1, (http/1.1)}{0.0.0.0:54615}
+16:10:52.177 [Test worker] INFO  o.e.j.s.Server - Started @20028ms
+16:10:52.178 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 54615(0 millis).
+16:10:53.151 [Test worker] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+16:10:53.243 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:54615/oops
+16:10:53.318 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/json, application/x-jackson-smile, application/*+json, */*]
+16:10:53.554 [qtp1109408127-23] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2625822d] HTTP GET "/oops"
+16:10:53.595 [qtp1109408127-23] DEBUG o.s.w.s.h.ResponseStatusExceptionHandler - [2625822d] Resolved [ResponseStatusException: 404 NOT_FOUND "No matching handler"] for HTTP GET /oops
+16:10:53.596 [qtp1109408127-23] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2625822d] Completed 404 NOT_FOUND
+16:10:53.614 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 404 NOT_FOUND
+16:10:53.625 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+16:10:53.629 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@33d7b130{/,null,UNAVAILABLE}
+16:10:53.664 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@1fccdeb7{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+16:10:53.676 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+16:10:53.703 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/foo, /bar, /header] in 'handlerMapping'
+16:10:53.708 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:10:53.990 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+16:10:54.867 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 54620(0 millis).
+16:10:54.910 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:54620/oops
+16:10:54.910 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/json, application/x-jackson-smile, application/*+json, */*]
+16:10:55.220 [reactor-http-nio-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [db9100f3-1] HTTP GET "/oops"
+16:10:55.240 [reactor-http-nio-2] DEBUG o.s.w.s.h.ResponseStatusExceptionHandler - [db9100f3-1] Resolved [ResponseStatusException: 404 NOT_FOUND "No matching handler"] for HTTP GET /oops
+16:10:55.240 [reactor-http-nio-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [db9100f3-1] Completed 404 NOT_FOUND
+16:10:55.264 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 404 NOT_FOUND
+16:10:55.266 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+16:10:55.268 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+16:10:55.285 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/foo, /bar, /header] in 'handlerMapping'
+16:10:55.287 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:10:55.537 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+16:10:57.516 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 54622(0 millis).
+16:10:57.581 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:54622/oops
+16:10:57.582 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/json, application/x-jackson-smile, application/*+json, */*]
+16:10:57.749 [http-nio-auto-1-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [193ed8ac] HTTP GET "/oops"
+16:10:57.750 [http-nio-auto-1-exec-1] DEBUG o.s.w.s.h.ResponseStatusExceptionHandler - [193ed8ac] Resolved [ResponseStatusException: 404 NOT_FOUND "No matching handler"] for HTTP GET /oops
+16:10:57.751 [http-nio-auto-1-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [193ed8ac] Completed 404 NOT_FOUND
+16:10:57.777 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 404 NOT_FOUND
+16:10:57.779 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+16:10:57.808 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+16:10:57.829 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/foo, /bar, /header] in 'handlerMapping'
+16:10:57.831 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:10:57.844 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+16:10:57.921 [Test worker] INFO  i.undertow - starting server: Undertow - 2.0.32.Final
+16:10:57.983 [Test worker] INFO  o.xnio - XNIO version 3.3.8.Final
+16:10:58.069 [Test worker] INFO  o.x.nio - XNIO NIO Implementation Version 3.3.8.Final
+16:10:58.465 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 54625(0 millis).
+16:10:58.504 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:54625/oops
+16:10:58.504 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/json, application/x-jackson-smile, application/*+json, */*]
+16:10:58.576 [XNIO-1 I/O-6] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5ed843ce] HTTP GET "/oops"
+16:10:58.577 [XNIO-1 I/O-6] DEBUG o.s.w.s.h.ResponseStatusExceptionHandler - [5ed843ce] Resolved [ResponseStatusException: 404 NOT_FOUND "No matching handler"] for HTTP GET /oops
+16:10:58.577 [XNIO-1 I/O-6] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5ed843ce] Completed 404 NOT_FOUND
+16:10:58.586 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 404 NOT_FOUND
+16:10:58.588 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+16:10:58.588 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.0.32.Final
+16:10:58.593 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+16:10:58.615 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/foo, /bar, /header] in 'handlerMapping'
+16:10:58.617 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:10:58.618 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+16:10:58.618 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@21f03eeb{/,null,AVAILABLE}
+16:10:58.619 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+16:10:58.619 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.31.v20200723; built: 2020-07-23T17:57:36.812Z; git: 450ba27947e13e66baa8cd1ce7e85a4461cacc1d; jvm 1.8.0_201-b09
+16:10:58.627 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@1e659102{HTTP/1.1, (http/1.1)}{0.0.0.0:54627}
+16:10:58.627 [Test worker] INFO  o.e.j.s.Server - Started @26478ms
+16:10:58.627 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 54627(0 millis).
+16:10:58.655 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:54627/foo
+16:10:58.656 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/json, application/x-jackson-smile, application/*+json, */*]
+16:10:58.659 [qtp2138237576-64] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5cd63a69] HTTP GET "/foo"
+16:10:58.663 [qtp2138237576-64] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [5cd63a69] Mapped to org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$$Lambda$513/2124748833@6f7ae84
+16:10:58.685 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+16:10:58.689 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "application/octet-stream"
+16:10:58.691 [qtp2138237576-64] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5cd63a69] Completed 200 OK
+16:10:58.701 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+16:10:58.702 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@21f03eeb{/,null,UNAVAILABLE}
+16:10:58.706 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@1e659102{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+16:10:58.717 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+16:10:58.734 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/foo, /bar, /header] in 'handlerMapping'
+16:10:58.757 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:10:58.757 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+16:10:58.760 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 54629(0 millis).
+16:10:58.792 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:54629/foo
+16:10:58.792 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/json, application/x-jackson-smile, application/*+json, */*]
+16:10:58.800 [reactor-http-nio-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [907b694a-2] HTTP GET "/foo"
+16:10:58.801 [reactor-http-nio-4] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [907b694a-2] Mapped to org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$$Lambda$513/2124748833@6f7ae84
+16:10:58.816 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+16:10:58.831 [reactor-http-nio-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [907b694a-2] Completed 200 OK
+16:10:58.832 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "application/octet-stream"
+16:10:58.833 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+16:10:58.833 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+16:10:58.853 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/foo, /bar, /header] in 'handlerMapping'
+16:10:58.855 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:10:58.856 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+16:10:58.890 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 54631(0 millis).
+16:10:58.938 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:54631/foo
+16:10:58.939 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/json, application/x-jackson-smile, application/*+json, */*]
+16:10:58.944 [http-nio-auto-2-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [1e555ca5] HTTP GET "/foo"
+16:10:58.944 [http-nio-auto-2-exec-1] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [1e555ca5] Mapped to org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$$Lambda$513/2124748833@6f7ae84
+16:10:58.947 [http-nio-auto-2-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [1e555ca5] Completed 200 OK
+16:10:58.948 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+16:10:58.948 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "application/octet-stream"
+16:10:58.949 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+16:10:58.965 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+16:10:59.022 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/foo, /bar, /header] in 'handlerMapping'
+16:10:59.024 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:10:59.024 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+16:10:59.025 [Test worker] INFO  i.undertow - starting server: Undertow - 2.0.32.Final
+16:10:59.037 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 54634(0 millis).
+16:10:59.067 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:54634/foo
+16:10:59.068 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/json, application/x-jackson-smile, application/*+json, */*]
+16:10:59.088 [XNIO-2 I/O-6] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [248a68b1] HTTP GET "/foo"
+16:10:59.088 [XNIO-2 I/O-6] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [248a68b1] Mapped to org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$$Lambda$513/2124748833@6f7ae84
+16:10:59.103 [XNIO-2 I/O-6] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [248a68b1] Completed 200 OK
+16:10:59.105 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+16:10:59.105 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "application/octet-stream"
+16:10:59.106 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+16:10:59.106 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.0.32.Final
+16:10:59.111 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+16:10:59.134 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/foo, /bar, /header] in 'handlerMapping'
+16:10:59.136 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:10:59.137 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+16:10:59.137 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@50c37d74{/,null,AVAILABLE}
+16:10:59.150 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+16:10:59.150 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.31.v20200723; built: 2020-07-23T17:57:36.812Z; git: 450ba27947e13e66baa8cd1ce7e85a4461cacc1d; jvm 1.8.0_201-b09
+16:10:59.176 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@2f09778e{HTTP/1.1, (http/1.1)}{0.0.0.0:54636}
+16:10:59.176 [Test worker] INFO  o.e.j.s.Server - Started @27027ms
+16:10:59.176 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 54636(0 millis).
+16:10:59.194 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:54636/header
+16:10:59.195 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/json, application/x-jackson-smile, application/*+json, */*]
+16:10:59.217 [qtp1524816227-104] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [239bee6e] HTTP GET "/header"
+16:10:59.218 [qtp1524816227-104] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [239bee6e] Mapped to org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$$Lambda$515/688590655@2d5c046d
+16:10:59.218 [qtp1524816227-104] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [239bee6e] Completed 200 OK
+16:10:59.235 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+16:10:59.242 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+16:10:59.243 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@50c37d74{/,null,UNAVAILABLE}
+16:10:59.246 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@2f09778e{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+16:10:59.257 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+16:10:59.286 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/foo, /bar, /header] in 'handlerMapping'
+16:10:59.288 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:10:59.288 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+16:10:59.291 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 54638(0 millis).
+16:10:59.336 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:54638/header
+16:10:59.336 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/json, application/x-jackson-smile, application/*+json, */*]
+16:10:59.353 [reactor-http-nio-6] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [74f97c85-3] HTTP GET "/header"
+16:10:59.354 [reactor-http-nio-6] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [74f97c85-3] Mapped to org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$$Lambda$515/688590655@2d5c046d
+16:10:59.354 [reactor-http-nio-6] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [74f97c85-3] Completed 200 OK
+16:10:59.359 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+16:10:59.360 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+16:10:59.360 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+16:10:59.386 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/foo, /bar, /header] in 'handlerMapping'
+16:10:59.388 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:10:59.388 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+16:10:59.421 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 54640(0 millis).
+16:10:59.454 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:54640/header
+16:10:59.455 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/json, application/x-jackson-smile, application/*+json, */*]
+16:10:59.458 [http-nio-auto-3-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [4ece3469] HTTP GET "/header"
+16:10:59.459 [http-nio-auto-3-exec-1] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [4ece3469] Mapped to org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$$Lambda$515/688590655@2d5c046d
+16:10:59.459 [http-nio-auto-3-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [4ece3469] Completed 200 OK
+16:10:59.461 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+16:10:59.462 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+16:10:59.478 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+16:10:59.541 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/foo, /bar, /header] in 'handlerMapping'
+16:10:59.543 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:10:59.543 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+16:10:59.543 [Test worker] INFO  i.undertow - starting server: Undertow - 2.0.32.Final
+16:10:59.566 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 54643(0 millis).
+16:10:59.600 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:54643/header
+16:10:59.601 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/json, application/x-jackson-smile, application/*+json, */*]
+16:10:59.602 [XNIO-3 I/O-6] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6489a18c] HTTP GET "/header"
+16:10:59.603 [XNIO-3 I/O-6] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [6489a18c] Mapped to org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$$Lambda$515/688590655@2d5c046d
+16:10:59.603 [XNIO-3 I/O-6] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6489a18c] Completed 200 OK
+16:10:59.604 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+16:10:59.605 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+16:10:59.605 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.0.32.Final
+16:10:59.610 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+16:10:59.636 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/foo, /bar, /header] in 'handlerMapping'
+16:10:59.637 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:10:59.638 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+16:10:59.638 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@29022881{/,null,AVAILABLE}
+16:10:59.639 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+16:10:59.639 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.31.v20200723; built: 2020-07-23T17:57:36.812Z; git: 450ba27947e13e66baa8cd1ce7e85a4461cacc1d; jvm 1.8.0_201-b09
+16:10:59.653 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@9cb08c0{HTTP/1.1, (http/1.1)}{0.0.0.0:54645}
+16:10:59.653 [Test worker] INFO  o.e.j.s.Server - Started @27504ms
+16:10:59.653 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 54645(0 millis).
+16:10:59.706 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:54645/bar
+16:10:59.707 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/json, application/x-jackson-smile, application/*+json, */*]
+16:10:59.718 [qtp957496266-144] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [75686869] HTTP GET "/bar"
+16:10:59.719 [qtp957496266-144] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [75686869] Mapped to org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$$Lambda$514/2051663463@7baf98b4
+16:10:59.720 [qtp957496266-144] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [75686869] Completed 200 OK
+16:10:59.720 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+16:10:59.722 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "application/octet-stream"
+16:10:59.722 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+16:10:59.723 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@29022881{/,null,UNAVAILABLE}
+16:10:59.727 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@9cb08c0{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+16:10:59.742 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+16:10:59.778 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/foo, /bar, /header] in 'handlerMapping'
+16:10:59.780 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:10:59.780 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+16:10:59.782 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 54647(0 millis).
+16:10:59.818 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:54647/bar
+16:10:59.819 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/json, application/x-jackson-smile, application/*+json, */*]
+16:10:59.824 [reactor-http-nio-8] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [29dfb98f-4] HTTP GET "/bar"
+16:10:59.824 [reactor-http-nio-8] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [29dfb98f-4] Mapped to org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$$Lambda$514/2051663463@7baf98b4
+16:10:59.826 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+16:10:59.827 [reactor-http-nio-8] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [29dfb98f-4] Completed 200 OK
+16:10:59.827 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "application/octet-stream"
+16:10:59.828 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+16:10:59.828 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+16:10:59.857 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/foo, /bar, /header] in 'handlerMapping'
+16:10:59.863 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:10:59.864 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+16:10:59.901 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 54650(0 millis).
+16:10:59.936 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:54650/bar
+16:10:59.937 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/json, application/x-jackson-smile, application/*+json, */*]
+16:10:59.941 [http-nio-auto-4-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [12410227] HTTP GET "/bar"
+16:10:59.942 [http-nio-auto-4-exec-1] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [12410227] Mapped to org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$$Lambda$514/2051663463@7baf98b4
+16:10:59.943 [http-nio-auto-4-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [12410227] Completed 200 OK
+16:10:59.943 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+16:10:59.945 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "application/octet-stream"
+16:10:59.945 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+16:10:59.963 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+16:10:59.996 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/foo, /bar, /header] in 'handlerMapping'
+16:10:59.998 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+16:10:59.998 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+16:10:59.998 [Test worker] INFO  i.undertow - starting server: Undertow - 2.0.32.Final
+16:11:00.007 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 54653(0 millis).
+16:11:00.058 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:54653/bar
+16:11:00.059 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/json, application/x-jackson-smile, application/*+json, */*]
+16:11:00.094 [XNIO-4 I/O-6] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [e85d602] HTTP GET "/bar"
+16:11:00.095 [XNIO-4 I/O-6] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [e85d602] Mapped to org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$$Lambda$514/2051663463@7baf98b4
+16:11:00.095 [XNIO-4 I/O-6] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [e85d602] Completed 200 OK
+16:11:00.096 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+16:11:00.097 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "application/octet-stream"
+16:11:00.098 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+16:11:00.098 [Test worker] INFO  i.undertow - stopping server: Undertow - 2.0.32.Final
+16:11:00.104 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

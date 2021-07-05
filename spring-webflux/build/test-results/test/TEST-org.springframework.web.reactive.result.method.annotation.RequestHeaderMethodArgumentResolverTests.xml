@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.result.method.annotation.RequestHeaderMethodArgumentResolverTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:01:05" hostname="bamboo-18" time="0.213">
+<testsuite name="org.springframework.web.reactive.result.method.annotation.RequestHeaderMethodArgumentResolverTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:11:34" hostname="gankangdembp" time="0.458">
   <properties/>
-  <testcase name="resolveDefaultValueFromSystemProperty()" classname="org.springframework.web.reactive.result.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.069"/>
-  <testcase name="resolveStringArrayArgument()" classname="org.springframework.web.reactive.result.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.025"/>
-  <testcase name="resolveNameFromSystemPropertyThroughPlaceholder()" classname="org.springframework.web.reactive.result.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.012"/>
-  <testcase name="resolveNameFromSystemPropertyThroughExpression()" classname="org.springframework.web.reactive.result.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.008"/>
-  <testcase name="dateConversion()" classname="org.springframework.web.reactive.result.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.01"/>
-  <testcase name="instantConversion()" classname="org.springframework.web.reactive.result.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.011"/>
-  <testcase name="resolveStringArgument()" classname="org.springframework.web.reactive.result.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.005"/>
-  <testcase name="resolveDefaultValue()" classname="org.springframework.web.reactive.result.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.031"/>
-  <testcase name="notFound()" classname="org.springframework.web.reactive.result.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.021"/>
-  <testcase name="supportsParameter()" classname="org.springframework.web.reactive.result.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.013"/>
+  <testcase name="resolveDefaultValueFromSystemProperty()" classname="org.springframework.web.reactive.result.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.211"/>
+  <testcase name="resolveStringArrayArgument()" classname="org.springframework.web.reactive.result.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.009"/>
+  <testcase name="resolveNameFromSystemPropertyThroughPlaceholder()" classname="org.springframework.web.reactive.result.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.06"/>
+  <testcase name="resolveNameFromSystemPropertyThroughExpression()" classname="org.springframework.web.reactive.result.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.025"/>
+  <testcase name="dateConversion()" classname="org.springframework.web.reactive.result.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.023"/>
+  <testcase name="instantConversion()" classname="org.springframework.web.reactive.result.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.033"/>
+  <testcase name="resolveStringArgument()" classname="org.springframework.web.reactive.result.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.028"/>
+  <testcase name="resolveDefaultValue()" classname="org.springframework.web.reactive.result.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.011"/>
+  <testcase name="notFound()" classname="org.springframework.web.reactive.result.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.023"/>
+  <testcase name="supportsParameter()" classname="org.springframework.web.reactive.result.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.03"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

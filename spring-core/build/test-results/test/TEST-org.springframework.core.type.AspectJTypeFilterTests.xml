@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.type.AspectJTypeFilterTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:57:40" hostname="bamboo-18" time="0.618">
+<testsuite name="org.springframework.core.type.AspectJTypeFilterTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:07:07" hostname="gankangdembp" time="0.24">
   <properties/>
-  <testcase name="compositionPatternNoMatches()" classname="org.springframework.core.type.AspectJTypeFilterTests" time="0.462"/>
-  <testcase name="annotationPatternMatches()" classname="org.springframework.core.type.AspectJTypeFilterTests" time="0.067"/>
-  <testcase name="subclassPatternNoMatches()" classname="org.springframework.core.type.AspectJTypeFilterTests" time="0.019"/>
-  <testcase name="compositionPatternMatches()" classname="org.springframework.core.type.AspectJTypeFilterTests" time="0.006"/>
-  <testcase name="annotationPatternNoMatches()" classname="org.springframework.core.type.AspectJTypeFilterTests" time="0.022"/>
-  <testcase name="namePatternNoMatches()" classname="org.springframework.core.type.AspectJTypeFilterTests" time="0.021"/>
-  <testcase name="namePatternMatches()" classname="org.springframework.core.type.AspectJTypeFilterTests" time="0.006"/>
-  <testcase name="subclassPatternMatches()" classname="org.springframework.core.type.AspectJTypeFilterTests" time="0.013"/>
+  <testcase name="compositionPatternNoMatches()" classname="org.springframework.core.type.AspectJTypeFilterTests" time="0.196"/>
+  <testcase name="annotationPatternMatches()" classname="org.springframework.core.type.AspectJTypeFilterTests" time="0.01"/>
+  <testcase name="subclassPatternNoMatches()" classname="org.springframework.core.type.AspectJTypeFilterTests" time="0.005"/>
+  <testcase name="compositionPatternMatches()" classname="org.springframework.core.type.AspectJTypeFilterTests" time="0.008"/>
+  <testcase name="annotationPatternNoMatches()" classname="org.springframework.core.type.AspectJTypeFilterTests" time="0.002"/>
+  <testcase name="namePatternNoMatches()" classname="org.springframework.core.type.AspectJTypeFilterTests" time="0.008"/>
+  <testcase name="namePatternMatches()" classname="org.springframework.core.type.AspectJTypeFilterTests" time="0.003"/>
+  <testcase name="subclassPatternMatches()" classname="org.springframework.core.type.AspectJTypeFilterTests" time="0.008"/>
   <system-out><![CDATA[warning no match for this type name: example.type.AspectJTypeFilterTestsTypes.SomeClassX [Xlint:invalidAbsoluteTypeName]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

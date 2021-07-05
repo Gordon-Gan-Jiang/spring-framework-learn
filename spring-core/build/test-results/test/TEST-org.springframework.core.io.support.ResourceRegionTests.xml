@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.io.support.ResourceRegionTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:57:29" hostname="bamboo-18" time="0.993">
+<testsuite name="org.springframework.core.io.support.ResourceRegionTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:06:59" hostname="gankangdembp" time="0.329">
   <properties/>
-  <testcase name="shouldThrowExceptionForNegativePosition()" classname="org.springframework.core.io.support.ResourceRegionTests" time="0.974"/>
-  <testcase name="shouldThrowExceptionWithNullResource()" classname="org.springframework.core.io.support.ResourceRegionTests" time="0.001"/>
+  <testcase name="shouldThrowExceptionForNegativePosition()" classname="org.springframework.core.io.support.ResourceRegionTests" time="0.327"/>
+  <testcase name="shouldThrowExceptionWithNullResource()" classname="org.springframework.core.io.support.ResourceRegionTests" time="0.0"/>
   <testcase name="shouldThrowExceptionForNegativeCount()" classname="org.springframework.core.io.support.ResourceRegionTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

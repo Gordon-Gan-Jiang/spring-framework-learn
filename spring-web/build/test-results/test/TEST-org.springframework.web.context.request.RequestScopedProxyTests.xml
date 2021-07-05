@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.context.request.RequestScopedProxyTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:10" hostname="bamboo-18" time="0.554">
+<testsuite name="org.springframework.web.context.request.RequestScopedProxyTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:11:13" hostname="gankangdembp" time="1.239">
   <properties/>
-  <testcase name="testGetAnonymousInnerBeanFromScope()" classname="org.springframework.web.context.request.RequestScopedProxyTests" time="0.189"/>
-  <testcase name="testGetInnerBeanFromScope()" classname="org.springframework.web.context.request.RequestScopedProxyTests" time="0.098"/>
-  <testcase name="testGetFromFactoryBeanInScope()" classname="org.springframework.web.context.request.RequestScopedProxyTests" time="0.026"/>
-  <testcase name="testGetFromScopeThroughDynamicProxy()" classname="org.springframework.web.context.request.RequestScopedProxyTests" time="0.065"/>
-  <testcase name="testGetFromScope()" classname="org.springframework.web.context.request.RequestScopedProxyTests" time="0.057"/>
-  <testcase name="testDestructionAtRequestCompletion()" classname="org.springframework.web.context.request.RequestScopedProxyTests" time="0.074"/>
+  <testcase name="testGetAnonymousInnerBeanFromScope()" classname="org.springframework.web.context.request.RequestScopedProxyTests" time="0.634"/>
+  <testcase name="testGetInnerBeanFromScope()" classname="org.springframework.web.context.request.RequestScopedProxyTests" time="0.126"/>
+  <testcase name="testGetFromFactoryBeanInScope()" classname="org.springframework.web.context.request.RequestScopedProxyTests" time="0.115"/>
+  <testcase name="testGetFromScopeThroughDynamicProxy()" classname="org.springframework.web.context.request.RequestScopedProxyTests" time="0.125"/>
+  <testcase name="testGetFromScope()" classname="org.springframework.web.context.request.RequestScopedProxyTests" time="0.103"/>
+  <testcase name="testDestructionAtRequestCompletion()" classname="org.springframework.web.context.request.RequestScopedProxyTests" time="0.132"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

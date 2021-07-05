@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.context.junit4.StandardJUnit4FeaturesTests" tests="7" skipped="2" failures="0" errors="0" timestamp="2020-05-29T13:59:45" hostname="bamboo-18" time="0.019">
+<testsuite name="org.springframework.test.context.junit4.StandardJUnit4FeaturesTests" tests="7" skipped="2" failures="0" errors="0" timestamp="2021-06-20T08:13:11" hostname="gankangdembp" time="0.038">
   <properties/>
-  <testcase name="noOpShouldNotTimeOut" classname="org.springframework.test.context.junit4.StandardJUnit4FeaturesTests" time="0.018"/>
+  <testcase name="noOpShouldNotTimeOut" classname="org.springframework.test.context.junit4.StandardJUnit4FeaturesTests" time="0.003"/>
   <testcase name="alwaysFailsButShouldBeIgnored" classname="org.springframework.test.context.junit4.StandardJUnit4FeaturesTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="alwaysSucceeds" classname="org.springframework.test.context.junit4.StandardJUnit4FeaturesTests" time="0.001"/>
+  <testcase name="alwaysSucceeds" classname="org.springframework.test.context.junit4.StandardJUnit4FeaturesTests" time="0.0"/>
   <testcase name="verifyBeforeClassAnnotation" classname="org.springframework.test.context.junit4.StandardJUnit4FeaturesTests" time="0.0"/>
   <testcase name="verifyBeforeAnnotation" classname="org.springframework.test.context.junit4.StandardJUnit4FeaturesTests" time="0.0"/>
-  <testcase name="expectingAnIndexOutOfBoundsException" classname="org.springframework.test.context.junit4.StandardJUnit4FeaturesTests" time="0.0"/>
-  <testcase name="failedAssumptionShouldPrecludeImminentFailure" classname="org.springframework.test.context.junit4.StandardJUnit4FeaturesTests" time="0.0">
+  <testcase name="expectingAnIndexOutOfBoundsException" classname="org.springframework.test.context.junit4.StandardJUnit4FeaturesTests" time="0.001"/>
+  <testcase name="failedAssumptionShouldPrecludeImminentFailure" classname="org.springframework.test.context.junit4.StandardJUnit4FeaturesTests" time="0.025">
     <skipped/>
   </testcase>
   <system-out><![CDATA[]]></system-out>

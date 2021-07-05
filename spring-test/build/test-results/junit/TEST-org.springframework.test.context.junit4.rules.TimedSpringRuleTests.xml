@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.context.junit4.rules.TimedSpringRuleTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:43" hostname="bamboo-18" time="0.762">
+<testsuite name="org.springframework.test.context.junit4.rules.TimedSpringRuleTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:13:16" hostname="gankangdembp" time="0.729">
   <properties/>
-  <testcase name="timedTests" classname="org.springframework.test.context.junit4.rules.TimedSpringRuleTests" time="0.762"/>
+  <testcase name="timedTests" classname="org.springframework.test.context.junit4.rules.TimedSpringRuleTests" time="0.729"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

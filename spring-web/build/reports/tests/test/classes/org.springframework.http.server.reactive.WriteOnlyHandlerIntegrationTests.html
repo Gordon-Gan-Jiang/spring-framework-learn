@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.354s</div>
+<div class="counter">0.207s</div>
 <p>duration</p>
 </div>
 </td>
@@ -64,10 +64,7 @@
 <a href="#tab0">Tests</a>
 </li>
 <li>
-<a href="#tab1">Standard output</a>
-</li>
-<li>
-<a href="#tab2">Standard error</a>
+<a href="#tab1">Standard error</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
@@ -82,92 +79,50 @@
 </tr>
 </thead>
 <tr>
-<td class="success">[1] org.springframework.web.testfixture.http.server.reactive.bootstrap.JettyHttpServer@3e116c7c</td>
+<td class="success">[1] org.springframework.web.testfixture.http.server.reactive.bootstrap.JettyHttpServer@6b3cd0e1</td>
 <td class="success">writeOnly(HttpServer)[1]</td>
-<td class="success">0.092s</td>
+<td class="success">0.038s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">[2] org.springframework.web.testfixture.http.server.reactive.bootstrap.ReactorHttpServer@3becc88c</td>
+<td class="success">[2] org.springframework.web.testfixture.http.server.reactive.bootstrap.ReactorHttpServer@305fcb59</td>
 <td class="success">writeOnly(HttpServer)[2]</td>
-<td class="success">0.011s</td>
+<td class="success">0.017s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">[3] org.springframework.web.testfixture.http.server.reactive.bootstrap.TomcatHttpServer@2474257d</td>
+<td class="success">[3] org.springframework.web.testfixture.http.server.reactive.bootstrap.TomcatHttpServer@4221a787</td>
 <td class="success">writeOnly(HttpServer)[3]</td>
-<td class="success">0.208s</td>
+<td class="success">0.129s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">[4] org.springframework.web.testfixture.http.server.reactive.bootstrap.UndertowHttpServer@697fa57d</td>
+<td class="success">[4] org.springframework.web.testfixture.http.server.reactive.bootstrap.UndertowHttpServer@4780031b</td>
 <td class="success">writeOnly(HttpServer)[4]</td>
-<td class="success">0.043s</td>
+<td class="success">0.023s</td>
 <td class="success">passed</td>
 </tr>
 </table>
 </div>
 <div id="tab1" class="tab">
-<h2>Standard output</h2>
-<span class="code">
-<pre>13:59:52.451 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
-13:59:52.511 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 41909(0 millis).
-13:59:52.514 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:41909
-13:59:52.514 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
-13:59:52.514 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [[B@19f9df4a] with org.springframework.http.converter.ByteArrayHttpMessageConverter
-13:59:52.537 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-13:59:52.537 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as &quot;application/octet-stream&quot;
-13:59:52.538 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
-13:59:52.542 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
-13:59:52.543 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
-13:59:52.544 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 36627(0 millis).
-13:59:52.547 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:36627
-13:59:52.548 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
-13:59:52.548 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [[B@389cb74a] with org.springframework.http.converter.ByteArrayHttpMessageConverter
-13:59:52.550 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-13:59:52.552 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as &quot;application/octet-stream&quot;
-13:59:52.554 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
-13:59:52.554 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
-13:59:52.555 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
-13:59:52.715 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 42869(0 millis).
-13:59:52.717 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:42869
-13:59:52.718 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
-13:59:52.718 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [[B@5f84e545] with org.springframework.http.converter.ByteArrayHttpMessageConverter
-13:59:52.745 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-13:59:52.745 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as &quot;application/octet-stream&quot;
-13:59:52.748 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
-13:59:52.763 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
-13:59:52.764 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
-13:59:52.798 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 39781(0 millis).
-13:59:52.800 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:39781
-13:59:52.801 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
-13:59:52.801 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [[B@741345a5] with org.springframework.http.converter.ByteArrayHttpMessageConverter
-13:59:52.805 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-13:59:52.805 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as &quot;application/octet-stream&quot;
-13:59:52.806 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
-13:59:52.807 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
-</pre>
-</span>
-</div>
-<div id="tab2" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>May 29, 2020 1:59:52 PM org.apache.catalina.core.StandardService startInternal
+<pre>Jun 20, 2021 4:12:28 PM org.apache.catalina.core.StandardService startInternal
 INFO: Starting service [Tomcat]
-May 29, 2020 1:59:52 PM org.apache.catalina.core.StandardEngine startInternal
-INFO: Starting Servlet engine: [Apache Tomcat/9.0.35]
-May 29, 2020 1:59:52 PM org.apache.coyote.AbstractProtocol init
-INFO: Initializing ProtocolHandler [&quot;http-nio-auto-10&quot;]
-May 29, 2020 1:59:52 PM org.apache.coyote.AbstractProtocol start
-INFO: Starting ProtocolHandler [&quot;http-nio-auto-10-42869&quot;]
-May 29, 2020 1:59:52 PM org.apache.coyote.AbstractProtocol pause
-INFO: Pausing ProtocolHandler [&quot;http-nio-auto-10-42869&quot;]
-May 29, 2020 1:59:52 PM org.apache.catalina.core.StandardService stopInternal
+Jun 20, 2021 4:12:28 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.37]
+Jun 20, 2021 4:12:28 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler [&quot;http-nio-auto-8&quot;]
+Jun 20, 2021 4:12:28 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler [&quot;http-nio-auto-8-56333&quot;]
+Jun 20, 2021 4:12:28 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler [&quot;http-nio-auto-8-56333&quot;]
+Jun 20, 2021 4:12:28 PM org.apache.catalina.core.StandardService stopInternal
 INFO: Stopping service [Tomcat]
-May 29, 2020 1:59:52 PM org.apache.coyote.AbstractProtocol stop
-INFO: Stopping ProtocolHandler [&quot;http-nio-auto-10-42869&quot;]
-May 29, 2020 1:59:52 PM org.apache.coyote.AbstractProtocol destroy
-INFO: Destroying ProtocolHandler [&quot;http-nio-auto-10-42869&quot;]
+Jun 20, 2021 4:12:28 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler [&quot;http-nio-auto-8-56333&quot;]
+Jun 20, 2021 4:12:28 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler [&quot;http-nio-auto-8-56333&quot;]
 </pre>
 </span>
 </div>
@@ -179,7 +134,7 @@ INFO: Destroying ProtocolHandler [&quot;http-nio-auto-10-42869&quot;]
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.6.4</a> at May 29, 2020 2:00:20 PM</p>
+<a href="http://www.gradle.org">Gradle 5.6.4</a> at 2021-6-20 16:12:49</p>
 </div>
 </div>
 </body>

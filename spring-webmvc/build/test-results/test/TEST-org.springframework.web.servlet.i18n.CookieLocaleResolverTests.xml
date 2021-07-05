@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.servlet.i18n.CookieLocaleResolverTests" tests="24" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:01:29" hostname="bamboo-18" time="0.033">
+<testsuite name="org.springframework.web.servlet.i18n.CookieLocaleResolverTests" tests="24" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:13:57" hostname="gankangdembp" time="0.009">
   <properties/>
-  <testcase name="testSetLocaleContextToNull()" classname="org.springframework.web.servlet.i18n.CookieLocaleResolverTests" time="0.008"/>
-  <testcase name="testResolveLocaleContextWithInvalidTimeZone()" classname="org.springframework.web.servlet.i18n.CookieLocaleResolverTests" time="0.0"/>
-  <testcase name="testResolveLocaleWithoutCookieAndDefaultLocale()" classname="org.springframework.web.servlet.i18n.CookieLocaleResolverTests" time="0.001"/>
+  <testcase name="testSetLocaleContextToNull()" classname="org.springframework.web.servlet.i18n.CookieLocaleResolverTests" time="0.0"/>
+  <testcase name="testResolveLocaleContextWithInvalidTimeZone()" classname="org.springframework.web.servlet.i18n.CookieLocaleResolverTests" time="0.001"/>
+  <testcase name="testResolveLocaleWithoutCookieAndDefaultLocale()" classname="org.springframework.web.servlet.i18n.CookieLocaleResolverTests" time="0.0"/>
   <testcase name="testSetLocaleToNullWithDefault()" classname="org.springframework.web.servlet.i18n.CookieLocaleResolverTests" time="0.0"/>
-  <testcase name="testSetLocaleContextToNullWithDefault()" classname="org.springframework.web.servlet.i18n.CookieLocaleResolverTests" time="0.001"/>
+  <testcase name="testSetLocaleContextToNullWithDefault()" classname="org.springframework.web.servlet.i18n.CookieLocaleResolverTests" time="0.0"/>
   <testcase name="testSetAndResolveLocaleContextWithTimeZone()" classname="org.springframework.web.servlet.i18n.CookieLocaleResolverTests" time="0.001"/>
   <testcase name="testSetAndResolveLocaleWithCountryAsLegacyJava()" classname="org.springframework.web.servlet.i18n.CookieLocaleResolverTests" time="0.0"/>
   <testcase name="testResolveLocaleContextWithTimeZone()" classname="org.springframework.web.servlet.i18n.CookieLocaleResolverTests" time="0.0"/>
   <testcase name="testResolveLocaleContextWithoutCookieAndDefaultLocale()" classname="org.springframework.web.servlet.i18n.CookieLocaleResolverTests" time="0.0"/>
   <testcase name="testResolveLocaleContextWithInvalidTimeZoneOnErrorDispatch()" classname="org.springframework.web.servlet.i18n.CookieLocaleResolverTests" time="0.0"/>
   <testcase name="testResolveLocaleWithoutCookie()" classname="org.springframework.web.servlet.i18n.CookieLocaleResolverTests" time="0.0"/>
-  <testcase name="testResolveLocaleContextWithoutCookie()" classname="org.springframework.web.servlet.i18n.CookieLocaleResolverTests" time="0.0"/>
+  <testcase name="testResolveLocaleContextWithoutCookie()" classname="org.springframework.web.servlet.i18n.CookieLocaleResolverTests" time="0.001"/>
   <testcase name="testSetAndResolveLocaleContext()" classname="org.springframework.web.servlet.i18n.CookieLocaleResolverTests" time="0.0"/>
   <testcase name="testResolveLocaleWithCookieWithoutLocale()" classname="org.springframework.web.servlet.i18n.CookieLocaleResolverTests" time="0.0"/>
-  <testcase name="testSetAndResolveLocaleWithCountry()" classname="org.springframework.web.servlet.i18n.CookieLocaleResolverTests" time="0.001"/>
+  <testcase name="testSetAndResolveLocaleWithCountry()" classname="org.springframework.web.servlet.i18n.CookieLocaleResolverTests" time="0.0"/>
   <testcase name="testResolveLocaleContextWithCookieWithoutLocale()" classname="org.springframework.web.servlet.i18n.CookieLocaleResolverTests" time="0.0"/>
   <testcase name="testResolveLocaleContextWithInvalidLocale()" classname="org.springframework.web.servlet.i18n.CookieLocaleResolverTests" time="0.001"/>
-  <testcase name="testCustomCookie()" classname="org.springframework.web.servlet.i18n.CookieLocaleResolverTests" time="0.018"/>
+  <testcase name="testCustomCookie()" classname="org.springframework.web.servlet.i18n.CookieLocaleResolverTests" time="0.0"/>
   <testcase name="testResolveLocaleContextWithInvalidLocaleOnErrorDispatch()" classname="org.springframework.web.servlet.i18n.CookieLocaleResolverTests" time="0.0"/>
-  <testcase name="testSetAndResolveLocale()" classname="org.springframework.web.servlet.i18n.CookieLocaleResolverTests" time="0.0"/>
-  <testcase name="testSetLocaleToNull()" classname="org.springframework.web.servlet.i18n.CookieLocaleResolverTests" time="0.001"/>
+  <testcase name="testSetAndResolveLocale()" classname="org.springframework.web.servlet.i18n.CookieLocaleResolverTests" time="0.001"/>
+  <testcase name="testSetLocaleToNull()" classname="org.springframework.web.servlet.i18n.CookieLocaleResolverTests" time="0.0"/>
   <testcase name="testSetAndResolveLocaleContextWithTimeZoneOnly()" classname="org.springframework.web.servlet.i18n.CookieLocaleResolverTests" time="0.0"/>
   <testcase name="testResolveLocale()" classname="org.springframework.web.servlet.i18n.CookieLocaleResolverTests" time="0.0"/>
   <testcase name="testResolveLocaleContext()" classname="org.springframework.web.servlet.i18n.CookieLocaleResolverTests" time="0.0"/>

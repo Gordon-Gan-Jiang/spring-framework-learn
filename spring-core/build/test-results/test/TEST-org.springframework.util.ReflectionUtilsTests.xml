@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.util.ReflectionUtilsTests" tests="21" skipped="2" failures="0" errors="0" timestamp="2020-05-29T13:57:49" hostname="bamboo-18" time="0.029">
+<testsuite name="org.springframework.util.ReflectionUtilsTests" tests="21" skipped="2" failures="0" errors="0" timestamp="2021-06-20T08:07:08" hostname="gankangdembp" time="0.013">
   <properties/>
-  <testcase name="getDeclaredMethodsReturnsCopy()" classname="org.springframework.util.ReflectionUtilsTests" time="0.0"/>
-  <testcase name="declaresException()" classname="org.springframework.util.ReflectionUtilsTests" time="0.0"/>
+  <testcase name="getDeclaredMethodsReturnsCopy()" classname="org.springframework.util.ReflectionUtilsTests" time="0.001"/>
+  <testcase name="declaresException()" classname="org.springframework.util.ReflectionUtilsTests" time="0.001"/>
   <testcase name="getUniqueDeclaredMethods()" classname="org.springframework.util.ReflectionUtilsTests" time="0.001"/>
   <testcase name="getUniqueDeclaredMethods_isFastEnough()" classname="org.springframework.util.ReflectionUtilsTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="validCopy()" classname="org.springframework.util.ReflectionUtilsTests" time="0.0"/>
-  <testcase name="invokeMethod()" classname="org.springframework.util.ReflectionUtilsTests" time="0.0"/>
+  <testcase name="validCopy()" classname="org.springframework.util.ReflectionUtilsTests" time="0.001"/>
+  <testcase name="invokeMethod()" classname="org.springframework.util.ReflectionUtilsTests" time="0.001"/>
   <testcase name="rejectsNullSrc()" classname="org.springframework.util.ReflectionUtilsTests" time="0.0"/>
   <testcase name="validCopyOnSubTypeWithNewField()" classname="org.springframework.util.ReflectionUtilsTests" time="0.001"/>
   <testcase name="findMethodWithVarArgs()" classname="org.springframework.util.ReflectionUtilsTests" time="0.0">
@@ -17,10 +17,10 @@
   <testcase name="findMethod()" classname="org.springframework.util.ReflectionUtilsTests" time="0.0"/>
   <testcase name="isCglibRenamedMethod()" classname="org.springframework.util.ReflectionUtilsTests" time="0.001"/>
   <testcase name="copySrcToDestinationOfIncorrectClass()" classname="org.springframework.util.ReflectionUtilsTests" time="0.0"/>
-  <testcase name="findField()" classname="org.springframework.util.ReflectionUtilsTests" time="0.0"/>
-  <testcase name="getAllDeclaredMethods()" classname="org.springframework.util.ReflectionUtilsTests" time="0.001"/>
-  <testcase name="setField()" classname="org.springframework.util.ReflectionUtilsTests" time="0.001"/>
-  <testcase name="duplicatesFound()" classname="org.springframework.util.ReflectionUtilsTests" time="0.008"/>
+  <testcase name="findField()" classname="org.springframework.util.ReflectionUtilsTests" time="0.001"/>
+  <testcase name="getAllDeclaredMethods()" classname="org.springframework.util.ReflectionUtilsTests" time="0.0"/>
+  <testcase name="setField()" classname="org.springframework.util.ReflectionUtilsTests" time="0.0"/>
+  <testcase name="duplicatesFound()" classname="org.springframework.util.ReflectionUtilsTests" time="0.0"/>
   <testcase name="rejectsNullDest()" classname="org.springframework.util.ReflectionUtilsTests" time="0.001"/>
   <testcase name="validCopyToSubType()" classname="org.springframework.util.ReflectionUtilsTests" time="0.0"/>
   <testcase name="doWithProtectedMethods()" classname="org.springframework.util.ReflectionUtilsTests" time="0.001"/>

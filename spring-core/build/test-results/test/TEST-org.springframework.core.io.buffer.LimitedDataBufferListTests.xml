@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.io.buffer.LimitedDataBufferListTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:57:33" hostname="bamboo-18" time="0.015">
+<testsuite name="org.springframework.core.io.buffer.LimitedDataBufferListTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:07:05" hostname="gankangdembp" time="0.001">
   <properties/>
-  <testcase name="limitEnforced()" classname="org.springframework.core.io.buffer.LimitedDataBufferListTests" time="0.005"/>
+  <testcase name="limitEnforced()" classname="org.springframework.core.io.buffer.LimitedDataBufferListTests" time="0.001"/>
   <testcase name="limitIgnored()" classname="org.springframework.core.io.buffer.LimitedDataBufferListTests" time="0.0"/>
   <testcase name="clearResetsCount()" classname="org.springframework.core.io.buffer.LimitedDataBufferListTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

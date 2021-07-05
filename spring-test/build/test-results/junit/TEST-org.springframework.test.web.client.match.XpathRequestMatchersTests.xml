@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.web.client.match.XpathRequestMatchersTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:14" hostname="bamboo-18" time="0.048">
+<testsuite name="org.springframework.test.web.client.match.XpathRequestMatchersTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:12:58" hostname="gankangdembp" time="0.105">
   <properties/>
-  <testcase name="testExistsNoMatch()" classname="org.springframework.test.web.client.match.XpathRequestMatchersTests" time="0.007"/>
-  <testcase name="testBooleanNoMatch()" classname="org.springframework.test.web.client.match.XpathRequestMatchersTests" time="0.002"/>
-  <testcase name="testNodeCountNoMatch()" classname="org.springframework.test.web.client.match.XpathRequestMatchersTests" time="0.01"/>
-  <testcase name="testNodeMatcherNoMatch()" classname="org.springframework.test.web.client.match.XpathRequestMatchersTests" time="0.003"/>
-  <testcase name="testBoolean()" classname="org.springframework.test.web.client.match.XpathRequestMatchersTests" time="0.001"/>
-  <testcase name="testStringNoMatch()" classname="org.springframework.test.web.client.match.XpathRequestMatchersTests" time="0.002"/>
-  <testcase name="testNumberNoMatch()" classname="org.springframework.test.web.client.match.XpathRequestMatchersTests" time="0.001"/>
-  <testcase name="testDoesNotExist()" classname="org.springframework.test.web.client.match.XpathRequestMatchersTests" time="0.002"/>
-  <testcase name="testNodeMatcher()" classname="org.springframework.test.web.client.match.XpathRequestMatchersTests" time="0.001"/>
-  <testcase name="testNodeCount()" classname="org.springframework.test.web.client.match.XpathRequestMatchersTests" time="0.001"/>
-  <testcase name="testExists()" classname="org.springframework.test.web.client.match.XpathRequestMatchersTests" time="0.002"/>
-  <testcase name="testDoesNotExistNoMatch()" classname="org.springframework.test.web.client.match.XpathRequestMatchersTests" time="0.001"/>
-  <testcase name="testNumber()" classname="org.springframework.test.web.client.match.XpathRequestMatchersTests" time="0.001"/>
-  <testcase name="testString()" classname="org.springframework.test.web.client.match.XpathRequestMatchersTests" time="0.013"/>
+  <testcase name="testExistsNoMatch()" classname="org.springframework.test.web.client.match.XpathRequestMatchersTests" time="0.011"/>
+  <testcase name="testBooleanNoMatch()" classname="org.springframework.test.web.client.match.XpathRequestMatchersTests" time="0.009"/>
+  <testcase name="testNodeCountNoMatch()" classname="org.springframework.test.web.client.match.XpathRequestMatchersTests" time="0.02"/>
+  <testcase name="testNodeMatcherNoMatch()" classname="org.springframework.test.web.client.match.XpathRequestMatchersTests" time="0.006"/>
+  <testcase name="testBoolean()" classname="org.springframework.test.web.client.match.XpathRequestMatchersTests" time="0.006"/>
+  <testcase name="testStringNoMatch()" classname="org.springframework.test.web.client.match.XpathRequestMatchersTests" time="0.005"/>
+  <testcase name="testNumberNoMatch()" classname="org.springframework.test.web.client.match.XpathRequestMatchersTests" time="0.006"/>
+  <testcase name="testDoesNotExist()" classname="org.springframework.test.web.client.match.XpathRequestMatchersTests" time="0.006"/>
+  <testcase name="testNodeMatcher()" classname="org.springframework.test.web.client.match.XpathRequestMatchersTests" time="0.003"/>
+  <testcase name="testNodeCount()" classname="org.springframework.test.web.client.match.XpathRequestMatchersTests" time="0.012"/>
+  <testcase name="testExists()" classname="org.springframework.test.web.client.match.XpathRequestMatchersTests" time="0.004"/>
+  <testcase name="testDoesNotExistNoMatch()" classname="org.springframework.test.web.client.match.XpathRequestMatchersTests" time="0.004"/>
+  <testcase name="testNumber()" classname="org.springframework.test.web.client.match.XpathRequestMatchersTests" time="0.008"/>
+  <testcase name="testString()" classname="org.springframework.test.web.client.match.XpathRequestMatchersTests" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

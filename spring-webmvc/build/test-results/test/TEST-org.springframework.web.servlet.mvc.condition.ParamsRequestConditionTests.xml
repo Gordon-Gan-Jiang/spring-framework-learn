@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.servlet.mvc.condition.ParamsRequestConditionTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:01:28" hostname="bamboo-18" time="0.003">
+<testsuite name="org.springframework.web.servlet.mvc.condition.ParamsRequestConditionTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:12:41" hostname="gankangdembp" time="0.011">
   <properties/>
   <testcase name="paramNotPresent()" classname="org.springframework.web.servlet.mvc.condition.ParamsRequestConditionTests" time="0.0"/>
-  <testcase name="paramValueNoMatch()" classname="org.springframework.web.servlet.mvc.condition.ParamsRequestConditionTests" time="0.0"/>
-  <testcase name="compareTo()" classname="org.springframework.web.servlet.mvc.condition.ParamsRequestConditionTests" time="0.0"/>
-  <testcase name="paramPresentNoMatch()" classname="org.springframework.web.servlet.mvc.condition.ParamsRequestConditionTests" time="0.0"/>
+  <testcase name="paramValueNoMatch()" classname="org.springframework.web.servlet.mvc.condition.ParamsRequestConditionTests" time="0.001"/>
+  <testcase name="compareTo()" classname="org.springframework.web.servlet.mvc.condition.ParamsRequestConditionTests" time="0.001"/>
+  <testcase name="paramPresentNoMatch()" classname="org.springframework.web.servlet.mvc.condition.ParamsRequestConditionTests" time="0.001"/>
   <testcase name="paramPresentNullValue()" classname="org.springframework.web.servlet.mvc.condition.ParamsRequestConditionTests" time="0.001"/>
-  <testcase name="paramEquals()" classname="org.springframework.web.servlet.mvc.condition.ParamsRequestConditionTests" time="0.0"/>
-  <testcase name="combine()" classname="org.springframework.web.servlet.mvc.condition.ParamsRequestConditionTests" time="0.0"/>
-  <testcase name="paramPresent()" classname="org.springframework.web.servlet.mvc.condition.ParamsRequestConditionTests" time="0.0"/>
-  <testcase name="compareToWithNegatedMatch()" classname="org.springframework.web.servlet.mvc.condition.ParamsRequestConditionTests" time="0.001"/>
+  <testcase name="paramEquals()" classname="org.springframework.web.servlet.mvc.condition.ParamsRequestConditionTests" time="0.001"/>
+  <testcase name="combine()" classname="org.springframework.web.servlet.mvc.condition.ParamsRequestConditionTests" time="0.002"/>
+  <testcase name="paramPresent()" classname="org.springframework.web.servlet.mvc.condition.ParamsRequestConditionTests" time="0.001"/>
+  <testcase name="compareToWithNegatedMatch()" classname="org.springframework.web.servlet.mvc.condition.ParamsRequestConditionTests" time="0.0"/>
   <testcase name="paramValueMatch()" classname="org.springframework.web.servlet.mvc.condition.ParamsRequestConditionTests" time="0.0"/>
   <testcase name="compareToWithMoreSpecificMatchByValue()" classname="org.springframework.web.servlet.mvc.condition.ParamsRequestConditionTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

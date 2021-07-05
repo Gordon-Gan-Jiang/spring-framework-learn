@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.result.view.script.KotlinScriptTemplateTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:22" hostname="bamboo-18" time="9.376">
+<testsuite name="org.springframework.web.reactive.result.view.script.KotlinScriptTemplateTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:11:02" hostname="gankangdembp" time="33.943">
   <properties/>
-  <testcase name="renderTemplateWithFrenchLocale()" classname="org.springframework.web.reactive.result.view.script.KotlinScriptTemplateTests" time="8.208"/>
-  <testcase name="renderTemplateWithoutRenderFunction()" classname="org.springframework.web.reactive.result.view.script.KotlinScriptTemplateTests" time="0.308"/>
-  <testcase name="renderTemplateWithEnglishLocale()" classname="org.springframework.web.reactive.result.view.script.KotlinScriptTemplateTests" time="0.857"/>
+  <testcase name="renderTemplateWithFrenchLocale()" classname="org.springframework.web.reactive.result.view.script.KotlinScriptTemplateTests" time="29.349"/>
+  <testcase name="renderTemplateWithoutRenderFunction()" classname="org.springframework.web.reactive.result.view.script.KotlinScriptTemplateTests" time="1.306"/>
+  <testcase name="renderTemplateWithEnglishLocale()" classname="org.springframework.web.reactive.result.view.script.KotlinScriptTemplateTests" time="3.286"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

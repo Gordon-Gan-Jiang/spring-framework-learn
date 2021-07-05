@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.converter.ProtobufMessageConverterTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:06" hostname="bamboo-18" time="0.378">
+<testsuite name="org.springframework.messaging.converter.ProtobufMessageConverterTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:09:34" hostname="gankangdembp" time="1.222">
   <properties/>
-  <testcase name="canConvertTo()" classname="org.springframework.messaging.converter.ProtobufMessageConverterTests" time="0.135"/>
-  <testcase name="convertFrom()" classname="org.springframework.messaging.converter.ProtobufMessageConverterTests" time="0.082"/>
-  <testcase name="convertTo()" classname="org.springframework.messaging.converter.ProtobufMessageConverterTests" time="0.001"/>
-  <testcase name="canConvertFrom()" classname="org.springframework.messaging.converter.ProtobufMessageConverterTests" time="0.011"/>
-  <testcase name="defaultContentType()" classname="org.springframework.messaging.converter.ProtobufMessageConverterTests" time="0.0"/>
-  <testcase name="convertFromNoContentType()" classname="org.springframework.messaging.converter.ProtobufMessageConverterTests" time="0.0"/>
+  <testcase name="canConvertTo()" classname="org.springframework.messaging.converter.ProtobufMessageConverterTests" time="0.515"/>
+  <testcase name="convertFrom()" classname="org.springframework.messaging.converter.ProtobufMessageConverterTests" time="0.201"/>
+  <testcase name="convertTo()" classname="org.springframework.messaging.converter.ProtobufMessageConverterTests" time="0.005"/>
+  <testcase name="canConvertFrom()" classname="org.springframework.messaging.converter.ProtobufMessageConverterTests" time="0.001"/>
+  <testcase name="defaultContentType()" classname="org.springframework.messaging.converter.ProtobufMessageConverterTests" time="0.001"/>
+  <testcase name="convertFromNoContentType()" classname="org.springframework.messaging.converter.ProtobufMessageConverterTests" time="0.001"/>
   <testcase name="extensionRegistryNull()" classname="org.springframework.messaging.converter.ProtobufMessageConverterTests" time="0.001"/>
-  <testcase name="testJsonWithGoogleProtobuf()" classname="org.springframework.messaging.converter.ProtobufMessageConverterTests" time="0.148"/>
+  <testcase name="testJsonWithGoogleProtobuf()" classname="org.springframework.messaging.converter.ProtobufMessageConverterTests" time="0.488"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

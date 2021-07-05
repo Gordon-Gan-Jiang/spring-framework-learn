@@ -1,82 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:35" hostname="bamboo-18" time="29.904">
+<testsuite name="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:09:46" hostname="gankangdembp" time="31.282">
   <properties/>
-  <testcase name="messageDeliveryExceptionIfSystemSessionForwardFails()" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests" time="4.168"/>
-  <testcase name="publishSubscribe()" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests" time="4.176"/>
-  <testcase name="brokerAvailabilityEventWhenStopped()" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests" time="4.18"/>
-  <testcase name="relayReconnectsIfBrokerComesBackUp()" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests" time="9.09"/>
-  <testcase name="brokerBecomingUnavailableTriggersErrorFrame()" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests" time="4.173"/>
-  <testcase name="disconnectWithReceipt()" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests" time="4.117"/>
-  <system-out><![CDATA[13:58:35.962 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
-13:58:35.968 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:bamboo-18-42273-1590760712820-0:2) is starting
-13:58:35.973 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:62895
-13:58:35.989 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:62895 Started
-13:58:35.989 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:bamboo-18-42273-1590760712820-0:2) started
-13:58:35.989 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
-13:58:36.159 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:bamboo-18-42273-1590760712820-0:2) is shutting down
-13:58:38.092 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:62895 Stopped
-13:58:38.093 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:bamboo-18-42273-1590760712820-0:2) uptime 2.130 seconds
-13:58:38.093 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:bamboo-18-42273-1590760712820-0:2) is shutdown
-13:58:40.129 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
-13:58:40.141 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:bamboo-18-42273-1590760712820-0:3) is starting
-13:58:40.151 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:65127
-13:58:40.158 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:65127 Started
-13:58:40.158 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:bamboo-18-42273-1590760712820-0:3) started
-13:58:40.158 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
-13:58:42.462 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:bamboo-18-42273-1590760712820-0:3) is shutting down
-13:58:44.303 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:65127 Stopped
-13:58:44.304 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:bamboo-18-42273-1590760712820-0:3) uptime 4.175 seconds
-13:58:44.304 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:bamboo-18-42273-1590760712820-0:3) is shutdown
-13:58:44.305 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
-13:58:44.316 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:bamboo-18-42273-1590760712820-0:4) is starting
-13:58:44.323 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:63841
-13:58:44.341 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:63841 Started
-13:58:44.341 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:bamboo-18-42273-1590760712820-0:4) started
-13:58:44.341 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
-13:58:44.488 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:bamboo-18-42273-1590760712820-0:4) is shutting down
-13:58:46.447 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:63841 Stopped
-13:58:46.447 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:bamboo-18-42273-1590760712820-0:4) uptime 2.142 seconds
-13:58:46.447 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:bamboo-18-42273-1590760712820-0:4) is shutdown
-13:58:48.485 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
-13:58:48.498 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:bamboo-18-42273-1590760712820-0:5) is starting
-13:58:48.501 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:62588
-13:58:48.517 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:62588 Started
-13:58:48.517 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:bamboo-18-42273-1590760712820-0:5) started
-13:58:48.517 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
-13:58:48.699 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:bamboo-18-42273-1590760712820-0:5) is shutting down
-13:58:50.717 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:62588 Stopped
-13:58:50.718 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:bamboo-18-42273-1590760712820-0:5) uptime 2.232 seconds
-13:58:50.718 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:bamboo-18-42273-1590760712820-0:5) is shutdown
-13:58:50.718 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
-13:58:50.733 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:bamboo-18-42273-1590760712820-0:6) is starting
-13:58:50.740 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:62588
-13:58:50.749 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:62588 Started
-13:58:50.750 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:bamboo-18-42273-1590760712820-0:6) started
-13:58:50.750 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
-13:58:55.625 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:bamboo-18-42273-1590760712820-0:6) is shutting down
-13:58:57.573 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:62588 Stopped
-13:58:57.573 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:bamboo-18-42273-1590760712820-0:6) uptime 6.855 seconds
-13:58:57.574 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:bamboo-18-42273-1590760712820-0:6) is shutdown
-13:58:57.575 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
-13:58:57.580 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:bamboo-18-42273-1590760712820-0:7) is starting
-13:58:57.586 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:65530
-13:58:57.591 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:65530 Started
-13:58:57.592 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:bamboo-18-42273-1590760712820-0:7) started
-13:58:57.592 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
-13:58:57.728 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:bamboo-18-42273-1590760712820-0:7) is shutting down
-13:58:59.732 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:65530 Stopped
-13:58:59.732 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:bamboo-18-42273-1590760712820-0:7) uptime 2.157 seconds
-13:58:59.732 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:bamboo-18-42273-1590760712820-0:7) is shutdown
-13:59:01.747 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
-13:59:01.749 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:bamboo-18-42273-1590760712820-0:8) is starting
-13:59:01.759 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:65134
-13:59:01.760 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:65134 Started
-13:59:01.760 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:bamboo-18-42273-1590760712820-0:8) started
-13:59:01.760 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
-13:59:03.920 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:bamboo-18-42273-1590760712820-0:8) is shutting down
-13:59:05.863 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:65134 Stopped
-13:59:05.864 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:bamboo-18-42273-1590760712820-0:8) uptime 4.117 seconds
-13:59:05.864 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:bamboo-18-42273-1590760712820-0:8) is shutdown
+  <testcase name="messageDeliveryExceptionIfSystemSessionForwardFails()" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests" time="4.072"/>
+  <testcase name="publishSubscribe()" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests" time="4.027"/>
+  <testcase name="brokerAvailabilityEventWhenStopped()" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests" time="4.06"/>
+  <testcase name="relayReconnectsIfBrokerComesBackUp()" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests" time="11.015"/>
+  <testcase name="brokerBecomingUnavailableTriggersErrorFrame()" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests" time="4.081"/>
+  <testcase name="disconnectWithReceipt()" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests" time="4.027"/>
+  <system-out><![CDATA[16:09:46.154 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+16:09:46.156 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:gankangdembp-54388-1624176583358-0:2) is starting
+16:09:46.156 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:62714
+16:09:46.157 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:62714 Started
+16:09:46.157 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:gankangdembp-54388-1624176583358-0:2) started
+16:09:46.157 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+16:09:46.176 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:gankangdembp-54388-1624176583358-0:2) is shutting down
+16:09:48.171 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:62714 Stopped
+16:09:48.172 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:gankangdembp-54388-1624176583358-0:2) uptime 2.018 seconds
+16:09:48.173 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:gankangdembp-54388-1624176583358-0:2) is shutdown
+16:09:50.223 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+16:09:50.224 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:gankangdembp-54388-1624176583358-0:3) is starting
+16:09:50.224 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:62189
+16:09:50.225 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:62189 Started
+16:09:50.225 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:gankangdembp-54388-1624176583358-0:3) started
+16:09:50.225 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+16:09:52.320 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:gankangdembp-54388-1624176583358-0:3) is shutting down
+16:09:54.248 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:62189 Stopped
+16:09:54.248 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:gankangdembp-54388-1624176583358-0:3) uptime 4.025 seconds
+16:09:54.248 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:gankangdembp-54388-1624176583358-0:3) is shutdown
+16:09:54.250 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+16:09:54.250 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:gankangdembp-54388-1624176583358-0:4) is starting
+16:09:54.251 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:65069
+16:09:54.252 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:65069 Started
+16:09:54.252 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:gankangdembp-54388-1624176583358-0:4) started
+16:09:54.252 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+16:09:54.269 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:gankangdembp-54388-1624176583358-0:4) is shutting down
+16:09:56.266 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:65069 Stopped
+16:09:56.267 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:gankangdembp-54388-1624176583358-0:4) uptime 2.017 seconds
+16:09:56.267 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:gankangdembp-54388-1624176583358-0:4) is shutdown
+16:09:58.310 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+16:09:58.311 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:gankangdembp-54388-1624176583358-0:5) is starting
+16:09:58.311 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:62486
+16:09:58.312 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:62486 Started
+16:09:58.312 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:gankangdembp-54388-1624176583358-0:5) started
+16:09:58.312 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+16:09:58.338 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:gankangdembp-54388-1624176583358-0:5) is shutting down
+16:10:00.339 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:62486 Stopped
+16:10:00.340 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:gankangdembp-54388-1624176583358-0:5) uptime 2.030 seconds
+16:10:00.340 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:gankangdembp-54388-1624176583358-0:5) is shutdown
+16:10:00.341 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+16:10:00.341 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:gankangdembp-54388-1624176583358-0:6) is starting
+16:10:00.342 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:62486
+16:10:00.342 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:62486 Started
+16:10:00.343 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:gankangdembp-54388-1624176583358-0:6) started
+16:10:00.343 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+16:10:07.407 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:gankangdembp-54388-1624176583358-0:6) is shutting down
+16:10:09.323 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:62486 Stopped
+16:10:09.324 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:gankangdembp-54388-1624176583358-0:6) uptime 8.982 seconds
+16:10:09.324 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:gankangdembp-54388-1624176583358-0:6) is shutdown
+16:10:09.325 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+16:10:09.326 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:gankangdembp-54388-1624176583358-0:7) is starting
+16:10:09.326 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:65058
+16:10:09.327 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:65058 Started
+16:10:09.327 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:gankangdembp-54388-1624176583358-0:7) started
+16:10:09.327 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+16:10:09.349 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:gankangdembp-54388-1624176583358-0:7) is shutting down
+16:10:11.348 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:65058 Stopped
+16:10:11.349 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:gankangdembp-54388-1624176583358-0:7) uptime 2.024 seconds
+16:10:11.349 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:gankangdembp-54388-1624176583358-0:7) is shutdown
+16:10:13.409 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+16:10:13.410 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:gankangdembp-54388-1624176583358-0:8) is starting
+16:10:13.410 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:62687
+16:10:13.411 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:62687 Started
+16:10:13.411 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:gankangdembp-54388-1624176583358-0:8) started
+16:10:13.411 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+16:10:15.484 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:gankangdembp-54388-1624176583358-0:8) is shutting down
+16:10:17.431 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:62687 Stopped
+16:10:17.431 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:gankangdembp-54388-1624176583358-0:8) uptime 4.022 seconds
+16:10:17.431 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:gankangdembp-54388-1624176583358-0:8) is shutdown
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

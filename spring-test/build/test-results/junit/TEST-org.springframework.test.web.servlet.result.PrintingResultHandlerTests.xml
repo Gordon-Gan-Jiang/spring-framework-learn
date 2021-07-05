@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.web.servlet.result.PrintingResultHandlerTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:14" hostname="bamboo-18" time="0.063">
+<testsuite name="org.springframework.test.web.servlet.result.PrintingResultHandlerTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:12:22" hostname="gankangdembp" time="0.126">
   <properties/>
-  <testcase name="resolvedExceptionNull()" classname="org.springframework.test.web.servlet.result.PrintingResultHandlerTests" time="0.001"/>
+  <testcase name="resolvedExceptionNull()" classname="org.springframework.test.web.servlet.result.PrintingResultHandlerTests" time="0.004"/>
   <testcase name="modelAndViewNull()" classname="org.springframework.test.web.servlet.result.PrintingResultHandlerTests" time="0.0"/>
   <testcase name="printResponseWithDefaultCharacterEncoding()" classname="org.springframework.test.web.servlet.result.PrintingResultHandlerTests" time="0.001"/>
-  <testcase name="modelAndView()" classname="org.springframework.test.web.servlet.result.PrintingResultHandlerTests" time="0.007"/>
+  <testcase name="modelAndView()" classname="org.springframework.test.web.servlet.result.PrintingResultHandlerTests" time="0.001"/>
   <testcase name="printRequestWithoutCharacterEncoding()" classname="org.springframework.test.web.servlet.result.PrintingResultHandlerTests" time="0.0"/>
-  <testcase name="printResponseWithoutCharacterEncoding()" classname="org.springframework.test.web.servlet.result.PrintingResultHandlerTests" time="0.001"/>
-  <testcase name="flashMapNull()" classname="org.springframework.test.web.servlet.result.PrintingResultHandlerTests" time="0.0"/>
-  <testcase name="printResponse()" classname="org.springframework.test.web.servlet.result.PrintingResultHandlerTests" time="0.008"/>
-  <testcase name="printRequestWithEmptySessionMock()" classname="org.springframework.test.web.servlet.result.PrintingResultHandlerTests" time="0.042"/>
+  <testcase name="printResponseWithoutCharacterEncoding()" classname="org.springframework.test.web.servlet.result.PrintingResultHandlerTests" time="0.0"/>
+  <testcase name="flashMapNull()" classname="org.springframework.test.web.servlet.result.PrintingResultHandlerTests" time="0.001"/>
+  <testcase name="printResponse()" classname="org.springframework.test.web.servlet.result.PrintingResultHandlerTests" time="0.056"/>
+  <testcase name="printRequestWithEmptySessionMock()" classname="org.springframework.test.web.servlet.result.PrintingResultHandlerTests" time="0.048"/>
   <testcase name="printRequestWithoutSession()" classname="org.springframework.test.web.servlet.result.PrintingResultHandlerTests" time="0.001"/>
-  <testcase name="printHandlerNull()" classname="org.springframework.test.web.servlet.result.PrintingResultHandlerTests" time="0.0"/>
+  <testcase name="printHandlerNull()" classname="org.springframework.test.web.servlet.result.PrintingResultHandlerTests" time="0.001"/>
   <testcase name="printResponseWithCharacterEncoding()" classname="org.springframework.test.web.servlet.result.PrintingResultHandlerTests" time="0.0"/>
   <testcase name="printHandler()" classname="org.springframework.test.web.servlet.result.PrintingResultHandlerTests" time="0.0"/>
-  <testcase name="printRequest()" classname="org.springframework.test.web.servlet.result.PrintingResultHandlerTests" time="0.001"/>
-  <testcase name="printRequestWithCharacterEncoding()" classname="org.springframework.test.web.servlet.result.PrintingResultHandlerTests" time="0.0"/>
-  <testcase name="resolvedException()" classname="org.springframework.test.web.servlet.result.PrintingResultHandlerTests" time="0.0"/>
-  <testcase name="flashMap()" classname="org.springframework.test.web.servlet.result.PrintingResultHandlerTests" time="0.0"/>
-  <testcase name="printHandlerMethod()" classname="org.springframework.test.web.servlet.result.PrintingResultHandlerTests" time="0.0"/>
+  <testcase name="printRequest()" classname="org.springframework.test.web.servlet.result.PrintingResultHandlerTests" time="0.002"/>
+  <testcase name="printRequestWithCharacterEncoding()" classname="org.springframework.test.web.servlet.result.PrintingResultHandlerTests" time="0.001"/>
+  <testcase name="resolvedException()" classname="org.springframework.test.web.servlet.result.PrintingResultHandlerTests" time="0.001"/>
+  <testcase name="flashMap()" classname="org.springframework.test.web.servlet.result.PrintingResultHandlerTests" time="0.004"/>
+  <testcase name="printHandlerMethod()" classname="org.springframework.test.web.servlet.result.PrintingResultHandlerTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

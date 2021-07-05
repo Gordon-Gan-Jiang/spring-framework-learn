@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.context.junit.jupiter.defaultmethods.DogInterfaceDefaultMethodsTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:02" hostname="bamboo-18" time="0.002">
+<testsuite name="org.springframework.test.context.junit.jupiter.defaultmethods.DogInterfaceDefaultMethodsTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:11:59" hostname="gankangdembp" time="0.022">
   <properties/>
-  <testcase name="autowiredParameterWithGenericBean(Character)" classname="org.springframework.test.context.junit.jupiter.defaultmethods.DogInterfaceDefaultMethodsTests" time="0.002"/>
-  <testcase name="autowiredParameterWithParameterizedList(List)" classname="org.springframework.test.context.junit.jupiter.defaultmethods.DogInterfaceDefaultMethodsTests" time="0.0"/>
+  <testcase name="autowiredParameterWithGenericBean(Character)" classname="org.springframework.test.context.junit.jupiter.defaultmethods.DogInterfaceDefaultMethodsTests" time="0.021"/>
+  <testcase name="autowiredParameterWithParameterizedList(List)" classname="org.springframework.test.context.junit.jupiter.defaultmethods.DogInterfaceDefaultMethodsTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

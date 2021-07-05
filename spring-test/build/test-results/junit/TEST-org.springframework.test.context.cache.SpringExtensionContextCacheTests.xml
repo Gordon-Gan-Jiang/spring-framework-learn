@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.context.cache.SpringExtensionContextCacheTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:57" hostname="bamboo-18" time="0.066">
+<testsuite name="org.springframework.test.context.cache.SpringExtensionContextCacheTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:11:15" hostname="gankangdembp" time="0.129">
   <properties/>
-  <testcase name="dirtyContext()" classname="org.springframework.test.context.cache.SpringExtensionContextCacheTests" time="0.011"/>
+  <testcase name="dirtyContext()" classname="org.springframework.test.context.cache.SpringExtensionContextCacheTests" time="0.001"/>
   <testcase name="verifyContextDirty()" classname="org.springframework.test.context.cache.SpringExtensionContextCacheTests" time="0.001"/>
   <testcase name="verifyContextNotDirty()" classname="org.springframework.test.context.cache.SpringExtensionContextCacheTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

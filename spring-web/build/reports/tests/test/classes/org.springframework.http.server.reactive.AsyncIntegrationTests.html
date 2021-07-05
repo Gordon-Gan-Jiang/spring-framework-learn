@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">2.464s</div>
+<div class="counter">2.226s</div>
 <p>duration</p>
 </div>
 </td>
@@ -64,10 +64,7 @@
 <a href="#tab0">Tests</a>
 </li>
 <li>
-<a href="#tab1">Standard output</a>
-</li>
-<li>
-<a href="#tab2">Standard error</a>
+<a href="#tab1">Standard error</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
@@ -82,88 +79,50 @@
 </tr>
 </thead>
 <tr>
-<td class="success">[1] org.springframework.web.testfixture.http.server.reactive.bootstrap.JettyHttpServer@102ae9bf</td>
+<td class="success">[1] org.springframework.web.testfixture.http.server.reactive.bootstrap.JettyHttpServer@700052ab</td>
 <td class="success">basicTest(HttpServer)[1]</td>
-<td class="success">0.651s</td>
+<td class="success">0.563s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">[2] org.springframework.web.testfixture.http.server.reactive.bootstrap.ReactorHttpServer@7fd422a6</td>
+<td class="success">[2] org.springframework.web.testfixture.http.server.reactive.bootstrap.ReactorHttpServer@4d949c12</td>
 <td class="success">basicTest(HttpServer)[2]</td>
-<td class="success">0.514s</td>
+<td class="success">0.545s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">[3] org.springframework.web.testfixture.http.server.reactive.bootstrap.TomcatHttpServer@78749e12</td>
+<td class="success">[3] org.springframework.web.testfixture.http.server.reactive.bootstrap.TomcatHttpServer@221df946</td>
 <td class="success">basicTest(HttpServer)[3]</td>
-<td class="success">0.735s</td>
+<td class="success">0.588s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">[4] org.springframework.web.testfixture.http.server.reactive.bootstrap.UndertowHttpServer@5b251013</td>
+<td class="success">[4] org.springframework.web.testfixture.http.server.reactive.bootstrap.UndertowHttpServer@5c7b94a5</td>
 <td class="success">basicTest(HttpServer)[4]</td>
-<td class="success">0.564s</td>
+<td class="success">0.530s</td>
 <td class="success">passed</td>
 </tr>
 </table>
 </div>
 <div id="tab1" class="tab">
-<h2>Standard output</h2>
-<span class="code">
-<pre>13:59:45.939 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
-13:59:46.033 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server started on port 42393(0 millis).
-13:59:46.037 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:42393
-13:59:46.038 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
-13:59:46.587 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-13:59:46.587 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as &quot;application/octet-stream&quot;
-13:59:46.587 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
-13:59:46.589 [Test worker] DEBUG o.s.w.t.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
-13:59:46.590 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
-13:59:46.592 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server started on port 40449(0 millis).
-13:59:46.595 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:40449
-13:59:46.597 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
-13:59:47.103 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-13:59:47.103 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as &quot;application/octet-stream&quot;
-13:59:47.104 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
-13:59:47.104 [Test worker] DEBUG o.s.w.t.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
-13:59:47.105 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
-13:59:47.316 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server started on port 43175(0 millis).
-13:59:47.320 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:43175
-13:59:47.320 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
-13:59:47.826 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-13:59:47.826 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as &quot;application/octet-stream&quot;
-13:59:47.827 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
-13:59:47.840 [Test worker] DEBUG o.s.w.t.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
-13:59:47.841 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
-13:59:47.885 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server started on port 44767(0 millis).
-13:59:47.888 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:44767
-13:59:47.889 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
-13:59:48.399 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-13:59:48.399 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as &quot;application/octet-stream&quot;
-13:59:48.399 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
-13:59:48.404 [Test worker] DEBUG o.s.w.t.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
-</pre>
-</span>
-</div>
-<div id="tab2" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>May 29, 2020 1:59:47 PM org.apache.catalina.core.StandardService startInternal
+<pre>Jun 20, 2021 4:12:29 PM org.apache.catalina.core.StandardService startInternal
 INFO: Starting service [Tomcat]
-May 29, 2020 1:59:47 PM org.apache.catalina.core.StandardEngine startInternal
-INFO: Starting Servlet engine: [Apache Tomcat/9.0.35]
-May 29, 2020 1:59:47 PM org.apache.coyote.AbstractProtocol init
-INFO: Initializing ProtocolHandler [&quot;http-nio-auto-2&quot;]
-May 29, 2020 1:59:47 PM org.apache.coyote.AbstractProtocol start
-INFO: Starting ProtocolHandler [&quot;http-nio-auto-2-43175&quot;]
-May 29, 2020 1:59:47 PM org.apache.coyote.AbstractProtocol pause
-INFO: Pausing ProtocolHandler [&quot;http-nio-auto-2-43175&quot;]
-May 29, 2020 1:59:47 PM org.apache.catalina.core.StandardService stopInternal
+Jun 20, 2021 4:12:29 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.37]
+Jun 20, 2021 4:12:29 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler [&quot;http-nio-auto-12&quot;]
+Jun 20, 2021 4:12:29 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler [&quot;http-nio-auto-12-56383&quot;]
+Jun 20, 2021 4:12:30 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler [&quot;http-nio-auto-12-56383&quot;]
+Jun 20, 2021 4:12:30 PM org.apache.catalina.core.StandardService stopInternal
 INFO: Stopping service [Tomcat]
-May 29, 2020 1:59:47 PM org.apache.coyote.AbstractProtocol stop
-INFO: Stopping ProtocolHandler [&quot;http-nio-auto-2-43175&quot;]
-May 29, 2020 1:59:47 PM org.apache.coyote.AbstractProtocol destroy
-INFO: Destroying ProtocolHandler [&quot;http-nio-auto-2-43175&quot;]
+Jun 20, 2021 4:12:30 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler [&quot;http-nio-auto-12-56383&quot;]
+Jun 20, 2021 4:12:30 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler [&quot;http-nio-auto-12-56383&quot;]
 </pre>
 </span>
 </div>
@@ -175,7 +134,7 @@ INFO: Destroying ProtocolHandler [&quot;http-nio-auto-2-43175&quot;]
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.6.4</a> at May 29, 2020 2:00:20 PM</p>
+<a href="http://www.gradle.org">Gradle 5.6.4</a> at 2021-6-20 16:12:49</p>
 </div>
 </div>
 </body>

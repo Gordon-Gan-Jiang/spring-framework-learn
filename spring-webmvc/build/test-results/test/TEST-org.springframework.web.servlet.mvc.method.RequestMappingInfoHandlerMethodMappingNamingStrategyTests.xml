@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMethodMappingNamingStrategyTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:01:28" hostname="bamboo-18" time="0.001">
+<testsuite name="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMethodMappingNamingStrategyTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:13:05" hostname="gankangdembp" time="0.001">
   <properties/>
   <testcase name="getNameExplicit()" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMethodMappingNamingStrategyTests" time="0.001"/>
   <testcase name="getNameConvention()" classname="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMethodMappingNamingStrategyTests" time="0.0"/>

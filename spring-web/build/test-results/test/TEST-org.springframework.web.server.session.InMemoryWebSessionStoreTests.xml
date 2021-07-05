@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.server.session.InMemoryWebSessionStoreTests" tests="8" skipped="1" failures="0" errors="0" timestamp="2020-05-29T14:00:15" hostname="bamboo-18" time="0.326">
+<testsuite name="org.springframework.web.server.session.InMemoryWebSessionStoreTests" tests="8" skipped="1" failures="0" errors="0" timestamp="2021-06-20T08:11:32" hostname="gankangdembp" time="0.93">
   <properties/>
-  <testcase name="startsSessionExplicitly()" classname="org.springframework.web.server.session.InMemoryWebSessionStoreTests" time="0.002"/>
+  <testcase name="startsSessionExplicitly()" classname="org.springframework.web.server.session.InMemoryWebSessionStoreTests" time="0.001"/>
   <testcase name="createSessionDoesNotBlock()" classname="org.springframework.web.server.session.InMemoryWebSessionStoreTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="maxSessions()" classname="org.springframework.web.server.session.InMemoryWebSessionStoreTests" time="0.321"/>
-  <testcase name="sessionInvalidatedBeforeSave()" classname="org.springframework.web.server.session.InMemoryWebSessionStoreTests" time="0.0"/>
+  <testcase name="maxSessions()" classname="org.springframework.web.server.session.InMemoryWebSessionStoreTests" time="0.911"/>
+  <testcase name="sessionInvalidatedBeforeSave()" classname="org.springframework.web.server.session.InMemoryWebSessionStoreTests" time="0.003"/>
   <testcase name="startsSessionImplicitly()" classname="org.springframework.web.server.session.InMemoryWebSessionStoreTests" time="0.001"/>
-  <testcase name="retrieveExpiredSession()" classname="org.springframework.web.server.session.InMemoryWebSessionStoreTests" time="0.0"/>
-  <testcase name="expirationCheckPeriod()" classname="org.springframework.web.server.session.InMemoryWebSessionStoreTests" time="0.002"/>
-  <testcase name="lastAccessTimeIsUpdatedOnRetrieve()" classname="org.springframework.web.server.session.InMemoryWebSessionStoreTests" time="0.0"/>
+  <testcase name="retrieveExpiredSession()" classname="org.springframework.web.server.session.InMemoryWebSessionStoreTests" time="0.001"/>
+  <testcase name="expirationCheckPeriod()" classname="org.springframework.web.server.session.InMemoryWebSessionStoreTests" time="0.009"/>
+  <testcase name="lastAccessTimeIsUpdatedOnRetrieve()" classname="org.springframework.web.server.session.InMemoryWebSessionStoreTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

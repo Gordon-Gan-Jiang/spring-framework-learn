@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.cache.interceptor.SimpleKeyGeneratorTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:36" hostname="bamboo-18" time="0.011">
+<testsuite name="org.springframework.cache.interceptor.SimpleKeyGeneratorTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:12:50" hostname="gankangdembp" time="0.011">
   <properties/>
   <testcase name="singleValue()" classname="org.springframework.cache.interceptor.SimpleKeyGeneratorTests" time="0.001"/>
-  <testcase name="serializedKeys()" classname="org.springframework.cache.interceptor.SimpleKeyGeneratorTests" time="0.001"/>
+  <testcase name="serializedKeys()" classname="org.springframework.cache.interceptor.SimpleKeyGeneratorTests" time="0.008"/>
   <testcase name="arrayWithExtraParameter()" classname="org.springframework.cache.interceptor.SimpleKeyGeneratorTests" time="0.0"/>
   <testcase name="noValues()" classname="org.springframework.cache.interceptor.SimpleKeyGeneratorTests" time="0.0"/>
-  <testcase name="plainArray()" classname="org.springframework.cache.interceptor.SimpleKeyGeneratorTests" time="0.001"/>
+  <testcase name="plainArray()" classname="org.springframework.cache.interceptor.SimpleKeyGeneratorTests" time="0.0"/>
   <testcase name="multipleValues()" classname="org.springframework.cache.interceptor.SimpleKeyGeneratorTests" time="0.0"/>
   <testcase name="multipleNullValues()" classname="org.springframework.cache.interceptor.SimpleKeyGeneratorTests" time="0.0"/>
   <testcase name="singleNullValue()" classname="org.springframework.cache.interceptor.SimpleKeyGeneratorTests" time="0.0"/>

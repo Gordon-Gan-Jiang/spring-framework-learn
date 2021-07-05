@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">1.822s</div>
+<div class="counter">1.319s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,72 +79,72 @@
 </thead>
 <tr>
 <td class="success">differentProxiesSameClass()</td>
-<td class="success">0.197s</td>
+<td class="success">0.121s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">getAttributeValue()</td>
-<td class="success">0.158s</td>
+<td class="success">0.115s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">invokeArgs()</td>
-<td class="success">0.186s</td>
+<td class="success">0.111s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">invokeNoArgs()</td>
-<td class="success">0.138s</td>
+<td class="success">0.114s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">invokeUnexposedMethodWithException()</td>
-<td class="success">0.148s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">lazyConnectionToRemote()</td>
-<td class="success">0.057s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">mxBeanAttributeAccess()</td>
-<td class="success">0.021s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">mxBeanOperationAccess()</td>
-<td class="success">0.006s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">proxyClassIsDifferent()</td>
 <td class="success">0.137s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
+<td class="success">lazyConnectionToRemote()</td>
+<td class="success">0.016s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">mxBeanAttributeAccess()</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">mxBeanOperationAccess()</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">proxyClassIsDifferent()</td>
+<td class="success">0.111s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
 <td class="success">setAttributeValue()</td>
-<td class="success">0.131s</td>
+<td class="success">0.116s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">setAttributeValueWithCheckedException()</td>
-<td class="success">0.157s</td>
+<td class="success">0.118s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">setAttributeValueWithIOException()</td>
-<td class="success">0.172s</td>
+<td class="success">0.116s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">setAttributeValueWithRuntimeException()</td>
-<td class="success">0.139s</td>
+<td class="success">0.113s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">setReadOnlyAttribute()</td>
-<td class="success">0.175s</td>
+<td class="success">0.115s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -152,39 +152,24 @@
 <div id="tab1" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>Mai 29, 2020 1:58:26 PM ClientCommunicatorAdmin restart
+<pre>Jun 20, 2021 4:12:55 PM ClientCommunicatorAdmin restart
 WARNUNG: Failed to restart: java.net.ConnectException: Connection refused (Connection refused)
-Mai 29, 2020 1:58:26 PM ClientCommunicatorAdmin restart
+Jun 20, 2021 4:12:56 PM ClientCommunicatorAdmin restart
 WARNUNG: Failed to restart: java.net.ConnectException: Connection refused (Connection refused)
-Mai 29, 2020 1:58:26 PM ClientIntermediary close
+Jun 20, 2021 4:12:56 PM ClientIntermediary close
 INFORMATION: java.io.IOException: The connection is not currently established.
 java.io.IOException: The connection is not currently established.
-	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.checkState(ClientSynchroMessageConnectionImpl.java:577)
-	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.sendOneWay(ClientSynchroMessageConnectionImpl.java:162)
-	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:260)
-	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:231)
-	at javax.management.remote.generic.ClientIntermediary$GenericClientCommunicatorAdmin.doStop(ClientIntermediary.java:839)
-	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.restart(ClientCommunicatorAdmin.java:133)
-	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.gotIOException(ClientCommunicatorAdmin.java:34)
-	at javax.management.remote.generic.GenericConnector$RequestHandler.execute(GenericConnector.java:622)
-	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl$RemoteJob.run(ClientSynchroMessageConnectionImpl.java:528)
-	at com.sun.jmx.remote.opt.util.ThreadService$ThreadServiceJob.run(ThreadService.java:208)
-	at com.sun.jmx.remote.opt.util.JobExecutor.run(JobExecutor.java:59)
-
-Mai 29, 2020 1:58:27 PM ClientIntermediary close
-INFORMATION: java.io.IOException: The connection is not currently established.
-java.io.IOException: The connection is not currently established.
-	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.checkState(ClientSynchroMessageConnectionImpl.java:577)
-	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.sendOneWay(ClientSynchroMessageConnectionImpl.java:162)
-	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:260)
-	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:231)
-	at javax.management.remote.generic.ClientIntermediary$GenericClientCommunicatorAdmin.doStop(ClientIntermediary.java:839)
-	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.restart(ClientCommunicatorAdmin.java:133)
-	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.gotIOException(ClientCommunicatorAdmin.java:34)
-	at javax.management.remote.generic.GenericConnector$RequestHandler.execute(GenericConnector.java:622)
-	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl$RemoteJob.run(ClientSynchroMessageConnectionImpl.java:528)
-	at com.sun.jmx.remote.opt.util.ThreadService$ThreadServiceJob.run(ThreadService.java:208)
-	at com.sun.jmx.remote.opt.util.JobExecutor.run(JobExecutor.java:59)
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.checkState(ClientSynchroMessageConnectionImpl.java:617)
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.sendOneWay(ClientSynchroMessageConnectionImpl.java:202)
+	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:300)
+	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:271)
+	at javax.management.remote.generic.ClientIntermediary$GenericClientCommunicatorAdmin.doStop(ClientIntermediary.java:897)
+	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.restart(ClientCommunicatorAdmin.java:172)
+	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.gotIOException(ClientCommunicatorAdmin.java:73)
+	at javax.management.remote.generic.GenericConnector$RequestHandler.execute(GenericConnector.java:662)
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl$RemoteJob.run(ClientSynchroMessageConnectionImpl.java:568)
+	at com.sun.jmx.remote.opt.util.ThreadService$ThreadServiceJob.run(ThreadService.java:248)
+	at com.sun.jmx.remote.opt.util.JobExecutor.run(JobExecutor.java:99)
 
 </pre>
 </span>
@@ -197,7 +182,7 @@ java.io.IOException: The connection is not currently established.
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.6.4</a> at May 29, 2020 1:58:45 PM</p>
+<a href="http://www.gradle.org">Gradle 5.6.4</a> at 2021-6-20 16:13:21</p>
 </div>
 </div>
 </body>

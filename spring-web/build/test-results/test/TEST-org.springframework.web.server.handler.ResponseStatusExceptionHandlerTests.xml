@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.server.handler.ResponseStatusExceptionHandlerTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:13" hostname="bamboo-18" time="0.007">
+<testsuite name="org.springframework.web.server.handler.ResponseStatusExceptionHandlerTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:11:19" hostname="gankangdembp" time="0.017">
   <properties/>
-  <testcase name="handleNestedResponseStatusException()" classname="org.springframework.web.server.handler.ResponseStatusExceptionHandlerTests" time="0.002"/>
-  <testcase name="unresolvedException()" classname="org.springframework.web.server.handler.ResponseStatusExceptionHandlerTests" time="0.001"/>
-  <testcase name="handleResponseStatusExceptionWithHeaders()" classname="org.springframework.web.server.handler.ResponseStatusExceptionHandlerTests" time="0.001"/>
-  <testcase name="handleMethodNotAllowed()" classname="org.springframework.web.server.handler.ResponseStatusExceptionHandlerTests" time="0.001"/>
+  <testcase name="handleNestedResponseStatusException()" classname="org.springframework.web.server.handler.ResponseStatusExceptionHandlerTests" time="0.004"/>
+  <testcase name="unresolvedException()" classname="org.springframework.web.server.handler.ResponseStatusExceptionHandlerTests" time="0.003"/>
+  <testcase name="handleResponseStatusExceptionWithHeaders()" classname="org.springframework.web.server.handler.ResponseStatusExceptionHandlerTests" time="0.003"/>
+  <testcase name="handleMethodNotAllowed()" classname="org.springframework.web.server.handler.ResponseStatusExceptionHandlerTests" time="0.002"/>
   <testcase name="responseCommitted()" classname="org.springframework.web.server.handler.ResponseStatusExceptionHandlerTests" time="0.002"/>
-  <testcase name="handleResponseStatusException()" classname="org.springframework.web.server.handler.ResponseStatusExceptionHandlerTests" time="0.0"/>
-  <system-out><![CDATA[14:00:13.861 [Test worker] DEBUG o.s.w.s.h.ResponseStatusExceptionHandler - [7ea00841] Resolved [Exception: org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST ""] for HTTP GET /
-14:00:13.863 [Test worker] DEBUG o.s.w.s.h.ResponseStatusExceptionHandler - [2eab5c12] Resolved [NotAcceptableStatusException: 406 NOT_ACCEPTABLE "Could not find acceptable representation"] for HTTP GET /
-14:00:13.864 [Test worker] DEBUG o.s.w.s.h.ResponseStatusExceptionHandler - [6962895f] Resolved [MethodNotAllowedException: 405 METHOD_NOT_ALLOWED "Request method 'PATCH' not supported"] for HTTP GET /
-14:00:13.866 [Test worker] DEBUG o.s.w.s.h.ResponseStatusExceptionHandler - [45ce6ded] Resolved [ResponseStatusException: 400 BAD_REQUEST ""] for HTTP GET /
-]]></system-out>
+  <testcase name="handleResponseStatusException()" classname="org.springframework.web.server.handler.ResponseStatusExceptionHandlerTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

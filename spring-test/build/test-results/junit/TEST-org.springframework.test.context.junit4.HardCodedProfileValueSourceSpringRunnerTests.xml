@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.context.junit4.HardCodedProfileValueSourceSpringRunnerTests" tests="5" skipped="2" failures="0" errors="0" timestamp="2020-05-29T13:59:51" hostname="bamboo-18" time="0.0">
+<testsuite name="org.springframework.test.context.junit4.HardCodedProfileValueSourceSpringRunnerTests" tests="5" skipped="2" failures="0" errors="0" timestamp="2021-06-20T08:13:13" hostname="gankangdembp" time="0.003">
   <properties/>
   <testcase name="testIfProfileValueEnabledViaMultipleValues" classname="org.springframework.test.context.junit4.HardCodedProfileValueSourceSpringRunnerTests" time="0.0"/>
   <testcase name="testIfProfileValueNotConfigured" classname="org.springframework.test.context.junit4.HardCodedProfileValueSourceSpringRunnerTests" time="0.0"/>
   <testcase name="testJUnitIgnoreAnnotation" classname="org.springframework.test.context.junit4.HardCodedProfileValueSourceSpringRunnerTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testIfProfileValueEnabledViaSingleValue" classname="org.springframework.test.context.junit4.HardCodedProfileValueSourceSpringRunnerTests" time="0.0"/>
+  <testcase name="testIfProfileValueEnabledViaSingleValue" classname="org.springframework.test.context.junit4.HardCodedProfileValueSourceSpringRunnerTests" time="0.001"/>
   <testcase name="testIfProfileValueDisabled" classname="org.springframework.test.context.junit4.HardCodedProfileValueSourceSpringRunnerTests" time="0.0">
     <skipped/>
   </testcase>

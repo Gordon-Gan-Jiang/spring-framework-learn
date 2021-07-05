@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.http.codec.support.ClientCodecConfigurerTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:33" hostname="bamboo-18" time="0.027">
+<testsuite name="org.springframework.http.codec.support.ClientCodecConfigurerTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:12:03" hostname="gankangdembp" time="0.087">
   <properties/>
-  <testcase name="defaultReaders()" classname="org.springframework.http.codec.support.ClientCodecConfigurerTests" time="0.002"/>
-  <testcase name="maxInMemorySize()" classname="org.springframework.http.codec.support.ClientCodecConfigurerTests" time="0.013"/>
+  <testcase name="defaultReaders()" classname="org.springframework.http.codec.support.ClientCodecConfigurerTests" time="0.006"/>
+  <testcase name="maxInMemorySize()" classname="org.springframework.http.codec.support.ClientCodecConfigurerTests" time="0.001"/>
   <testcase name="defaultWriters()" classname="org.springframework.http.codec.support.ClientCodecConfigurerTests" time="0.001"/>
-  <testcase name="cloneShouldNotBeImpactedByChangesToOriginal()" classname="org.springframework.http.codec.support.ClientCodecConfigurerTests" time="0.002"/>
-  <testcase name="cloneShouldNotDropMultipartCodecs()" classname="org.springframework.http.codec.support.ClientCodecConfigurerTests" time="0.0"/>
-  <testcase name="enableLoggingRequestDetails()" classname="org.springframework.http.codec.support.ClientCodecConfigurerTests" time="0.0"/>
-  <testcase name="jackson2EncoderOverride()" classname="org.springframework.http.codec.support.ClientCodecConfigurerTests" time="0.0"/>
+  <testcase name="cloneShouldNotBeImpactedByChangesToOriginal()" classname="org.springframework.http.codec.support.ClientCodecConfigurerTests" time="0.003"/>
+  <testcase name="cloneShouldNotDropMultipartCodecs()" classname="org.springframework.http.codec.support.ClientCodecConfigurerTests" time="0.068"/>
+  <testcase name="enableLoggingRequestDetails()" classname="org.springframework.http.codec.support.ClientCodecConfigurerTests" time="0.001"/>
+  <testcase name="jackson2EncoderOverride()" classname="org.springframework.http.codec.support.ClientCodecConfigurerTests" time="0.001"/>
   <testcase name="clonedConfigurer()" classname="org.springframework.http.codec.support.ClientCodecConfigurerTests" time="0.005"/>
-  <system-out><![CDATA[13:59:33.444 [Test worker] DEBUG o.s.w.HttpLogging - Decoded "line1"
-13:59:33.444 [Test worker] DEBUG o.s.w.HttpLogging - Decoded "line2"
-13:59:33.444 [Test worker] DEBUG o.s.w.HttpLogging - Decoded "line1"
-13:59:33.444 [Test worker] DEBUG o.s.w.HttpLogging - Decoded "line2"
-]]></system-out>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

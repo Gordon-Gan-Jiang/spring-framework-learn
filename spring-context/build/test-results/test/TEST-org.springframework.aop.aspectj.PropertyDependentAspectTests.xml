@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.aop.aspectj.PropertyDependentAspectTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:39" hostname="bamboo-18" time="0.106">
+<testsuite name="org.springframework.aop.aspectj.PropertyDependentAspectTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:13:07" hostname="gankangdembp" time="0.169">
   <properties/>
-  <testcase name="propertyDependentAtAspectJAspectWithPropertyDeclaredAfterAdvice()" classname="org.springframework.aop.aspectj.PropertyDependentAspectTests" time="0.035"/>
-  <testcase name="propertyDependentAtAspectJAspectWithPropertyDeclaredBeforeAdvice()" classname="org.springframework.aop.aspectj.PropertyDependentAspectTests" time="0.029"/>
-  <testcase name="propertyDependentAspectWithPropertyDeclaredAfterAdvice()" classname="org.springframework.aop.aspectj.PropertyDependentAspectTests" time="0.019"/>
-  <testcase name="propertyDependentAspectWithPropertyDeclaredBeforeAdvice()" classname="org.springframework.aop.aspectj.PropertyDependentAspectTests" time="0.02"/>
+  <testcase name="propertyDependentAtAspectJAspectWithPropertyDeclaredAfterAdvice()" classname="org.springframework.aop.aspectj.PropertyDependentAspectTests" time="0.032"/>
+  <testcase name="propertyDependentAtAspectJAspectWithPropertyDeclaredBeforeAdvice()" classname="org.springframework.aop.aspectj.PropertyDependentAspectTests" time="0.078"/>
+  <testcase name="propertyDependentAspectWithPropertyDeclaredAfterAdvice()" classname="org.springframework.aop.aspectj.PropertyDependentAspectTests" time="0.044"/>
+  <testcase name="propertyDependentAspectWithPropertyDeclaredBeforeAdvice()" classname="org.springframework.aop.aspectj.PropertyDependentAspectTests" time="0.015"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

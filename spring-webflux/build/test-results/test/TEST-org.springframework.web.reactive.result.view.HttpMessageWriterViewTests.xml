@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.result.view.HttpMessageWriterViewTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:31" hostname="bamboo-18" time="0.037">
+<testsuite name="org.springframework.web.reactive.result.view.HttpMessageWriterViewTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:10:54" hostname="gankangdembp" time="0.277">
   <properties/>
-  <testcase name="singleMatch()" classname="org.springframework.web.reactive.result.view.HttpMessageWriterViewTests" time="0.003"/>
+  <testcase name="singleMatch()" classname="org.springframework.web.reactive.result.view.HttpMessageWriterViewTests" time="0.168"/>
   <testcase name="multipleMatches()" classname="org.springframework.web.reactive.result.view.HttpMessageWriterViewTests" time="0.006"/>
-  <testcase name="render()" classname="org.springframework.web.reactive.result.view.HttpMessageWriterViewTests" time="0.002"/>
-  <testcase name="noMatchBecauseNotSupported()" classname="org.springframework.web.reactive.result.view.HttpMessageWriterViewTests" time="0.001"/>
-  <testcase name="supportedMediaTypes()" classname="org.springframework.web.reactive.result.view.HttpMessageWriterViewTests" time="0.0"/>
-  <testcase name="multipleMatchesNotSupported()" classname="org.springframework.web.reactive.result.view.HttpMessageWriterViewTests" time="0.001"/>
+  <testcase name="render()" classname="org.springframework.web.reactive.result.view.HttpMessageWriterViewTests" time="0.009"/>
+  <testcase name="noMatchBecauseNotSupported()" classname="org.springframework.web.reactive.result.view.HttpMessageWriterViewTests" time="0.004"/>
+  <testcase name="supportedMediaTypes()" classname="org.springframework.web.reactive.result.view.HttpMessageWriterViewTests" time="0.017"/>
+  <testcase name="multipleMatchesNotSupported()" classname="org.springframework.web.reactive.result.view.HttpMessageWriterViewTests" time="0.004"/>
   <testcase name="noMatch()" classname="org.springframework.web.reactive.result.view.HttpMessageWriterViewTests" time="0.001"/>
-  <system-out><![CDATA[14:00:31.653 [Test worker] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [6148695b] Encoding [[bar2]]
-14:00:31.660 [Test worker] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [4a994b2d] Encoding [{foo1=[bar1], foo2=[bar2]}]
-14:00:31.668 [Test worker] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [1cabf73d] Encoding [{foo=f, bar=b}]
+  <system-out><![CDATA[16:10:54.268 [Test worker] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [3a9fe289] Encoding [[bar2]]
+16:10:54.412 [Test worker] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [4f6b0d8e] Encoding [{foo1=[bar1], foo2=[bar2]}]
+16:10:54.430 [Test worker] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [3011b838] Encoding [{foo=f, bar=b}]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

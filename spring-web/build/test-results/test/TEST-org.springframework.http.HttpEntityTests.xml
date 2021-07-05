@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.http.HttpEntityTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:42" hostname="bamboo-18" time="0.002">
+<testsuite name="org.springframework.http.HttpEntityTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:11:48" hostname="gankangdembp" time="0.003">
   <properties/>
-  <testcase name="responseEntity()" classname="org.springframework.http.HttpEntityTests" time="0.0"/>
+  <testcase name="responseEntity()" classname="org.springframework.http.HttpEntityTests" time="0.001"/>
   <testcase name="multiValueMap()" classname="org.springframework.http.HttpEntityTests" time="0.0"/>
   <testcase name="requestEntity()" classname="org.springframework.http.HttpEntityTests" time="0.001"/>
   <testcase name="testEquals()" classname="org.springframework.http.HttpEntityTests" time="0.0"/>

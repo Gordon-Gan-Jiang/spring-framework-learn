@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.resource.ResourceUrlProviderTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:38" hostname="bamboo-18" time="0.041">
+<testsuite name="org.springframework.web.reactive.resource.ResourceUrlProviderTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:12:53" hostname="gankangdembp" time="0.171">
   <properties/>
-  <testcase name="getStaticResourceUrl()" classname="org.springframework.web.reactive.resource.ResourceUrlProviderTests" time="0.002"/>
-  <testcase name="getVersionedResourceUrl()" classname="org.springframework.web.reactive.resource.ResourceUrlProviderTests" time="0.004"/>
+  <testcase name="getStaticResourceUrl()" classname="org.springframework.web.reactive.resource.ResourceUrlProviderTests" time="0.001"/>
+  <testcase name="getVersionedResourceUrl()" classname="org.springframework.web.reactive.resource.ResourceUrlProviderTests" time="0.011"/>
+  <testcase name="initializeOnCurrentContext()" classname="org.springframework.web.reactive.resource.ResourceUrlProviderTests" time="0.138"/>
   <testcase name="getStaticResourceUrlRequestWithQueryOrHash()" classname="org.springframework.web.reactive.resource.ResourceUrlProviderTests" time="0.001"/>
-  <testcase name="bestPatternMatch()" classname="org.springframework.web.reactive.resource.ResourceUrlProviderTests" time="0.003"/>
-  <testcase name="initializeOnce()" classname="org.springframework.web.reactive.resource.ResourceUrlProviderTests" time="0.031"/>
-  <system-out><![CDATA[14:00:38.236 [Test worker] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext - Refreshing Root WebApplicationContext
-14:00:38.242 [Test worker] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext - Registering component classes: [class org.springframework.web.reactive.resource.ResourceUrlProviderTests$HandlerMappingConfiguration]
-14:00:38.254 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/resources/**] in 'simpleUrlHandlerMapping'
+  <testcase name="bestPatternMatch()" classname="org.springframework.web.reactive.resource.ResourceUrlProviderTests" time="0.01"/>
+  <testcase name="initializeOnce()" classname="org.springframework.web.reactive.resource.ResourceUrlProviderTests" time="0.007"/>
+  <system-out><![CDATA[16:12:53.199 [Test worker] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext - Refreshing Root WebApplicationContext
+16:12:53.206 [Test worker] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext - Registering component classes: [class org.springframework.web.reactive.resource.ResourceUrlProviderTests$ParentHandlerMappingConfiguration]
+16:12:53.258 [Test worker] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext - Refreshing Root WebApplicationContext
+16:12:53.260 [Test worker] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext - Registering component classes: [class org.springframework.web.reactive.resource.ResourceUrlProviderTests$HandlerMappingConfiguration]
+16:12:53.289 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/resources/**] in 'simpleUrlHandlerMapping'
+16:12:53.307 [Test worker] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext - Refreshing Root WebApplicationContext
+16:12:53.309 [Test worker] DEBUG o.s.w.c.s.AnnotationConfigWebApplicationContext - Registering component classes: [class org.springframework.web.reactive.resource.ResourceUrlProviderTests$HandlerMappingConfiguration]
+16:12:53.312 [Test worker] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/resources/**] in 'simpleUrlHandlerMapping'
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

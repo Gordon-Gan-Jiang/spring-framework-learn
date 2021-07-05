@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.handler.invocation.reactive.EncoderMethodReturnValueHandlerTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:29" hostname="bamboo-18" time="0.031">
+<testsuite name="org.springframework.messaging.handler.invocation.reactive.EncoderMethodReturnValueHandlerTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:09:27" hostname="gankangdembp" time="0.239">
   <properties/>
-  <testcase name="fluxStringReturnValue()" classname="org.springframework.messaging.handler.invocation.reactive.EncoderMethodReturnValueHandlerTests" time="0.011"/>
-  <testcase name="stringReturnValue()" classname="org.springframework.messaging.handler.invocation.reactive.EncoderMethodReturnValueHandlerTests" time="0.002"/>
-  <testcase name="noEncoder()" classname="org.springframework.messaging.handler.invocation.reactive.EncoderMethodReturnValueHandlerTests" time="0.012"/>
-  <testcase name="fluxObjectReturnValue()" classname="org.springframework.messaging.handler.invocation.reactive.EncoderMethodReturnValueHandlerTests" time="0.004"/>
-  <testcase name="voidReturnValue()" classname="org.springframework.messaging.handler.invocation.reactive.EncoderMethodReturnValueHandlerTests" time="0.001"/>
+  <testcase name="fluxStringReturnValue()" classname="org.springframework.messaging.handler.invocation.reactive.EncoderMethodReturnValueHandlerTests" time="0.145"/>
+  <testcase name="stringReturnValue()" classname="org.springframework.messaging.handler.invocation.reactive.EncoderMethodReturnValueHandlerTests" time="0.001"/>
+  <testcase name="noEncoder()" classname="org.springframework.messaging.handler.invocation.reactive.EncoderMethodReturnValueHandlerTests" time="0.004"/>
+  <testcase name="fluxObjectReturnValue()" classname="org.springframework.messaging.handler.invocation.reactive.EncoderMethodReturnValueHandlerTests" time="0.002"/>
+  <testcase name="voidReturnValue()" classname="org.springframework.messaging.handler.invocation.reactive.EncoderMethodReturnValueHandlerTests" time="0.066"/>
   <testcase name="objectReturnValue()" classname="org.springframework.messaging.handler.invocation.reactive.EncoderMethodReturnValueHandlerTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

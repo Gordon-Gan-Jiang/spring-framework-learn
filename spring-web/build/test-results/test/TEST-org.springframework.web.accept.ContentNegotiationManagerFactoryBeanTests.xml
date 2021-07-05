@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:00" hostname="bamboo-18" time="0.042">
+<testsuite name="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:11:10" hostname="gankangdembp" time="0.246">
   <properties/>
-  <testcase name="favorPath()" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.008"/>
-  <testcase name="favorPathWithIgnoreUnknownPathExtensionTurnedOff()" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.001"/>
-  <testcase name="defaultSettings()" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.001"/>
-  <testcase name="setDefaultContentTypes()" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.001"/>
-  <testcase name="setDefaultContentType()" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.001"/>
-  <testcase name="fileExtensions()" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.002"/>
-  <testcase name="explicitStrategies()" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.001"/>
+  <testcase name="favorPath()" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.114"/>
+  <testcase name="favorPathWithIgnoreUnknownPathExtensionTurnedOff()" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.002"/>
+  <testcase name="defaultSettings()" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.005"/>
+  <testcase name="setDefaultContentTypes()" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.002"/>
+  <testcase name="setDefaultContentType()" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.002"/>
+  <testcase name="fileExtensions()" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.006"/>
+  <testcase name="explicitStrategies()" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.082"/>
   <testcase name="ignoreAcceptHeader()" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.001"/>
-  <testcase name="favorParameter()" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.0"/>
-  <testcase name="mediaTypeMappingsWithoutPathAndParameterStrategies()" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.001"/>
-  <testcase name="favorParameterWithUnknownMediaType()" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.0"/>
-  <testcase name="setDefaultContentTypeWithStrategy()" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.0"/>
+  <testcase name="favorParameter()" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.002"/>
+  <testcase name="mediaTypeMappingsWithoutPathAndParameterStrategies()" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.003"/>
+  <testcase name="favorParameterWithUnknownMediaType()" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.016"/>
+  <testcase name="setDefaultContentTypeWithStrategy()" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

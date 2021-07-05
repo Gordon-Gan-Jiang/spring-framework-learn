@@ -1,889 +1,889 @@
-û•%===> Expression 'true++' - AST start
-û•OpInc  value:true++
-û•  BooleanLiteral  value:true
-û•#===> Expression 'true++' - AST end
-û•&===> Expression '--false' - AST start
-û•OpDec  value:false--
-û•  BooleanLiteral  value:false
-û•$===> Expression '--false' - AST end
-û•)===> Expression 'true=false' - AST start
-û•&Assign  value:true=false  #children:2
-û•  BooleanLiteral  value:true
-û•  BooleanLiteral  value:false
-û•'===> Expression 'true=false' - AST end
-û•#===> Expression '12++' - AST start
-û•OpInc  value:12++
-û•  IntLiteral  value:12
-û•!===> Expression '12++' - AST end
-û•%===> Expression '--1222' - AST start
-û•OpDec  value:1222--
-û•  IntLiteral  value:1222
-û•#===> Expression '--1222' - AST end
-û•$===> Expression '12=16' - AST start
-û•!Assign  value:12=16  #children:2
-û•  IntLiteral  value:12
-û•  IntLiteral  value:16
-û•"===> Expression '12=16' - AST end
-û•%===> Expression '1.0d++' - AST start
-û•OpInc  value:1.0++
-û•  RealLiteral  value:1.0
-û•#===> Expression '1.0d++' - AST end
-û•%===> Expression '--3.4d' - AST start
-û•OpDec  value:3.4--
-û•  RealLiteral  value:3.4
-û•#===> Expression '--3.4d' - AST end
-û•(===> Expression '1.0d=3.2d' - AST start
-û•#Assign  value:1.0=3.2  #children:2
-û•  RealLiteral  value:1.0
-û•  RealLiteral  value:3.2
-û•&===> Expression '1.0d=3.2d' - AST end
-û•%===> Expression 'null++' - AST start
-û•OpInc  value:null++
-û•  NullLiteral  value:null
-û•#===> Expression 'null++' - AST end
-û•%===> Expression '--null' - AST start
-û•OpDec  value:null--
-û•  NullLiteral  value:null
-û•#===> Expression '--null' - AST end
-û•(===> Expression 'null=null' - AST start
-û•%Assign  value:null=null  #children:2
-û•  NullLiteral  value:null
-û•  NullLiteral  value:null
-û•&===> Expression 'null=null' - AST end
-û•'===> Expression 'null=123' - AST start
-û•$Assign  value:null=123  #children:2
-û•  NullLiteral  value:null
-û•  IntLiteral  value:123
-û•%===> Expression 'null=123' - AST end
-û•0===> Expression '(true && false)++' - AST start
-û• OpInc  value:(true and false)++
-û•-  OpAnd  value:(true and false)  #children:2
-û•    BooleanLiteral  value:true
-û•     BooleanLiteral  value:false
-û•.===> Expression '(true && false)++' - AST end
-û•1===> Expression '--(false AND true)' - AST start
-û• OpDec  value:(false and true)--
-û•-  OpAnd  value:(false and true)  #children:2
-û•     BooleanLiteral  value:false
-û•    BooleanLiteral  value:true
-û•/===> Expression '--(false AND true)' - AST end
-û•>===> Expression '(true && false)=(false && true)' - AST start
-û•=Assign  value:(true and false)=(false and true)  #children:2
-û•-  OpAnd  value:(true and false)  #children:2
-û•    BooleanLiteral  value:true
-û•     BooleanLiteral  value:false
-û•-  OpAnd  value:(false and true)  #children:2
-û•     BooleanLiteral  value:false
-û•    BooleanLiteral  value:true
-û•<===> Expression '(true && false)=(false && true)' - AST end
-û•&===> Expression '(3/4)++' - AST start
-û•OpInc  value:(3 / 4)++
-û•'  OpDivide  value:(3 / 4)  #children:2
-û•    IntLiteral  value:3
-û•    IntLiteral  value:4
-û•$===> Expression '(3/4)++' - AST end
-û•&===> Expression '--(2/5)' - AST start
-û•OpDec  value:(2 / 5)--
-û•'  OpDivide  value:(2 / 5)  #children:2
-û•    IntLiteral  value:2
-û•    IntLiteral  value:5
-û•$===> Expression '--(2/5)' - AST end
-û•*===> Expression '(1/2)=(3/4)' - AST start
-û•+Assign  value:(1 / 2)=(3 / 4)  #children:2
-û•'  OpDivide  value:(1 / 2)  #children:2
-û•    IntLiteral  value:1
-û•    IntLiteral  value:2
-û•'  OpDivide  value:(3 / 4)  #children:2
-û•    IntLiteral  value:3
-û•    IntLiteral  value:4
-û•(===> Expression '(1/2)=(3/4)' - AST end
-û•'===> Expression '(3==4)++' - AST start
-û•OpInc  value:(3 == 4)++
-û•$  OpEQ  value:(3 == 4)  #children:2
-û•    IntLiteral  value:3
-û•    IntLiteral  value:4
-û•%===> Expression '(3==4)++' - AST end
-û•'===> Expression '--(2==5)' - AST start
-û•OpDec  value:(2 == 5)--
-û•$  OpEQ  value:(2 == 5)  #children:2
-û•    IntLiteral  value:2
-û•    IntLiteral  value:5
-û•%===> Expression '--(2==5)' - AST end
-û•,===> Expression '(1==2)=(3==4)' - AST start
-û•-Assign  value:(1 == 2)=(3 == 4)  #children:2
-û•$  OpEQ  value:(1 == 2)  #children:2
-û•    IntLiteral  value:1
-û•    IntLiteral  value:2
-û•$  OpEQ  value:(3 == 4)  #children:2
-û•    IntLiteral  value:3
-û•    IntLiteral  value:4
-û•*===> Expression '(1==2)=(3==4)' - AST end
-û•'===> Expression '(3>=4)++' - AST start
-û•OpInc  value:(3 >= 4)++
-û•$  OpGE  value:(3 >= 4)  #children:2
-û•    IntLiteral  value:3
-û•    IntLiteral  value:4
-û•%===> Expression '(3>=4)++' - AST end
-û•'===> Expression '--(2>=5)' - AST start
-û•OpDec  value:(2 >= 5)--
-û•$  OpGE  value:(2 >= 5)  #children:2
-û•    IntLiteral  value:2
-û•    IntLiteral  value:5
-û•%===> Expression '--(2>=5)' - AST end
-û•,===> Expression '(1>=2)=(3>=4)' - AST start
-û•-Assign  value:(1 >= 2)=(3 >= 4)  #children:2
-û•$  OpGE  value:(1 >= 2)  #children:2
-û•    IntLiteral  value:1
-û•    IntLiteral  value:2
-û•$  OpGE  value:(3 >= 4)  #children:2
-û•    IntLiteral  value:3
-û•    IntLiteral  value:4
-û•*===> Expression '(1>=2)=(3>=4)' - AST end
-û•&===> Expression '(3>4)++' - AST start
-û•OpInc  value:(3 > 4)++
-û•#  OpGT  value:(3 > 4)  #children:2
-û•    IntLiteral  value:3
-û•    IntLiteral  value:4
-û•$===> Expression '(3>4)++' - AST end
-û•&===> Expression '--(2>5)' - AST start
-û•OpDec  value:(2 > 5)--
-û•#  OpGT  value:(2 > 5)  #children:2
-û•    IntLiteral  value:2
-û•    IntLiteral  value:5
-û•$===> Expression '--(2>5)' - AST end
-û•*===> Expression '(1>2)=(3>4)' - AST start
-û•+Assign  value:(1 > 2)=(3 > 4)  #children:2
-û•#  OpGT  value:(1 > 2)  #children:2
-û•    IntLiteral  value:1
-û•    IntLiteral  value:2
-û•#  OpGT  value:(3 > 4)  #children:2
-û•    IntLiteral  value:3
-û•    IntLiteral  value:4
-û•(===> Expression '(1>2)=(3>4)' - AST end
-û•'===> Expression '(3<=4)++' - AST start
-û•OpInc  value:(3 <= 4)++
-û•$  OpLE  value:(3 <= 4)  #children:2
-û•    IntLiteral  value:3
-û•    IntLiteral  value:4
-û•%===> Expression '(3<=4)++' - AST end
-û•'===> Expression '--(2<=5)' - AST start
-û•OpDec  value:(2 <= 5)--
-û•$  OpLE  value:(2 <= 5)  #children:2
-û•    IntLiteral  value:2
-û•    IntLiteral  value:5
-û•%===> Expression '--(2<=5)' - AST end
-û•,===> Expression '(1<=2)=(3<=4)' - AST start
-û•-Assign  value:(1 <= 2)=(3 <= 4)  #children:2
-û•$  OpLE  value:(1 <= 2)  #children:2
-û•    IntLiteral  value:1
-û•    IntLiteral  value:2
-û•$  OpLE  value:(3 <= 4)  #children:2
-û•    IntLiteral  value:3
-û•    IntLiteral  value:4
-û•*===> Expression '(1<=2)=(3<=4)' - AST end
-û•&===> Expression '(3<4)++' - AST start
-û•OpInc  value:(3 < 4)++
-û•#  OpLT  value:(3 < 4)  #children:2
-û•    IntLiteral  value:3
-û•    IntLiteral  value:4
-û•$===> Expression '(3<4)++' - AST end
-û•&===> Expression '--(2<5)' - AST start
-û•OpDec  value:(2 < 5)--
-û•#  OpLT  value:(2 < 5)  #children:2
-û•    IntLiteral  value:2
-û•    IntLiteral  value:5
-û•$===> Expression '--(2<5)' - AST end
-û•*===> Expression '(1<2)=(3<4)' - AST start
-û•+Assign  value:(1 < 2)=(3 < 4)  #children:2
-û•#  OpLT  value:(1 < 2)  #children:2
-û•    IntLiteral  value:1
-û•    IntLiteral  value:2
-û•#  OpLT  value:(3 < 4)  #children:2
-û•    IntLiteral  value:3
-û•    IntLiteral  value:4
-û•(===> Expression '(1<2)=(3<4)' - AST end
-û•&===> Expression '(3-4)++' - AST start
-û•OpInc  value:(3 - 4)++
-û•&  OpMinus  value:(3 - 4)  #children:2
-û•    IntLiteral  value:3
-û•    IntLiteral  value:4
-û•$===> Expression '(3-4)++' - AST end
-û•&===> Expression '--(2-5)' - AST start
-û•OpDec  value:(2 - 5)--
-û•&  OpMinus  value:(2 - 5)  #children:2
-û•    IntLiteral  value:2
-û•    IntLiteral  value:5
-û•$===> Expression '--(2-5)' - AST end
-û•*===> Expression '(1-2)=(3-4)' - AST start
-û•+Assign  value:(1 - 2)=(3 - 4)  #children:2
-û•&  OpMinus  value:(1 - 2)  #children:2
-û•    IntLiteral  value:1
-û•    IntLiteral  value:2
-û•&  OpMinus  value:(3 - 4)  #children:2
-û•    IntLiteral  value:3
-û•    IntLiteral  value:4
-û•(===> Expression '(1-2)=(3-4)' - AST end
-û•&===> Expression '(3%4)++' - AST start
-û•OpInc  value:(3 % 4)++
-û•(  OpModulus  value:(3 % 4)  #children:2
-û•    IntLiteral  value:3
-û•    IntLiteral  value:4
-û•$===> Expression '(3%4)++' - AST end
-û•&===> Expression '--(2%5)' - AST start
-û•OpDec  value:(2 % 5)--
-û•(  OpModulus  value:(2 % 5)  #children:2
-û•    IntLiteral  value:2
-û•    IntLiteral  value:5
-û•$===> Expression '--(2%5)' - AST end
-û•*===> Expression '(1%2)=(3%4)' - AST start
-û•+Assign  value:(1 % 2)=(3 % 4)  #children:2
-û•(  OpModulus  value:(1 % 2)  #children:2
-û•    IntLiteral  value:1
-û•    IntLiteral  value:2
-û•(  OpModulus  value:(3 % 4)  #children:2
-û•    IntLiteral  value:3
-û•    IntLiteral  value:4
-û•(===> Expression '(1%2)=(3%4)' - AST end
-û•&===> Expression '(3*4)++' - AST start
-û•OpInc  value:(3 * 4)++
-û•)  OpMultiply  value:(3 * 4)  #children:2
-û•    IntLiteral  value:3
-û•    IntLiteral  value:4
-û•$===> Expression '(3*4)++' - AST end
-û•&===> Expression '--(2*5)' - AST start
-û•OpDec  value:(2 * 5)--
-û•)  OpMultiply  value:(2 * 5)  #children:2
-û•    IntLiteral  value:2
-û•    IntLiteral  value:5
-û•$===> Expression '--(2*5)' - AST end
-û•*===> Expression '(1*2)=(3*4)' - AST start
-û•+Assign  value:(1 * 2)=(3 * 4)  #children:2
-û•)  OpMultiply  value:(1 * 2)  #children:2
-û•    IntLiteral  value:1
-û•    IntLiteral  value:2
-û•)  OpMultiply  value:(3 * 4)  #children:2
-û•    IntLiteral  value:3
-û•    IntLiteral  value:4
-û•(===> Expression '(1*2)=(3*4)' - AST end
-û•'===> Expression '(3!=4)++' - AST start
-û•OpInc  value:(3 != 4)++
-û•$  OpNE  value:(3 != 4)  #children:2
-û•    IntLiteral  value:3
-û•    IntLiteral  value:4
-û•%===> Expression '(3!=4)++' - AST end
-û•'===> Expression '--(2!=5)' - AST start
-û•OpDec  value:(2 != 5)--
-û•$  OpNE  value:(2 != 5)  #children:2
-û•    IntLiteral  value:2
-û•    IntLiteral  value:5
-û•%===> Expression '--(2!=5)' - AST end
-û•,===> Expression '(1!=2)=(3!=4)' - AST start
-û•-Assign  value:(1 != 2)=(3 != 4)  #children:2
-û•$  OpNE  value:(1 != 2)  #children:2
-û•    IntLiteral  value:1
-û•    IntLiteral  value:2
-û•$  OpNE  value:(3 != 4)  #children:2
-û•    IntLiteral  value:3
-û•    IntLiteral  value:4
-û•*===> Expression '(1!=2)=(3!=4)' - AST end
-û•0===> Expression '(true || false)++' - AST start
-û•OpInc  value:(true or false)++
-û•+  OpOr  value:(true or false)  #children:2
-û•    BooleanLiteral  value:true
-û•     BooleanLiteral  value:false
-û•.===> Expression '(true || false)++' - AST end
-û•0===> Expression '--(false OR true)' - AST start
-û•OpDec  value:(false or true)--
-û•+  OpOr  value:(false or true)  #children:2
-û•     BooleanLiteral  value:false
-û•    BooleanLiteral  value:true
-û•.===> Expression '--(false OR true)' - AST end
-û•>===> Expression '(true || false)=(false OR true)' - AST start
-û•;Assign  value:(true or false)=(false or true)  #children:2
-û•+  OpOr  value:(true or false)  #children:2
-û•    BooleanLiteral  value:true
-û•     BooleanLiteral  value:false
-û•+  OpOr  value:(false or true)  #children:2
-û•     BooleanLiteral  value:false
-û•    BooleanLiteral  value:true
-û•<===> Expression '(true || false)=(false OR true)' - AST end
-û•&===> Expression '(3+4)++' - AST start
-û•OpInc  value:(3 + 4)++
-û•%  OpPlus  value:(3 + 4)  #children:2
-û•    IntLiteral  value:3
-û•    IntLiteral  value:4
-û•$===> Expression '(3+4)++' - AST end
-û•&===> Expression '--(2+5)' - AST start
-û•OpDec  value:(2 + 5)--
-û•%  OpPlus  value:(2 + 5)  #children:2
-û•    IntLiteral  value:2
-û•    IntLiteral  value:5
-û•$===> Expression '--(2+5)' - AST end
-û•*===> Expression '(1+2)=(3+4)' - AST start
-û•+Assign  value:(1 + 2)=(3 + 4)  #children:2
-û•%  OpPlus  value:(1 + 2)  #children:2
-û•    IntLiteral  value:1
-û•    IntLiteral  value:2
-û•%  OpPlus  value:(3 + 4)  #children:2
-û•    IntLiteral  value:3
-û•    IntLiteral  value:4
-û•(===> Expression '(1+2)=(3+4)' - AST end
-û•%===> Expression '1.0d++' - AST start
-û•OpInc  value:1.0++
-û•  RealLiteral  value:1.0
-û•#===> Expression '1.0d++' - AST end
-û•%===> Expression '--2.0d' - AST start
-û•OpDec  value:2.0--
-û•  RealLiteral  value:2.0
-û•#===> Expression '--2.0d' - AST end
-û•,===> Expression '(1.0d)=(3.0d)' - AST start
-û•#Assign  value:1.0=3.0  #children:2
-û•  RealLiteral  value:1.0
-û•  RealLiteral  value:3.0
-û•*===> Expression '(1.0d)=(3.0d)' - AST end
-û•%===> Expression '1.0f++' - AST start
-û•OpInc  value:1.0++
-û•  FloatLiteral  value:1.0
-û•#===> Expression '1.0f++' - AST end
-û•%===> Expression '--2.0f' - AST start
-û•OpDec  value:2.0--
-û•  FloatLiteral  value:2.0
-û•#===> Expression '--2.0f' - AST end
-û•,===> Expression '(1.0f)=(3.0f)' - AST start
-û•#Assign  value:1.0=3.0  #children:2
-û•  FloatLiteral  value:1.0
-û•  FloatLiteral  value:3.0
-û•*===> Expression '(1.0f)=(3.0f)' - AST end
-û•&===> Expression ''abc'++' - AST start
-û•OpInc  value:'abc'++
-û•  StringLiteral  value:'abc'
-û•$===> Expression ''abc'++' - AST end
-û•&===> Expression '--'def'' - AST start
-û•OpDec  value:'def'--
-û•  StringLiteral  value:'def'
-û•$===> Expression '--'def'' - AST end
-û•*===> Expression ''abc'='def'' - AST start
-û•'Assign  value:'abc'='def'  #children:2
-û•  StringLiteral  value:'abc'
-û•  StringLiteral  value:'def'
-û•(===> Expression ''abc'='def'' - AST end
-û•2===> Expression '(true?true:false)++' - AST start
-û•#OpInc  value:true ? true : false++
-û•2  Ternary  value:true ? true : false  #children:3
-û•    BooleanLiteral  value:true
-û•    BooleanLiteral  value:true
-û•     BooleanLiteral  value:false
-û•0===> Expression '(true?true:false)++' - AST end
-û•2===> Expression '--(true?true:false)' - AST start
-û•#OpDec  value:true ? true : false--
-û•2  Ternary  value:true ? true : false  #children:3
-û•    BooleanLiteral  value:true
-û•    BooleanLiteral  value:true
-û•     BooleanLiteral  value:false
-û•0===> Expression '--(true?true:false)' - AST end
-û•B===> Expression '(true?true:false)=(true?true:false)' - AST start
-û•CAssign  value:true ? true : false=true ? true : false  #children:2
-û•2  Ternary  value:true ? true : false  #children:3
-û•    BooleanLiteral  value:true
-û•    BooleanLiteral  value:true
-û•     BooleanLiteral  value:false
-û•2  Ternary  value:true ? true : false  #children:3
-û•    BooleanLiteral  value:true
-û•    BooleanLiteral  value:true
-û•     BooleanLiteral  value:false
-û•@===> Expression '(true?true:false)=(true?true:false)' - AST end
-û•*===> Expression 'T(String)++' - AST start
-û•OpInc  value:T(String)++
-û•!  TypeReference  value:T(String)
-û•&    QualifiedIdentifier  value:String
-û•      Identifier  value:String
-û•(===> Expression 'T(String)++' - AST end
-û•+===> Expression '--T(Integer)' - AST start
-û•OpDec  value:T(Integer)--
-û•"  TypeReference  value:T(Integer)
-û•'    QualifiedIdentifier  value:Integer
-û•       Identifier  value:Integer
-û•)===> Expression '--T(Integer)' - AST end
-û•3===> Expression 'T(String)=T(Integer)' - AST start
-û•0Assign  value:T(String)=T(Integer)  #children:2
-û•!  TypeReference  value:T(String)
-û•&    QualifiedIdentifier  value:String
-û•      Identifier  value:String
-û•"  TypeReference  value:T(Integer)
-û•'    QualifiedIdentifier  value:Integer
-û•       Identifier  value:Integer
-û•1===> Expression 'T(String)=T(Integer)' - AST end
-û•2===> Expression '(3 between {1,5})++' - AST start
-û•!OpInc  value:(3 between {1,5})++
-û•8  OperatorBetween  value:(3 between {1,5})  #children:2
-û•    IntLiteral  value:3
-û•)    InlineList  value:{1,5}  #children:2
-û•      IntLiteral  value:1
-û•      IntLiteral  value:5
-û•0===> Expression '(3 between {1,5})++' - AST end
-û•2===> Expression '--(3 between {1,5})' - AST start
-û•!OpDec  value:(3 between {1,5})--
-û•8  OperatorBetween  value:(3 between {1,5})  #children:2
-û•    IntLiteral  value:3
-û•)    InlineList  value:{1,5}  #children:2
-û•      IntLiteral  value:1
-û•      IntLiteral  value:5
-û•0===> Expression '--(3 between {1,5})' - AST end
-û•B===> Expression '(3 between {1,5})=(3 between {1,5})' - AST start
-û•?Assign  value:(3 between {1,5})=(3 between {1,5})  #children:2
-û•8  OperatorBetween  value:(3 between {1,5})  #children:2
-û•    IntLiteral  value:3
-û•)    InlineList  value:{1,5}  #children:2
-û•      IntLiteral  value:1
-û•      IntLiteral  value:5
-û•8  OperatorBetween  value:(3 between {1,5})  #children:2
-û•    IntLiteral  value:3
-û•)    InlineList  value:{1,5}  #children:2
-û•      IntLiteral  value:1
-û•      IntLiteral  value:5
-û•@===> Expression '(3 between {1,5})=(3 between {1,5})' - AST end
-û•<===> Expression '(type instanceof T(String))++' - AST start
-û•+OpInc  value:(type instanceof T(String))++
-û•E  OperatorInstanceof  value:(type instanceof T(String))  #children:2
-û•)    PropertyOrFieldReference  value:type
-û•#    TypeReference  value:T(String)
-û•(      QualifiedIdentifier  value:String
-û•!        Identifier  value:String
-û•:===> Expression '(type instanceof T(String))++' - AST end
-û•<===> Expression '--(type instanceof T(String))' - AST start
-û•+OpDec  value:(type instanceof T(String))--
-û•E  OperatorInstanceof  value:(type instanceof T(String))  #children:2
-û•)    PropertyOrFieldReference  value:type
-û•#    TypeReference  value:T(String)
-û•(      QualifiedIdentifier  value:String
-û•!        Identifier  value:String
-û•:===> Expression '--(type instanceof T(String))' - AST end
-û•V===> Expression '(type instanceof T(String))=(type instanceof T(String))' - AST start
-û•SAssign  value:(type instanceof T(String))=(type instanceof T(String))  #children:2
-û•E  OperatorInstanceof  value:(type instanceof T(String))  #children:2
-û•)    PropertyOrFieldReference  value:type
-û•#    TypeReference  value:T(String)
-û•(      QualifiedIdentifier  value:String
-û•!        Identifier  value:String
-û•E  OperatorInstanceof  value:(type instanceof T(String))  #children:2
-û•)    PropertyOrFieldReference  value:type
-û•#    TypeReference  value:T(String)
-û•(      QualifiedIdentifier  value:String
-û•!        Identifier  value:String
-û•T===> Expression '(type instanceof T(String))=(type instanceof T(String))' - AST end
-û•.===> Expression '(true?:false)++' - AST start
-û•OpInc  value:true ?: false++
-û•*  Elvis  value:true ?: false  #children:2
-û•    BooleanLiteral  value:true
-û•     BooleanLiteral  value:false
-û•,===> Expression '(true?:false)++' - AST end
-û•.===> Expression '--(true?:false)' - AST start
-û•OpDec  value:true ?: false--
-û•*  Elvis  value:true ?: false  #children:2
-û•    BooleanLiteral  value:true
-û•     BooleanLiteral  value:false
-û•,===> Expression '--(true?:false)' - AST end
-û•:===> Expression '(true?:false)=(true?:false)' - AST start
-û•7Assign  value:true ?: false=true ?: false  #children:2
-û•*  Elvis  value:true ?: false  #children:2
-û•    BooleanLiteral  value:true
-û•     BooleanLiteral  value:false
-û•*  Elvis  value:true ?: false  #children:2
-û•    BooleanLiteral  value:true
-û•     BooleanLiteral  value:false
-û•8===> Expression '(true?:false)=(true?:false)' - AST end
-û•(===> Expression '(iii++)++' - AST start
-û•OpInc  value:iii++++
-û•  OpInc  value:iii++
-û•(    PropertyOrFieldReference  value:iii
-û•&===> Expression '(iii++)++' - AST end
-û•(===> Expression '--(++iii)' - AST start
-û•OpDec  value:iii++--
-û•  OpInc  value:iii++
-û•(    PropertyOrFieldReference  value:iii
-û•&===> Expression '--(++iii)' - AST end
-û•.===> Expression '(iii++)=(++iii)' - AST start
-û•'Assign  value:iii++=iii++  #children:2
-û•  OpInc  value:iii++
-û•(    PropertyOrFieldReference  value:iii
-û•  OpInc  value:iii++
-û•(    PropertyOrFieldReference  value:iii
-û•,===> Expression '(iii++)=(++iii)' - AST end
-û•(===> Expression '(iii--)++' - AST start
-û•OpInc  value:iii--++
-û•  OpDec  value:iii--
-û•(    PropertyOrFieldReference  value:iii
-û•&===> Expression '(iii--)++' - AST end
-û•(===> Expression '--(--iii)' - AST start
-û•OpDec  value:iii----
-û•  OpDec  value:iii--
-û•(    PropertyOrFieldReference  value:iii
-û•&===> Expression '--(--iii)' - AST end
-û•.===> Expression '(iii--)=(--iii)' - AST start
-û•'Assign  value:iii--=iii--  #children:2
-û•  OpDec  value:iii--
-û•(    PropertyOrFieldReference  value:iii
-û•  OpDec  value:iii--
-û•(    PropertyOrFieldReference  value:iii
-û•,===> Expression '(iii--)=(--iii)' - AST end
-û•(===> Expression '(!true)++' - AST start
-û•OpInc  value:!true++
-û•  OperatorNot  value:!true
-û•    BooleanLiteral  value:true
-û•&===> Expression '(!true)++' - AST end
-û•)===> Expression '--(!false)' - AST start
-û•OpDec  value:!false--
-û•  OperatorNot  value:!false
-û•     BooleanLiteral  value:false
-û•'===> Expression '--(!false)' - AST end
-û•/===> Expression '(!true)=(!false)' - AST start
-û•(Assign  value:!true=!false  #children:2
-û•  OperatorNot  value:!true
-û•    BooleanLiteral  value:true
-û•  OperatorNot  value:!false
-û•     BooleanLiteral  value:false
-û•-===> Expression '(!true)=(!false)' - AST end
-û•(===> Expression '(iii^2)++' - AST start
-û•OpInc  value:(iii ^ 2)++
-û•.  OperatorPower  value:(iii ^ 2)  #children:2
-û•(    PropertyOrFieldReference  value:iii
-û•    IntLiteral  value:2
-û•&===> Expression '(iii^2)++' - AST end
-û•(===> Expression '--(iii^2)' - AST start
-û•OpDec  value:(iii ^ 2)--
-û•.  OperatorPower  value:(iii ^ 2)  #children:2
-û•(    PropertyOrFieldReference  value:iii
-û•    IntLiteral  value:2
-û•&===> Expression '--(iii^2)' - AST end
-û•.===> Expression '(iii^2)=(iii^3)' - AST start
-û•/Assign  value:(iii ^ 2)=(iii ^ 3)  #children:2
-û•.  OperatorPower  value:(iii ^ 2)  #children:2
-û•(    PropertyOrFieldReference  value:iii
-û•    IntLiteral  value:2
-û•.  OperatorPower  value:(iii ^ 3)  #children:2
-û•(    PropertyOrFieldReference  value:iii
-û•    IntLiteral  value:3
-û•,===> Expression '(iii^2)=(iii^3)' - AST end
-û•4===> Expression '(new String('abc'))++' - AST start
-û•!OpInc  value:new String('abc')++
-û•=  ConstructorReference  value:new String('abc')  #children:2
-û•&    QualifiedIdentifier  value:String
-û•      Identifier  value:String
-û•    StringLiteral  value:'abc'
-û•2===> Expression '(new String('abc'))++' - AST end
-û•4===> Expression '--(new String('abc'))' - AST start
-û•!OpDec  value:new String('abc')--
-û•=  ConstructorReference  value:new String('abc')  #children:2
-û•&    QualifiedIdentifier  value:String
-û•      Identifier  value:String
-û•    StringLiteral  value:'abc'
-û•2===> Expression '--(new String('abc'))' - AST end
-û•F===> Expression '(new String('abc'))=(new String('abc'))' - AST start
-û•?Assign  value:new String('abc')=new String('abc')  #children:2
-û•=  ConstructorReference  value:new String('abc')  #children:2
-û•&    QualifiedIdentifier  value:String
-û•      Identifier  value:String
-û•    StringLiteral  value:'abc'
-û•=  ConstructorReference  value:new String('abc')  #children:2
-û•&    QualifiedIdentifier  value:String
-û•      Identifier  value:String
-û•    StringLiteral  value:'abc'
-û•D===> Expression '(new String('abc'))=(new String('abc'))' - AST end
-û•$===> Expression 'm()++' - AST start
-û•OpInc  value:m()++
-û•  MethodReference  value:m()
-û•"===> Expression 'm()++' - AST end
-û•$===> Expression '--m()' - AST start
-û•OpDec  value:m()--
-û•  MethodReference  value:m()
-û•"===> Expression '--m()' - AST end
-û•&===> Expression 'm()=m()' - AST start
-û•#Assign  value:m()=m()  #children:2
-û•  MethodReference  value:m()
-û•  MethodReference  value:m()
-û•$===> Expression 'm()=m()' - AST end
-û•7===> Expression '('abc' matches '^a..')++' - AST start
-û•&OpInc  value:('abc' matches '^a..')++
-û•=  OperatorMatches  value:('abc' matches '^a..')  #children:2
-û•    StringLiteral  value:'abc'
-û•     StringLiteral  value:'^a..'
-û•5===> Expression '('abc' matches '^a..')++' - AST end
-û•7===> Expression '--('abc' matches '^a..')' - AST start
-û•&OpDec  value:('abc' matches '^a..')--
-û•=  OperatorMatches  value:('abc' matches '^a..')  #children:2
-û•    StringLiteral  value:'abc'
-û•     StringLiteral  value:'^a..'
-û•5===> Expression '--('abc' matches '^a..')' - AST end
-û•L===> Expression '('abc' matches '^a..')=('abc' matches '^a..')' - AST start
-û•IAssign  value:('abc' matches '^a..')=('abc' matches '^a..')  #children:2
-û•=  OperatorMatches  value:('abc' matches '^a..')  #children:2
-û•    StringLiteral  value:'abc'
-û•     StringLiteral  value:'^a..'
-û•=  OperatorMatches  value:('abc' matches '^a..')  #children:2
-û•    StringLiteral  value:'abc'
-û•     StringLiteral  value:'^a..'
-û•J===> Expression '('abc' matches '^a..')=('abc' matches '^a..')' - AST end
-û•<===> Expression '({1,2,3}.?[#isEven(#this)])++' - AST start
-û•)OpInc  value:{1,2,3}.?[#isEven(#this)]++
-û•C  CompoundExpression  value:{1,2,3}.?[#isEven(#this)]  #children:2
-û•+    InlineList  value:{1,2,3}  #children:3
-û•      IntLiteral  value:1
-û•      IntLiteral  value:2
-û•      IntLiteral  value:3
-û•'    Selection  value:?[#isEven(#this)]
-û•.      FunctionReference  value:#isEven(#this)
-û•'        VariableReference  value:#this
-û•:===> Expression '({1,2,3}.?[#isEven(#this)])++' - AST end
-û•<===> Expression '--({1,2,3}.?[#isEven(#this)])' - AST start
-û•)OpDec  value:{1,2,3}.?[#isEven(#this)]--
-û•C  CompoundExpression  value:{1,2,3}.?[#isEven(#this)]  #children:2
-û•+    InlineList  value:{1,2,3}  #children:3
-û•      IntLiteral  value:1
-û•      IntLiteral  value:2
-û•      IntLiteral  value:3
-û•'    Selection  value:?[#isEven(#this)]
-û•.      FunctionReference  value:#isEven(#this)
-û•'        VariableReference  value:#this
-û•:===> Expression '--({1,2,3}.?[#isEven(#this)])' - AST end
-û•V===> Expression '({1,2,3}.?[#isEven(#this)])=({1,2,3}.?[#isEven(#this)])' - AST start
-û•OAssign  value:{1,2,3}.?[#isEven(#this)]={1,2,3}.?[#isEven(#this)]  #children:2
-û•C  CompoundExpression  value:{1,2,3}.?[#isEven(#this)]  #children:2
-û•+    InlineList  value:{1,2,3}  #children:3
-û•      IntLiteral  value:1
-û•      IntLiteral  value:2
-û•      IntLiteral  value:3
-û•'    Selection  value:?[#isEven(#this)]
-û•.      FunctionReference  value:#isEven(#this)
-û•'        VariableReference  value:#this
-û•C  CompoundExpression  value:{1,2,3}.?[#isEven(#this)]  #children:2
-û•+    InlineList  value:{1,2,3}  #children:3
-û•      IntLiteral  value:1
-û•      IntLiteral  value:2
-û•      IntLiteral  value:3
-û•'    Selection  value:?[#isEven(#this)]
-û•.      FunctionReference  value:#isEven(#this)
-û•'        VariableReference  value:#this
-û•T===> Expression '({1,2,3}.?[#isEven(#this)])=({1,2,3}.?[#isEven(#this)])' - AST end
-û•<===> Expression '({1,2,3}.^[#isEven(#this)])++' - AST start
-û•)OpInc  value:{1,2,3}.^[#isEven(#this)]++
-û•C  CompoundExpression  value:{1,2,3}.^[#isEven(#this)]  #children:2
-û•+    InlineList  value:{1,2,3}  #children:3
-û•      IntLiteral  value:1
-û•      IntLiteral  value:2
-û•      IntLiteral  value:3
-û•'    Selection  value:^[#isEven(#this)]
-û•.      FunctionReference  value:#isEven(#this)
-û•'        VariableReference  value:#this
-û•:===> Expression '({1,2,3}.^[#isEven(#this)])++' - AST end
-û•<===> Expression '--({1,2,3}.^[#isEven(#this)])' - AST start
-û•)OpDec  value:{1,2,3}.^[#isEven(#this)]--
-û•C  CompoundExpression  value:{1,2,3}.^[#isEven(#this)]  #children:2
-û•+    InlineList  value:{1,2,3}  #children:3
-û•      IntLiteral  value:1
-û•      IntLiteral  value:2
-û•      IntLiteral  value:3
-û•'    Selection  value:^[#isEven(#this)]
-û•.      FunctionReference  value:#isEven(#this)
-û•'        VariableReference  value:#this
-û•:===> Expression '--({1,2,3}.^[#isEven(#this)])' - AST end
-û•V===> Expression '({1,2,3}.^[#isEven(#this)])=({1,2,3}.^[#isEven(#this)])' - AST start
-û•OAssign  value:{1,2,3}.^[#isEven(#this)]={1,2,3}.^[#isEven(#this)]  #children:2
-û•C  CompoundExpression  value:{1,2,3}.^[#isEven(#this)]  #children:2
-û•+    InlineList  value:{1,2,3}  #children:3
-û•      IntLiteral  value:1
-û•      IntLiteral  value:2
-û•      IntLiteral  value:3
-û•'    Selection  value:^[#isEven(#this)]
-û•.      FunctionReference  value:#isEven(#this)
-û•'        VariableReference  value:#this
-û•C  CompoundExpression  value:{1,2,3}.^[#isEven(#this)]  #children:2
-û•+    InlineList  value:{1,2,3}  #children:3
-û•      IntLiteral  value:1
-û•      IntLiteral  value:2
-û•      IntLiteral  value:3
-û•'    Selection  value:^[#isEven(#this)]
-û•.      FunctionReference  value:#isEven(#this)
-û•'        VariableReference  value:#this
-û•T===> Expression '({1,2,3}.^[#isEven(#this)])=({1,2,3}.^[#isEven(#this)])' - AST end
-û•<===> Expression '({1,2,3}.$[#isEven(#this)])++' - AST start
-û•)OpInc  value:{1,2,3}.$[#isEven(#this)]++
-û•C  CompoundExpression  value:{1,2,3}.$[#isEven(#this)]  #children:2
-û•+    InlineList  value:{1,2,3}  #children:3
-û•      IntLiteral  value:1
-û•      IntLiteral  value:2
-û•      IntLiteral  value:3
-û•'    Selection  value:$[#isEven(#this)]
-û•.      FunctionReference  value:#isEven(#this)
-û•'        VariableReference  value:#this
-û•:===> Expression '({1,2,3}.$[#isEven(#this)])++' - AST end
-û•<===> Expression '--({1,2,3}.$[#isEven(#this)])' - AST start
-û•)OpDec  value:{1,2,3}.$[#isEven(#this)]--
-û•C  CompoundExpression  value:{1,2,3}.$[#isEven(#this)]  #children:2
-û•+    InlineList  value:{1,2,3}  #children:3
-û•      IntLiteral  value:1
-û•      IntLiteral  value:2
-û•      IntLiteral  value:3
-û•'    Selection  value:$[#isEven(#this)]
-û•.      FunctionReference  value:#isEven(#this)
-û•'        VariableReference  value:#this
-û•:===> Expression '--({1,2,3}.$[#isEven(#this)])' - AST end
-û•V===> Expression '({1,2,3}.$[#isEven(#this)])=({1,2,3}.$[#isEven(#this)])' - AST start
-û•OAssign  value:{1,2,3}.$[#isEven(#this)]={1,2,3}.$[#isEven(#this)]  #children:2
-û•C  CompoundExpression  value:{1,2,3}.$[#isEven(#this)]  #children:2
-û•+    InlineList  value:{1,2,3}  #children:3
-û•      IntLiteral  value:1
-û•      IntLiteral  value:2
-û•      IntLiteral  value:3
-û•'    Selection  value:$[#isEven(#this)]
-û•.      FunctionReference  value:#isEven(#this)
-û•'        VariableReference  value:#this
-û•C  CompoundExpression  value:{1,2,3}.$[#isEven(#this)]  #children:2
-û•+    InlineList  value:{1,2,3}  #children:3
-û•      IntLiteral  value:1
-û•      IntLiteral  value:2
-û•      IntLiteral  value:3
-û•'    Selection  value:$[#isEven(#this)]
-û•.      FunctionReference  value:#isEven(#this)
-û•'        VariableReference  value:#this
-û•T===> Expression '({1,2,3}.$[#isEven(#this)])=({1,2,3}.$[#isEven(#this)])' - AST end
-û•+===> Expression '#isEven(3)++' - AST start
-û•OpInc  value:#isEven(3)++
-û•&  FunctionReference  value:#isEven(3)
-û•    IntLiteral  value:3
-û•)===> Expression '#isEven(3)++' - AST end
-û•+===> Expression '--#isEven(4)' - AST start
-û•OpDec  value:#isEven(4)--
-û•&  FunctionReference  value:#isEven(4)
-û•    IntLiteral  value:4
-û•)===> Expression '--#isEven(4)' - AST end
-û•4===> Expression '#isEven(3)=#isEven(5)' - AST start
-û•1Assign  value:#isEven(3)=#isEven(5)  #children:2
-û•&  FunctionReference  value:#isEven(3)
-û•    IntLiteral  value:3
-û•&  FunctionReference  value:#isEven(5)
-û•    IntLiteral  value:5
-û•2===> Expression '#isEven(3)=#isEven(5)' - AST end
-û•(===> Expression '#wibble++' - AST start
-û•OpInc  value:#wibble++
-û•#  VariableReference  value:#wibble
-û•&===> Expression '#wibble++' - AST end
-û•(===> Expression '--#wibble' - AST start
-û•OpDec  value:#wibble--
-û•#  VariableReference  value:#wibble
-û•&===> Expression '--#wibble' - AST end
-û•<===> Expression '({1,2,3}.![#isEven(#this)])++' - AST start
-û•)OpInc  value:{1,2,3}.![#isEven(#this)]++
-û•C  CompoundExpression  value:{1,2,3}.![#isEven(#this)]  #children:2
-û•+    InlineList  value:{1,2,3}  #children:3
-û•      IntLiteral  value:1
-û•      IntLiteral  value:2
-û•      IntLiteral  value:3
-û•(    Projection  value:![#isEven(#this)]
-û•.      FunctionReference  value:#isEven(#this)
-û•'        VariableReference  value:#this
-û•:===> Expression '({1,2,3}.![#isEven(#this)])++' - AST end
-û•<===> Expression '--({1,2,3}.![#isEven(#this)])' - AST start
-û•)OpDec  value:{1,2,3}.![#isEven(#this)]--
-û•C  CompoundExpression  value:{1,2,3}.![#isEven(#this)]  #children:2
-û•+    InlineList  value:{1,2,3}  #children:3
-û•      IntLiteral  value:1
-û•      IntLiteral  value:2
-û•      IntLiteral  value:3
-û•(    Projection  value:![#isEven(#this)]
-û•.      FunctionReference  value:#isEven(#this)
-û•'        VariableReference  value:#this
-û•:===> Expression '--({1,2,3}.![#isEven(#this)])' - AST end
-û•V===> Expression '({1,2,3}.![#isEven(#this)])=({1,2,3}.![#isEven(#this)])' - AST start
-û•OAssign  value:{1,2,3}.![#isEven(#this)]={1,2,3}.![#isEven(#this)]  #children:2
-û•C  CompoundExpression  value:{1,2,3}.![#isEven(#this)]  #children:2
-û•+    InlineList  value:{1,2,3}  #children:3
-û•      IntLiteral  value:1
-û•      IntLiteral  value:2
-û•      IntLiteral  value:3
-û•(    Projection  value:![#isEven(#this)]
-û•.      FunctionReference  value:#isEven(#this)
-û•'        VariableReference  value:#this
-û•C  CompoundExpression  value:{1,2,3}.![#isEven(#this)]  #children:2
-û•+    InlineList  value:{1,2,3}  #children:3
-û•      IntLiteral  value:1
-û•      IntLiteral  value:2
-û•      IntLiteral  value:3
-û•(    Projection  value:![#isEven(#this)]
-û•.      FunctionReference  value:#isEven(#this)
-û•'        VariableReference  value:#this
-û•T===> Expression '({1,2,3}.![#isEven(#this)])=({1,2,3}.![#isEven(#this)])' - AST end
-û•*===> Expression '({1,2,3})++' - AST start
-û•OpInc  value:{1,2,3}++
-û•)  InlineList  value:{1,2,3}  #children:3
-û•    IntLiteral  value:1
-û•    IntLiteral  value:2
-û•    IntLiteral  value:3
-û•(===> Expression '({1,2,3})++' - AST end
-û•*===> Expression '--({1,2,3})' - AST start
-û•OpDec  value:{1,2,3}--
-û•)  InlineList  value:{1,2,3}  #children:3
-û•    IntLiteral  value:1
-û•    IntLiteral  value:2
-û•    IntLiteral  value:3
-û•(===> Expression '--({1,2,3})' - AST end
-û•2===> Expression '({1,2,3})=({1,2,3})' - AST start
-û•+Assign  value:{1,2,3}={1,2,3}  #children:2
-û•)  InlineList  value:{1,2,3}  #children:3
-û•    IntLiteral  value:1
-û•    IntLiteral  value:2
-û•    IntLiteral  value:3
-û•)  InlineList  value:{1,2,3}  #children:3
-û•    IntLiteral  value:1
-û•    IntLiteral  value:2
-û•    IntLiteral  value:3
-û•0===> Expression '({1,2,3})=({1,2,3})' - AST end
-û•6===> Expression '({'a':1,'b':2,'c':3})++' - AST start
-û•#OpInc  value:{'a':1,'b':2,'c':3}++
-û•4  InlineMap  value:{'a':1,'b':2,'c':3}  #children:6
-û•    StringLiteral  value:'a'
-û•    IntLiteral  value:1
-û•    StringLiteral  value:'b'
-û•    IntLiteral  value:2
-û•    StringLiteral  value:'c'
-û•    IntLiteral  value:3
-û•4===> Expression '({'a':1,'b':2,'c':3})++' - AST end
-û•6===> Expression '--({'a':1,'b':2,'c':3})' - AST start
-û•#OpDec  value:{'a':1,'b':2,'c':3}--
-û•4  InlineMap  value:{'a':1,'b':2,'c':3}  #children:6
-û•    StringLiteral  value:'a'
-û•    IntLiteral  value:1
-û•    StringLiteral  value:'b'
-û•    IntLiteral  value:2
-û•    StringLiteral  value:'c'
-û•    IntLiteral  value:3
-û•4===> Expression '--({'a':1,'b':2,'c':3})' - AST end
-û•J===> Expression '({'a':1,'b':2,'c':3})=({'a':1,'b':2,'c':3})' - AST start
-û•CAssign  value:{'a':1,'b':2,'c':3}={'a':1,'b':2,'c':3}  #children:2
-û•4  InlineMap  value:{'a':1,'b':2,'c':3}  #children:6
-û•    StringLiteral  value:'a'
-û•    IntLiteral  value:1
-û•    StringLiteral  value:'b'
-û•    IntLiteral  value:2
-û•    StringLiteral  value:'c'
-û•    IntLiteral  value:3
-û•4  InlineMap  value:{'a':1,'b':2,'c':3}  #children:6
-û•    StringLiteral  value:'a'
-û•    IntLiteral  value:1
-û•    StringLiteral  value:'b'
-û•    IntLiteral  value:2
-û•    StringLiteral  value:'c'
-û•    IntLiteral  value:3
-û•H===> Expression '({'a':1,'b':2,'c':3})=({'a':1,'b':2,'c':3})' - AST end
-û•%===> Expression '@foo++' - AST start
-û•OpInc  value:@foo++
-û•  BeanReference  value:@foo
-û•#===> Expression '@foo++' - AST end
-û•%===> Expression '--@foo' - AST start
-û•OpDec  value:@foo--
-û•  BeanReference  value:@foo
-û•#===> Expression '--@foo' - AST end
-û•(===> Expression '@foo=@bar' - AST start
-û•%Assign  value:@foo=@bar  #children:2
-û•  BeanReference  value:@foo
-û•  BeanReference  value:@bar
-û•&===> Expression '@foo=@bar' - AST end
+zÅ%===> Expression 'true++' - AST start
+zÅOpInc  value:true++
+zÅ  BooleanLiteral  value:true
+zÅ#===> Expression 'true++' - AST end
+zÅ&===> Expression '--false' - AST start
+zÅOpDec  value:false--
+zÅ  BooleanLiteral  value:false
+zÅ$===> Expression '--false' - AST end
+zÅ)===> Expression 'true=false' - AST start
+zÅ&Assign  value:true=false  #children:2
+zÅ  BooleanLiteral  value:true
+zÅ  BooleanLiteral  value:false
+zÅ'===> Expression 'true=false' - AST end
+zÅ#===> Expression '12++' - AST start
+zÅOpInc  value:12++
+zÅ  IntLiteral  value:12
+zÅ!===> Expression '12++' - AST end
+zÅ%===> Expression '--1222' - AST start
+zÅOpDec  value:1222--
+zÅ  IntLiteral  value:1222
+zÅ#===> Expression '--1222' - AST end
+zÅ$===> Expression '12=16' - AST start
+zÅ!Assign  value:12=16  #children:2
+zÅ  IntLiteral  value:12
+zÅ  IntLiteral  value:16
+zÅ"===> Expression '12=16' - AST end
+zÅ%===> Expression '1.0d++' - AST start
+zÅOpInc  value:1.0++
+zÅ  RealLiteral  value:1.0
+zÅ#===> Expression '1.0d++' - AST end
+zÅ%===> Expression '--3.4d' - AST start
+zÅOpDec  value:3.4--
+zÅ  RealLiteral  value:3.4
+zÅ#===> Expression '--3.4d' - AST end
+zÅ(===> Expression '1.0d=3.2d' - AST start
+zÅ#Assign  value:1.0=3.2  #children:2
+zÅ  RealLiteral  value:1.0
+zÅ  RealLiteral  value:3.2
+zÅ&===> Expression '1.0d=3.2d' - AST end
+zÅ%===> Expression 'null++' - AST start
+zÅOpInc  value:null++
+zÅ  NullLiteral  value:null
+zÅ#===> Expression 'null++' - AST end
+zÅ%===> Expression '--null' - AST start
+zÅOpDec  value:null--
+zÅ  NullLiteral  value:null
+zÅ#===> Expression '--null' - AST end
+zÅ(===> Expression 'null=null' - AST start
+zÅ%Assign  value:null=null  #children:2
+zÅ  NullLiteral  value:null
+zÅ  NullLiteral  value:null
+zÅ&===> Expression 'null=null' - AST end
+zÅ'===> Expression 'null=123' - AST start
+zÅ$Assign  value:null=123  #children:2
+zÅ  NullLiteral  value:null
+zÅ  IntLiteral  value:123
+zÅ%===> Expression 'null=123' - AST end
+zÅ0===> Expression '(true && false)++' - AST start
+zÅ OpInc  value:(true and false)++
+zÅ-  OpAnd  value:(true and false)  #children:2
+zÅ    BooleanLiteral  value:true
+zÅ     BooleanLiteral  value:false
+zÅ.===> Expression '(true && false)++' - AST end
+zÅ1===> Expression '--(false AND true)' - AST start
+zÅ OpDec  value:(false and true)--
+zÅ-  OpAnd  value:(false and true)  #children:2
+zÅ     BooleanLiteral  value:false
+zÅ    BooleanLiteral  value:true
+zÅ/===> Expression '--(false AND true)' - AST end
+zÅ>===> Expression '(true && false)=(false && true)' - AST start
+zÅ=Assign  value:(true and false)=(false and true)  #children:2
+zÅ-  OpAnd  value:(true and false)  #children:2
+zÅ    BooleanLiteral  value:true
+zÅ     BooleanLiteral  value:false
+zÅ-  OpAnd  value:(false and true)  #children:2
+zÅ     BooleanLiteral  value:false
+zÅ    BooleanLiteral  value:true
+zÅ<===> Expression '(true && false)=(false && true)' - AST end
+zÅ&===> Expression '(3/4)++' - AST start
+zÅOpInc  value:(3 / 4)++
+zÅ'  OpDivide  value:(3 / 4)  #children:2
+zÅ    IntLiteral  value:3
+zÅ    IntLiteral  value:4
+zÅ$===> Expression '(3/4)++' - AST end
+zÅ&===> Expression '--(2/5)' - AST start
+zÅOpDec  value:(2 / 5)--
+zÅ'  OpDivide  value:(2 / 5)  #children:2
+zÅ    IntLiteral  value:2
+zÅ    IntLiteral  value:5
+zÅ$===> Expression '--(2/5)' - AST end
+zÅ*===> Expression '(1/2)=(3/4)' - AST start
+zÅ+Assign  value:(1 / 2)=(3 / 4)  #children:2
+zÅ'  OpDivide  value:(1 / 2)  #children:2
+zÅ    IntLiteral  value:1
+zÅ    IntLiteral  value:2
+zÅ'  OpDivide  value:(3 / 4)  #children:2
+zÅ    IntLiteral  value:3
+zÅ    IntLiteral  value:4
+zÅ(===> Expression '(1/2)=(3/4)' - AST end
+zÅ'===> Expression '(3==4)++' - AST start
+zÅOpInc  value:(3 == 4)++
+zÅ$  OpEQ  value:(3 == 4)  #children:2
+zÅ    IntLiteral  value:3
+zÅ    IntLiteral  value:4
+zÅ%===> Expression '(3==4)++' - AST end
+zÅ'===> Expression '--(2==5)' - AST start
+zÅOpDec  value:(2 == 5)--
+zÅ$  OpEQ  value:(2 == 5)  #children:2
+zÅ    IntLiteral  value:2
+zÅ    IntLiteral  value:5
+zÅ%===> Expression '--(2==5)' - AST end
+zÅ,===> Expression '(1==2)=(3==4)' - AST start
+zÅ-Assign  value:(1 == 2)=(3 == 4)  #children:2
+zÅ$  OpEQ  value:(1 == 2)  #children:2
+zÅ    IntLiteral  value:1
+zÅ    IntLiteral  value:2
+zÅ$  OpEQ  value:(3 == 4)  #children:2
+zÅ    IntLiteral  value:3
+zÅ    IntLiteral  value:4
+zÅ*===> Expression '(1==2)=(3==4)' - AST end
+zÅ'===> Expression '(3>=4)++' - AST start
+zÅOpInc  value:(3 >= 4)++
+zÅ$  OpGE  value:(3 >= 4)  #children:2
+zÅ    IntLiteral  value:3
+zÅ    IntLiteral  value:4
+zÅ%===> Expression '(3>=4)++' - AST end
+zÅ'===> Expression '--(2>=5)' - AST start
+zÅOpDec  value:(2 >= 5)--
+zÅ$  OpGE  value:(2 >= 5)  #children:2
+zÅ    IntLiteral  value:2
+zÅ    IntLiteral  value:5
+zÅ%===> Expression '--(2>=5)' - AST end
+zÅ,===> Expression '(1>=2)=(3>=4)' - AST start
+zÅ-Assign  value:(1 >= 2)=(3 >= 4)  #children:2
+zÅ$  OpGE  value:(1 >= 2)  #children:2
+zÅ    IntLiteral  value:1
+zÅ    IntLiteral  value:2
+zÅ$  OpGE  value:(3 >= 4)  #children:2
+zÅ    IntLiteral  value:3
+zÅ    IntLiteral  value:4
+zÅ*===> Expression '(1>=2)=(3>=4)' - AST end
+zÅ&===> Expression '(3>4)++' - AST start
+zÅOpInc  value:(3 > 4)++
+zÅ#  OpGT  value:(3 > 4)  #children:2
+zÅ    IntLiteral  value:3
+zÅ    IntLiteral  value:4
+zÅ$===> Expression '(3>4)++' - AST end
+zÅ&===> Expression '--(2>5)' - AST start
+zÅOpDec  value:(2 > 5)--
+zÅ#  OpGT  value:(2 > 5)  #children:2
+zÅ    IntLiteral  value:2
+zÅ    IntLiteral  value:5
+zÅ$===> Expression '--(2>5)' - AST end
+zÅ*===> Expression '(1>2)=(3>4)' - AST start
+zÅ+Assign  value:(1 > 2)=(3 > 4)  #children:2
+zÅ#  OpGT  value:(1 > 2)  #children:2
+zÅ    IntLiteral  value:1
+zÅ    IntLiteral  value:2
+zÅ#  OpGT  value:(3 > 4)  #children:2
+zÅ    IntLiteral  value:3
+zÅ    IntLiteral  value:4
+zÅ(===> Expression '(1>2)=(3>4)' - AST end
+zÅ'===> Expression '(3<=4)++' - AST start
+zÅOpInc  value:(3 <= 4)++
+zÅ$  OpLE  value:(3 <= 4)  #children:2
+zÅ    IntLiteral  value:3
+zÅ    IntLiteral  value:4
+zÅ%===> Expression '(3<=4)++' - AST end
+zÅ'===> Expression '--(2<=5)' - AST start
+zÅOpDec  value:(2 <= 5)--
+zÅ$  OpLE  value:(2 <= 5)  #children:2
+zÅ    IntLiteral  value:2
+zÅ    IntLiteral  value:5
+zÅ%===> Expression '--(2<=5)' - AST end
+zÅ,===> Expression '(1<=2)=(3<=4)' - AST start
+zÅ-Assign  value:(1 <= 2)=(3 <= 4)  #children:2
+zÅ$  OpLE  value:(1 <= 2)  #children:2
+zÅ    IntLiteral  value:1
+zÅ    IntLiteral  value:2
+zÅ$  OpLE  value:(3 <= 4)  #children:2
+zÅ    IntLiteral  value:3
+zÅ    IntLiteral  value:4
+zÅ*===> Expression '(1<=2)=(3<=4)' - AST end
+zÅ&===> Expression '(3<4)++' - AST start
+zÅOpInc  value:(3 < 4)++
+zÅ#  OpLT  value:(3 < 4)  #children:2
+zÅ    IntLiteral  value:3
+zÅ    IntLiteral  value:4
+zÅ$===> Expression '(3<4)++' - AST end
+zÅ&===> Expression '--(2<5)' - AST start
+zÅOpDec  value:(2 < 5)--
+zÅ#  OpLT  value:(2 < 5)  #children:2
+zÅ    IntLiteral  value:2
+zÅ    IntLiteral  value:5
+zÅ$===> Expression '--(2<5)' - AST end
+zÅ*===> Expression '(1<2)=(3<4)' - AST start
+zÅ+Assign  value:(1 < 2)=(3 < 4)  #children:2
+zÅ#  OpLT  value:(1 < 2)  #children:2
+zÅ    IntLiteral  value:1
+zÅ    IntLiteral  value:2
+zÅ#  OpLT  value:(3 < 4)  #children:2
+zÅ    IntLiteral  value:3
+zÅ    IntLiteral  value:4
+zÅ(===> Expression '(1<2)=(3<4)' - AST end
+zÅ&===> Expression '(3-4)++' - AST start
+zÅOpInc  value:(3 - 4)++
+zÅ&  OpMinus  value:(3 - 4)  #children:2
+zÅ    IntLiteral  value:3
+zÅ    IntLiteral  value:4
+zÅ$===> Expression '(3-4)++' - AST end
+zÅ&===> Expression '--(2-5)' - AST start
+zÅOpDec  value:(2 - 5)--
+zÅ&  OpMinus  value:(2 - 5)  #children:2
+zÅ    IntLiteral  value:2
+zÅ    IntLiteral  value:5
+zÅ$===> Expression '--(2-5)' - AST end
+zÅ*===> Expression '(1-2)=(3-4)' - AST start
+zÅ+Assign  value:(1 - 2)=(3 - 4)  #children:2
+zÅ&  OpMinus  value:(1 - 2)  #children:2
+zÅ    IntLiteral  value:1
+zÅ    IntLiteral  value:2
+zÅ&  OpMinus  value:(3 - 4)  #children:2
+zÅ    IntLiteral  value:3
+zÅ    IntLiteral  value:4
+zÅ(===> Expression '(1-2)=(3-4)' - AST end
+zÅ&===> Expression '(3%4)++' - AST start
+zÅOpInc  value:(3 % 4)++
+zÅ(  OpModulus  value:(3 % 4)  #children:2
+zÅ    IntLiteral  value:3
+zÅ    IntLiteral  value:4
+zÅ$===> Expression '(3%4)++' - AST end
+zÅ&===> Expression '--(2%5)' - AST start
+zÅOpDec  value:(2 % 5)--
+zÅ(  OpModulus  value:(2 % 5)  #children:2
+zÅ    IntLiteral  value:2
+zÅ    IntLiteral  value:5
+zÅ$===> Expression '--(2%5)' - AST end
+zÅ*===> Expression '(1%2)=(3%4)' - AST start
+zÅ+Assign  value:(1 % 2)=(3 % 4)  #children:2
+zÅ(  OpModulus  value:(1 % 2)  #children:2
+zÅ    IntLiteral  value:1
+zÅ    IntLiteral  value:2
+zÅ(  OpModulus  value:(3 % 4)  #children:2
+zÅ    IntLiteral  value:3
+zÅ    IntLiteral  value:4
+zÅ(===> Expression '(1%2)=(3%4)' - AST end
+zÅ&===> Expression '(3*4)++' - AST start
+zÅOpInc  value:(3 * 4)++
+zÅ)  OpMultiply  value:(3 * 4)  #children:2
+zÅ    IntLiteral  value:3
+zÅ    IntLiteral  value:4
+zÅ$===> Expression '(3*4)++' - AST end
+zÅ&===> Expression '--(2*5)' - AST start
+zÅOpDec  value:(2 * 5)--
+zÅ)  OpMultiply  value:(2 * 5)  #children:2
+zÅ    IntLiteral  value:2
+zÅ    IntLiteral  value:5
+zÅ$===> Expression '--(2*5)' - AST end
+zÅ*===> Expression '(1*2)=(3*4)' - AST start
+zÅ+Assign  value:(1 * 2)=(3 * 4)  #children:2
+zÅ)  OpMultiply  value:(1 * 2)  #children:2
+zÅ    IntLiteral  value:1
+zÅ    IntLiteral  value:2
+zÅ)  OpMultiply  value:(3 * 4)  #children:2
+zÅ    IntLiteral  value:3
+zÅ    IntLiteral  value:4
+zÅ(===> Expression '(1*2)=(3*4)' - AST end
+zÅ'===> Expression '(3!=4)++' - AST start
+zÅOpInc  value:(3 != 4)++
+zÅ$  OpNE  value:(3 != 4)  #children:2
+zÅ    IntLiteral  value:3
+zÅ    IntLiteral  value:4
+zÅ%===> Expression '(3!=4)++' - AST end
+zÅ'===> Expression '--(2!=5)' - AST start
+zÅOpDec  value:(2 != 5)--
+zÅ$  OpNE  value:(2 != 5)  #children:2
+zÅ    IntLiteral  value:2
+zÅ    IntLiteral  value:5
+zÅ%===> Expression '--(2!=5)' - AST end
+zÅ,===> Expression '(1!=2)=(3!=4)' - AST start
+zÅ-Assign  value:(1 != 2)=(3 != 4)  #children:2
+zÅ$  OpNE  value:(1 != 2)  #children:2
+zÅ    IntLiteral  value:1
+zÅ    IntLiteral  value:2
+zÅ$  OpNE  value:(3 != 4)  #children:2
+zÅ    IntLiteral  value:3
+zÅ    IntLiteral  value:4
+zÅ*===> Expression '(1!=2)=(3!=4)' - AST end
+zÅ0===> Expression '(true || false)++' - AST start
+zÅOpInc  value:(true or false)++
+zÅ+  OpOr  value:(true or false)  #children:2
+zÅ    BooleanLiteral  value:true
+zÅ     BooleanLiteral  value:false
+zÅ.===> Expression '(true || false)++' - AST end
+zÅ0===> Expression '--(false OR true)' - AST start
+zÅOpDec  value:(false or true)--
+zÅ+  OpOr  value:(false or true)  #children:2
+zÅ     BooleanLiteral  value:false
+zÅ    BooleanLiteral  value:true
+zÅ.===> Expression '--(false OR true)' - AST end
+zÅ>===> Expression '(true || false)=(false OR true)' - AST start
+zÅ;Assign  value:(true or false)=(false or true)  #children:2
+zÅ+  OpOr  value:(true or false)  #children:2
+zÅ    BooleanLiteral  value:true
+zÅ     BooleanLiteral  value:false
+zÅ+  OpOr  value:(false or true)  #children:2
+zÅ     BooleanLiteral  value:false
+zÅ    BooleanLiteral  value:true
+zÅ<===> Expression '(true || false)=(false OR true)' - AST end
+zÅ&===> Expression '(3+4)++' - AST start
+zÅOpInc  value:(3 + 4)++
+zÅ%  OpPlus  value:(3 + 4)  #children:2
+zÅ    IntLiteral  value:3
+zÅ    IntLiteral  value:4
+zÅ$===> Expression '(3+4)++' - AST end
+zÅ&===> Expression '--(2+5)' - AST start
+zÅOpDec  value:(2 + 5)--
+zÅ%  OpPlus  value:(2 + 5)  #children:2
+zÅ    IntLiteral  value:2
+zÅ    IntLiteral  value:5
+zÅ$===> Expression '--(2+5)' - AST end
+zÅ*===> Expression '(1+2)=(3+4)' - AST start
+zÅ+Assign  value:(1 + 2)=(3 + 4)  #children:2
+zÅ%  OpPlus  value:(1 + 2)  #children:2
+zÅ    IntLiteral  value:1
+zÅ    IntLiteral  value:2
+zÅ%  OpPlus  value:(3 + 4)  #children:2
+zÅ    IntLiteral  value:3
+zÅ    IntLiteral  value:4
+zÅ(===> Expression '(1+2)=(3+4)' - AST end
+zÅ%===> Expression '1.0d++' - AST start
+zÅOpInc  value:1.0++
+zÅ  RealLiteral  value:1.0
+zÅ#===> Expression '1.0d++' - AST end
+zÅ%===> Expression '--2.0d' - AST start
+zÅOpDec  value:2.0--
+zÅ  RealLiteral  value:2.0
+zÅ#===> Expression '--2.0d' - AST end
+zÅ,===> Expression '(1.0d)=(3.0d)' - AST start
+zÅ#Assign  value:1.0=3.0  #children:2
+zÅ  RealLiteral  value:1.0
+zÅ  RealLiteral  value:3.0
+zÅ*===> Expression '(1.0d)=(3.0d)' - AST end
+zÅ%===> Expression '1.0f++' - AST start
+zÅOpInc  value:1.0++
+zÅ  FloatLiteral  value:1.0
+zÅ#===> Expression '1.0f++' - AST end
+zÅ%===> Expression '--2.0f' - AST start
+zÅOpDec  value:2.0--
+zÅ  FloatLiteral  value:2.0
+zÅ#===> Expression '--2.0f' - AST end
+zÅ,===> Expression '(1.0f)=(3.0f)' - AST start
+zÅ#Assign  value:1.0=3.0  #children:2
+zÅ  FloatLiteral  value:1.0
+zÅ  FloatLiteral  value:3.0
+zÅ*===> Expression '(1.0f)=(3.0f)' - AST end
+zÅ&===> Expression ''abc'++' - AST start
+zÅOpInc  value:'abc'++
+zÅ  StringLiteral  value:'abc'
+zÅ$===> Expression ''abc'++' - AST end
+zÅ&===> Expression '--'def'' - AST start
+zÅOpDec  value:'def'--
+zÅ  StringLiteral  value:'def'
+zÅ$===> Expression '--'def'' - AST end
+zÅ*===> Expression ''abc'='def'' - AST start
+zÅ'Assign  value:'abc'='def'  #children:2
+zÅ  StringLiteral  value:'abc'
+zÅ  StringLiteral  value:'def'
+zÅ(===> Expression ''abc'='def'' - AST end
+zÅ2===> Expression '(true?true:false)++' - AST start
+zÅ#OpInc  value:true ? true : false++
+zÅ2  Ternary  value:true ? true : false  #children:3
+zÅ    BooleanLiteral  value:true
+zÅ    BooleanLiteral  value:true
+zÅ     BooleanLiteral  value:false
+zÅ0===> Expression '(true?true:false)++' - AST end
+zÅ2===> Expression '--(true?true:false)' - AST start
+zÅ#OpDec  value:true ? true : false--
+zÅ2  Ternary  value:true ? true : false  #children:3
+zÅ    BooleanLiteral  value:true
+zÅ    BooleanLiteral  value:true
+zÅ     BooleanLiteral  value:false
+zÅ0===> Expression '--(true?true:false)' - AST end
+zÅB===> Expression '(true?true:false)=(true?true:false)' - AST start
+zÅCAssign  value:true ? true : false=true ? true : false  #children:2
+zÅ2  Ternary  value:true ? true : false  #children:3
+zÅ    BooleanLiteral  value:true
+zÅ    BooleanLiteral  value:true
+zÅ     BooleanLiteral  value:false
+zÅ2  Ternary  value:true ? true : false  #children:3
+zÅ    BooleanLiteral  value:true
+zÅ    BooleanLiteral  value:true
+zÅ     BooleanLiteral  value:false
+zÅ@===> Expression '(true?true:false)=(true?true:false)' - AST end
+zÅ*===> Expression 'T(String)++' - AST start
+zÅOpInc  value:T(String)++
+zÅ!  TypeReference  value:T(String)
+zÅ&    QualifiedIdentifier  value:String
+zÅ      Identifier  value:String
+zÅ(===> Expression 'T(String)++' - AST end
+zÅ+===> Expression '--T(Integer)' - AST start
+zÅOpDec  value:T(Integer)--
+zÅ"  TypeReference  value:T(Integer)
+zÅ'    QualifiedIdentifier  value:Integer
+zÅ       Identifier  value:Integer
+zÅ)===> Expression '--T(Integer)' - AST end
+zÅ3===> Expression 'T(String)=T(Integer)' - AST start
+zÅ0Assign  value:T(String)=T(Integer)  #children:2
+zÅ!  TypeReference  value:T(String)
+zÅ&    QualifiedIdentifier  value:String
+zÅ      Identifier  value:String
+zÅ"  TypeReference  value:T(Integer)
+zÅ'    QualifiedIdentifier  value:Integer
+zÅ       Identifier  value:Integer
+zÅ1===> Expression 'T(String)=T(Integer)' - AST end
+zÅ2===> Expression '(3 between {1,5})++' - AST start
+zÅ!OpInc  value:(3 between {1,5})++
+zÅ8  OperatorBetween  value:(3 between {1,5})  #children:2
+zÅ    IntLiteral  value:3
+zÅ)    InlineList  value:{1,5}  #children:2
+zÅ      IntLiteral  value:1
+zÅ      IntLiteral  value:5
+zÅ0===> Expression '(3 between {1,5})++' - AST end
+zÅ2===> Expression '--(3 between {1,5})' - AST start
+zÅ!OpDec  value:(3 between {1,5})--
+zÅ8  OperatorBetween  value:(3 between {1,5})  #children:2
+zÅ    IntLiteral  value:3
+zÅ)    InlineList  value:{1,5}  #children:2
+zÅ      IntLiteral  value:1
+zÅ      IntLiteral  value:5
+zÅ0===> Expression '--(3 between {1,5})' - AST end
+zÅB===> Expression '(3 between {1,5})=(3 between {1,5})' - AST start
+zÅ?Assign  value:(3 between {1,5})=(3 between {1,5})  #children:2
+zÅ8  OperatorBetween  value:(3 between {1,5})  #children:2
+zÅ    IntLiteral  value:3
+zÅ)    InlineList  value:{1,5}  #children:2
+zÅ      IntLiteral  value:1
+zÅ      IntLiteral  value:5
+zÅ8  OperatorBetween  value:(3 between {1,5})  #children:2
+zÅ    IntLiteral  value:3
+zÅ)    InlineList  value:{1,5}  #children:2
+zÅ      IntLiteral  value:1
+zÅ      IntLiteral  value:5
+zÅ@===> Expression '(3 between {1,5})=(3 between {1,5})' - AST end
+zÅ<===> Expression '(type instanceof T(String))++' - AST start
+zÅ+OpInc  value:(type instanceof T(String))++
+zÅE  OperatorInstanceof  value:(type instanceof T(String))  #children:2
+zÅ)    PropertyOrFieldReference  value:type
+zÅ#    TypeReference  value:T(String)
+zÅ(      QualifiedIdentifier  value:String
+zÅ!        Identifier  value:String
+zÅ:===> Expression '(type instanceof T(String))++' - AST end
+zÅ<===> Expression '--(type instanceof T(String))' - AST start
+zÅ+OpDec  value:(type instanceof T(String))--
+zÅE  OperatorInstanceof  value:(type instanceof T(String))  #children:2
+zÅ)    PropertyOrFieldReference  value:type
+zÅ#    TypeReference  value:T(String)
+zÅ(      QualifiedIdentifier  value:String
+zÅ!        Identifier  value:String
+zÅ:===> Expression '--(type instanceof T(String))' - AST end
+zÅV===> Expression '(type instanceof T(String))=(type instanceof T(String))' - AST start
+zÅSAssign  value:(type instanceof T(String))=(type instanceof T(String))  #children:2
+zÅE  OperatorInstanceof  value:(type instanceof T(String))  #children:2
+zÅ)    PropertyOrFieldReference  value:type
+zÅ#    TypeReference  value:T(String)
+zÅ(      QualifiedIdentifier  value:String
+zÅ!        Identifier  value:String
+zÅE  OperatorInstanceof  value:(type instanceof T(String))  #children:2
+zÅ)    PropertyOrFieldReference  value:type
+zÅ#    TypeReference  value:T(String)
+zÅ(      QualifiedIdentifier  value:String
+zÅ!        Identifier  value:String
+zÅT===> Expression '(type instanceof T(String))=(type instanceof T(String))' - AST end
+zÅ.===> Expression '(true?:false)++' - AST start
+zÅOpInc  value:true ?: false++
+zÅ*  Elvis  value:true ?: false  #children:2
+zÅ    BooleanLiteral  value:true
+zÅ     BooleanLiteral  value:false
+zÅ,===> Expression '(true?:false)++' - AST end
+zÅ.===> Expression '--(true?:false)' - AST start
+zÅOpDec  value:true ?: false--
+zÅ*  Elvis  value:true ?: false  #children:2
+zÅ    BooleanLiteral  value:true
+zÅ     BooleanLiteral  value:false
+zÅ,===> Expression '--(true?:false)' - AST end
+zÅ:===> Expression '(true?:false)=(true?:false)' - AST start
+zÅ7Assign  value:true ?: false=true ?: false  #children:2
+zÅ*  Elvis  value:true ?: false  #children:2
+zÅ    BooleanLiteral  value:true
+zÅ     BooleanLiteral  value:false
+zÅ*  Elvis  value:true ?: false  #children:2
+zÅ    BooleanLiteral  value:true
+zÅ     BooleanLiteral  value:false
+zÅ8===> Expression '(true?:false)=(true?:false)' - AST end
+zÅ(===> Expression '(iii++)++' - AST start
+zÅOpInc  value:iii++++
+zÅ  OpInc  value:iii++
+zÅ(    PropertyOrFieldReference  value:iii
+zÅ&===> Expression '(iii++)++' - AST end
+zÅ(===> Expression '--(++iii)' - AST start
+zÅOpDec  value:iii++--
+zÅ  OpInc  value:iii++
+zÅ(    PropertyOrFieldReference  value:iii
+zÅ&===> Expression '--(++iii)' - AST end
+zÅ.===> Expression '(iii++)=(++iii)' - AST start
+zÅ'Assign  value:iii++=iii++  #children:2
+zÅ  OpInc  value:iii++
+zÅ(    PropertyOrFieldReference  value:iii
+zÅ  OpInc  value:iii++
+zÅ(    PropertyOrFieldReference  value:iii
+zÅ,===> Expression '(iii++)=(++iii)' - AST end
+zÅ(===> Expression '(iii--)++' - AST start
+zÅOpInc  value:iii--++
+zÅ  OpDec  value:iii--
+zÅ(    PropertyOrFieldReference  value:iii
+zÅ&===> Expression '(iii--)++' - AST end
+zÅ(===> Expression '--(--iii)' - AST start
+zÅOpDec  value:iii----
+zÅ  OpDec  value:iii--
+zÅ(    PropertyOrFieldReference  value:iii
+zÅ&===> Expression '--(--iii)' - AST end
+zÅ.===> Expression '(iii--)=(--iii)' - AST start
+zÅ'Assign  value:iii--=iii--  #children:2
+zÅ  OpDec  value:iii--
+zÅ(    PropertyOrFieldReference  value:iii
+zÅ  OpDec  value:iii--
+zÅ(    PropertyOrFieldReference  value:iii
+zÅ,===> Expression '(iii--)=(--iii)' - AST end
+zÅ(===> Expression '(!true)++' - AST start
+zÅOpInc  value:!true++
+zÅ  OperatorNot  value:!true
+zÅ    BooleanLiteral  value:true
+zÅ&===> Expression '(!true)++' - AST end
+zÅ)===> Expression '--(!false)' - AST start
+zÅOpDec  value:!false--
+zÅ  OperatorNot  value:!false
+zÅ     BooleanLiteral  value:false
+zÅ'===> Expression '--(!false)' - AST end
+zÅ/===> Expression '(!true)=(!false)' - AST start
+zÅ(Assign  value:!true=!false  #children:2
+zÅ  OperatorNot  value:!true
+zÅ    BooleanLiteral  value:true
+zÅ  OperatorNot  value:!false
+zÅ     BooleanLiteral  value:false
+zÅ-===> Expression '(!true)=(!false)' - AST end
+zÅ(===> Expression '(iii^2)++' - AST start
+zÅOpInc  value:(iii ^ 2)++
+zÅ.  OperatorPower  value:(iii ^ 2)  #children:2
+zÅ(    PropertyOrFieldReference  value:iii
+zÅ    IntLiteral  value:2
+zÅ&===> Expression '(iii^2)++' - AST end
+zÅ(===> Expression '--(iii^2)' - AST start
+zÅOpDec  value:(iii ^ 2)--
+zÅ.  OperatorPower  value:(iii ^ 2)  #children:2
+zÅ(    PropertyOrFieldReference  value:iii
+zÅ    IntLiteral  value:2
+zÅ&===> Expression '--(iii^2)' - AST end
+zÅ.===> Expression '(iii^2)=(iii^3)' - AST start
+zÅ/Assign  value:(iii ^ 2)=(iii ^ 3)  #children:2
+zÅ.  OperatorPower  value:(iii ^ 2)  #children:2
+zÅ(    PropertyOrFieldReference  value:iii
+zÅ    IntLiteral  value:2
+zÅ.  OperatorPower  value:(iii ^ 3)  #children:2
+zÅ(    PropertyOrFieldReference  value:iii
+zÅ    IntLiteral  value:3
+zÅ,===> Expression '(iii^2)=(iii^3)' - AST end
+zÅ4===> Expression '(new String('abc'))++' - AST start
+zÅ!OpInc  value:new String('abc')++
+zÅ=  ConstructorReference  value:new String('abc')  #children:2
+zÅ&    QualifiedIdentifier  value:String
+zÅ      Identifier  value:String
+zÅ    StringLiteral  value:'abc'
+zÅ2===> Expression '(new String('abc'))++' - AST end
+zÅ4===> Expression '--(new String('abc'))' - AST start
+zÅ!OpDec  value:new String('abc')--
+zÅ=  ConstructorReference  value:new String('abc')  #children:2
+zÅ&    QualifiedIdentifier  value:String
+zÅ      Identifier  value:String
+zÅ    StringLiteral  value:'abc'
+zÅ2===> Expression '--(new String('abc'))' - AST end
+zÅF===> Expression '(new String('abc'))=(new String('abc'))' - AST start
+zÅ?Assign  value:new String('abc')=new String('abc')  #children:2
+zÅ=  ConstructorReference  value:new String('abc')  #children:2
+zÅ&    QualifiedIdentifier  value:String
+zÅ      Identifier  value:String
+zÅ    StringLiteral  value:'abc'
+zÅ=  ConstructorReference  value:new String('abc')  #children:2
+zÅ&    QualifiedIdentifier  value:String
+zÅ      Identifier  value:String
+zÅ    StringLiteral  value:'abc'
+zÅD===> Expression '(new String('abc'))=(new String('abc'))' - AST end
+zÅ$===> Expression 'm()++' - AST start
+zÅOpInc  value:m()++
+zÅ  MethodReference  value:m()
+zÅ"===> Expression 'm()++' - AST end
+zÅ$===> Expression '--m()' - AST start
+zÅOpDec  value:m()--
+zÅ  MethodReference  value:m()
+zÅ"===> Expression '--m()' - AST end
+zÅ&===> Expression 'm()=m()' - AST start
+zÅ#Assign  value:m()=m()  #children:2
+zÅ  MethodReference  value:m()
+zÅ  MethodReference  value:m()
+zÅ$===> Expression 'm()=m()' - AST end
+zÅ7===> Expression '('abc' matches '^a..')++' - AST start
+zÅ&OpInc  value:('abc' matches '^a..')++
+zÅ=  OperatorMatches  value:('abc' matches '^a..')  #children:2
+zÅ    StringLiteral  value:'abc'
+zÅ     StringLiteral  value:'^a..'
+zÅ5===> Expression '('abc' matches '^a..')++' - AST end
+zÅ7===> Expression '--('abc' matches '^a..')' - AST start
+zÅ&OpDec  value:('abc' matches '^a..')--
+zÅ=  OperatorMatches  value:('abc' matches '^a..')  #children:2
+zÅ    StringLiteral  value:'abc'
+zÅ     StringLiteral  value:'^a..'
+zÅ5===> Expression '--('abc' matches '^a..')' - AST end
+zÅL===> Expression '('abc' matches '^a..')=('abc' matches '^a..')' - AST start
+zÅIAssign  value:('abc' matches '^a..')=('abc' matches '^a..')  #children:2
+zÅ=  OperatorMatches  value:('abc' matches '^a..')  #children:2
+zÅ    StringLiteral  value:'abc'
+zÅ     StringLiteral  value:'^a..'
+zÅ=  OperatorMatches  value:('abc' matches '^a..')  #children:2
+zÅ    StringLiteral  value:'abc'
+zÅ     StringLiteral  value:'^a..'
+zÅJ===> Expression '('abc' matches '^a..')=('abc' matches '^a..')' - AST end
+zÅ<===> Expression '({1,2,3}.?[#isEven(#this)])++' - AST start
+zÅ)OpInc  value:{1,2,3}.?[#isEven(#this)]++
+zÅC  CompoundExpression  value:{1,2,3}.?[#isEven(#this)]  #children:2
+zÅ+    InlineList  value:{1,2,3}  #children:3
+zÅ      IntLiteral  value:1
+zÅ      IntLiteral  value:2
+zÅ      IntLiteral  value:3
+zÅ'    Selection  value:?[#isEven(#this)]
+zÅ.      FunctionReference  value:#isEven(#this)
+zÅ'        VariableReference  value:#this
+zÅ:===> Expression '({1,2,3}.?[#isEven(#this)])++' - AST end
+zÅ<===> Expression '--({1,2,3}.?[#isEven(#this)])' - AST start
+zÅ)OpDec  value:{1,2,3}.?[#isEven(#this)]--
+zÅC  CompoundExpression  value:{1,2,3}.?[#isEven(#this)]  #children:2
+zÅ+    InlineList  value:{1,2,3}  #children:3
+zÅ      IntLiteral  value:1
+zÅ      IntLiteral  value:2
+zÅ      IntLiteral  value:3
+zÅ'    Selection  value:?[#isEven(#this)]
+zÅ.      FunctionReference  value:#isEven(#this)
+zÅ'        VariableReference  value:#this
+zÅ:===> Expression '--({1,2,3}.?[#isEven(#this)])' - AST end
+zÅV===> Expression '({1,2,3}.?[#isEven(#this)])=({1,2,3}.?[#isEven(#this)])' - AST start
+zÅOAssign  value:{1,2,3}.?[#isEven(#this)]={1,2,3}.?[#isEven(#this)]  #children:2
+zÅC  CompoundExpression  value:{1,2,3}.?[#isEven(#this)]  #children:2
+zÅ+    InlineList  value:{1,2,3}  #children:3
+zÅ      IntLiteral  value:1
+zÅ      IntLiteral  value:2
+zÅ      IntLiteral  value:3
+zÅ'    Selection  value:?[#isEven(#this)]
+zÅ.      FunctionReference  value:#isEven(#this)
+zÅ'        VariableReference  value:#this
+zÅC  CompoundExpression  value:{1,2,3}.?[#isEven(#this)]  #children:2
+zÅ+    InlineList  value:{1,2,3}  #children:3
+zÅ      IntLiteral  value:1
+zÅ      IntLiteral  value:2
+zÅ      IntLiteral  value:3
+zÅ'    Selection  value:?[#isEven(#this)]
+zÅ.      FunctionReference  value:#isEven(#this)
+zÅ'        VariableReference  value:#this
+zÅT===> Expression '({1,2,3}.?[#isEven(#this)])=({1,2,3}.?[#isEven(#this)])' - AST end
+zÅ<===> Expression '({1,2,3}.^[#isEven(#this)])++' - AST start
+zÅ)OpInc  value:{1,2,3}.^[#isEven(#this)]++
+zÅC  CompoundExpression  value:{1,2,3}.^[#isEven(#this)]  #children:2
+zÅ+    InlineList  value:{1,2,3}  #children:3
+zÅ      IntLiteral  value:1
+zÅ      IntLiteral  value:2
+zÅ      IntLiteral  value:3
+zÅ'    Selection  value:^[#isEven(#this)]
+zÅ.      FunctionReference  value:#isEven(#this)
+zÅ'        VariableReference  value:#this
+zÅ:===> Expression '({1,2,3}.^[#isEven(#this)])++' - AST end
+zÅ<===> Expression '--({1,2,3}.^[#isEven(#this)])' - AST start
+zÅ)OpDec  value:{1,2,3}.^[#isEven(#this)]--
+zÅC  CompoundExpression  value:{1,2,3}.^[#isEven(#this)]  #children:2
+zÅ+    InlineList  value:{1,2,3}  #children:3
+zÅ      IntLiteral  value:1
+zÅ      IntLiteral  value:2
+zÅ      IntLiteral  value:3
+zÅ'    Selection  value:^[#isEven(#this)]
+zÅ.      FunctionReference  value:#isEven(#this)
+zÅ'        VariableReference  value:#this
+zÅ:===> Expression '--({1,2,3}.^[#isEven(#this)])' - AST end
+zÅV===> Expression '({1,2,3}.^[#isEven(#this)])=({1,2,3}.^[#isEven(#this)])' - AST start
+zÅOAssign  value:{1,2,3}.^[#isEven(#this)]={1,2,3}.^[#isEven(#this)]  #children:2
+zÅC  CompoundExpression  value:{1,2,3}.^[#isEven(#this)]  #children:2
+zÅ+    InlineList  value:{1,2,3}  #children:3
+zÅ      IntLiteral  value:1
+zÅ      IntLiteral  value:2
+zÅ      IntLiteral  value:3
+zÅ'    Selection  value:^[#isEven(#this)]
+zÅ.      FunctionReference  value:#isEven(#this)
+zÅ'        VariableReference  value:#this
+zÅC  CompoundExpression  value:{1,2,3}.^[#isEven(#this)]  #children:2
+zÅ+    InlineList  value:{1,2,3}  #children:3
+zÅ      IntLiteral  value:1
+zÅ      IntLiteral  value:2
+zÅ      IntLiteral  value:3
+zÅ'    Selection  value:^[#isEven(#this)]
+zÅ.      FunctionReference  value:#isEven(#this)
+zÅ'        VariableReference  value:#this
+zÅT===> Expression '({1,2,3}.^[#isEven(#this)])=({1,2,3}.^[#isEven(#this)])' - AST end
+zÅ<===> Expression '({1,2,3}.$[#isEven(#this)])++' - AST start
+zÅ)OpInc  value:{1,2,3}.$[#isEven(#this)]++
+zÅC  CompoundExpression  value:{1,2,3}.$[#isEven(#this)]  #children:2
+zÅ+    InlineList  value:{1,2,3}  #children:3
+zÅ      IntLiteral  value:1
+zÅ      IntLiteral  value:2
+zÅ      IntLiteral  value:3
+zÅ'    Selection  value:$[#isEven(#this)]
+zÅ.      FunctionReference  value:#isEven(#this)
+zÅ'        VariableReference  value:#this
+zÅ:===> Expression '({1,2,3}.$[#isEven(#this)])++' - AST end
+zÅ<===> Expression '--({1,2,3}.$[#isEven(#this)])' - AST start
+zÅ)OpDec  value:{1,2,3}.$[#isEven(#this)]--
+zÅC  CompoundExpression  value:{1,2,3}.$[#isEven(#this)]  #children:2
+zÅ+    InlineList  value:{1,2,3}  #children:3
+zÅ      IntLiteral  value:1
+zÅ      IntLiteral  value:2
+zÅ      IntLiteral  value:3
+zÅ'    Selection  value:$[#isEven(#this)]
+zÅ.      FunctionReference  value:#isEven(#this)
+zÅ'        VariableReference  value:#this
+zÅ:===> Expression '--({1,2,3}.$[#isEven(#this)])' - AST end
+zÅV===> Expression '({1,2,3}.$[#isEven(#this)])=({1,2,3}.$[#isEven(#this)])' - AST start
+zÅOAssign  value:{1,2,3}.$[#isEven(#this)]={1,2,3}.$[#isEven(#this)]  #children:2
+zÅC  CompoundExpression  value:{1,2,3}.$[#isEven(#this)]  #children:2
+zÅ+    InlineList  value:{1,2,3}  #children:3
+zÅ      IntLiteral  value:1
+zÅ      IntLiteral  value:2
+zÅ      IntLiteral  value:3
+zÅ'    Selection  value:$[#isEven(#this)]
+zÅ.      FunctionReference  value:#isEven(#this)
+zÅ'        VariableReference  value:#this
+zÅC  CompoundExpression  value:{1,2,3}.$[#isEven(#this)]  #children:2
+zÅ+    InlineList  value:{1,2,3}  #children:3
+zÅ      IntLiteral  value:1
+zÅ      IntLiteral  value:2
+zÅ      IntLiteral  value:3
+zÅ'    Selection  value:$[#isEven(#this)]
+zÅ.      FunctionReference  value:#isEven(#this)
+zÅ'        VariableReference  value:#this
+zÅT===> Expression '({1,2,3}.$[#isEven(#this)])=({1,2,3}.$[#isEven(#this)])' - AST end
+zÅ+===> Expression '#isEven(3)++' - AST start
+zÅOpInc  value:#isEven(3)++
+zÅ&  FunctionReference  value:#isEven(3)
+zÅ    IntLiteral  value:3
+zÅ)===> Expression '#isEven(3)++' - AST end
+zÅ+===> Expression '--#isEven(4)' - AST start
+zÅOpDec  value:#isEven(4)--
+zÅ&  FunctionReference  value:#isEven(4)
+zÅ    IntLiteral  value:4
+zÅ)===> Expression '--#isEven(4)' - AST end
+zÅ4===> Expression '#isEven(3)=#isEven(5)' - AST start
+zÅ1Assign  value:#isEven(3)=#isEven(5)  #children:2
+zÅ&  FunctionReference  value:#isEven(3)
+zÅ    IntLiteral  value:3
+zÅ&  FunctionReference  value:#isEven(5)
+zÅ    IntLiteral  value:5
+zÅ2===> Expression '#isEven(3)=#isEven(5)' - AST end
+zÅ(===> Expression '#wibble++' - AST start
+zÅOpInc  value:#wibble++
+zÅ#  VariableReference  value:#wibble
+zÅ&===> Expression '#wibble++' - AST end
+zÅ(===> Expression '--#wibble' - AST start
+zÅOpDec  value:#wibble--
+zÅ#  VariableReference  value:#wibble
+zÅ&===> Expression '--#wibble' - AST end
+zÅ<===> Expression '({1,2,3}.![#isEven(#this)])++' - AST start
+zÅ)OpInc  value:{1,2,3}.![#isEven(#this)]++
+zÅC  CompoundExpression  value:{1,2,3}.![#isEven(#this)]  #children:2
+zÅ+    InlineList  value:{1,2,3}  #children:3
+zÅ      IntLiteral  value:1
+zÅ      IntLiteral  value:2
+zÅ      IntLiteral  value:3
+zÅ(    Projection  value:![#isEven(#this)]
+zÅ.      FunctionReference  value:#isEven(#this)
+zÅ'        VariableReference  value:#this
+zÅ:===> Expression '({1,2,3}.![#isEven(#this)])++' - AST end
+zÅ<===> Expression '--({1,2,3}.![#isEven(#this)])' - AST start
+zÅ)OpDec  value:{1,2,3}.![#isEven(#this)]--
+zÅC  CompoundExpression  value:{1,2,3}.![#isEven(#this)]  #children:2
+zÅ+    InlineList  value:{1,2,3}  #children:3
+zÅ      IntLiteral  value:1
+zÅ      IntLiteral  value:2
+zÅ      IntLiteral  value:3
+zÅ(    Projection  value:![#isEven(#this)]
+zÅ.      FunctionReference  value:#isEven(#this)
+zÅ'        VariableReference  value:#this
+zÅ:===> Expression '--({1,2,3}.![#isEven(#this)])' - AST end
+zÅV===> Expression '({1,2,3}.![#isEven(#this)])=({1,2,3}.![#isEven(#this)])' - AST start
+zÅOAssign  value:{1,2,3}.![#isEven(#this)]={1,2,3}.![#isEven(#this)]  #children:2
+zÅC  CompoundExpression  value:{1,2,3}.![#isEven(#this)]  #children:2
+zÅ+    InlineList  value:{1,2,3}  #children:3
+zÅ      IntLiteral  value:1
+zÅ      IntLiteral  value:2
+zÅ      IntLiteral  value:3
+zÅ(    Projection  value:![#isEven(#this)]
+zÅ.      FunctionReference  value:#isEven(#this)
+zÅ'        VariableReference  value:#this
+zÅC  CompoundExpression  value:{1,2,3}.![#isEven(#this)]  #children:2
+zÅ+    InlineList  value:{1,2,3}  #children:3
+zÅ      IntLiteral  value:1
+zÅ      IntLiteral  value:2
+zÅ      IntLiteral  value:3
+zÅ(    Projection  value:![#isEven(#this)]
+zÅ.      FunctionReference  value:#isEven(#this)
+zÅ'        VariableReference  value:#this
+zÅT===> Expression '({1,2,3}.![#isEven(#this)])=({1,2,3}.![#isEven(#this)])' - AST end
+zÅ*===> Expression '({1,2,3})++' - AST start
+zÅOpInc  value:{1,2,3}++
+zÅ)  InlineList  value:{1,2,3}  #children:3
+zÅ    IntLiteral  value:1
+zÅ    IntLiteral  value:2
+zÅ    IntLiteral  value:3
+zÅ(===> Expression '({1,2,3})++' - AST end
+zÅ*===> Expression '--({1,2,3})' - AST start
+zÅOpDec  value:{1,2,3}--
+zÅ)  InlineList  value:{1,2,3}  #children:3
+zÅ    IntLiteral  value:1
+zÅ    IntLiteral  value:2
+zÅ    IntLiteral  value:3
+zÅ(===> Expression '--({1,2,3})' - AST end
+zÅ2===> Expression '({1,2,3})=({1,2,3})' - AST start
+zÅ+Assign  value:{1,2,3}={1,2,3}  #children:2
+zÅ)  InlineList  value:{1,2,3}  #children:3
+zÅ    IntLiteral  value:1
+zÅ    IntLiteral  value:2
+zÅ    IntLiteral  value:3
+zÅ)  InlineList  value:{1,2,3}  #children:3
+zÅ    IntLiteral  value:1
+zÅ    IntLiteral  value:2
+zÅ    IntLiteral  value:3
+zÅ0===> Expression '({1,2,3})=({1,2,3})' - AST end
+zÅ6===> Expression '({'a':1,'b':2,'c':3})++' - AST start
+zÅ#OpInc  value:{'a':1,'b':2,'c':3}++
+zÅ4  InlineMap  value:{'a':1,'b':2,'c':3}  #children:6
+zÅ    StringLiteral  value:'a'
+zÅ    IntLiteral  value:1
+zÅ    StringLiteral  value:'b'
+zÅ    IntLiteral  value:2
+zÅ    StringLiteral  value:'c'
+zÅ    IntLiteral  value:3
+zÅ4===> Expression '({'a':1,'b':2,'c':3})++' - AST end
+zÅ6===> Expression '--({'a':1,'b':2,'c':3})' - AST start
+zÅ#OpDec  value:{'a':1,'b':2,'c':3}--
+zÅ4  InlineMap  value:{'a':1,'b':2,'c':3}  #children:6
+zÅ    StringLiteral  value:'a'
+zÅ    IntLiteral  value:1
+zÅ    StringLiteral  value:'b'
+zÅ    IntLiteral  value:2
+zÅ    StringLiteral  value:'c'
+zÅ    IntLiteral  value:3
+zÅ4===> Expression '--({'a':1,'b':2,'c':3})' - AST end
+zÅJ===> Expression '({'a':1,'b':2,'c':3})=({'a':1,'b':2,'c':3})' - AST start
+zÅCAssign  value:{'a':1,'b':2,'c':3}={'a':1,'b':2,'c':3}  #children:2
+zÅ4  InlineMap  value:{'a':1,'b':2,'c':3}  #children:6
+zÅ    StringLiteral  value:'a'
+zÅ    IntLiteral  value:1
+zÅ    StringLiteral  value:'b'
+zÅ    IntLiteral  value:2
+zÅ    StringLiteral  value:'c'
+zÅ    IntLiteral  value:3
+zÅ4  InlineMap  value:{'a':1,'b':2,'c':3}  #children:6
+zÅ    StringLiteral  value:'a'
+zÅ    IntLiteral  value:1
+zÅ    StringLiteral  value:'b'
+zÅ    IntLiteral  value:2
+zÅ    StringLiteral  value:'c'
+zÅ    IntLiteral  value:3
+zÅH===> Expression '({'a':1,'b':2,'c':3})=({'a':1,'b':2,'c':3})' - AST end
+zÅ%===> Expression '@foo++' - AST start
+zÅOpInc  value:@foo++
+zÅ  BeanReference  value:@foo
+zÅ#===> Expression '@foo++' - AST end
+zÅ%===> Expression '--@foo' - AST start
+zÅOpDec  value:@foo--
+zÅ  BeanReference  value:@foo
+zÅ#===> Expression '--@foo' - AST end
+zÅ(===> Expression '@foo=@bar' - AST start
+zÅ%Assign  value:@foo=@bar  #children:2
+zÅ  BeanReference  value:@foo
+zÅ  BeanReference  value:@bar
+zÅ&===> Expression '@foo=@bar' - AST end

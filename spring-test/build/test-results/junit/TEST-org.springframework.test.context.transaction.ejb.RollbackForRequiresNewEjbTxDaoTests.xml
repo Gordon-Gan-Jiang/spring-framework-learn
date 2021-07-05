@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.context.transaction.ejb.RollbackForRequiresNewEjbTxDaoTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:01" hostname="bamboo-18" time="0.028">
+<testsuite name="org.springframework.test.context.transaction.ejb.RollbackForRequiresNewEjbTxDaoTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:11:04" hostname="gankangdembp" time="0.808">
   <properties/>
-  <testcase name="test1InitialState()" classname="org.springframework.test.context.transaction.ejb.RollbackForRequiresNewEjbTxDaoTests" time="0.013"/>
-  <testcase name="test2IncrementCount1()" classname="org.springframework.test.context.transaction.ejb.RollbackForRequiresNewEjbTxDaoTests" time="0.006"/>
-  <testcase name="test3IncrementCount2()" classname="org.springframework.test.context.transaction.ejb.RollbackForRequiresNewEjbTxDaoTests" time="0.008"/>
+  <testcase name="test1InitialState()" classname="org.springframework.test.context.transaction.ejb.RollbackForRequiresNewEjbTxDaoTests" time="0.727"/>
+  <testcase name="test2IncrementCount1()" classname="org.springframework.test.context.transaction.ejb.RollbackForRequiresNewEjbTxDaoTests" time="0.035"/>
+  <testcase name="test3IncrementCount2()" classname="org.springframework.test.context.transaction.ejb.RollbackForRequiresNewEjbTxDaoTests" time="0.043"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

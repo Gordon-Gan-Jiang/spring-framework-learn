@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.annotation.AnnotationAwareOrderComparatorTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:57:42" hostname="bamboo-18" time="0.017">
+<testsuite name="org.springframework.core.annotation.AnnotationAwareOrderComparatorTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:07:05" hostname="gankangdembp" time="0.001">
   <properties/>
-  <testcase name="sortInstancesWithOrderAndPriority()" classname="org.springframework.core.annotation.AnnotationAwareOrderComparatorTests" time="0.016"/>
+  <testcase name="sortInstancesWithOrderAndPriority()" classname="org.springframework.core.annotation.AnnotationAwareOrderComparatorTests" time="0.0"/>
   <testcase name="sortClassesWithSubclass()" classname="org.springframework.core.annotation.AnnotationAwareOrderComparatorTests" time="0.0"/>
-  <testcase name="instanceVariableIsAnAnnotationAwareOrderComparator()" classname="org.springframework.core.annotation.AnnotationAwareOrderComparatorTests" time="0.0"/>
+  <testcase name="instanceVariableIsAnAnnotationAwareOrderComparator()" classname="org.springframework.core.annotation.AnnotationAwareOrderComparatorTests" time="0.001"/>
   <testcase name="sortInstancesWithSubclass()" classname="org.springframework.core.annotation.AnnotationAwareOrderComparatorTests" time="0.0"/>
-  <testcase name="sortInstances()" classname="org.springframework.core.annotation.AnnotationAwareOrderComparatorTests" time="0.001"/>
+  <testcase name="sortInstances()" classname="org.springframework.core.annotation.AnnotationAwareOrderComparatorTests" time="0.0"/>
   <testcase name="sortInstancesWithPriority()" classname="org.springframework.core.annotation.AnnotationAwareOrderComparatorTests" time="0.0"/>
   <testcase name="sortWithNulls()" classname="org.springframework.core.annotation.AnnotationAwareOrderComparatorTests" time="0.0"/>
   <testcase name="sortClasses()" classname="org.springframework.core.annotation.AnnotationAwareOrderComparatorTests" time="0.0"/>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.log.LogSupportTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:57:41" hostname="bamboo-18" time="0.012">
+<testsuite name="org.springframework.core.log.LogSupportTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:07:08" hostname="gankangdembp" time="0.005">
   <properties/>
-  <testcase name="logMessageWithSupplier()" classname="org.springframework.core.log.LogSupportTests" time="0.005"/>
-  <testcase name="logMessageWithFormat1()" classname="org.springframework.core.log.LogSupportTests" time="0.0"/>
+  <testcase name="logMessageWithSupplier()" classname="org.springframework.core.log.LogSupportTests" time="0.003"/>
+  <testcase name="logMessageWithFormat1()" classname="org.springframework.core.log.LogSupportTests" time="0.001"/>
   <testcase name="logMessageWithFormat2()" classname="org.springframework.core.log.LogSupportTests" time="0.0"/>
   <testcase name="logMessageWithFormat3()" classname="org.springframework.core.log.LogSupportTests" time="0.0"/>
   <testcase name="logMessageWithFormat4()" classname="org.springframework.core.log.LogSupportTests" time="0.0"/>
-  <testcase name="logMessageWithFormatX()" classname="org.springframework.core.log.LogSupportTests" time="0.001"/>
+  <testcase name="logMessageWithFormatX()" classname="org.springframework.core.log.LogSupportTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,36 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:12" hostname="bamboo-18" time="0.05">
+<testsuite name="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:11:48" hostname="gankangdembp" time="0.108">
   <properties/>
-  <testcase name="resolveDefaultValueFromSystemProperty()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.003"/>
-  <testcase name="uuidConversionWithInvalidValue()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.005"/>
-  <testcase name="resolveStringArrayArgument()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.001"/>
-  <testcase name="resolveDefaultValueFromRequest()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.001"/>
-  <testcase name="resolveNameFromSystemPropertyThroughPlaceholder()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.001"/>
-  <testcase name="resolveNameFromSystemPropertyThroughExpression()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.001"/>
-  <testcase name="dateConversion()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.002"/>
-  <testcase name="instantConversion()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.001"/>
-  <testcase name="uuidConversionWithEmptyValue()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.002"/>
-  <testcase name="uuidConversionWithBlankValue()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.002"/>
-  <testcase name="resolveStringArgument()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.001"/>
-  <testcase name="uuidConversionWithValidValue()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.002"/>
-  <testcase name="resolveDefaultValue()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.001"/>
-  <testcase name="notFound()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.001"/>
-  <testcase name="supportsParameter()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.003"/>
-  <system-out><![CDATA[14:00:12.424 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@149283d6
-14:00:12.426 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@27f6670e
-14:00:12.441 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@34451a2c
-14:00:12.443 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1f67738a
-14:00:12.444 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@52b6dc8
-14:00:12.445 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1a5bf2c8
-14:00:12.446 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@429d065c
-14:00:12.448 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@75681849
-14:00:12.459 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1bb3c43a
-14:00:12.462 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@57968abc
-14:00:12.463 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@390e3ffe
-14:00:12.465 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@444b38a
-14:00:12.467 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@8117192
-14:00:12.469 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@86e9e1f
-14:00:12.472 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@298095f3
-]]></system-out>
+  <testcase name="resolveDefaultValueFromSystemProperty()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.005"/>
+  <testcase name="uuidConversionWithInvalidValue()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.006"/>
+  <testcase name="resolveStringArrayArgument()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.002"/>
+  <testcase name="resolveDefaultValueFromRequest()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.002"/>
+  <testcase name="resolveNameFromSystemPropertyThroughPlaceholder()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.016"/>
+  <testcase name="resolveNameFromSystemPropertyThroughExpression()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.003"/>
+  <testcase name="dateConversion()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.005"/>
+  <testcase name="instantConversion()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.018"/>
+  <testcase name="uuidConversionWithEmptyValue()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.003"/>
+  <testcase name="uuidConversionWithBlankValue()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.02"/>
+  <testcase name="resolveStringArgument()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.003"/>
+  <testcase name="uuidConversionWithValidValue()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.004"/>
+  <testcase name="resolveDefaultValue()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.014"/>
+  <testcase name="notFound()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.003"/>
+  <testcase name="supportsParameter()" classname="org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolverTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

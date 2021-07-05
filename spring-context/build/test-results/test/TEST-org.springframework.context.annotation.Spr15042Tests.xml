@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.annotation.Spr15042Tests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:00" hostname="bamboo-18" time="0.053">
+<testsuite name="org.springframework.context.annotation.Spr15042Tests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:11:18" hostname="gankangdembp" time="0.174">
   <properties/>
-  <testcase name="poolingTargetSource()" classname="org.springframework.context.annotation.Spr15042Tests" time="0.053"/>
+  <testcase name="poolingTargetSource()" classname="org.springframework.context.annotation.Spr15042Tests" time="0.174"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:57:26" hostname="bamboo-18" time="1.009">
+<testsuite name="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:09:52" hostname="gankangdembp" time="2.171">
   <properties/>
-  <testcase name="testValidationWithOptionalField()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.02"/>
-  <testcase name="testSpringValidationFieldType()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.106"/>
-  <testcase name="testSpringValidationWithErrorInListElement()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.128"/>
-  <testcase name="testSpringValidationWithClassLevel()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.085"/>
-  <testcase name="testInnerBeanValidation()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.006"/>
-  <testcase name="testSpringValidationWithErrorInSetElement()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.098"/>
-  <testcase name="testSpringValidationWithAutowiredValidator()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.117"/>
-  <testcase name="testSimpleValidation()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.108"/>
-  <testcase name="testListValidation()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.061"/>
-  <testcase name="testSimpleValidationWithClassLevel()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.098"/>
-  <testcase name="testSimpleValidationWithCustomProvider()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.073"/>
-  <testcase name="testSpringValidation()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.079"/>
+  <testcase name="testValidationWithOptionalField()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.044"/>
+  <testcase name="testSpringValidationFieldType()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.186"/>
+  <testcase name="testSpringValidationWithErrorInListElement()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.209"/>
+  <testcase name="testSpringValidationWithClassLevel()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.257"/>
+  <testcase name="testInnerBeanValidation()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.026"/>
+  <testcase name="testSpringValidationWithErrorInSetElement()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.197"/>
+  <testcase name="testSpringValidationWithAutowiredValidator()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.306"/>
+  <testcase name="testSimpleValidation()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.228"/>
+  <testcase name="testListValidation()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.033"/>
+  <testcase name="testSimpleValidationWithClassLevel()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.218"/>
+  <testcase name="testSimpleValidationWithCustomProvider()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.247"/>
+  <testcase name="testSpringValidation()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.217"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

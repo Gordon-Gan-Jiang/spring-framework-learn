@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.function.client.DefaultClientResponseBuilderTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:32" hostname="bamboo-18" time="0.126">
+<testsuite name="org.springframework.web.reactive.function.client.DefaultClientResponseBuilderTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:12:14" hostname="gankangdembp" time="0.231">
   <properties/>
-  <testcase name="fromCustomStatus()" classname="org.springframework.web.reactive.function.client.DefaultClientResponseBuilderTests" time="0.068"/>
-  <testcase name="normal()" classname="org.springframework.web.reactive.function.client.DefaultClientResponseBuilderTests" time="0.05"/>
-  <testcase name="from()" classname="org.springframework.web.reactive.function.client.DefaultClientResponseBuilderTests" time="0.008"/>
-  <system-out><![CDATA[14:00:32.566 [Test worker] DEBUG o.s.c.c.StringDecoder - Decoded "baz"
-14:00:32.574 [Test worker] DEBUG o.s.c.c.StringDecoder - my-prefixDecoded "baz"
+  <testcase name="fromCustomStatus()" classname="org.springframework.web.reactive.function.client.DefaultClientResponseBuilderTests" time="0.005"/>
+  <testcase name="normal()" classname="org.springframework.web.reactive.function.client.DefaultClientResponseBuilderTests" time="0.003"/>
+  <testcase name="from()" classname="org.springframework.web.reactive.function.client.DefaultClientResponseBuilderTests" time="0.222"/>
+  <system-out><![CDATA[16:12:14.944 [Test worker] DEBUG o.s.c.c.StringDecoder - Decoded "baz"
+16:12:15.166 [Test worker] DEBUG o.s.c.c.StringDecoder - my-prefixDecoded "baz"
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

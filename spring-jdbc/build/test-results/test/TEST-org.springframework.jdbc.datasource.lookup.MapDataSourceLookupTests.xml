@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jdbc.datasource.lookup.MapDataSourceLookupTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:22" hostname="bamboo-18" time="0.018">
+<testsuite name="org.springframework.jdbc.datasource.lookup.MapDataSourceLookupTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:09:33" hostname="gankangdembp" time="0.007">
   <properties/>
-  <testcase name="getDataSourceWhereSuppliedMapHasNoEntryForSpecifiedKey()" classname="org.springframework.jdbc.datasource.lookup.MapDataSourceLookupTests" time="0.0"/>
+  <testcase name="getDataSourceWhereSuppliedMapHasNoEntryForSpecifiedKey()" classname="org.springframework.jdbc.datasource.lookup.MapDataSourceLookupTests" time="0.001"/>
   <testcase name="getDataSourcesReturnsUnmodifiableMap()" classname="org.springframework.jdbc.datasource.lookup.MapDataSourceLookupTests" time="0.001"/>
   <testcase name="getDataSourceWhereSuppliedMapHasNonDataSourceTypeUnderSpecifiedKey()" classname="org.springframework.jdbc.datasource.lookup.MapDataSourceLookupTests" time="0.001"/>
   <testcase name="addingDataSourcePermitsOverride()" classname="org.springframework.jdbc.datasource.lookup.MapDataSourceLookupTests" time="0.0"/>

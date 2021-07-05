@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.context.ContextLoaderInitializerTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:11" hostname="bamboo-18" time="0.001">
+<testsuite name="org.springframework.web.context.ContextLoaderInitializerTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:11:10" hostname="gankangdembp" time="0.043">
   <properties/>
-  <testcase name="register()" classname="org.springframework.web.context.ContextLoaderInitializerTests" time="0.001"/>
-  <system-out><![CDATA[14:00:11.736 [Test worker] INFO  o.s.w.c.ContextLoaderInitializerTests$MyMockServletContext - Initializing Spring root WebApplicationContext
-14:00:11.736 [Test worker] INFO  o.s.w.c.ContextLoader - Root WebApplicationContext: initialization started
-14:00:11.736 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
-14:00:11.736 [Test worker] INFO  o.s.w.c.ContextLoader - Root WebApplicationContext initialized in 0 ms
-]]></system-out>
+  <testcase name="register()" classname="org.springframework.web.context.ContextLoaderInitializerTests" time="0.043"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

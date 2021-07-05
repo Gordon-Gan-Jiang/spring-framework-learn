@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.22">
-<file name="/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-context-support/src/testFixtures/java/org/springframework/contextsupport/testfixture/cache/TestableCacheKeyGenerator.java">
+<file name="/Users/gankang/spring-framework-learn/spring-context-support/src/testFixtures/java/org/springframework/contextsupport/testfixture/cache/TestableCacheKeyGenerator.java">
 </file>
-<file name="/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-context-support/src/testFixtures/java/org/springframework/contextsupport/testfixture/cache/TestableCacheResolver.java">
+<file name="/Users/gankang/spring-framework-learn/spring-context-support/src/testFixtures/java/org/springframework/contextsupport/testfixture/cache/TestableCacheResolver.java">
 </file>
-<file name="/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-context-support/src/testFixtures/java/org/springframework/contextsupport/testfixture/cache/TestableCacheResolverFactory.java">
+<file name="/Users/gankang/spring-framework-learn/spring-context-support/src/testFixtures/java/org/springframework/contextsupport/testfixture/cache/TestableCacheResolverFactory.java">
 </file>
-<file name="/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-context-support/src/testFixtures/java/org/springframework/contextsupport/testfixture/jcache/AbstractJCacheAnnotationTests.java">
+<file name="/Users/gankang/spring-framework-learn/spring-context-support/src/testFixtures/java/org/springframework/contextsupport/testfixture/jcache/AbstractJCacheAnnotationTests.java">
 </file>
-<file name="/opt/bamboo-home/xml-data/build-dir/SPR-PUBM1-JOB1/spring-context-support/src/testFixtures/java/org/springframework/contextsupport/testfixture/jcache/JCacheableService.java">
+<file name="/Users/gankang/spring-framework-learn/spring-context-support/src/testFixtures/java/org/springframework/contextsupport/testfixture/jcache/JCacheableService.java">
 </file>
 </checkstyle>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jmx.export.LazyInitMBeanTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:25" hostname="bamboo-18" time="0.022">
+<testsuite name="org.springframework.jmx.export.LazyInitMBeanTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:12:59" hostname="gankangdembp" time="0.032">
   <properties/>
-  <testcase name="invokeOnLazyInitBean()" classname="org.springframework.jmx.export.LazyInitMBeanTests" time="0.022"/>
+  <testcase name="invokeOnLazyInitBean()" classname="org.springframework.jmx.export.LazyInitMBeanTests" time="0.032"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

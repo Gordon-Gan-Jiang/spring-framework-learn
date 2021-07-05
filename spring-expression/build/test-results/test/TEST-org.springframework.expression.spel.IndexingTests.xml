@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.expression.spel.IndexingTests" tests="21" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:57:46" hostname="bamboo-18" time="0.022">
+<testsuite name="org.springframework.expression.spel.IndexingTests" tests="21" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:06:57" hostname="gankangdembp" time="0.019">
   <properties/>
   <testcase name="indexIntoPropertyContainingList()" classname="org.springframework.expression.spel.IndexingTests" time="0.0"/>
-  <testcase name="resolveCollectionElementTypeNull()" classname="org.springframework.expression.spel.IndexingTests" time="0.001"/>
+  <testcase name="resolveCollectionElementTypeNull()" classname="org.springframework.expression.spel.IndexingTests" time="0.0"/>
   <testcase name="emptyList()" classname="org.springframework.expression.spel.IndexingTests" time="0.0"/>
-  <testcase name="resolveCollectionElementType()" classname="org.springframework.expression.spel.IndexingTests" time="0.001"/>
-  <testcase name="setPropertyContainingMapAutoGrow()" classname="org.springframework.expression.spel.IndexingTests" time="0.0"/>
-  <testcase name="indexIntoGenericPropertyContainingMapObject()" classname="org.springframework.expression.spel.IndexingTests" time="0.011"/>
+  <testcase name="resolveCollectionElementType()" classname="org.springframework.expression.spel.IndexingTests" time="0.0"/>
+  <testcase name="setPropertyContainingMapAutoGrow()" classname="org.springframework.expression.spel.IndexingTests" time="0.001"/>
+  <testcase name="indexIntoGenericPropertyContainingMapObject()" classname="org.springframework.expression.spel.IndexingTests" time="0.006"/>
   <testcase name="indexIntoPropertyContainingListOfList()" classname="org.springframework.expression.spel.IndexingTests" time="0.001"/>
-  <testcase name="indexIntoGenericPropertyContainingArray()" classname="org.springframework.expression.spel.IndexingTests" time="0.001"/>
-  <testcase name="indexIntoGenericPropertyContainingList()" classname="org.springframework.expression.spel.IndexingTests" time="0.0"/>
+  <testcase name="indexIntoGenericPropertyContainingArray()" classname="org.springframework.expression.spel.IndexingTests" time="0.0"/>
+  <testcase name="indexIntoGenericPropertyContainingList()" classname="org.springframework.expression.spel.IndexingTests" time="0.001"/>
   <testcase name="indexIntoGenericPropertyContainingGrowingList2()" classname="org.springframework.expression.spel.IndexingTests" time="0.0"/>
-  <testcase name="indexIntoGenericPropertyContainingMap()" classname="org.springframework.expression.spel.IndexingTests" time="0.0"/>
+  <testcase name="indexIntoGenericPropertyContainingMap()" classname="org.springframework.expression.spel.IndexingTests" time="0.001"/>
   <testcase name="setGenericPropertyContainingMap()" classname="org.springframework.expression.spel.IndexingTests" time="0.0"/>
   <testcase name="setPropertyContainingMap()" classname="org.springframework.expression.spel.IndexingTests" time="0.001"/>
-  <testcase name="testListsOfMap()" classname="org.springframework.expression.spel.IndexingTests" time="0.0"/>
-  <testcase name="testListOfScalar()" classname="org.springframework.expression.spel.IndexingTests" time="0.001"/>
+  <testcase name="testListsOfMap()" classname="org.springframework.expression.spel.IndexingTests" time="0.001"/>
+  <testcase name="testListOfScalar()" classname="org.springframework.expression.spel.IndexingTests" time="0.0"/>
   <testcase name="indexIntoGenericPropertyContainingGrowingList()" classname="org.springframework.expression.spel.IndexingTests" time="0.0"/>
   <testcase name="resolveMapKeyValueTypes()" classname="org.springframework.expression.spel.IndexingTests" time="0.0"/>
   <testcase name="indexIntoGenericPropertyContainingNullList()" classname="org.springframework.expression.spel.IndexingTests" time="0.0"/>
-  <testcase name="setPropertyContainingList()" classname="org.springframework.expression.spel.IndexingTests" time="0.0"/>
+  <testcase name="setPropertyContainingList()" classname="org.springframework.expression.spel.IndexingTests" time="0.001"/>
   <testcase name="setGenericPropertyContainingList()" classname="org.springframework.expression.spel.IndexingTests" time="0.0"/>
   <testcase name="setGenericPropertyContainingListAutogrow()" classname="org.springframework.expression.spel.IndexingTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.transaction.interceptor.TransactionAttributeEditorTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:32" hostname="bamboo-18" time="0.004">
+<testsuite name="org.springframework.transaction.interceptor.TransactionAttributeEditorTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:12:59" hostname="gankangdembp" time="0.023">
   <properties/>
-  <testcase name="testInvalidPropagationCodeOnly()" classname="org.springframework.transaction.interceptor.TransactionAttributeEditorTests" time="0.0"/>
-  <testcase name="testRuleBasedTransactionAttributeToString()" classname="org.springframework.transaction.interceptor.TransactionAttributeEditorTests" time="0.0"/>
+  <testcase name="testInvalidPropagationCodeOnly()" classname="org.springframework.transaction.interceptor.TransactionAttributeEditorTests" time="0.001"/>
+  <testcase name="testRuleBasedTransactionAttributeToString()" classname="org.springframework.transaction.interceptor.TransactionAttributeEditorTests" time="0.001"/>
   <testcase name="testValidPropagationAndIsolationCodesAndInvalidRollbackRule()" classname="org.springframework.transaction.interceptor.TransactionAttributeEditorTests" time="0.001"/>
   <testcase name="testNull()" classname="org.springframework.transaction.interceptor.TransactionAttributeEditorTests" time="0.0"/>
-  <testcase name="testDefaultTransactionAttributeToString()" classname="org.springframework.transaction.interceptor.TransactionAttributeEditorTests" time="0.0"/>
-  <testcase name="testEmptyString()" classname="org.springframework.transaction.interceptor.TransactionAttributeEditorTests" time="0.0"/>
+  <testcase name="testDefaultTransactionAttributeToString()" classname="org.springframework.transaction.interceptor.TransactionAttributeEditorTests" time="0.001"/>
+  <testcase name="testEmptyString()" classname="org.springframework.transaction.interceptor.TransactionAttributeEditorTests" time="0.001"/>
   <testcase name="testValidPropagationCodeAndIsolationCodeAndRollbackRules1()" classname="org.springframework.transaction.interceptor.TransactionAttributeEditorTests" time="0.0"/>
   <testcase name="testValidPropagationCodeAndIsolationCodeAndRollbackRules2()" classname="org.springframework.transaction.interceptor.TransactionAttributeEditorTests" time="0.001"/>
   <testcase name="testValidPropagationCodeAndIsolationCode()" classname="org.springframework.transaction.interceptor.TransactionAttributeEditorTests" time="0.0"/>

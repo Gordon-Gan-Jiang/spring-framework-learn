@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:33" hostname="bamboo-18" time="6.162">
+<testsuite name="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:12:06" hostname="gankangdembp" time="20.757">
   <properties/>
-  <testcase name="readServerSentEvents()" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.049"/>
-  <testcase name="readServerSentEventsWithMultipleChunks()" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.03"/>
-  <testcase name="decodeFullContentAsString()" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.001"/>
-  <testcase name="readError()" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.01"/>
-  <testcase name="readPojo()" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.455"/>
-  <testcase name="readString()" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.003"/>
-  <testcase name="cantRead()" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.001"/>
-  <testcase name="maxInMemoryLimit()" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.003"/>
+  <testcase name="readServerSentEvents()" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.038"/>
+  <testcase name="readServerSentEventsWithMultipleChunks()" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.062"/>
+  <testcase name="decodeFullContentAsString()" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.002"/>
+  <testcase name="readError()" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.021"/>
+  <testcase name="readPojo()" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.021"/>
+  <testcase name="readString()" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.004"/>
+  <testcase name="cantRead()" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.0"/>
+  <testcase name="maxInMemoryLimit()" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.025"/>
   <testcase name="canRead()" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.0"/>
-  <testcase name="readPojoWithCommentOnly()" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.014"/>
-  <testcase name="maxInMemoryLimitAllowsReadingPojoLargerThanDefaultSize()" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="5.552"/>
-  <system-out><![CDATA[13:59:34.419 [Test worker] DEBUG o.s.w.HttpLogging - Decoded [Pojo[foo='foofoo', bar='barbar']]
-13:59:34.419 [Test worker] DEBUG o.s.w.HttpLogging - Decoded [Pojo[foo='foofoofoo', bar='barbarbar']]
-13:59:40.029 [Test worker] DEBUG o.s.w.HttpLogging - Decoded [Pojo[foo='AaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAa (truncated)...]
-]]></system-out>
+  <testcase name="readPojoWithCommentOnly()" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.002"/>
+  <testcase name="maxInMemoryLimitAllowsReadingPojoLargerThanDefaultSize()" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="20.574"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

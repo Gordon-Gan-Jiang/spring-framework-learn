@@ -1,21 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerComboTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:25" hostname="bamboo-18" time="0.041">
+<testsuite name="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerComboTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:12:57" hostname="gankangdembp" time="0.249">
   <properties/>
-  <testcase name="testDescriptionNotNull()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerComboTests" time="0.003"/>
-  <testcase name="testGetMBeanAttributeInfo()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerComboTests" time="0.003"/>
-  <testcase name="testSetAttribute()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerComboTests" time="0.003"/>
-  <testcase name="testAttributeInfoHasDescriptors()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerComboTests" time="0.003"/>
-  <testcase name="testGetMBeanInfo()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerComboTests" time="0.002"/>
-  <testcase name="testGetMBeanOperationInfo()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerComboTests" time="0.003"/>
-  <testcase name="testRegisterOperations()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerComboTests" time="0.002"/>
-  <testcase name="testRegisterAttributes()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerComboTests" time="0.002"/>
-  <testcase name="testNotificationMetadata()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerComboTests" time="0.002"/>
-  <testcase name="testAttributeHasCorrespondingOperations()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerComboTests" time="0.003"/>
-  <testcase name="testMBeanRegistration()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerComboTests" time="0.003"/>
-  <testcase name="testGetAttribute()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerComboTests" time="0.002"/>
-  <testcase name="testOperationInvocation()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerComboTests" time="0.003"/>
-  <testcase name="testGetAgeIsReadOnly()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerComboTests" time="0.003"/>
-  <testcase name="testNickNameIsExposed()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerComboTests" time="0.002"/>
+  <testcase name="testDescriptionNotNull()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerComboTests" time="0.015"/>
+  <testcase name="testGetMBeanAttributeInfo()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerComboTests" time="0.023"/>
+  <testcase name="testSetAttribute()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerComboTests" time="0.018"/>
+  <testcase name="testAttributeInfoHasDescriptors()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerComboTests" time="0.011"/>
+  <testcase name="testGetMBeanInfo()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerComboTests" time="0.027"/>
+  <testcase name="testGetMBeanOperationInfo()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerComboTests" time="0.009"/>
+  <testcase name="testRegisterOperations()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerComboTests" time="0.025"/>
+  <testcase name="testRegisterAttributes()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerComboTests" time="0.011"/>
+  <testcase name="testNotificationMetadata()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerComboTests" time="0.014"/>
+  <testcase name="testAttributeHasCorrespondingOperations()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerComboTests" time="0.008"/>
+  <testcase name="testMBeanRegistration()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerComboTests" time="0.008"/>
+  <testcase name="testGetAttribute()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerComboTests" time="0.02"/>
+  <testcase name="testOperationInvocation()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerComboTests" time="0.01"/>
+  <testcase name="testGetAgeIsReadOnly()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerComboTests" time="0.03"/>
+  <testcase name="testNickNameIsExposed()" classname="org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssemblerComboTests" time="0.013"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+  <system-err><![CDATA[Jun 20, 2021 4:12:57 PM ClientIntermediary close
+INFORMATION: java.io.IOException: The connection is not currently established.
+java.io.IOException: The connection is not currently established.
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.checkState(ClientSynchroMessageConnectionImpl.java:617)
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.sendOneWay(ClientSynchroMessageConnectionImpl.java:202)
+	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:300)
+	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:271)
+	at javax.management.remote.generic.ClientIntermediary$GenericClientCommunicatorAdmin.doStop(ClientIntermediary.java:897)
+	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.restart(ClientCommunicatorAdmin.java:172)
+	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.gotIOException(ClientCommunicatorAdmin.java:73)
+	at javax.management.remote.generic.GenericConnector$RequestHandler.execute(GenericConnector.java:662)
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl$RemoteJob.run(ClientSynchroMessageConnectionImpl.java:568)
+	at com.sun.jmx.remote.opt.util.ThreadService$ThreadServiceJob.run(ThreadService.java:248)
+	at com.sun.jmx.remote.opt.util.JobExecutor.run(JobExecutor.java:99)
+
+Jun 20, 2021 4:12:57 PM ClientIntermediary close
+INFORMATION: java.io.IOException: The connection is not currently established.
+java.io.IOException: The connection is not currently established.
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.checkState(ClientSynchroMessageConnectionImpl.java:617)
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.sendOneWay(ClientSynchroMessageConnectionImpl.java:202)
+	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:300)
+	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:271)
+	at javax.management.remote.generic.ClientIntermediary$GenericClientCommunicatorAdmin.doStop(ClientIntermediary.java:897)
+	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.restart(ClientCommunicatorAdmin.java:172)
+	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.gotIOException(ClientCommunicatorAdmin.java:73)
+	at javax.management.remote.generic.GenericConnector$RequestHandler.execute(GenericConnector.java:662)
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl$RemoteJob.run(ClientSynchroMessageConnectionImpl.java:568)
+	at com.sun.jmx.remote.opt.util.ThreadService$ThreadServiceJob.run(ThreadService.java:248)
+	at com.sun.jmx.remote.opt.util.JobExecutor.run(JobExecutor.java:99)
+
+]]></system-err>
 </testsuite>

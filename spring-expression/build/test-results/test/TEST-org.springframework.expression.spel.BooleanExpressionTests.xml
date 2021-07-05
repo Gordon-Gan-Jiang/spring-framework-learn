@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.expression.spel.BooleanExpressionTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:57:46" hostname="bamboo-18" time="0.005">
+<testsuite name="org.springframework.expression.spel.BooleanExpressionTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:06:57" hostname="gankangdembp" time="0.006">
   <properties/>
-  <testcase name="testAnd()" classname="org.springframework.expression.spel.BooleanExpressionTests" time="0.001"/>
+  <testcase name="testAnd()" classname="org.springframework.expression.spel.BooleanExpressionTests" time="0.0"/>
   <testcase name="testNot()" classname="org.springframework.expression.spel.BooleanExpressionTests" time="0.0"/>
-  <testcase name="testCombinations01()" classname="org.springframework.expression.spel.BooleanExpressionTests" time="0.0"/>
-  <testcase name="testOr()" classname="org.springframework.expression.spel.BooleanExpressionTests" time="0.001"/>
+  <testcase name="testCombinations01()" classname="org.springframework.expression.spel.BooleanExpressionTests" time="0.001"/>
+  <testcase name="testOr()" classname="org.springframework.expression.spel.BooleanExpressionTests" time="0.0"/>
   <testcase name="testBooleanFalse()" classname="org.springframework.expression.spel.BooleanExpressionTests" time="0.0"/>
-  <testcase name="testBooleanErrors01()" classname="org.springframework.expression.spel.BooleanExpressionTests" time="0.001"/>
+  <testcase name="testBooleanErrors01()" classname="org.springframework.expression.spel.BooleanExpressionTests" time="0.002"/>
   <testcase name="testConvertAndHandleNull()" classname="org.springframework.expression.spel.BooleanExpressionTests" time="0.002"/>
   <testcase name="testBooleanTrue()" classname="org.springframework.expression.spel.BooleanExpressionTests" time="0.0"/>
   <testcase name="testWritability()" classname="org.springframework.expression.spel.BooleanExpressionTests" time="0.0"/>

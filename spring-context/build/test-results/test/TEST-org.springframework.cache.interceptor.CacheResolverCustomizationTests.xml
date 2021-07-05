@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.cache.interceptor.CacheResolverCustomizationTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:58:36" hostname="bamboo-18" time="0.133">
+<testsuite name="org.springframework.cache.interceptor.CacheResolverCustomizationTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:12:50" hostname="gankangdembp" time="0.183">
   <properties/>
-  <testcase name="customCacheResolver()" classname="org.springframework.cache.interceptor.CacheResolverCustomizationTests" time="0.02"/>
-  <testcase name="runtimeResolution()" classname="org.springframework.cache.interceptor.CacheResolverCustomizationTests" time="0.005"/>
-  <testcase name="namedResolution()" classname="org.springframework.cache.interceptor.CacheResolverCustomizationTests" time="0.019"/>
+  <testcase name="customCacheResolver()" classname="org.springframework.cache.interceptor.CacheResolverCustomizationTests" time="0.053"/>
+  <testcase name="runtimeResolution()" classname="org.springframework.cache.interceptor.CacheResolverCustomizationTests" time="0.021"/>
+  <testcase name="namedResolution()" classname="org.springframework.cache.interceptor.CacheResolverCustomizationTests" time="0.015"/>
   <testcase name="noCustomization()" classname="org.springframework.cache.interceptor.CacheResolverCustomizationTests" time="0.019"/>
-  <testcase name="customCacheManager()" classname="org.springframework.cache.interceptor.CacheResolverCustomizationTests" time="0.013"/>
-  <testcase name="noCacheResolved()" classname="org.springframework.cache.interceptor.CacheResolverCustomizationTests" time="0.005"/>
-  <testcase name="unknownCacheResolver()" classname="org.springframework.cache.interceptor.CacheResolverCustomizationTests" time="0.017"/>
+  <testcase name="customCacheManager()" classname="org.springframework.cache.interceptor.CacheResolverCustomizationTests" time="0.017"/>
+  <testcase name="noCacheResolved()" classname="org.springframework.cache.interceptor.CacheResolverCustomizationTests" time="0.021"/>
+  <testcase name="unknownCacheResolver()" classname="org.springframework.cache.interceptor.CacheResolverCustomizationTests" time="0.035"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.servlet.resource.FixedVersionStrategyTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:01:38" hostname="bamboo-18" time="0.001">
+<testsuite name="org.springframework.web.servlet.resource.FixedVersionStrategyTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:13:56" hostname="gankangdembp" time="0.001">
   <properties/>
   <testcase name="addVersion()" classname="org.springframework.web.servlet.resource.FixedVersionStrategyTests" time="0.0"/>
   <testcase name="addVersionRelativePath()" classname="org.springframework.web.servlet.resource.FixedVersionStrategyTests" time="0.0"/>
-  <testcase name="emptyPrefixVersion()" classname="org.springframework.web.servlet.resource.FixedVersionStrategyTests" time="0.001"/>
-  <testcase name="extractVersion()" classname="org.springframework.web.servlet.resource.FixedVersionStrategyTests" time="0.0"/>
+  <testcase name="emptyPrefixVersion()" classname="org.springframework.web.servlet.resource.FixedVersionStrategyTests" time="0.0"/>
+  <testcase name="extractVersion()" classname="org.springframework.web.servlet.resource.FixedVersionStrategyTests" time="0.001"/>
   <testcase name="removeVersion()" classname="org.springframework.web.servlet.resource.FixedVersionStrategyTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.function.server.DefaultServerRequestBuilderTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:34" hostname="bamboo-18" time="0.012">
+<testsuite name="org.springframework.web.reactive.function.server.DefaultServerRequestBuilderTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:12:26" hostname="gankangdembp" time="0.063">
   <properties/>
-  <testcase name="from()" classname="org.springframework.web.reactive.function.server.DefaultServerRequestBuilderTests" time="0.012"/>
-  <system-out><![CDATA[14:00:34.581 [Test worker] DEBUG o.s.c.c.StringDecoder - [3a2dcbd2] Decoded "baz"
+  <testcase name="from()" classname="org.springframework.web.reactive.function.server.DefaultServerRequestBuilderTests" time="0.063"/>
+  <system-out><![CDATA[16:12:26.408 [Test worker] DEBUG o.s.c.c.StringDecoder - [48f9f688] Decoded "baz"
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

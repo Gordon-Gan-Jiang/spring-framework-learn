@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.web.client.samples.matchers.XpathRequestMatchersIntegrationTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-05-29T13:59:12" hostname="bamboo-18" time="0.809">
+<testsuite name="org.springframework.test.web.client.samples.matchers.XpathRequestMatchersIntegrationTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:12:59" hostname="gankangdembp" time="0.261">
   <properties/>
-  <testcase name="testBoolean()" classname="org.springframework.test.web.client.samples.matchers.XpathRequestMatchersIntegrationTests" time="0.516"/>
-  <testcase name="testDoesNotExist()" classname="org.springframework.test.web.client.samples.matchers.XpathRequestMatchersIntegrationTests" time="0.075"/>
-  <testcase name="testNodeCount()" classname="org.springframework.test.web.client.samples.matchers.XpathRequestMatchersIntegrationTests" time="0.078"/>
-  <testcase name="testExists()" classname="org.springframework.test.web.client.samples.matchers.XpathRequestMatchersIntegrationTests" time="0.042"/>
-  <testcase name="testNumber()" classname="org.springframework.test.web.client.samples.matchers.XpathRequestMatchersIntegrationTests" time="0.049"/>
-  <testcase name="testString()" classname="org.springframework.test.web.client.samples.matchers.XpathRequestMatchersIntegrationTests" time="0.048"/>
+  <testcase name="testBoolean()" classname="org.springframework.test.web.client.samples.matchers.XpathRequestMatchersIntegrationTests" time="0.035"/>
+  <testcase name="testDoesNotExist()" classname="org.springframework.test.web.client.samples.matchers.XpathRequestMatchersIntegrationTests" time="0.044"/>
+  <testcase name="testNodeCount()" classname="org.springframework.test.web.client.samples.matchers.XpathRequestMatchersIntegrationTests" time="0.034"/>
+  <testcase name="testExists()" classname="org.springframework.test.web.client.samples.matchers.XpathRequestMatchersIntegrationTests" time="0.047"/>
+  <testcase name="testNumber()" classname="org.springframework.test.web.client.samples.matchers.XpathRequestMatchersIntegrationTests" time="0.038"/>
+  <testcase name="testString()" classname="org.springframework.test.web.client.samples.matchers.XpathRequestMatchersIntegrationTests" time="0.062"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

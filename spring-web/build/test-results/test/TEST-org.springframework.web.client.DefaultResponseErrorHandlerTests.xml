@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.client.DefaultResponseErrorHandlerTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:09" hostname="bamboo-18" time="0.012">
+<testsuite name="org.springframework.web.client.DefaultResponseErrorHandlerTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:11:37" hostname="gankangdembp" time="0.143">
   <properties/>
-  <testcase name="bodyAvailableAfterHasErrorForUnknownStatusCode()" classname="org.springframework.web.client.DefaultResponseErrorHandlerTests" time="0.001"/>
-  <testcase name="hasErrorFalse()" classname="org.springframework.web.client.DefaultResponseErrorHandlerTests" time="0.0"/>
-  <testcase name="handleErrorNullResponse()" classname="org.springframework.web.client.DefaultResponseErrorHandlerTests" time="0.001"/>
-  <testcase name="handleErrorWithLongBody()" classname="org.springframework.web.client.DefaultResponseErrorHandlerTests" time="0.004"/>
+  <testcase name="bodyAvailableAfterHasErrorForUnknownStatusCode()" classname="org.springframework.web.client.DefaultResponseErrorHandlerTests" time="0.003"/>
+  <testcase name="hasErrorFalse()" classname="org.springframework.web.client.DefaultResponseErrorHandlerTests" time="0.001"/>
+  <testcase name="handleErrorNullResponse()" classname="org.springframework.web.client.DefaultResponseErrorHandlerTests" time="0.019"/>
+  <testcase name="handleErrorWithLongBody()" classname="org.springframework.web.client.DefaultResponseErrorHandlerTests" time="0.01"/>
   <testcase name="hasErrorTrue()" classname="org.springframework.web.client.DefaultResponseErrorHandlerTests" time="0.0"/>
-  <testcase name="handleErrorIOException()" classname="org.springframework.web.client.DefaultResponseErrorHandlerTests" time="0.0"/>
+  <testcase name="handleErrorIOException()" classname="org.springframework.web.client.DefaultResponseErrorHandlerTests" time="0.002"/>
   <testcase name="hasErrorForUnknownStatusCode()" classname="org.springframework.web.client.DefaultResponseErrorHandlerTests" time="0.001"/>
-  <testcase name="hasErrorForCustomServerError()" classname="org.springframework.web.client.DefaultResponseErrorHandlerTests" time="0.0"/>
-  <testcase name="handleErrorUnknownStatusCode()" classname="org.springframework.web.client.DefaultResponseErrorHandlerTests" time="0.001"/>
-  <testcase name="handleErrorForCustomServerError()" classname="org.springframework.web.client.DefaultResponseErrorHandlerTests" time="0.001"/>
-  <testcase name="hasErrorForCustomClientError()" classname="org.springframework.web.client.DefaultResponseErrorHandlerTests" time="0.0"/>
-  <testcase name="handleErrorForCustomClientError()" classname="org.springframework.web.client.DefaultResponseErrorHandlerTests" time="0.001"/>
-  <testcase name="handleError()" classname="org.springframework.web.client.DefaultResponseErrorHandlerTests" time="0.001"/>
+  <testcase name="hasErrorForCustomServerError()" classname="org.springframework.web.client.DefaultResponseErrorHandlerTests" time="0.001"/>
+  <testcase name="handleErrorUnknownStatusCode()" classname="org.springframework.web.client.DefaultResponseErrorHandlerTests" time="0.075"/>
+  <testcase name="handleErrorForCustomServerError()" classname="org.springframework.web.client.DefaultResponseErrorHandlerTests" time="0.003"/>
+  <testcase name="hasErrorForCustomClientError()" classname="org.springframework.web.client.DefaultResponseErrorHandlerTests" time="0.002"/>
+  <testcase name="handleErrorForCustomClientError()" classname="org.springframework.web.client.DefaultResponseErrorHandlerTests" time="0.016"/>
+  <testcase name="handleError()" classname="org.springframework.web.client.DefaultResponseErrorHandlerTests" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

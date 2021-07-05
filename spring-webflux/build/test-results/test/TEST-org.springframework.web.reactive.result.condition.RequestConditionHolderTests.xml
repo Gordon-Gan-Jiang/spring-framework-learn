@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.result.condition.RequestConditionHolderTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:00:31" hostname="bamboo-18" time="0.007">
+<testsuite name="org.springframework.web.reactive.result.condition.RequestConditionHolderTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-06-20T08:10:48" hostname="gankangdembp" time="0.158">
   <properties/>
-  <testcase name="compareIncompatible()" classname="org.springframework.web.reactive.result.condition.RequestConditionHolderTests" time="0.001"/>
-  <testcase name="compareEmpty()" classname="org.springframework.web.reactive.result.condition.RequestConditionHolderTests" time="0.0"/>
-  <testcase name="match()" classname="org.springframework.web.reactive.result.condition.RequestConditionHolderTests" time="0.0"/>
+  <testcase name="compareIncompatible()" classname="org.springframework.web.reactive.result.condition.RequestConditionHolderTests" time="0.039"/>
+  <testcase name="compareEmpty()" classname="org.springframework.web.reactive.result.condition.RequestConditionHolderTests" time="0.048"/>
+  <testcase name="match()" classname="org.springframework.web.reactive.result.condition.RequestConditionHolderTests" time="0.012"/>
   <testcase name="combine()" classname="org.springframework.web.reactive.result.condition.RequestConditionHolderTests" time="0.001"/>
-  <testcase name="compare()" classname="org.springframework.web.reactive.result.condition.RequestConditionHolderTests" time="0.0"/>
+  <testcase name="compare()" classname="org.springframework.web.reactive.result.condition.RequestConditionHolderTests" time="0.001"/>
   <testcase name="combineEmpty()" classname="org.springframework.web.reactive.result.condition.RequestConditionHolderTests" time="0.001"/>
-  <testcase name="matchEmpty()" classname="org.springframework.web.reactive.result.condition.RequestConditionHolderTests" time="0.0"/>
-  <testcase name="combineIncompatible()" classname="org.springframework.web.reactive.result.condition.RequestConditionHolderTests" time="0.0"/>
+  <testcase name="matchEmpty()" classname="org.springframework.web.reactive.result.condition.RequestConditionHolderTests" time="0.001"/>
+  <testcase name="combineIncompatible()" classname="org.springframework.web.reactive.result.condition.RequestConditionHolderTests" time="0.001"/>
   <testcase name="noMatch()" classname="org.springframework.web.reactive.result.condition.RequestConditionHolderTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

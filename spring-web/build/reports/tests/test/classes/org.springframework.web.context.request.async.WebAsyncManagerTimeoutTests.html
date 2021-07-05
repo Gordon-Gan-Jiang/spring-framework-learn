@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.025s</div>
+<div class="counter">0.104s</div>
 <p>duration</p>
 </div>
 </td>
@@ -63,9 +63,6 @@
 <li>
 <a href="#tab0">Tests</a>
 </li>
-<li>
-<a href="#tab1">Standard output</a>
-</li>
 </ul>
 <div id="tab0" class="tab">
 <h2>Tests</h2>
@@ -79,86 +76,55 @@
 </thead>
 <tr>
 <td class="success">startCallableProcessingAfterTimeoutException()</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">startCallableProcessingTimeoutAndCheckThreadInterrupted()</td>
-<td class="success">0.018s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">startCallableProcessingTimeoutAndComplete()</td>
 <td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
+<td class="success">startCallableProcessingTimeoutAndCheckThreadInterrupted()</td>
+<td class="success">0.080s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">startCallableProcessingTimeoutAndComplete()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
 <td class="success">startCallableProcessingTimeoutAndResumeThroughCallback()</td>
-<td class="success">0.001s</td>
+<td class="success">0.006s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">startCallableProcessingTimeoutAndResumeThroughInterceptor()</td>
-<td class="success">0.001s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">startDeferredResultProcessingAfterTimeoutException()</td>
-<td class="success">0.001s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">startDeferredResultProcessingTimeoutAndComplete()</td>
-<td class="success">0.001s</td>
+<td class="success">0.004s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">startDeferredResultProcessingTimeoutAndResumeThroughCallback()</td>
-<td class="success">0s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">startDeferredResultProcessingTimeoutAndResumeThroughInterceptor()</td>
-<td class="success">0s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">startDeferredResultProcessingTimeoutAndResumeWithDefaultResult()</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 </table>
-</div>
-<div id="tab1" class="tab">
-<h2>Standard output</h2>
-<span class="code">
-<pre>14:00:09.895 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Started async request
-14:00:09.895 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async request timeout for /test
-14:00:09.895 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async result set, dispatch to /test
-14:00:09.896 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Started async request
-14:00:09.896 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async request timeout for /test
-14:00:09.896 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async error, dispatch to /test
-14:00:09.896 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Started async request
-14:00:09.896 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async result set, dispatch to /test
-14:00:09.897 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Started async request
-14:00:09.897 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async request timeout for /test
-14:00:09.897 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async result set, dispatch to /test
-14:00:09.897 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Started async request
-14:00:09.899 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async request timeout for /test
-14:00:09.899 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async error, dispatch to /test
-14:00:09.900 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Started async request
-14:00:09.900 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async error, dispatch to /test
-14:00:09.900 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Started async request
-14:00:09.900 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async result set, dispatch to /test
-14:00:09.901 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Started async request
-14:00:09.901 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async error, dispatch to /test
-14:00:09.918 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Started async request
-14:00:09.919 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async request timeout for /test
-14:00:09.919 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async error, dispatch to /test
-14:00:09.919 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Started async request
-14:00:09.919 [Test worker] DEBUG o.s.w.c.r.a.WebAsyncManager - Async result set, dispatch to /test
-</pre>
-</span>
 </div>
 </div>
 <div id="footer">
@@ -168,7 +134,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.6.4</a> at May 29, 2020 2:00:20 PM</p>
+<a href="http://www.gradle.org">Gradle 5.6.4</a> at 2021-6-20 16:12:49</p>
 </div>
 </div>
 </body>
